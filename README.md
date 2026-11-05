@@ -52,3 +52,21 @@ BrainKit/
 brain/allometry (capacity) → differentiated perception (world model) →
 individual memory + relationships → life sim (daily living) →
 faction simulation (collective dynamics)
+
+## The plug-in standard (Alice, 2026-10-20)
+
+How BrainKit enters any new game world — the same every time:
+
+1. **Core stays, lore swaps.** The cognitive architecture (drives, perception,
+   memory ledger, decisions, factions) is game-agnostic. Only the lore layer —
+   species data, provenance cards, the world adapter — changes per game.
+2. **Verified data only.** Grounding material must be public domain, CC0, or
+   CC-BY, confirmed on the source's own page. Everything else is cite-only or
+   reference-only. No license is ever taken on faith.
+3. **Prototype before plug-in.** Each new world gets a head-to-head test: a
+   BrainKit creature against a conventional scripted baseline, same
+   environment, same seeds, with a scoreboard. Adaptation after a mid-run
+   world change is the headline metric.
+4. **Honest results, either way.** A null result is a result and gets reported
+   as one. Baselines and scoreboards, not press releases.
+5. **Data doesn't make AI intelligent.** Architecture and testing do.
