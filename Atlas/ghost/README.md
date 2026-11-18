@@ -37,7 +37,7 @@ What the shelf *is* grounded in — the most real material available:
   next house (men's voices and groups arguing in her sister's dark room with no
   radio and no TV, heard by Alice and her sister for an hour), and the graveyard
   stairs (her brother, mother, and father watching her fly up as if pushed, then
-  flipped and set back on the steps safely). Recorded in her words, private, and
+  flipped and set back on the steps safely). Recorded in her words, shared publicly by her choice, and
   the same honesty rule applies: firsthand reports, not measured data, not proof.
 
 Each record's `confidence_and_conflicts` states the alternative explanations
@@ -69,7 +69,7 @@ memory claim in the lore, it says so as an honest gap.
 - `ghost_flagships.json` — all 10 records (combined file).
 - `batches/ghost_a.json` — records 1–5 (bare array).
 - `batches/ghost_b.json` — records 6–10 (bare array).
-- `firsthand-accounts.md` — Alice's own firsthand accounts, in her words (shared 2026-11-18). Source material that grounds the profiles; private, same honesty rule as the rest of the shelf.
+- `firsthand-accounts.md` — Alice's own firsthand accounts, in her words (shared 2026-11-18). Source material that grounds the profiles; shared publicly by her choice, same honesty rule as the rest of the shelf.
 
 Layout matches the Goetia and Mythic shelves: combined file at the shelf root,
 batches as bare arrays underneath.
