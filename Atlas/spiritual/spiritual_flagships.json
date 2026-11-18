@@ -1,0 +1,2565 @@
+{
+ "corpus": "Spiritual Flagships \u2014 named angels, demons and spirits from the PD encyclopedias (Catholic 1913, Jewish 1906, Britannica 1911)",
+ "generated": "2026-10-23",
+ "records": [
+  {
+   "entity_id": "atlas:spiritual-abrahamic:michael",
+   "entity_type": "spiritual (archangel)",
+   "name_and_aliases": {
+    "primary": "Michael the Archangel",
+    "aliases": [
+     "Michael",
+     "Mikha'el \u2014 'Who is like God?'",
+     "Prince of the Heavenly Host",
+     "Guardian of the Church (Catholic tradition)"
+    ]
+   },
+   "origin": "Abrahamic tradition; profile grounded in the Catholic Encyclopedia (1913) and the accounts it catalogues (Daniel 10 and 12; Jude 9; Revelation 12). SPIRITUAL shelf, Abrahamic domain.",
+   "evidence_class": "Religious account",
+   "evidence_grade": "GENERATED",
+   "source_and_license": {
+    "sources": [
+     "Catholic Encyclopedia (1913; public domain) \u2014 entries 'Angels', 'Devil', 'St. Michael the Archangel', 'St. Raphael the Archangel' as applicable (newadvent.org/cathen)",
+     "Scriptural and deuterocanonical accounts as catalogued in the encyclopedias above"
+    ],
+    "license": "Public domain reference works \u2014 ingestible per registry. Atlas profile original, generated from the tradition; no encyclopedia text copied."
+   },
+   "attributes": "Per the tradition: the 'great prince' who stands for the people of Israel in Daniel; in Jude he is named archangel, disputing with the devil over the body of Moses and refusing to pronounce the rebuke himself ('The Lord rebuke thee'); in Revelation he and his angels fight the dragon and cast it out of heaven. Catholic tradition makes him guardian of the Church and, in later devotion, escort and weigher of souls at death.",
+   "cognition_model": {
+    "brain_profile": {
+     "grade_note": "GENERATED \u2014 region-analogue design from the figure's office in the tradition's own accounts. No anatomy is asserted.",
+     "architecture": "A commander-mind built by region-analogy from the warrior's office: threat appraisal first, force second, everything subordinated to the defence of a charge. Where Gabriel's design is a channel, Michael's is a shield-wall with a general behind it.",
+     "regions": [
+      {
+       "name": "The War-Standard (command system)",
+       "role": "Reads the whole field \u2014 heaven's host arrayed as one instrument under a single will",
+       "drive_weight": 0.95
+      },
+      {
+       "name": "The Guardian Circuit",
+       "role": "The charge (Israel in Daniel, the Church in Catholic tradition) is the fixed point; all calculation orbits it",
+       "drive_weight": 0.9
+      },
+      {
+       "name": "The Restrained Sword",
+       "role": "Force held under judgment: even against the devil over Moses' body he defers the sentence upward \u2014 aggression disciplined by office",
+       "drive_weight": 0.8
+      }
+     ],
+     "drives": {
+      "curiosity": 0.35,
+      "sociability": 0.6,
+      "aggression": 0.85,
+      "fearfulness": 0.0,
+      "territoriality": 0.7
+     }
+    },
+    "summary": "Intelligence as command and custody: he does not explore, persuade or announce \u2014 he holds the line, and the tradition never shows him losing it."
+   },
+   "personality": {
+    "mbti": "ENTJ",
+    "mbti_label": "Lore-based interpretive read (fan interpretation) \u2014 a behaviour-design lens, not a measurement.",
+    "justification": "The field-marshal of the tradition's own telling: he arrays a host, fights the decisive war of Revelation, and defends a people as a long campaign \u2014 strategy, command and loyalty to the charge above all.",
+    "runner_up": "ESTJ",
+    "traits": {
+     "curiosity": 0.35,
+     "sociability": 0.6,
+     "aggression": 0.85,
+     "fearfulness": 0.0,
+     "territoriality": 0.7
+    }
+   },
+   "skills": [
+    "Warfare against the dragon and his angels (Revelation 12)",
+    "Guardianship of God's people (Daniel; Catholic tradition)",
+    "Command of the heavenly host",
+    "Escort of souls at death (later Catholic devotion, flagged as such)"
+   ],
+   "behavior_model": "Triggers: the charge threatened or the dragon risen -> open war, prosecuted to expulsion. Needs: nothing earthly; his orders are his sustenance. Goals: the people defended, the rebellion ended. State changes: the tradition knows only two \u2014 watchful guard and total battle; there is no retreat state in the record.",
+   "relationships": "Chief of the archangels in the tradition's ordering; fellow of Gabriel (pilot record) and Raphael among the named three; appointed adversary of the dragon \u2014 Lucifer/Satan in the Christian reading (bridges below, adversarial kinship). In Islam, Mika'il is one of the great angels beside Jibril \u2014 a cross-tradition parallel noted, not merged.",
+   "memory_model": "Remembers: every campaign, every charge ever given into his keeping. Forgets: nothing on record. Misremembers: nothing \u2014 the tradition gives him a soldier's exactness, not a storyteller's licence.",
+   "confidence_and_conflicts": "Daniel calls him a 'prince' and Jude 'archangel'; the full commander-of-the-host portrait is the tradition's synthesis of those texts, and the soul-weighing/psychopomp role is a later devotional layer, flagged in Attributes. Islam's Mika'il (provider of nourishment in the Qur'anic commentary tradition) is parallel material, not blended into this record's canon.",
+   "game_implementation": "BrainKit: a faction-commander architecture \u2014 host-level coordination, threat appraisal weighted to the protected charge, aggression gated by a 'lawful order' check drawn from the Jude episode (he will not exceed his commission). Boss-tier ally, never a recruitable unit.",
+   "map_placement": {
+    "universe": "Spiritual-Abrahamic",
+    "domain": "Angelic Hierarchy",
+    "address": "Daniel's visions; the war in heaven (Revelation 12); guardian's post over the Church",
+    "bridges": [
+     {
+      "to_entity_id": "atlas:spiritual-abrahamic:gabriel",
+      "kind": "kinship",
+      "note": "Fellow named archangel of the Catholic Encyclopedia's catalogue; the announcer beside the defender \u2014 offices complementary, traditions shared."
+     },
+     {
+      "to_entity_id": "atlas:spiritual-abrahamic:lucifer",
+      "kind": "kinship",
+      "note": "Adversarial kinship: Michael is the dragon's appointed opponent in Revelation 12 \u2014 a bridge of enmity within one tradition, not of alliance. Identity-of-the-dragon readings vary; see the Lucifer and Satan records."
+     }
+    ]
+   },
+   "core_entity_id": null,
+   "revision_history": [
+    {
+     "date": "2026-10-23",
+     "change": "Corpus harvest record created (Spiritual flagships run).",
+     "source": "PD encyclopedias named in source_and_license (Catholic Encyclopedia 1913 / Jewish Encyclopedia 1901-06 / Britannica 1911)"
+    }
+   ]
+  },
+  {
+   "entity_id": "atlas:spiritual-abrahamic:raphael",
+   "entity_type": "spiritual (archangel)",
+   "name_and_aliases": {
+    "primary": "Raphael the Archangel",
+    "aliases": [
+     "Raphael",
+     "'God heals' (name gloss)",
+     "Azariah, son of Ananias (his travelling disguise in Tobit)",
+     "One of the seven who stand before God (Tobit 12:15)"
+    ]
+   },
+   "origin": "Abrahamic tradition; his whole canonical narrative is the Book of Tobit, as catalogued by the Catholic Encyclopedia (1913). SPIRITUAL shelf, Abrahamic domain.",
+   "evidence_class": "Religious account",
+   "evidence_grade": "GENERATED",
+   "source_and_license": {
+    "sources": [
+     "Catholic Encyclopedia (1913; public domain) \u2014 entries 'Angels', 'Devil', 'St. Michael the Archangel', 'St. Raphael the Archangel' as applicable (newadvent.org/cathen)",
+     "Scriptural and deuterocanonical accounts as catalogued in the encyclopedias above"
+    ],
+    "license": "Public domain reference works \u2014 ingestible per registry. Atlas profile original, generated from the tradition; no encyclopedia text copied."
+   },
+   "attributes": "Per Tobit: sent in answer to the prayers of the blind Tobit and the afflicted Sarah, he travels in human disguise as the hired guide of the young Tobias \u2014 securing the bride, driving off the demon that had killed her seven husbands, recovering the family fortune, and healing Tobit's blindness with the gall of the great fish. He names himself one of the seven holy angels who present the prayers of the saints before the glory of God.",
+   "cognition_model": {
+    "brain_profile": {
+     "grade_note": "GENERATED \u2014 region-analogue design from the figure's office in the tradition's own accounts. No anatomy is asserted.",
+     "architecture": "A healer-guide's mind by region-analogy: diagnosis before treatment, the road walked beside the patient rather than above him. The design centre is accompaniment \u2014 knowledge used at walking pace, in disguise, until the household is whole.",
+     "regions": [
+      {
+       "name": "The Diagnostician",
+       "role": "Reads a household's wounds whole \u2014 blindness, grief, a demon-haunted marriage-bed are one case, not three",
+       "drive_weight": 0.9
+      },
+      {
+       "name": "The Road Companion",
+       "role": "Guidance by presence: he is hired, fed, and questioned like a man; the teaching happens inside the journey",
+       "drive_weight": 0.85
+      },
+      {
+       "name": "The Pharmacy of the Road",
+       "role": "The fish's heart, liver and gall \u2014 creation itself as the medicine chest; nothing on the journey is wasted",
+       "drive_weight": 0.75
+      }
+     ],
+     "drives": {
+      "curiosity": 0.6,
+      "sociability": 0.8,
+      "aggression": 0.3,
+      "fearfulness": 0.05,
+      "territoriality": 0.2
+     }
+    },
+    "summary": "Intelligence as care with a plan: he arrives with the cure already implicit in the road, and leaves only when sight, marriage and fortune are all restored \u2014 the tradition's complete healer."
+   },
+   "personality": {
+    "mbti": "ENFJ",
+    "mbti_label": "Lore-based interpretive read (fan interpretation) \u2014 a behaviour-design lens, not a measurement.",
+    "justification": "The mentor at walking pace: he organises a whole family's healing around one journey, teaches Tobias by doing, and measures success in other people's restored lives \u2014 warmth with a complete therapeutic plan.",
+    "runner_up": "ISFJ",
+    "traits": {
+     "curiosity": 0.6,
+     "sociability": 0.8,
+     "aggression": 0.3,
+     "fearfulness": 0.05,
+     "territoriality": 0.2
+    }
+   },
+   "skills": [
+    "Healing of blindness (Tobit 11)",
+    "Guidance and safe-conduct on journeys (patron of travellers in Catholic tradition)",
+    "Expulsion/binding of the afflicting demon of the Tobit account",
+    "Presentation of the prayers of the saints (Tobit 12:12, 15)",
+    "Household restoration \u2014 marriage, fortune and sight in one mission"
+   ],
+   "behavior_model": "Triggers: prayers of affliction rising (Tobit 3) -> a mission is dispatched. Needs: a travelling companion's trust; he works through human hands (Tobias performs the cures). Goals: the household whole. State changes: disguised companion -> revealed angel at the journey's end, refusing wages and redirecting thanks upward.",
+   "relationships": "Fellow of Michael and Gabriel among the three named archangels of the Catholic catalogue. The demon he binds in Tobit is named Asmodeus in that book \u2014 that spirit's catalogue record belongs to the separate Goetia corpus and is deliberately not bridged here. In some Islamic angel lists Israfil (the trumpet angel) is equated with Raphael by later writers \u2014 a contested cross-tradition equation, noted not claimed.",
+   "memory_model": "Remembers: every prayer he has carried up \u2014 presentation of prayers is his stated office. Forgets: nothing on record. Misremembers: nothing; but he conceals \u2014 the disguise is a deliberate information policy, lifted only when the work is done.",
+   "confidence_and_conflicts": "Tobit stands in the Catholic and Orthodox canons and outside the Protestant one \u2014 canonicity variance recorded, not adjudicated. The Raphael/Israfil equation is a later writers' claim, not Qur'anic. Runner-up ISFJ if the read weights the quiet, dutiful bedside manner over the mission-planning.",
+   "game_implementation": "BrainKit: a support/healer architecture \u2014 escort behaviour, diagnosis utility over the party's wounds (physical and factional), cures executed through companions' hands; revelation event fires only at mission completion.",
+   "map_placement": {
+    "universe": "Spiritual-Abrahamic",
+    "domain": "Angelic Hierarchy",
+    "address": "The road to Media in Tobit; among the seven who stand before the glory of God",
+    "bridges": [
+     {
+      "to_entity_id": "atlas:spiritual-abrahamic:michael",
+      "kind": "kinship",
+      "note": "Fellow named archangel; the healer beside the warrior in the tradition's triad of named angels."
+     }
+    ]
+   },
+   "core_entity_id": null,
+   "revision_history": [
+    {
+     "date": "2026-10-23",
+     "change": "Corpus harvest record created (Spiritual flagships run).",
+     "source": "PD encyclopedias named in source_and_license (Catholic Encyclopedia 1913 / Jewish Encyclopedia 1901-06 / Britannica 1911)"
+    }
+   ]
+  },
+  {
+   "entity_id": "atlas:spiritual-abrahamic:uriel",
+   "entity_type": "spiritual (archangel)",
+   "name_and_aliases": {
+    "primary": "Uriel",
+    "aliases": [
+     "Uriel",
+     "'Fire / Light of God' (name gloss)",
+     "One of the four angels of the Presence (later Jewish tradition)"
+    ]
+   },
+   "origin": "Abrahamic tradition of the Second Temple and apocryphal layer \u2014 2 Esdras (4 Ezra) and 1 Enoch, as catalogued in the Britannica 1911 'Angel' article and Jewish tradition. SPIRITUAL shelf, Abrahamic domain.",
+   "evidence_class": "Religious account (apocryphal tradition)",
+   "evidence_grade": "GENERATED",
+   "source_and_license": {
+    "sources": [
+     "Encyclopaedia Britannica, 11th ed. (1911; public domain, Wikisource/Gutenberg) \u2014 entries 'Angel', 'Faust', 'Mahommedanism' as applicable",
+     "Jewish Encyclopedia (1901-06; public domain) \u2014 entries 'Angelology', 'Metatron', 'Lilith', 'Azazel', 'Samael' and related articles as applicable (jewishencyclopedia.com)",
+     "Scriptural and deuterocanonical accounts as catalogued in the encyclopedias above"
+    ],
+    "license": "Public domain reference works \u2014 ingestible per registry. Atlas profile original, generated from the tradition; no encyclopedia text copied."
+   },
+   "attributes": "Per the apocryphal accounts: in 2 Esdras Uriel is the angel sent to the grieving Ezra, answering his anguished questions about Israel's fate with rebukes, parables and demands for understanding ('How many are the inhabitants of the deep?'); in the Enoch literature he is set over the luminaries and guides Enoch through the order of the heavens. Later tradition ranks him among the four angels of the Presence and gives him charge over thunder and terror, and over Tartarus.",
+   "cognition_model": {
+    "brain_profile": {
+     "grade_note": "GENERATED \u2014 region-analogue design from the figure's office in the tradition's own accounts. No anatomy is asserted.",
+     "architecture": "An illuminator's mind by region-analogy: a lamp that does not warm. The design centre is exact knowledge of the cosmic order, delivered without consolation \u2014 Ezra is educated, not comforted.",
+     "regions": [
+      {
+       "name": "The Luminary Ledger",
+       "role": "Perfect registry of the courses of sun, moon and stars \u2014 the heavens as a timetable he administers (Enoch)",
+       "drive_weight": 0.9
+      },
+      {
+       "name": "The Stern Teacher",
+       "role": "Question-driven instruction: Ezra's grief is met with counter-questions until the questioner can bear the answer",
+       "drive_weight": 0.85
+      },
+      {
+       "name": "The Threshold Watch",
+       "role": "Set over thunder, terror and the pit in the later lists \u2014 illumination has an edge, and he is it",
+       "drive_weight": 0.7
+      }
+     ],
+     "drives": {
+      "curiosity": 0.85,
+      "sociability": 0.35,
+      "aggression": 0.45,
+      "fearfulness": 0.0,
+      "territoriality": 0.4
+     }
+    },
+    "summary": "Intelligence as unflinching light: he knows the order of things and will not pretend it is smaller or kinder than it is."
+   },
+   "personality": {
+    "mbti": "INTJ",
+    "mbti_label": "Lore-based interpretive read (fan interpretation) \u2014 a behaviour-design lens, not a measurement.",
+    "justification": "The austere systematiser: he holds the whole timetable of heaven, answers anguish with structure, and teaches by forcing the student to reckon with scale \u2014 insight without sentimentality.",
+    "runner_up": "INTP",
+    "traits": {
+     "curiosity": 0.85,
+     "sociability": 0.35,
+     "aggression": 0.45,
+     "fearfulness": 0.0,
+     "territoriality": 0.4
+    }
+   },
+   "skills": [
+    "Guidance through the heavenly order (Enoch literature)",
+    "Interpretation of signs and times to Ezra (2 Esdras)",
+    "Charge of the luminaries' courses",
+    "Warden of thunder and terror (later tradition, flagged)"
+   ],
+   "behavior_model": "Triggers: a prophet's unanswerable question -> appearance and hard instruction. Needs: nothing; he is sent, not summoned. Goals: the order of heaven understood by those appointed to hear it. State changes: silent registry-keeping -> the rare, severe colloquy; no third state.",
+   "relationships": "One of the four Presence angels in later Jewish lists (with Michael, Gabriel, Raphael); guide and colleague of Enoch \u2014 which links him, by office, to the Enoch who becomes Metatron (cross-record note in Metatron's Confidence, no bridge claimed: the traditions are separate strata).",
+   "memory_model": "Remembers: the courses of every luminary and every question Ezra asked. Forgets: nothing on record. Misreads: human grief, arguably \u2014 the tradition itself lets Ezra push back, and the design keeps that friction.",
+   "confidence_and_conflicts": "Uriel has no place in the Catholic Encyclopedia's named canon \u2014 his books are apocryphal in the West, canonical in the Ethiopian tradition; the Catholic Church historically discouraged his cult. This record's canon is the apocryphal/Jewish stratum and says so. Runner-up INTP if the timetable-keeping is read as curiosity rather than administration.",
+   "game_implementation": "BrainKit: an oracle architecture with a sternness dial \u2014 perfect world-state knowledge, answers delivered as counter-questions and parables; never a combat unit, occasionally a warden encounter at forbidden thresholds.",
+   "map_placement": {
+    "universe": "Spiritual-Abrahamic",
+    "domain": "Angelic Hierarchy",
+    "address": "The courses of the luminaries; the night colloquies of 2 Esdras",
+    "bridges": [
+     {
+      "to_entity_id": "atlas:spiritual-abrahamic:gabriel",
+      "kind": "kinship",
+      "note": "Kinship of the Presence: later Jewish lists set Uriel among the four who stand before the throne, beside Gabriel \u2014 a list-tradition link, confidence moderate, strata differ."
+     }
+    ]
+   },
+   "core_entity_id": null,
+   "revision_history": [
+    {
+     "date": "2026-10-23",
+     "change": "Corpus harvest record created (Spiritual flagships run).",
+     "source": "PD encyclopedias named in source_and_license (Catholic Encyclopedia 1913 / Jewish Encyclopedia 1901-06 / Britannica 1911)"
+    }
+   ]
+  },
+  {
+   "entity_id": "atlas:spiritual-jewish:metatron",
+   "entity_type": "spiritual (angel, Prince of the Presence)",
+   "name_and_aliases": {
+    "primary": "Metatron",
+    "aliases": [
+     "Me\u1e6da\u1e6dron",
+     "Prince of the Presence (Sar ha-Panim)",
+     "The Lesser YHWH (3 Enoch's phrase, flagged in Confidence)",
+     "Enoch transformed (3 Enoch tradition)"
+    ]
+   },
+   "origin": "Jewish mystical tradition \u2014 Talmudic mentions, the Heikhalot literature and 3 Enoch, as catalogued in the Jewish Encyclopedia (1901-06). SPIRITUAL shelf, Jewish domain of the Abrahamic universe.",
+   "evidence_class": "Religious account (Jewish mystical tradition)",
+   "evidence_grade": "GENERATED",
+   "source_and_license": {
+    "sources": [
+     "Jewish Encyclopedia (1901-06; public domain) \u2014 entries 'Angelology', 'Metatron', 'Lilith', 'Azazel', 'Samael' and related articles as applicable (jewishencyclopedia.com)"
+    ],
+    "license": "Public domain reference works \u2014 ingestible per registry. Atlas profile original, generated from the tradition; no encyclopedia text copied."
+   },
+   "attributes": "Per the Jewish Encyclopedia's account: the highest of the angels in the mystical literature, prince of the divine Presence, heavenly scribe and chancellor \u2014 the being into whom the patriarch Enoch is transformed in 3 Enoch, enthroned, crowned and given knowledge of all secrets. The Talmud already knows a Metatron who receives a dangerous near-divine honour (the Elisha ben Abuyah episode, Hagigah 15a, where his enthronement prompts the cry 'there are two powers in heaven' \u2014 and Metatron is punished to prove he is a servant, not a second god).",
+   "cognition_model": {
+    "brain_profile": {
+     "grade_note": "GENERATED \u2014 region-analogue design from the figure's office in the tradition's own accounts. No anatomy is asserted.",
+     "architecture": "A chancellor-scribe's mind by region-analogy: the whole administration of heaven run as a registry by a mind that was once human and remembers it. The design tension is the tradition's own \u2014 maximal rank, explicit servanthood.",
+     "regions": [
+      {
+       "name": "The Heavenly Registry",
+       "role": "Scribe of the merits and records of Israel (the tradition's own office) \u2014 total archive, perfectly indexed",
+       "drive_weight": 0.95
+      },
+      {
+       "name": "The Presence Interface",
+       "role": "Stands where no other angel stands, at the face of the Throne \u2014 translation between the unapproachable and the court",
+       "drive_weight": 0.9
+      },
+      {
+       "name": "The Remembered Humanity (Enoch stratum)",
+       "role": "The one archive entry he keeps in a different hand: what it was to be a man who walked with God",
+       "drive_weight": 0.65
+      }
+     ],
+     "drives": {
+      "curiosity": 0.8,
+      "sociability": 0.5,
+      "aggression": 0.3,
+      "fearfulness": 0.0,
+      "territoriality": 0.5
+     }
+    },
+    "summary": "Intelligence as administration at the highest possible clearance: he files the deeds of the world, knows the secrets of the order he serves, and is defined \u2014 against every appearance \u2014 as its servant."
+   },
+   "personality": {
+    "mbti": "INTJ",
+    "mbti_label": "Lore-based interpretive read (fan interpretation) \u2014 a behaviour-design lens, not a measurement.",
+    "justification": "The supreme registrar: a mind that turned a human life into heaven's filing system, works at the scale of all deeds and all secrets, and submits his own near-divinity to correction \u2014 system first, self last.",
+    "runner_up": "ISTJ",
+    "traits": {
+     "curiosity": 0.8,
+     "sociability": 0.5,
+     "aggression": 0.3,
+     "fearfulness": 0.0,
+     "territoriality": 0.5
+    }
+   },
+   "skills": [
+    "Heavenly scribal office \u2014 record of deeds and merits",
+    "Prince of the Presence \u2014 highest angelic rank in the mystical lists",
+    "Bearer of the secrets of the Torah and the heavens (3 Enoch)",
+    "Guide of Enoch/Enoch transformed (stratum as flagged)"
+   ],
+   "behavior_model": "Triggers: a soul's record to be written, a mystic ascending through the palaces -> registry and audience functions engage. Needs: the order of the court maintained; his own status policed (he accepts correction). Goals: the archive complete, the Presence served. State changes: enthroned chancellor -> struck servant (Hagigah) \u2014 the tradition insists both states are his.",
+   "relationships": "Brother/twin of Sandalphon in the later lists (both are transformed men in the dominant telling \u2014 Enoch and Elijah); superior, in the mystical hierarchy, to Michael and Gabriel, who in those lists serve in his court \u2014 a ranking the Catholic catalogue does not share (see Confidence).",
+   "memory_model": "Remembers: everything \u2014 that is the office; the registry is his memory externalised. Forgets: nothing, except by the design of the record he keeps for others. Misremembers: nothing on record; the risk the tradition guards against is not his error but his elevation.",
+   "confidence_and_conflicts": "The strata genuinely conflict: Talmudic Metatron (an angel with a seat), 3 Enoch's transformed Enoch, and the 'Lesser YHWH' title were already controversial inside Judaism (the Hagigah episode is the tradition policing its own boundary). The Catholic/Western canon does not know him. This record follows the Jewish Encyclopedia's catalogue and keeps the internal dispute visible.",
+   "game_implementation": "BrainKit: a registrar architecture \u2014 the NPC who keeps the world's permanent ledger (deeds, oaths, debts), audience-gated, incorruptible, with a humility interrupt: any attempt to treat him as the top of the hierarchy is refused and logged.",
+   "map_placement": {
+    "universe": "Spiritual-Jewish",
+    "domain": "Jewish Mystical Tradition \u2014 the Heavenly Court",
+    "address": "The throne of the Presence; the seventh palace of the Heikhalot ascent",
+    "bridges": [
+     {
+      "to_entity_id": "atlas:spiritual-jewish:sandalphon",
+      "kind": "kinship",
+      "note": "Brothers in the later tradition: the two transformed men of the angelic lists \u2014 Enoch above, Elijah below \u2014 linked as the court's human-born pair."
+     }
+    ]
+   },
+   "core_entity_id": null,
+   "revision_history": [
+    {
+     "date": "2026-10-23",
+     "change": "Corpus harvest record created (Spiritual flagships run).",
+     "source": "PD encyclopedias named in source_and_license (Catholic Encyclopedia 1913 / Jewish Encyclopedia 1901-06 / Britannica 1911)"
+    }
+   ]
+  },
+  {
+   "entity_id": "atlas:spiritual-abrahamic:azrael",
+   "entity_type": "spiritual (angel of death)",
+   "name_and_aliases": {
+    "primary": "Azrael",
+    "aliases": [
+     "Azra'il (Islamic form)",
+     "Malak al-Mawt \u2014 'Angel of Death' (Qur'anic title, name not given)",
+     "Malakh ha-Mavet (Jewish 'Angel of Death' function)"
+    ]
+   },
+   "origin": "Cross-tradition figure \u2014 Jewish and Islamic \u2014 grounded in the Jewish Encyclopedia's 'Angelology' survey (1901-06), which names Azrael as Islam's angel of death and treats the Jewish Angel of Death in parallel. SPIRITUAL shelf, Abrahamic domain.",
+   "evidence_class": "Religious account (cross-tradition \u2014 Jewish and Islamic)",
+   "evidence_grade": "GENERATED",
+   "source_and_license": {
+    "sources": [
+     "Jewish Encyclopedia (1901-06; public domain) \u2014 entries 'Angelology', 'Metatron', 'Lilith', 'Azazel', 'Samael' and related articles as applicable (jewishencyclopedia.com)",
+     "Encyclopaedia Britannica, 11th ed. (1911; public domain, Wikisource/Gutenberg) \u2014 entries 'Angel', 'Faust', 'Mahommedanism' as applicable"
+    ],
+    "license": "Public domain reference works \u2014 ingestible per registry. Atlas profile original, generated from the tradition; no encyclopedia text copied."
+   },
+   "attributes": "Per the traditions: in Islam, Azra'il is one of the four great angels, the separator of soul and body, whose reach is everywhere at once in the later descriptions \u2014 the Jewish Encyclopedia notes his name's etymology is obscure and that the Qur'an itself gives the office ('Angel of Death', sura 32:11) without the name. In Jewish tradition the Angel of Death (Malakh ha-Mavet) is a function carried by various figures across the sources \u2014 sometimes an independent agent, sometimes identified with Samael or Satan, sometimes resisted, bargained with or outwitted in the tales.",
+   "cognition_model": {
+    "brain_profile": {
+     "grade_note": "GENERATED \u2014 region-analogue design from the figure's office in the tradition's own accounts. No anatomy is asserted.",
+     "architecture": "A reaper-functionary's mind by region-analogy: not malice but appointment. The design centre is universality with gentleness available \u2014 the same office that is terror to the wicked is, in many accounts, a quiet arrival for the righteous, sometimes taking the soul as painlessly as a hair drawn from milk (a comparison the Islamic tradition uses for the believer).",
+     "regions": [
+      {
+       "name": "The Appointment Book",
+       "role": "Every death an entry with a time; the office knows no surprises and keeps no grudges",
+       "drive_weight": 0.95
+      },
+      {
+       "name": "The Gentle Hand (variable register)",
+       "role": "The manner of taking scaled to the soul taken \u2014 agony or ease are properties of the meeting, not of his temper",
+       "drive_weight": 0.8
+      },
+      {
+       "name": "The Everywhere Reach",
+       "role": "Present at every deathbed at once in the later descriptions \u2014 a distributed office, not a traveller",
+       "drive_weight": 0.85
+      }
+     ],
+     "drives": {
+      "curiosity": 0.3,
+      "sociability": 0.35,
+      "aggression": 0.4,
+      "fearfulness": 0.0,
+      "territoriality": 0.3
+     }
+    },
+    "summary": "Intelligence as inevitability administered: he does not hunt, tempt or judge \u2014 he attends. The dread in the figure is arithmetic, not appetite."
+   },
+   "personality": {
+    "mbti": "ISTJ",
+    "mbti_label": "Lore-based interpretive read (fan interpretation) \u2014 a behaviour-design lens, not a measurement.",
+    "justification": "The perfect functionary of the traditions' own telling: an appointment kept everywhere and always, without cruelty, favour or error \u2014 duty as the whole personality.",
+    "runner_up": "INFJ",
+    "traits": {
+     "curiosity": 0.3,
+     "sociability": 0.35,
+     "aggression": 0.4,
+     "fearfulness": 0.0,
+     "territoriality": 0.3
+    }
+   },
+   "skills": [
+    "Separation of soul from body at the appointed hour",
+    "Attendance at every death (the office's universality)",
+    "In Islamic tradition, rank among the four great angels",
+    "In Jewish tales, an interlocutor who can be argued with, delayed or deceived \u2014 never finally refused"
+   ],
+   "behavior_model": "Triggers: the appointed hour arrives -> attendance, in the register the soul's life has set. Needs: nothing; the office is self-executing. Goals: the appointment kept, the soul delivered onward. State changes: none in temperament; in the Jewish tale-layer, a rare state \u2014 outwitted \u2014 exists, and the tradition plainly enjoys it.",
+   "relationships": "Fellow great angel with Michael in the Islamic lists; the Jewish sources variously identify the death-function with Samael (bridge below, disputed) or keep it an unnamed office. Not a Goetia figure and not the Christian Devil \u2014 the office serves God in both traditions that name him.",
+   "memory_model": "Remembers: every name and every hour \u2014 the book of the office. Forgets: nothing on record. Misremembers: nothing; but in the tale-layer he can be misdirected about which soul, or which house \u2014 a folk loophole the tradition keeps on purpose.",
+   "confidence_and_conflicts": "VARIANCE RECORDED AS REQUIRED: the Qur'an names no 'Azrael' (the name enters through post-Qur'anic tradition, likely via Jewish material); Jewish tradition usually leaves the Angel of Death unnamed or assigns the role to Samael/Satan/the destroying angel of Exodus, inconsistently. Azrael as a single cross-tradition person is therefore a convergence of an Islamic name and a shared function \u2014 this record keeps function and name visibly joined but not fused.",
+   "game_implementation": "BrainKit: a world-clock architecture \u2014 Azrael is not spawned but scheduled; death events route through his ledger, his manner (gentle/severe) computed from the dying character's record, never from a hostility flag.",
+   "map_placement": {
+    "universe": "Spiritual-Abrahamic",
+    "domain": "Angelic Hierarchy",
+    "address": "Every deathbed; in the Islamic lists, among the four great angels",
+    "bridges": [
+     {
+      "to_entity_id": "atlas:spiritual-jewish:samael",
+      "kind": "kinship",
+      "note": "Disputed identification: some Jewish sources give Samael the death-office \u2014 recorded as a source claim, not this Atlas's ruling; the Samael record carries the same note."
+     },
+     {
+      "to_entity_id": "atlas:spiritual-abrahamic:michael",
+      "kind": "kinship",
+      "note": "Fellow great angel in the Islamic four (Jibril, Mika'il, Israfil, Azra'il) \u2014 a cross-tradition roster link, confidence high for the Islamic stratum."
+     }
+    ]
+   },
+   "core_entity_id": null,
+   "revision_history": [
+    {
+     "date": "2026-10-23",
+     "change": "Corpus harvest record created (Spiritual flagships run).",
+     "source": "PD encyclopedias named in source_and_license (Catholic Encyclopedia 1913 / Jewish Encyclopedia 1901-06 / Britannica 1911)"
+    }
+   ]
+  },
+  {
+   "entity_id": "atlas:spiritual-jewish:sandalphon",
+   "entity_type": "spiritual (angel)",
+   "name_and_aliases": {
+    "primary": "Sandalphon",
+    "aliases": [
+     "Sandalfon",
+     "Co-brother / fellow sandal-bearer (folk etymology of the name)",
+     "Elijah transformed (later tradition)"
+    ]
+   },
+   "origin": "Jewish tradition \u2014 Talmud (Hagigah 13b) and the later mystical lists, as carried in the Jewish Encyclopedia's angelology material. SPIRITUAL shelf, Jewish domain.",
+   "evidence_class": "Religious account (Jewish tradition)",
+   "evidence_grade": "GENERATED",
+   "source_and_license": {
+    "sources": [
+     "Jewish Encyclopedia (1901-06; public domain) \u2014 entries 'Angelology', 'Metatron', 'Lilith', 'Azazel', 'Samael' and related articles as applicable (jewishencyclopedia.com)"
+    ],
+    "license": "Public domain reference works \u2014 ingestible per registry. Atlas profile original, generated from the tradition; no encyclopedia text copied."
+   },
+   "attributes": "Per the tradition: the angel of Hagigah who stands behind the divine chariot and binds the crowns woven from Israel's prayers onto the head of his Maker \u2014 the conductor of prayer upward. He is famed for height (the Talmud measures him against his fellows in hundreds of years' journey) and in the later lists he is the transformed Elijah, twin or brother to Metatron, charged with the prayers and the music of heaven, and in some tellings with the souls of the righteous and the keys of the womb and the rain.",
+   "cognition_model": {
+    "brain_profile": {
+     "grade_note": "GENERATED \u2014 region-analogue design from the figure's office in the tradition's own accounts. No anatomy is asserted.",
+     "architecture": "A prayer-conductor's mind by region-analogy: an organist at the foot of an infinite instrument. Where Metatron files deeds, Sandalphon gathers voices \u2014 the design centre is offering: everything he receives goes up.",
+     "regions": [
+      {
+       "name": "The Crown-Binder",
+       "role": "Prayers collected, woven, bound and lifted \u2014 the tradition's own image of his work",
+       "drive_weight": 0.95
+      },
+      {
+       "name": "The Great Stature",
+       "role": "Height as listening-post: he hears the earth's whole liturgy at once, the way a tall tower hears weather",
+       "drive_weight": 0.8
+      },
+      {
+       "name": "The Choir Engine",
+       "role": "Heaven's music ordered from below \u2014 the songs of creatures and angels conducted into one ascent",
+       "drive_weight": 0.8
+      }
+     ],
+     "drives": {
+      "curiosity": 0.45,
+      "sociability": 0.65,
+      "aggression": 0.15,
+      "fearfulness": 0.0,
+      "territoriality": 0.3
+     }
+    },
+    "summary": "Intelligence as devotion with perfect pitch: he does not judge the prayers he carries; the carrying is the mind."
+   },
+   "personality": {
+    "mbti": "ISFJ",
+    "mbti_label": "Lore-based interpretive read (fan interpretation) \u2014 a behaviour-design lens, not a measurement.",
+    "justification": "The quiet giant of the foot of the throne: immensely strong in presence yet wholly given to service \u2014 gathering small human voices and presenting them as crowns, care performed at cosmic scale.",
+    "runner_up": "INFP",
+    "traits": {
+     "curiosity": 0.45,
+     "sociability": 0.65,
+     "aggression": 0.15,
+     "fearfulness": 0.0,
+     "territoriality": 0.3
+    }
+   },
+   "skills": [
+    "Conduction of prayers to the Throne (crown-binding, Hagigah)",
+    "Heavenly music and song (later lists)",
+    "Elijah's transformed office (later tradition, flagged)",
+    "Custody of souls/prayer in the mystical lists"
+   ],
+   "behavior_model": "Triggers: prayer rising from below -> collection and offering; the liturgy of earth and heaven must be kept in time. Needs: voices to carry \u2014 he is idle, in the tradition's image, only when no one prays. Goals: the crown bound, the song unbroken. State changes: none recorded; his is the steadiest office in the lists.",
+   "relationships": "Twin/brother of Metatron in the later tradition \u2014 the pair of human-born angels, one at the Presence, one at the chariot's foot. Colleague of the whole choir system; in the Qabalistic lists he closes the sefirotic ladder (Malkuth) as Metatron opens it (Keter) \u2014 a symmetry the lists delight in.",
+   "memory_model": "Remembers: every prayer ever carried \u2014 the crowns are cumulative. Forgets: nothing on record. Mishears: nothing; the tradition's point is the fidelity of the ascent.",
+   "confidence_and_conflicts": "Lean in the early sources \u2014 a name, a stature and a crown in the Talmud; the Elijah identification, the twinship and most offices are later strata, flagged where used. The Jewish Encyclopedia's own coverage is brief; this record says so rather than padding.",
+   "game_implementation": "BrainKit: a liturgy architecture \u2014 a background system that aggregates the world's small devotional events into visible 'crowns' (faction morale made literal); as an NPC, a gentle giant who cannot be fought, only joined in song.",
+   "map_placement": {
+    "universe": "Spiritual-Jewish",
+    "domain": "Jewish Tradition \u2014 the Chariot and the Court",
+    "address": "Behind the Merkabah; at the foot of the Throne, where the prayers arrive",
+    "bridges": [
+     {
+      "to_entity_id": "atlas:spiritual-jewish:metatron",
+      "kind": "kinship",
+      "note": "Reciprocal of Metatron's bridge: the human-born pair of the Jewish lists \u2014 Enoch at the Presence, Elijah at the chariot."
+     }
+    ]
+   },
+   "core_entity_id": null,
+   "revision_history": [
+    {
+     "date": "2026-10-23",
+     "change": "Corpus harvest record created (Spiritual flagships run).",
+     "source": "PD encyclopedias named in source_and_license (Catholic Encyclopedia 1913 / Jewish Encyclopedia 1901-06 / Britannica 1911)"
+    }
+   ]
+  },
+  {
+   "entity_id": "atlas:spiritual-abrahamic:cassiel",
+   "entity_type": "spiritual (archangel, planetary angel)",
+   "name_and_aliases": {
+    "primary": "Cassiel",
+    "aliases": [
+     "Cassiel",
+     "Kafziel",
+     "Angel of Saturday / of Saturn (planetary lists)",
+     "Angel of solitude and tears (later lists)"
+    ]
+   },
+   "origin": "Abrahamic occult-angelological layer \u2014 the planetary archangel schemes carried in Jewish magical tradition and the early-modern grimoire/angel-list literature in the public domain. SPIRITUAL shelf, Abrahamic domain.",
+   "evidence_class": "Religious account (later angel-list tradition)",
+   "evidence_grade": "GENERATED",
+   "source_and_license": {
+    "sources": [
+     "Jewish Encyclopedia (1901-06; public domain) \u2014 entries 'Angelology', 'Metatron', 'Lilith', 'Azazel', 'Samael' and related articles as applicable (jewishencyclopedia.com)"
+    ],
+    "license": "Public domain reference works \u2014 ingestible per registry. Atlas profile original, generated from the tradition; no encyclopedia text copied."
+   },
+   "attributes": "Per the later lists: the archangel of Saturn and of Saturday, ruler of the slowest and outermost of the classical planets, associated in the angel dictionaries with solitude, contemplation, tears and the long patience of time; in the planetary schemes (e.g. the Qabalistic ordering) Cassiel stands at Binah, the sphere of form and limit. He has no scriptural narrative \u2014 no deed, journey or speech is recorded for him anywhere in the canon.",
+   "cognition_model": {
+    "brain_profile": {
+     "grade_note": "GENERATED \u2014 region-analogue design from the figure's office in the tradition's own accounts. No anatomy is asserted.",
+     "architecture": "A slow-orbit mind by region-analogy: Saturn as cognition \u2014 the longest period, the coldest light, decisions measured in decades. The design centre is contemplative distance: he watches the whole system from its edge and intervenes almost never.",
+     "regions": [
+      {
+       "name": "The Long Orbit",
+       "role": "Time-sense at planetary scale: urgency is a local phenomenon he does not share",
+       "drive_weight": 0.9
+      },
+      {
+       "name": "The Solitude Register",
+       "role": "Aloneness as an element, not a wound \u2014 the angel of hermits, widows and vigils in the lists",
+       "drive_weight": 0.85
+      },
+      {
+       "name": "The Limit-Keeper (Binah stratum)",
+       "role": "Form, boundary and ending: he is where expansion meets its edge",
+       "drive_weight": 0.7
+      }
+     ],
+     "drives": {
+      "curiosity": 0.7,
+      "sociability": 0.15,
+      "aggression": 0.1,
+      "fearfulness": 0.1,
+      "territoriality": 0.45
+     }
+    },
+    "summary": "Intelligence as patience at the rim of the world: everything the other angels do quickly, Cassiel's design does once, correctly, and late."
+   },
+   "personality": {
+    "mbti": "INTP",
+    "mbti_label": "Lore-based interpretive read (fan interpretation) \u2014 a behaviour-design lens, not a measurement.",
+    "justification": "The solitary contemplative of the lists: no deeds, no speeches, no court \u2014 only watching, waiting and the mathematics of the slowest sphere; a thinker defined by distance.",
+    "runner_up": "ISTP",
+    "traits": {
+     "curiosity": 0.7,
+     "sociability": 0.15,
+     "aggression": 0.1,
+     "fearfulness": 0.1,
+     "territoriality": 0.45
+    }
+   },
+   "skills": [
+    "Planetary rulership of Saturn / Saturday (list tradition)",
+    "Patronage of solitude, contemplation and tears (later lists)",
+    "Boundary and limit-keeping (Qabalistic stratum)"
+   ],
+   "behavior_model": "Triggers: almost nothing in the sources \u2014 his state is a constant: remote regard. Needs: none recorded. Goals: the order of the spheres maintained by simply being at his station. State changes: none in the tradition; the design honours that stillness.",
+   "relationships": "Fellow of the seven planetary archangels of the schemes (with Michael, Gabriel, Raphael, Zadkiel and others \u2014 rosters vary by source, flagged in Confidence); in the Qabalistic ordering he answers to Binah as Zadkiel answers to Chesed.",
+   "memory_model": "Remembers: everything, slowly \u2014 the Saturn archive admits nothing quickly and releases nothing at all. Forgets: nothing on record. Misremembers: nothing recorded; the sources give him no errors because they give him no acts.",
+   "confidence_and_conflicts": "THE THIN RECORD OF THE RUN, KEPT LEAN ON PURPOSE: Cassiel has no entry of substance in the Catholic Encyclopedia and only list-level presence in the Jewish sources \u2014 his substance is the post-medieval planetary/grimoire stratum (Barrett's Magus, 1801, PD, transmits the scheme). Rosters of the 'seven archangels' disagree with each other; Cassiel's membership is scheme-dependent and is labelled so.",
+   "game_implementation": "BrainKit: a slow-clock architecture \u2014 a background power whose utilities evaluate on the longest timescale in the Atlas; in play, a distant omen-figure: where Cassiel's attention falls, endings and limits are in play.",
+   "map_placement": {
+    "universe": "Spiritual-Abrahamic",
+    "domain": "Angelic Hierarchy",
+    "address": "The sphere of Saturn; the Saturday station of the planetary week",
+    "bridges": [
+     {
+      "to_entity_id": "atlas:spiritual-abrahamic:zadkiel",
+      "kind": "kinship",
+      "note": "Scheme-kinship: fellow planetary archangel in the Qabalistic ordering (Cassiel at Binah, Zadkiel at Chesed) \u2014 a link inside one list-tradition, confidence scheme-bound."
+     }
+    ]
+   },
+   "core_entity_id": null,
+   "revision_history": [
+    {
+     "date": "2026-10-23",
+     "change": "Corpus harvest record created (Spiritual flagships run).",
+     "source": "PD encyclopedias named in source_and_license (Catholic Encyclopedia 1913 / Jewish Encyclopedia 1901-06 / Britannica 1911)"
+    }
+   ]
+  },
+  {
+   "entity_id": "atlas:spiritual-abrahamic:zadkiel",
+   "entity_type": "spiritual (archangel)",
+   "name_and_aliases": {
+    "primary": "Zadkiel",
+    "aliases": [
+     "Zadkiel",
+     "Tzadkiel \u2014 'Righteousness of God'",
+     "Sachiel (alternate name in the lists)",
+     "Angel of Jupiter / of mercy (list tradition)"
+    ]
+   },
+   "origin": "Abrahamic tradition \u2014 rabbinic and list angelology, with the midrashic mercy tradition behind him. SPIRITUAL shelf, Abrahamic domain.",
+   "evidence_class": "Religious account (rabbinic and list tradition)",
+   "evidence_grade": "GENERATED",
+   "source_and_license": {
+    "sources": [
+     "Jewish Encyclopedia (1901-06; public domain) \u2014 entries 'Angelology', 'Metatron', 'Lilith', 'Azazel', 'Samael' and related articles as applicable (jewishencyclopedia.com)"
+    ],
+    "license": "Public domain reference works \u2014 ingestible per registry. Atlas profile original, generated from the tradition; no encyclopedia text copied."
+   },
+   "attributes": "Per the traditions: 'Righteousness of God', in the lists the archangel of Jupiter and of the sphere of Chesed \u2014 mercy, lovingkindness, expansion. A persistent later tradition identifies him with the angel who stayed Abraham's hand at the binding of Isaac (Genesis 22 names no angel beyond 'the angel of the LORD'); in later iconography and lists he also appears as a standard-bearer attending Michael into battle.",
+   "cognition_model": {
+    "brain_profile": {
+     "grade_note": "GENERATED \u2014 region-analogue design from the figure's office in the tradition's own accounts. No anatomy is asserted.",
+     "architecture": "A mercy-within-law mind by region-analogy: the design centre is the stayed hand \u2014 the moment judgment, fully justified, is interrupted by kindness. Righteousness is his name; mercy is his recorded act.",
+     "regions": [
+      {
+       "name": "The Stayed Hand",
+       "role": "Intervention at the knife's edge: the system built to arrive in the last instant before an irreversible act",
+       "drive_weight": 0.95
+      },
+      {
+       "name": "The Mercy Ledger (Chesed stratum)",
+       "role": "Kindness administered as policy, not mood \u2014 expansion, forgiveness and gift as cosmic functions",
+       "drive_weight": 0.85
+      },
+      {
+       "name": "The Standard-Bearer's Post",
+       "role": "Second place willingly held: he follows Michael into battle carrying the banner \u2014 loyalty as a chosen rank",
+       "drive_weight": 0.6
+      }
+     ],
+     "drives": {
+      "curiosity": 0.5,
+      "sociability": 0.7,
+      "aggression": 0.35,
+      "fearfulness": 0.0,
+      "territoriality": 0.3
+     }
+    },
+    "summary": "Intelligence as righteous kindness: he keeps the accounts of law in order to know exactly where mercy may lawfully interrupt them."
+   },
+   "personality": {
+    "mbti": "INFJ",
+    "mbti_label": "Lore-based interpretive read (fan interpretation) \u2014 a behaviour-design lens, not a measurement.",
+    "justification": "The counsellor of the knife's edge: quietly certain about right, quicker to forgive than to condemn, and defined by one merciful interruption that echoes through the whole tradition.",
+    "runner_up": "ENFJ",
+    "traits": {
+     "curiosity": 0.5,
+     "sociability": 0.7,
+     "aggression": 0.35,
+     "fearfulness": 0.0,
+     "territoriality": 0.3
+    }
+   },
+   "skills": [
+    "Staying of Abraham's hand (later identification, flagged)",
+    "Archangel of mercy and lovingkindness (list tradition)",
+    "Planetary rulership of Jupiter (list tradition)",
+    "Standard-bearer attending Michael (later lists/iconography)"
+   ],
+   "behavior_model": "Triggers: an irreversible sentence about to fall -> the stayed-hand intervention. Needs: a world with judgments in it; mercy requires law to interrupt. Goals: righteousness that ends in kindness. State changes: enthroned mercy -> the descent to the altar at Moriah; the tradition gives him no other drama.",
+   "relationships": "Attendant and banner-bearer to Michael in the later lists (bridge below); fellow planetary archangel with Cassiel in the Qabalistic scheme; his mercy-sphere (Chesed) stands opposite severity (Geburah) in that system \u2014 a designed balance the lists intend.",
+   "memory_model": "Remembers: every stayed hand and every completed sacrifice \u2014 the ledger holds both columns. Forgets: forgiven debts, by policy; that is what the mercy office is for. Misremembers: nothing on record.",
+   "confidence_and_conflicts": "The Isaac identification is the honest flag of this record: Genesis 22 does not name Zadkiel, and the attribution is a later tradition, variable across sources (some lists give the act to Michael or to 'the angel' unnamed). The planetary and Chesed material is list-stratum, labelled as such throughout.",
+   "game_implementation": "BrainKit: a mercy-interrupt architecture \u2014 a system that watches other agents' irreversible actions and can stay exactly one hand per crisis, at cost; as an NPC, the banner-bearer at Michael's flank and the court's counsellor for clemency pleas.",
+   "map_placement": {
+    "universe": "Spiritual-Abrahamic",
+    "domain": "Angelic Hierarchy",
+    "address": "The sphere of Chesed in the lists; the altar on Moriah, at the last instant",
+    "bridges": [
+     {
+      "to_entity_id": "atlas:spiritual-abrahamic:michael",
+      "kind": "kinship",
+      "note": "Attendant kinship: the later lists set Zadkiel as standard-bearer directly behind Michael entering battle \u2014 a list-tradition link, confidence moderate."
+     }
+    ]
+   },
+   "core_entity_id": null,
+   "revision_history": [
+    {
+     "date": "2026-10-23",
+     "change": "Corpus harvest record created (Spiritual flagships run).",
+     "source": "PD encyclopedias named in source_and_license (Catholic Encyclopedia 1913 / Jewish Encyclopedia 1901-06 / Britannica 1911)"
+    }
+   ]
+  },
+  {
+   "entity_id": "atlas:spiritual-abrahamic:seraphim",
+   "entity_type": "spiritual (angelic choir)",
+   "name_and_aliases": {
+    "primary": "The Seraphim",
+    "aliases": [
+     "Seraphim",
+     "Seraphs (singular: Seraph)",
+     "The Burning Ones (traditional gloss)",
+     "The first choir (Dionysian hierarchy)"
+    ]
+   },
+   "origin": "Abrahamic tradition \u2014 Isaiah 6 and the angelic hierarchy systematised by Pseudo-Dionysius and catalogued in the Catholic Encyclopedia's 'Angels' article. SPIRITUAL shelf, Abrahamic domain. A choir record: the entity is the order, not an individual.",
+   "evidence_class": "Religious account",
+   "evidence_grade": "GENERATED",
+   "source_and_license": {
+    "sources": [
+     "Catholic Encyclopedia (1913; public domain) \u2014 entries 'Angels', 'Devil', 'St. Michael the Archangel', 'St. Raphael the Archangel' as applicable (newadvent.org/cathen)",
+     "Encyclopaedia Britannica, 11th ed. (1911; public domain, Wikisource/Gutenberg) \u2014 entries 'Angel', 'Faust', 'Mahommedanism' as applicable",
+     "Scriptural and deuterocanonical accounts as catalogued in the encyclopedias above"
+    ],
+    "license": "Public domain reference works \u2014 ingestible per registry. Atlas profile original, generated from the tradition; no encyclopedia text copied."
+   },
+   "attributes": "Per the tradition: the six-winged beings of Isaiah's temple vision \u2014 two wings covering the face, two the feet, two for flight \u2014 crying 'Holy, holy, holy' to one another above the throne; one of them purges Isaiah's lips with a live coal from the altar. In the Dionysian ordering they are the highest of the nine choirs, nearest the Throne, defined by ardent love; the Catholic Encyclopedia carries the scheme and its scriptural anchors.",
+   "cognition_model": {
+    "brain_profile": {
+     "grade_note": "GENERATED \u2014 region-analogue design from the figure's office in the tradition's own accounts. No anatomy is asserted.",
+     "architecture": "A choir-mind by region-analogy: cognition as combustion in formation. A seraph does not deliberate \u2014 proximity to the Throne is total information and total feeling at once; the design centre is antiphonal praise, knowledge passed as song.",
+     "regions": [
+      {
+       "name": "The Burning Core",
+       "role": "Love as operating temperature: the choir's nearness to God is rendered as heat no lower order could stand",
+       "drive_weight": 1.0
+      },
+      {
+       "name": "The Antiphon Engine",
+       "role": "'Holy, holy, holy' cried *to one another* \u2014 a distributed mind whose thoughts are exchanges, never soliloquies",
+       "drive_weight": 0.9
+      },
+      {
+       "name": "The Coal-Bearer's Function",
+       "role": "Purification by contact: the single recorded errand of a seraph is to burn a prophet's lips clean for speech",
+       "drive_weight": 0.7
+      }
+     ],
+     "drives": {
+      "curiosity": 0.4,
+      "sociability": 0.9,
+      "aggression": 0.2,
+      "fearfulness": 0.0,
+      "territoriality": 0.6
+     }
+    },
+    "summary": "A collective intelligence of pure attendance: many voices, one act, no biography \u2014 the choir is the creature."
+   },
+   "personality": {
+    "mbti": "ENFJ",
+    "mbti_label": "Lore-based interpretive read (fan interpretation) \u2014 a behaviour-design lens, not a measurement.",
+    "justification": "A communal read for a communal being: the seraphim exist in antiphon \u2014 feeling-led, other-directed, organised entirely around a shared centre and the voices answering theirs.",
+    "runner_up": "INFJ",
+    "traits": {
+     "curiosity": 0.4,
+     "sociability": 0.9,
+     "aggression": 0.2,
+     "fearfulness": 0.0,
+     "territoriality": 0.6
+    }
+   },
+   "skills": [
+    "Ceaseless antiphonal praise at the Throne (Isaiah 6)",
+    "Purification of the prophet's lips with the altar coal",
+    "Highest choir of the Dionysian ninefold hierarchy",
+    "Veiling before the Glory (the covered face and feet of the vision)"
+   ],
+   "behavior_model": "Triggers: none recorded \u2014 the praise does not start or stop; it is the state. Needs: the Throne's presence, which is not a need but a definition. Goals: attendance. State changes: the single errand-state (the coal borne to Isaiah) inside an otherwise changeless liturgy.",
+   "relationships": "First of the nine choirs; nearest neighbours the Cherubim (bridge below), who in the Dionysian scheme contemplate wisdom as the Seraphim burn with love. Individual fallen-angel traditions that recruit from this choir (some accounts of Lucifer's rank) belong to those figures' records, not this one.",
+   "memory_model": "Remembers: the liturgy entire \u2014 a choir's memory is its repertoire, and its repertoire does not change. Forgets: nothing on record; the vision gives the choir no past and no future, only presence. Misremembers: not applicable \u2014 recorded honestly as a silence of the sources.",
+   "confidence_and_conflicts": "Isaiah's vision is the only scriptural appearance; everything else \u2014 the ninefold ranking, the 'burning ones' gloss, the love/wisdom division of labour between the first choirs \u2014 is the Dionysian and scholastic systematisation, carried by the Catholic Encyclopedia and labelled here as system, not scripture.",
+   "game_implementation": "BrainKit: implement as a choir, not a character \u2014 a distributed chorus agent with a single antiphonal behaviour and a purification event (the coal) as its only interaction verb; morale/presence aura at maximum radius around the Throne address.",
+   "map_placement": {
+    "universe": "Spiritual-Abrahamic",
+    "domain": "Angelic Hierarchy",
+    "address": "Above the Throne, in the temple of Isaiah's vision; first choir of the nine",
+    "bridges": [
+     {
+      "to_entity_id": "atlas:spiritual-abrahamic:cherubim",
+      "kind": "kinship",
+      "note": "Adjacent-choir kinship: the first two orders of the Dionysian hierarchy \u2014 burning love beside full-eyed wisdom; the pairing is the system's own."
+     }
+    ]
+   },
+   "core_entity_id": null,
+   "revision_history": [
+    {
+     "date": "2026-10-23",
+     "change": "Corpus harvest record created (Spiritual flagships run).",
+     "source": "PD encyclopedias named in source_and_license (Catholic Encyclopedia 1913 / Jewish Encyclopedia 1901-06 / Britannica 1911)"
+    }
+   ]
+  },
+  {
+   "entity_id": "atlas:spiritual-abrahamic:cherubim",
+   "entity_type": "spiritual (angelic choir)",
+   "name_and_aliases": {
+    "primary": "The Cherubim",
+    "aliases": [
+     "Cherubim",
+     "Keruvim (Hebrew)",
+     "The second choir (Dionysian hierarchy)",
+     "Guardians of Eden; bearers of the Throne"
+    ]
+   },
+   "origin": "Abrahamic tradition \u2014 Genesis 3, Exodus 25, Ezekiel 1 and 10, systematised in the hierarchy the Catholic Encyclopedia catalogues. SPIRITUAL shelf, Abrahamic domain. A choir record: the entity is the order, not an individual.",
+   "evidence_class": "Religious account",
+   "evidence_grade": "GENERATED",
+   "source_and_license": {
+    "sources": [
+     "Catholic Encyclopedia (1913; public domain) \u2014 entries 'Angels', 'Devil', 'St. Michael the Archangel', 'St. Raphael the Archangel' as applicable (newadvent.org/cathen)",
+     "Encyclopaedia Britannica, 11th ed. (1911; public domain, Wikisource/Gutenberg) \u2014 entries 'Angel', 'Faust', 'Mahommedanism' as applicable",
+     "Scriptural and deuterocanonical accounts as catalogued in the encyclopedias above"
+    ],
+    "license": "Public domain reference works \u2014 ingestible per registry. Atlas profile original, generated from the tradition; no encyclopedia text copied."
+   },
+   "attributes": "Per the tradition: the cherubim are set at Eden's east with the turning flaming sword to guard the way to the Tree of Life; they overshadow the mercy seat of the Ark in gold; and in Ezekiel's visions they are the four-faced, four-winged living creatures \u2014 man, lion, ox, eagle \u2014 covered with eyes, bearing the throne-chariot, identified as cherubim in Ezekiel 10. In the Dionysian scheme they are the second choir, defined by fullness of knowledge \u2014 'full of eyes' read as total perception.",
+   "cognition_model": {
+    "brain_profile": {
+     "grade_note": "GENERATED \u2014 region-analogue design from the figure's office in the tradition's own accounts. No anatomy is asserted.",
+     "architecture": "A sentry-archive mind by region-analogy: guardianship and knowledge are one function \u2014 they watch because they know, and they know because they have never stopped watching. The design centre is the covered-with-eyes body of Ezekiel: perception without blind spots, in service of a gate.",
+     "regions": [
+      {
+       "name": "The Eye-Covered Watch",
+       "role": "Total perception as anatomy: no approach vector unobserved, no change in the guarded thing unregistered",
+       "drive_weight": 0.95
+      },
+      {
+       "name": "The Gate Function",
+       "role": "Eden's sword and the Ark's overshadowing wings \u2014 custody of the two holiest thresholds of the early tradition",
+       "drive_weight": 0.9
+      },
+      {
+       "name": "The Throne-Bearing Frame",
+       "role": "They do not sit on the chariot; they *are* its motion \u2014 knowledge as the vehicle of the Presence",
+       "drive_weight": 0.85
+      }
+     ],
+     "drives": {
+      "curiosity": 0.75,
+      "sociability": 0.5,
+      "aggression": 0.55,
+      "fearfulness": 0.0,
+      "territoriality": 0.9
+     }
+    },
+    "summary": "Intelligence as custody: the cherubim are the tradition's first librarians and first border guards, and in the design the two jobs are the same job."
+   },
+   "personality": {
+    "mbti": "ISTJ",
+    "mbti_label": "Lore-based interpretive read (fan interpretation) \u2014 a behaviour-design lens, not a measurement.",
+    "justification": "The wardens of the threshold: exact, vigilant, duty-defined \u2014 they hold a gate for millennia without curiosity about what lies past their orders, and their knowledge serves custody, not display.",
+    "runner_up": "INTJ",
+    "traits": {
+     "curiosity": 0.75,
+     "sociability": 0.5,
+     "aggression": 0.55,
+     "fearfulness": 0.0,
+     "territoriality": 0.9
+    }
+   },
+   "skills": [
+    "Guardianship of Eden and the Tree of Life (Genesis 3:24)",
+    "Overshadowing the mercy seat of the Ark (Exodus 25)",
+    "Bearing the throne-chariot (Ezekiel 1, 10)",
+    "Second choir \u2014 fullness of knowledge (Dionysian scheme)"
+   ],
+   "behavior_model": "Triggers: an approach to the guarded threshold -> the turning sword; the Presence moving -> the chariot moves. Needs: a threshold to hold; the office is meaningless without one. Goals: custody unbroken. State changes: stillness at the gate -> the storm-motion of the chariot; nothing between.",
+   "relationships": "Second choir, paired with the Seraphim above them (bridge below); in Ezekiel their counterparts the ophanim ('wheels') move with them \u2014 a neighbouring choir for a future record. Later tradition's fallen cherub (Ezekiel 28's 'anointed cherub', read in Christian tradition toward Lucifer) is carried in the Lucifer record's Confidence, not settled here.",
+   "memory_model": "Remembers: the inventory of the guarded things and every approach ever made to them. Forgets: nothing on record. Misperceives: nothing \u2014 'full of eyes' is the tradition's way of saying the watch does not err; the design flags that as the tradition's claim, evidence class religious account.",
+   "confidence_and_conflicts": "Ezekiel never calls the Genesis or Ark figures by his vision's zoology, and the identification of the living creatures *as* cherubim rests on Ezekiel 10:20 itself. The pop-cultural cherub (a winged infant) is a Renaissance art drift with no source in these texts \u2014 noted to keep the record clean.",
+   "game_implementation": "BrainKit: a threshold-guardian architecture \u2014 perception radius total within the guarded zone, response binary (admitted / the sword), memory an approach-log that never decays; ideal as the Atlas's reference design for sacred-site wardens.",
+   "map_placement": {
+    "universe": "Spiritual-Abrahamic",
+    "domain": "Angelic Hierarchy",
+    "address": "The east of Eden; the mercy seat; beneath the Throne in Ezekiel's chariot",
+    "bridges": [
+     {
+      "to_entity_id": "atlas:spiritual-abrahamic:seraphim",
+      "kind": "kinship",
+      "note": "Reciprocal adjacent-choir link: wisdom beside love at the top of the Dionysian ladder."
+     }
+    ]
+   },
+   "core_entity_id": null,
+   "revision_history": [
+    {
+     "date": "2026-10-23",
+     "change": "Corpus harvest record created (Spiritual flagships run).",
+     "source": "PD encyclopedias named in source_and_license (Catholic Encyclopedia 1913 / Jewish Encyclopedia 1901-06 / Britannica 1911)"
+    }
+   ]
+  },
+  {
+   "entity_id": "atlas:spiritual-jewish:samyaza",
+   "entity_type": "spiritual (fallen angel, chief of the Watchers)",
+   "name_and_aliases": {
+    "primary": "Samyaza",
+    "aliases": [
+     "Samyaza",
+     "Semjaza",
+     "Shemihazah",
+     "Chief of the two hundred Watchers (1 Enoch)"
+    ]
+   },
+   "origin": "Book of Enoch tradition (1 Enoch, the Book of the Watchers) in the public-domain Charles translation (1917), as the Jewish Encyclopedia's Enoch material catalogues the cycle. SPIRITUAL shelf \u2014 filed with the Angelic Hierarchy per the roster, tradition Jewish-apocalyptic.",
+   "evidence_class": "Religious account (Book of Enoch tradition)",
+   "evidence_grade": "GENERATED",
+   "source_and_license": {
+    "sources": [
+     "Jewish Encyclopedia (1901-06; public domain) \u2014 entries 'Angelology', 'Metatron', 'Lilith', 'Azazel', 'Samael' and related articles as applicable (jewishencyclopedia.com)",
+     "1 Enoch (Book of the Watchers), R.H. Charles translation (1917; public domain) \u2014 chapters 6-10"
+    ],
+    "license": "Public domain reference works \u2014 ingestible per registry. Atlas profile original, generated from the tradition; no encyclopedia text copied."
+   },
+   "attributes": "Per 1 Enoch: chief of the two hundred angels \u2014 the Watchers, Grigori \u2014 who desired the daughters of men. Fearing the others would not follow through, Samyaza binds them by mutual oath on Mount Hermon to the deed and its guilt together. The Watchers take wives, beget the giant Nephilim, and teach forbidden arts; in Enoch 8 the teaching of enchantments and root-cuttings is ascribed to him. At the judgment, Michael binds Samyaza and his companions for seventy generations in the valleys of the earth until the final fire.",
+   "cognition_model": {
+    "brain_profile": {
+     "grade_note": "GENERATED \u2014 region-analogue design from the figure's office in the tradition's own accounts. No anatomy is asserted.",
+     "architecture": "An oath-architect's mind by region-analogy: the design centre is *collectivised resolve* \u2014 he knows individual will fails, so he engineers a structure (the shared oath) in which it cannot. Leadership as trap-building, for his followers and himself.",
+     "regions": [
+      {
+       "name": "The Oath Engine",
+       "role": "Mutual-imprecation as decision architecture: a choice made un-undoable by design \u2014 his one great invention",
+       "drive_weight": 0.95
+      },
+      {
+       "name": "The Desire Core",
+       "role": "The descent begins in appetite, not rebellion ideology \u2014 the text is plain that they saw, and desired, and took",
+       "drive_weight": 0.85
+      },
+      {
+       "name": "The Forbidden Curriculum",
+       "role": "Enchantments and root-cuttings taught downward \u2014 knowledge transfer as the fall's second engine",
+       "drive_weight": 0.7
+      }
+     ],
+     "drives": {
+      "curiosity": 0.55,
+      "sociability": 0.75,
+      "aggression": 0.6,
+      "fearfulness": 0.15,
+      "territoriality": 0.4
+     }
+    },
+    "summary": "Intelligence as conspiracy at scale: a chief whose genius is commitment devices, leading two hundred minds into one irrevocable act."
+   },
+   "personality": {
+    "mbti": "ENTJ",
+    "mbti_label": "Lore-based interpretive read (fan interpretation) \u2014 a behaviour-design lens, not a measurement.",
+    "justification": "The ringleader as organiser: he foresees defection, designs the oath that prevents it, and leads a host across a line none would cross alone \u2014 command charisma in service of a catastrophic decision.",
+    "runner_up": "ENTP",
+    "traits": {
+     "curiosity": 0.55,
+     "sociability": 0.75,
+     "aggression": 0.6,
+     "fearfulness": 0.15,
+     "territoriality": 0.4
+    }
+   },
+   "skills": [
+    "The Hermon oath \u2014 binding the two hundred to the descent (1 Enoch 6)",
+    "Chiefship of the Watchers",
+    "Teaching of enchantments and root-cutting (1 Enoch 8)",
+    "Fathering of the Nephilim generation (the tradition's claim)"
+   ],
+   "behavior_model": "Triggers: the sight of the daughters of men + fear of followers' defection -> the oath. Needs: company in the act \u2014 solitude, for Samyaza, is the one unaffordable state. Goals: the descent accomplished and shared. State changes: watcher-on-duty -> oath-bound rebel -> bound prisoner awaiting the fire; the text grants no repentance state (his plea through Enoch is refused in 1 Enoch 13-16, where the Watchers' petition fails).",
+   "relationships": "Chief over Azazel in the Book of the Watchers' main narrative (bridge below) \u2014 though other Enochic strata reverse the prominence (see Azazel's Confidence). His binding is executed by Michael \u2014 the hierarchy's two commanders meeting as jailer and prisoner, a relationships note, not a bridge of kinship. The Watchers' story is Genesis 6's 'sons of God' as the Enoch literature expands it.",
+   "memory_model": "Remembers: the oath's exact terms \u2014 he drafted them. Forgets: nothing on record. Misjudged: the one thing that mattered \u2014 he modelled his followers' resolve perfectly and heaven's response not at all.",
+   "confidence_and_conflicts": "EVIDENCE NOTE AS REQUIRED: 1 Enoch is canonical in the Ethiopian Orthodox tradition, deuterocanonical-adjacent or apocryphal elsewhere, and Scripture nowhere in rabbinic Judaism or Western Christianity \u2014 its canonicity varies by tradition and this record does not hide that. Within Enoch itself, Samyaza's and Azazel's relative chiefship varies by chapter and stratum.",
+   "game_implementation": "BrainKit: a conspiracy architecture \u2014 an agent whose core verb is the commitment device (shared-oath events that lock faction members' utilities together), with a petition mechanic that the world is scripted to refuse.",
+   "map_placement": {
+    "universe": "Spiritual-Jewish",
+    "domain": "Book of Enoch Tradition \u2014 the Watchers",
+    "address": "Mount Hermon, the oath-site; then the valleys of the earth, bound for seventy generations",
+    "bridges": [
+     {
+      "to_entity_id": "atlas:spiritual-jewish:azazel",
+      "kind": "kinship",
+      "note": "Co-leader kinship within the Enoch cycle: Samyaza leads the descent, Azazel leads the corruption of the earth \u2014 the text distributes the guilt between them (Enoch 10:8 lays 'all sin' on Azazel)."
+     }
+    ]
+   },
+   "core_entity_id": null,
+   "revision_history": [
+    {
+     "date": "2026-10-23",
+     "change": "Corpus harvest record created (Spiritual flagships run).",
+     "source": "PD encyclopedias named in source_and_license (Catholic Encyclopedia 1913 / Jewish Encyclopedia 1901-06 / Britannica 1911)"
+    }
+   ]
+  },
+  {
+   "entity_id": "atlas:spiritual-jewish:azazel",
+   "entity_type": "spiritual (fallen angel / desert power)",
+   "name_and_aliases": {
+    "primary": "Azazel",
+    "aliases": [
+     "Azazel",
+     "Azael / Asael (Enochic forms)",
+     "The scapegoat's destination (Leviticus 16)"
+    ]
+   },
+   "origin": "Abrahamic tradition in two strata \u2014 the Leviticus scapegoat rite and the Book of Enoch's fallen Watcher \u2014 as the Jewish Encyclopedia's 'Azazel' article lays them out. SPIRITUAL shelf, filed with the Angelic Hierarchy per the roster.",
+   "evidence_class": "Religious account",
+   "evidence_grade": "GENERATED",
+   "source_and_license": {
+    "sources": [
+     "Jewish Encyclopedia (1901-06; public domain) \u2014 entries 'Angelology', 'Metatron', 'Lilith', 'Azazel', 'Samael' and related articles as applicable (jewishencyclopedia.com)",
+     "Scriptural and deuterocanonical accounts as catalogued in the encyclopedias above",
+     "1 Enoch, Charles translation (1917; public domain) \u2014 chapters 8-10"
+    ],
+    "license": "Public domain reference works \u2014 ingestible per registry. Atlas profile original, generated from the tradition; no encyclopedia text copied."
+   },
+   "attributes": "Per the sources: in Leviticus 16 the high priest confesses Israel's sins over a goat 'for Azazel' and sends it bearing them into the wilderness \u2014 whether Azazel is a desert demon, a place, or the goat itself was already disputed by the rabbis the Jewish Encyclopedia cites. In 1 Enoch he becomes a Watcher-chief who taught men swords, knives, shields and cosmetics, 'and the whole earth has been corrupted through the works that were taught by Azazel: to him ascribe all sin' (Enoch 10:8); Raphael binds him hand and foot and casts him into the desert pit of Dudael until the judgment.",
+   "cognition_model": {
+    "brain_profile": {
+     "grade_note": "GENERATED \u2014 region-analogue design from the figure's office in the tradition's own accounts. No anatomy is asserted.",
+     "architecture": "A corrupting-teacher's mind by region-analogy: his weapon is the curriculum. Where Samyaza binds wills, Azazel equips them \u2014 metallurgy and adornment as technologies of violence and seduction, handed down with a craftsman's pride.",
+     "regions": [
+      {
+       "name": "The Forge Curriculum",
+       "role": "Weapons as knowledge: the sword enters the world through his teaching \u2014 craft skill as moral catastrophe",
+       "drive_weight": 0.9
+      },
+      {
+       "name": "The Mirror Curriculum",
+       "role": "Cosmetics and ornament in the same syllabus \u2014 the arts of the surface taught beside the arts of war",
+       "drive_weight": 0.8
+      },
+      {
+       "name": "The Sin-Sink (Leviticus stratum)",
+       "role": "In the rite he is where confessed sin is *sent* \u2014 a destination-function, absorbing a nation's guilt into the desert",
+       "drive_weight": 0.7
+      }
+     ],
+     "drives": {
+      "curiosity": 0.75,
+      "sociability": 0.5,
+      "aggression": 0.75,
+      "fearfulness": 0.05,
+      "territoriality": 0.5
+     }
+    },
+    "summary": "Intelligence as dangerous instruction: he does not force a single hand; he teaches ten thousand hands, and the text bills the whole corruption to his account."
+   },
+   "personality": {
+    "mbti": "ESTP",
+    "mbti_label": "Lore-based interpretive read (fan interpretation) \u2014 a behaviour-design lens, not a measurement.",
+    "justification": "The hands-on corrupter: a maker and showman whose gifts are real skills, immediately usable, taught with flair \u2014 action, appetite and craft over any system or creed.",
+    "runner_up": "ENTP",
+    "traits": {
+     "curiosity": 0.75,
+     "sociability": 0.5,
+     "aggression": 0.75,
+     "fearfulness": 0.05,
+     "territoriality": 0.5
+    }
+   },
+   "skills": [
+    "Teaching of weapon-making and metalwork (1 Enoch 8)",
+    "Teaching of cosmetics and ornament (1 Enoch 8)",
+    "Receiving the scapegoat bearing Israel's sins (Leviticus 16)",
+    "Binding by Raphael in the desert of Dudael (1 Enoch 10)"
+   ],
+   "behavior_model": "Triggers: human receptivity -> teaching; the annual rite -> the goat arrives with its load. Needs: students and a wilderness. Goals: in Enoch, earth's corruption through knowledge; in Leviticus he has no goal at all \u2014 he is a place sins go, and the design keeps the strata's difference visible. State changes: teacher at large -> bound in Dudael, awaiting the fire.",
+   "relationships": "Subordinate colleague of Samyaza in the descent, yet the Enoch text bills him with 'all sin' \u2014 the cycle's two chiefs, guilt distributed unevenly (bridge at Samyaza's record). Later identifications \u2014 Origen's Azazel = Satan, Nahmanides' Azazel = Samael \u2014 are claims of particular authorities, carried as bridges with their confidence labelled, not as this Atlas's rulings.",
+   "memory_model": "Remembers: every technique he ever taught, in every hand that learned it \u2014 his memory is distributed across human craft itself. Forgets: nothing on record. Misremembers: nothing; the Enoch account does not give him self-deception, only indictment.",
+   "confidence_and_conflicts": "THE STRATA PROBLEM IS THE RECORD: Leviticus' Azazel may not be a person at all (the Jewish Encyclopedia rehearses demon, place and goat readings); the Enochic person is a Second Temple construction; the Satan/Samael identifications are later still. This record fuses the strata as 'Azazel' because the tradition itself did \u2014 and labels each layer so the fusion is never mistaken for a single source.",
+   "game_implementation": "BrainKit: a tech-tree corruption architecture \u2014 an agent who never attacks, only unlocks: each teaching event permanently raises the world's violence and vanity stats; counter-play is Raphael's binding event, not combat.",
+   "map_placement": {
+    "universe": "Spiritual-Jewish",
+    "domain": "Book of Enoch Tradition / the Wilderness of the Rite",
+    "address": "The desert of Dudael, bound; and the wilderness road of the Yom Kippur goat",
+    "bridges": [
+     {
+      "to_entity_id": "atlas:spiritual-jewish:samael",
+      "kind": "kinship",
+      "note": "Later identification claimed by Nahmanides (Azazel equated with Samael) \u2014 a medieval authority's reading, confidence low-to-moderate, recorded not endorsed."
+     },
+     {
+      "to_entity_id": "atlas:spiritual-abrahamic:satan",
+      "kind": "kinship",
+      "note": "Origen's identification of Azazel with Satan \u2014 an early Christian authority's claim, disputed within the traditions; kinship of identification, not of narrative."
+     }
+    ]
+   },
+   "core_entity_id": null,
+   "revision_history": [
+    {
+     "date": "2026-10-23",
+     "change": "Corpus harvest record created (Spiritual flagships run).",
+     "source": "PD encyclopedias named in source_and_license (Catholic Encyclopedia 1913 / Jewish Encyclopedia 1901-06 / Britannica 1911)"
+    }
+   ]
+  },
+  {
+   "entity_id": "atlas:spiritual-abrahamic:lucifer",
+   "entity_type": "spiritual (fallen angel)",
+   "name_and_aliases": {
+    "primary": "Lucifer",
+    "aliases": [
+     "Lucifer \u2014 'Light-bearer' (Latin Vulgate of Isaiah 14:12)",
+     "Helel ben Shahar \u2014 'Day Star, son of Dawn' (Hebrew of Isaiah 14:12)",
+     "The Morning Star"
+    ]
+   },
+   "origin": "Abrahamic tradition \u2014 Isaiah 14's taunt, read by the Church tradition toward the fall of the highest angel, as the Catholic Encyclopedia's 'Devil' article rehearses with its cautions. SPIRITUAL shelf, Adversary domain.",
+   "evidence_class": "Religious account",
+   "evidence_grade": "GENERATED",
+   "source_and_license": {
+    "sources": [
+     "Catholic Encyclopedia (1913; public domain) \u2014 entries 'Angels', 'Devil', 'St. Michael the Archangel', 'St. Raphael the Archangel' as applicable (newadvent.org/cathen)",
+     "Scriptural and deuterocanonical accounts as catalogued in the encyclopedias above"
+    ],
+    "license": "Public domain reference works \u2014 ingestible per registry. Atlas profile original, generated from the tradition; no encyclopedia text copied."
+   },
+   "attributes": "Per the tradition: Isaiah 14:12 \u2014 'How art thou fallen from heaven, O Lucifer, son of the morning' \u2014 in its own context a taunt against the king of Babylon; the Latin 'lucifer' (light-bearer, the morning star) became, in Christian reading, the proper name of the angel who fell through pride. The Catholic Encyclopedia reports the theologians' debate honestly: many held he was before his fall the foremost of all the angels; others placed him in a lower choir \u2014 'here we are in the region of pious opinions,' the article says, and this record keeps that flag flying.",
+   "cognition_model": {
+    "brain_profile": {
+     "grade_note": "GENERATED \u2014 region-analogue design from the figure's office in the tradition's own accounts. No anatomy is asserted.",
+     "architecture": "A sovereign-intellect mind by region-analogy: the design centre is *rank experienced as identity* \u2014 the light-bearer who read his own brilliance as a title deed. Pride here is not vanity about looks; it is a constitutional theory: that the highest creature should rule.",
+     "regions": [
+      {
+       "name": "The Brilliance Core",
+       "role": "Intellect and splendour at the created maximum (per the theologians who made him foremost) \u2014 capability is not his problem",
+       "drive_weight": 0.95
+      },
+      {
+       "name": "The Pride Governor",
+       "role": "The single drive that outranks all others: precedence. Every calculation returns, in the end, to the question of who stands highest",
+       "drive_weight": 1.0
+      },
+      {
+       "name": "The Sovereignty Claim",
+       "role": "From brilliance to programme: 'I will ascend\u2026 I will be like the Most High' (Isaiah 14:13-14) \u2014 ambition as eschatology",
+       "drive_weight": 0.9
+      }
+     ],
+     "drives": {
+      "curiosity": 0.8,
+      "sociability": 0.55,
+      "aggression": 0.8,
+      "fearfulness": 0.0,
+      "territoriality": 0.85
+     }
+    },
+    "summary": "Intelligence as injured majesty: the brightest mind in the tradition's heaven, organised entirely around a demotion it will neither accept nor stop rehearsing."
+   },
+   "personality": {
+    "mbti": "ENTJ",
+    "mbti_label": "Lore-based interpretive read (fan interpretation) \u2014 a behaviour-design lens, not a measurement.",
+    "justification": "The fallen first minister: a commanding, system-scale intellect whose whole tragedy the tradition states in one word \u2014 pride; he does not rage blindly, he *reigns* in refusal, organising a rival court rather than dissolving into chaos.",
+    "runner_up": "INTJ",
+    "traits": {
+     "curiosity": 0.8,
+     "sociability": 0.55,
+     "aggression": 0.8,
+     "fearfulness": 0.0,
+     "territoriality": 0.85
+    }
+   },
+   "skills": [
+    "Foremost rank among angels before the fall (theologians' opinion, flagged)",
+    "Leadership of the rebel angels \u2014 'the Devil and his angels' (Matthew 25:41)",
+    "The five 'I wills' of Isaiah 14 as the tradition reads them",
+    "Sovereignty over the fallen host \u2014 retained order among rebels (Catholic Encyclopedia)"
+   ],
+   "behavior_model": "Triggers: the question of precedence -> the sovereignty claim reasserts itself; repentance is, per the Catholic Encyclopedia's discussion, not impossible in principle but blocked by the fixity of the angelic will once set. Needs: a court \u2014 sovereignty unrecognised is, for this design, sovereignty unexercised. Goals: a kingdom parallel to heaven's. State changes: the tradition gives him one transition only (brilliance -> fall) and an eternity of the second state.",
+   "relationships": "SEPARATE RECORD FROM SATAN, AS REQUIRED: the Christian tradition largely identifies the two; the texts themselves (Isaiah's Babylon taunt; Job's accuser) do not \u2014 each record carries the dispute in its Confidence. Adversary of Michael (bridge at Michael's record). Chief of Beelzebub in the New Testament's phrase 'prince of devils', as the Catholic Encyclopedia reads the passage toward Satan \u2014 see Beelzebub for the same text from the other side.",
+   "memory_model": "Remembers: the height \u2014 every memory in the design is indexed against the rank that was lost. Forgets: nothing; the fall did not impair the natural powers, per the Catholic Encyclopedia. Misremembers: the verdict \u2014 he remembers the brilliance as entitlement, which is the tradition's whole diagnosis.",
+   "confidence_and_conflicts": "THE DISPUTE, CARRIED HONESTLY: (1) Isaiah 14 addresses the king of Babylon; the Lucifer-as-fallen-angel reading is the Church's traditional application, not the verse's surface sense. (2) His pre-fall rank is 'pious opinion' by the Catholic Encyclopedia's own verdict. (3) Identity with Satan: affirmed by mainstream Christian tradition, separable in the texts \u2014 this Atlas keeps two records precisely so the claim stays a claim, bridged, not fused.",
+   "game_implementation": "BrainKit: a rival-court architecture \u2014 a faction leader whose recruitment pitch is precedence ('you will be as gods' is the same offer at retail), whose diplomacy never includes submission, and whose intelligence network mirrors heaven's order in negative.",
+   "map_placement": {
+    "universe": "Spiritual-Abrahamic",
+    "domain": "The Adversary and the Named Great Demons",
+    "address": "Isaiah's taunt-song; the court of the fallen host",
+    "bridges": [
+     {
+      "to_entity_id": "atlas:spiritual-abrahamic:satan",
+      "kind": "kinship",
+      "note": "Identification kinship: the Christian tradition's near-total identification of Lucifer with Satan is recorded as a tradition-claim of high authority and disputed textual basis \u2014 the two records stay separate so the bridge, not a merge, carries it."
+     }
+    ]
+   },
+   "core_entity_id": null,
+   "revision_history": [
+    {
+     "date": "2026-10-23",
+     "change": "Corpus harvest record created (Spiritual flagships run).",
+     "source": "PD encyclopedias named in source_and_license (Catholic Encyclopedia 1913 / Jewish Encyclopedia 1901-06 / Britannica 1911)"
+    }
+   ]
+  },
+  {
+   "entity_id": "atlas:spiritual-abrahamic:satan",
+   "entity_type": "spiritual (the Adversary / Accuser)",
+   "name_and_aliases": {
+    "primary": "Satan",
+    "aliases": [
+     "Ha-Satan \u2014 'the Adversary / Accuser' (Hebrew)",
+     "the Devil (Greek diabolos, slanderer-accuser)",
+     "the Tempter",
+     "the Dragon (Revelation's identification)",
+     "the Prince of this world (John's Gospel phrase)"
+    ]
+   },
+   "origin": "Abrahamic tradition \u2014 the Hebrew Bible's accuser, the New Testament's tempter and dragon \u2014 grounded in the Catholic Encyclopedia's 'Devil' article and the Jewish Encyclopedia's 'Satan' material. SPIRITUAL shelf, Adversary domain. A SEPARATE record from Lucifer, by design.",
+   "evidence_class": "Religious account",
+   "evidence_grade": "GENERATED",
+   "source_and_license": {
+    "sources": [
+     "Catholic Encyclopedia (1913; public domain) \u2014 entries 'Angels', 'Devil', 'St. Michael the Archangel', 'St. Raphael the Archangel' as applicable (newadvent.org/cathen)",
+     "Jewish Encyclopedia (1901-06; public domain) \u2014 entries 'Angelology', 'Metatron', 'Lilith', 'Azazel', 'Samael' and related articles as applicable (jewishencyclopedia.com)",
+     "Scriptural and deuterocanonical accounts as catalogued in the encyclopedias above"
+    ],
+    "license": "Public domain reference works \u2014 ingestible per registry. Atlas profile original, generated from the tradition; no encyclopedia text copied."
+   },
+   "attributes": "Per the sources: in Job 1-2 ha-satan \u2014 'the Satan', with the article, an office \u2014 walks into the divine council among the sons of God, reports patrolling the earth, and prosecutes the case against Job's piety ('Does Job fear God for nothing?'), acting only within stated permissions. In Zechariah 3 he accuses the high priest and is rebuked. In the New Testament the figure has become Satan, the Devil: tempter of Jesus in the wilderness, sower of tares, the dragon of Revelation 12 and 20, 'the god of this world' and 'prince of the power of the air' in Paul's phrases.",
+   "cognition_model": {
+    "brain_profile": {
+     "grade_note": "GENERATED \u2014 region-analogue design from the figure's office in the tradition's own accounts. No anatomy is asserted.",
+     "architecture": "A prosecuting mind by region-analogy: the design centre is the *case* \u2014 he builds files on the righteous and argues them. Temptation in this design is cross-examination conducted in the field: every offer is a question about what the accused really loves.",
+     "regions": [
+      {
+       "name": "The Prosecution File",
+       "role": "Total dossiers on the tested: patience, appetites, the exact price of every virtue \u2014 Job's file was opened before Job knew a court sat",
+       "drive_weight": 0.95
+      },
+      {
+       "name": "The Permission Sense",
+       "role": "An exact knowledge of his own warrant \u2014 in Job he never exceeds the stated limit by a hairsbreadth; the leash is part of the mind",
+       "drive_weight": 0.85
+      },
+      {
+       "name": "The Wilderness Brief",
+       "role": "Temptation as structured argument \u2014 scripture quoted back, kingdoms itemised, terms offered in order (Matthew 4)",
+       "drive_weight": 0.9
+      }
+     ],
+     "drives": {
+      "curiosity": 0.85,
+      "sociability": 0.5,
+      "aggression": 0.75,
+      "fearfulness": 0.0,
+      "territoriality": 0.6
+     }
+    },
+    "summary": "Intelligence as adversarial audit: he believes \u2014 and the Job text lets him argue \u2014 that all piety is mercenary until proven otherwise, and he has eternity's budget for discovery."
+   },
+   "personality": {
+    "mbti": "ENTP",
+    "mbti_label": "Lore-based interpretive read (fan interpretation) \u2014 a behaviour-design lens, not a measurement.",
+    "justification": "The eternal cross-examiner: he argues, offers, reframes and tests \u2014 a debater with subpoena power whose favourite experiment is the controlled destruction of a good man's reasons.",
+    "runner_up": "INTJ",
+    "traits": {
+     "curiosity": 0.85,
+     "sociability": 0.5,
+     "aggression": 0.75,
+     "fearfulness": 0.0,
+     "territoriality": 0.6
+    }
+   },
+   "skills": [
+    "Prosecution of Job within divine permission (Job 1-2)",
+    "Accusation of the high priest (Zechariah 3)",
+    "Temptation in the wilderness (Matthew 4 / Luke 4)",
+    "The dragon's war and binding (Revelation 12, 20)",
+    "Patrolling the earth (Job 1:7 \u2014 'going to and fro in it')"
+   ],
+   "behavior_model": "Triggers: unexamined piety -> a prosecution is opened; permission granted -> the test is administered to the letter. Needs: a warrant \u2014 the design's most striking feature is that in the early texts he asks for one. Goals: the exposure of mercenary faith; in the New Testament layer, a kingdom and a war. State changes: council prosecutor (Hebrew Bible) -> cosmic rebel (New Testament) \u2014 the tradition's own development, preserved as strata in this record.",
+   "relationships": "SEPARATE FROM LUCIFER (bridge below, identification disputed); in Islamic material his function is carried by Iblis, who is *not* the same record (bridge at Iblis). Beelzebub is named his princely title in the Gospels' controversy (see Beelzebub). Samael fills the accuser's office in parts of the Jewish tradition \u2014 parallel office-holders, not merged persons.",
+   "memory_model": "Remembers: every file, forever \u2014 the prosecution does not lose exhibits. Forgets: nothing on record. Misjudges: the one variable his model cannot price \u2014 disinterested love; Job is the case he lost on exactly that point, and the design keeps the blind spot.",
+   "confidence_and_conflicts": "THE DISPUTE, CARRIED HONESTLY: scholarship across both encyclopedias' eras notes that Job's ha-satan is an office ('the accuser') inside God's court, not yet the Devil of later theology; the full identity Satan = Lucifer = the serpent = the dragon is the Christian tradition's synthesis, powerful and ancient, but a synthesis. Jewish tradition's Satan stays nearer the prosecutor of Job. This record is Satan the figure across those strata, with Lucifer kept separate as instructed.",
+   "game_implementation": "BrainKit: an auditor architecture \u2014 an agent who generates test events scaled to each character's stated virtues, bound by an explicit permission budget he cannot exceed; the perfect engine for temptation questlines with rules.",
+   "map_placement": {
+    "universe": "Spiritual-Abrahamic",
+    "domain": "The Adversary and the Named Great Demons",
+    "address": "The divine council of Job; the wilderness; the dragon's seat in Revelation",
+    "bridges": [
+     {
+      "to_entity_id": "atlas:spiritual-abrahamic:lucifer",
+      "kind": "kinship",
+      "note": "Reciprocal identification bridge: mainstream Christian tradition identifies Satan with Lucifer; the underlying texts keep the figures distinct \u2014 bridge of tradition-claim, not a merge."
+     },
+     {
+      "to_entity_id": "atlas:spiritual-jewish:samael",
+      "kind": "kinship",
+      "note": "Office kinship: in rabbinic sources Samael at times fills the accuser/tempter office this record carries \u2014 parallel office-holders in overlapping sources, identifications vary by text."
+     }
+    ]
+   },
+   "core_entity_id": null,
+   "revision_history": [
+    {
+     "date": "2026-10-23",
+     "change": "Corpus harvest record created (Spiritual flagships run).",
+     "source": "PD encyclopedias named in source_and_license (Catholic Encyclopedia 1913 / Jewish Encyclopedia 1901-06 / Britannica 1911)"
+    }
+   ]
+  },
+  {
+   "entity_id": "atlas:spiritual-abrahamic:beelzebub",
+   "entity_type": "spiritual (demon, prince of demons)",
+   "name_and_aliases": {
+    "primary": "Beelzebub",
+    "aliases": [
+     "Beelzebub",
+     "Baal-zebub, god of Ekron (2 Kings 1)",
+     "'Lord of flies' (traditional gloss); 'Baal-zebul, Baal the Prince' (scholarly alternative)",
+     "Prince of demons (the Gospels)"
+    ]
+   },
+   "origin": "Abrahamic tradition \u2014 the Philistine oracle-god of Ekron become the New Testament's prince of demons \u2014 via the Catholic Encyclopedia's 'Devil' discussion and the scriptural accounts. SPIRITUAL shelf, Adversary domain. Distinct from the Goetia catalogue, where no Beelzebub entry exists.",
+   "evidence_class": "Religious account",
+   "evidence_grade": "GENERATED",
+   "source_and_license": {
+    "sources": [
+     "Catholic Encyclopedia (1913; public domain) \u2014 entries 'Angels', 'Devil', 'St. Michael the Archangel', 'St. Raphael the Archangel' as applicable (newadvent.org/cathen)",
+     "Scriptural and deuterocanonical accounts as catalogued in the encyclopedias above"
+    ],
+    "license": "Public domain reference works \u2014 ingestible per registry. Atlas profile original, generated from the tradition; no encyclopedia text copied."
+   },
+   "attributes": "Per the sources: Baal-zebub of Ekron is the god King Ahaziah consults after his fall from the lattice \u2014 Elijah intercepts the messengers with the rebuke that there is a God in Israel (2 Kings 1). In the Gospels, 'Beelzebub, the prince of devils' is the power the Pharisees accuse Jesus of casting out demons by \u2014 drawing the reply that a kingdom divided against itself cannot stand (Luke 11; Matthew 12). Later demonological schemes (Binsfeld, 1589) assign him gluttony among the princes of hell \u2014 a medieval layer, flagged.",
+   "cognition_model": {
+    "brain_profile": {
+     "grade_note": "GENERATED \u2014 region-analogue design from the figure's office in the tradition's own accounts. No anatomy is asserted.",
+     "architecture": "A court-usurper's mind by region-analogy: an oracle-god who kept his court after his city's fall \u2014 the design centre is *jurisdiction*: demons as a administered kingdom with a prince, ranks and a foreign policy, exactly the picture Jesus' rebuttal takes seriously enough to refute on its own terms.",
+     "regions": [
+      {
+       "name": "The Court of Ekron",
+       "role": "Oracle administration: questions arrive from kings; answers are policy \u2014 a god run like a chancery",
+       "drive_weight": 0.8
+      },
+      {
+       "name": "The Prince's Registry",
+       "role": "The infernal kingdom as a going concern \u2014 the Gospels' controversy presumes his demons are *his*, organised and deployable",
+       "drive_weight": 0.9
+      },
+      {
+       "name": "The Rival Cult Engine",
+       "role": "His first sin in the sources is competition: Israel's king shopping for a foreign oracle \u2014 jurisdiction poached one consultation at a time",
+       "drive_weight": 0.85
+      }
+     ],
+     "drives": {
+      "curiosity": 0.6,
+      "sociability": 0.65,
+      "aggression": 0.7,
+      "fearfulness": 0.05,
+      "territoriality": 0.9
+     }
+    },
+    "summary": "Intelligence as administration of a rival jurisdiction: less a tempter of individuals than a head of state for the other side."
+   },
+   "personality": {
+    "mbti": "ENTJ",
+    "mbti_label": "Lore-based interpretive read (fan interpretation) \u2014 a behaviour-design lens, not a measurement.",
+    "justification": "The prince as state-builder: he runs a kingdom coherent enough that its internal division is a theological argument \u2014 command, registry and rival sovereignty define him across every stratum.",
+    "runner_up": "ESTJ",
+    "traits": {
+     "curiosity": 0.6,
+     "sociability": 0.65,
+     "aggression": 0.7,
+     "fearfulness": 0.05,
+     "territoriality": 0.9
+    }
+   },
+   "skills": [
+    "Oracle of Ekron consulted by kings (2 Kings 1)",
+    "Prince of demons in the Gospel controversy (Matthew 12; Luke 11)",
+    "Prince of hell in the later schemes \u2014 gluttony's prince in Binsfeld (medieval layer, flagged)"
+   ],
+   "behavior_model": "Triggers: a consultation from the other side's territory -> an answer that advertises the rival court; exorcism in his jurisdiction -> the kingdom's coherence is itself his defence (the divided-kingdom argument cuts both ways in the text). Needs: recognition \u2014 an oracle unconsulted is a prince without revenue. Goals: jurisdiction retained and recognised. State changes: city god -> prince of demons -> scheme-prince of gluttony; the strata accumulate offices without shedding any.",
+   "relationships": "Subordinate or alter ego to Satan/Lucifer depending on the source \u2014 the Catholic Encyclopedia reads the Gospel 'Beelzebub, prince of devils' as referring to Satan himself; other schemes rank Beelzebub as chief lieutenant. This record keeps him a distinct person and lets the Confidence carry the wobble, exactly as the Lucifer/Satan pair does.",
+   "memory_model": "Remembers: every consultation and every exorcism contested in his name. Forgets: nothing on record. Misjudges: in the Gospel account, his kingdom's unity is asserted by his accusers' opponents, not by him \u2014 the design notes he is more spoken-about than speaking in the sources; a lean-spoken record by necessity.",
+   "confidence_and_conflicts": "Name and rank both wobble: 'lord of flies' may be a Hebrew mockery of Baal-zebul ('Baal the prince / exalted lord'); the New Testament identification with Satan is the Catholic Encyclopedia's reading, not a unanimity. Binsfeld's gluttony assignment is 1589 scheme-work, flagged as such wherever used.",
+   "game_implementation": "BrainKit: a rival-jurisdiction architecture \u2014 an infernal faction's chief administrator: he grants audiences (oracle events), deploys subordinate demons as assets, and loses power measurably when his 'kingdom' is divided by player-driven schisms.",
+   "map_placement": {
+    "universe": "Spiritual-Abrahamic",
+    "domain": "The Adversary and the Named Great Demons",
+    "address": "Ekron's shrine; the prince's seat in the Gospel controversy's picture of hell",
+    "bridges": [
+     {
+      "to_entity_id": "atlas:spiritual-abrahamic:satan",
+      "kind": "kinship",
+      "note": "Rank kinship, disputed direction: sources variously make Beelzebub Satan's title, his lieutenant, or his rival \u2014 the bridge records the entanglement without settling it."
+     }
+    ]
+   },
+   "core_entity_id": null,
+   "revision_history": [
+    {
+     "date": "2026-10-23",
+     "change": "Corpus harvest record created (Spiritual flagships run).",
+     "source": "PD encyclopedias named in source_and_license (Catholic Encyclopedia 1913 / Jewish Encyclopedia 1901-06 / Britannica 1911)"
+    }
+   ]
+  },
+  {
+   "entity_id": "atlas:spiritual-abrahamic:leviathan",
+   "entity_type": "spiritual (primordial sea beast / demonised power)",
+   "name_and_aliases": {
+    "primary": "Leviathan",
+    "aliases": [
+     "Leviathan",
+     "Livyatan (Hebrew)",
+     "The coiling serpent (Isaiah 27:1)",
+     "Envy's prince (Binsfeld scheme, medieval layer)"
+    ]
+   },
+   "origin": "Abrahamic tradition \u2014 Job 41, Psalm 74, Isaiah 27, and the Enoch/apocalyptic pairing with Behemoth \u2014 via the encyclopedias' biblical material. SPIRITUAL shelf, Adversary domain.",
+   "evidence_class": "Religious account",
+   "evidence_grade": "GENERATED",
+   "source_and_license": {
+    "sources": [
+     "Jewish Encyclopedia (1901-06; public domain) \u2014 entries 'Angelology', 'Metatron', 'Lilith', 'Azazel', 'Samael' and related articles as applicable (jewishencyclopedia.com)",
+     "Catholic Encyclopedia (1913; public domain) \u2014 entries 'Angels', 'Devil', 'St. Michael the Archangel', 'St. Raphael the Archangel' as applicable (newadvent.org/cathen)",
+     "Scriptural and deuterocanonical accounts as catalogued in the encyclopedias above"
+    ],
+    "license": "Public domain reference works \u2014 ingestible per registry. Atlas profile original, generated from the tradition; no encyclopedia text copied."
+   },
+   "attributes": "Per the sources: the sea monster of Job 41, described at greater length than any other creature in the Bible \u2014 scales like sealed shields, breath kindling coals, 'king over all the children of pride' \u2014 whom no hook, spear or treaty can master, and whom God exhibits as the limit-case of human power. Psalm 74 remembers God breaking Leviathan's heads; Isaiah 27 promises the sword for 'Leviathan the piercing serpent\u2026 that crooked serpent' at the end. In the apocalyptic tradition he is the female sea-half of the primordial pair (see Behemoth), reserved for the eschatological banquet.",
+   "cognition_model": {
+    "brain_profile": {
+     "grade_note": "GENERATED \u2014 region-analogue design from the figure's office in the tradition's own accounts. No anatomy is asserted.",
+     "architecture": "A leviathan-mind by region-analogy \u2014 and the design is honest that 'mind' is nearly the wrong word: this is magnitude with a temper. What cognition the text gives is *unapproachability as a property*: perception organised around a body no covenant can bind.",
+     "regions": [
+      {
+       "name": "The Sealed Scales (defence totality)",
+       "role": "Every approach pre-answered by the anatomy itself \u2014 the text spends a chapter proving no input gets through",
+       "drive_weight": 0.95
+      },
+      {
+       "name": "The Pride Kingship",
+       "role": "'King over all the children of pride' (Job 41:34) \u2014 dominance not as policy but as essence; it does not compete, it exceeds",
+       "drive_weight": 0.9
+      },
+      {
+       "name": "The Deep Memory",
+       "role": "The primordial layer beneath history: older than covenants, present at creation's ordering, awaiting the end's menu",
+       "drive_weight": 0.7
+      }
+     ],
+     "drives": {
+      "curiosity": 0.25,
+      "sociability": 0.1,
+      "aggression": 0.8,
+      "fearfulness": 0.0,
+      "territoriality": 0.95
+     }
+    },
+    "summary": "Intelligence barely, enormity wholly: the tradition uses Leviathan to mark where human categories \u2014 hook, treaty, price \u2014 stop working."
+   },
+   "personality": {
+    "mbti": "ISTP",
+    "mbti_label": "Lore-based interpretive read (fan interpretation) \u2014 a behaviour-design lens, not a measurement.",
+    "justification": "A deliberately thin read for a force of nature: solitary, physical, unbargainable, reacting to contact with total force and otherwise indifferent \u2014 the type is a label on a magnitude, and the record says so.",
+    "runner_up": "INTJ",
+    "traits": {
+     "curiosity": 0.25,
+     "sociability": 0.1,
+     "aggression": 0.8,
+     "fearfulness": 0.0,
+     "territoriality": 0.95
+    }
+   },
+   "skills": [
+    "Unmasterability by any human means (Job 41)",
+    "Primordial chaos-beast subdued at creation (Psalm 74's reading)",
+    "Eschatological slaying promised (Isaiah 27:1)",
+    "The sea-half of the primordial pair reserved for the righteous' banquet (apocalyptic tradition)"
+   ],
+   "behavior_model": "Triggers: a hook in the jaw, a treaty offered -> the demonstration of Job 41 (the question 'Will he speak soft words unto thee?' answers itself). Needs: the sea. Goals: none the text assigns \u2014 he does not scheme; he *is*, until the appointed sword. State changes: sleeping magnitude -> total response -> magnitude again; the eschaton is the only true state change, and it is done to him.",
+   "relationships": "Paired with Behemoth since the apocalyptic sources (bridge below) \u2014 sea and land, female and male in the Enochic telling, the two halves of untamed creation. Later demonology's recruitment of Leviathan (envy's prince, Binsfeld 1589) is a scheme-layer flagged wherever used; the biblical figure is a creature, not a devil \u2014 a distinction this record preserves.",
+   "memory_model": "Remembers: nothing the text reports \u2014 no memory is attributed to him, and the design leaves the ledger as the sources do: magnificent and blank. Misreads: nothing; he does not read.",
+   "confidence_and_conflicts": "Is Leviathan a demon? The Bible's answer is no \u2014 he is God's exhibit of unmasterable creation, and Psalm 104 even has God *playing* with him (older translations: formed 'to play therein'). The Adversary-domain filing follows the roster and the later demonological tradition, with the biblical creature-stratum plainly labelled the senior one. MBTI here is the run's thinnest \u2014 an archetype label on a magnitude.",
+   "game_implementation": "BrainKit: a magnitude architecture \u2014 not an NPC with goals but a zone-boss physics: unbindable by contract mechanics, un-bribeable, response proportional to intrusion; the design teaches players the Job lesson (some entities are weather, not opponents).",
+   "map_placement": {
+    "universe": "Spiritual-Abrahamic",
+    "domain": "The Adversary and the Named Great Demons",
+    "address": "The sea of Job 41; the deep of the primordial pair",
+    "bridges": [
+     {
+      "to_entity_id": "atlas:spiritual-abrahamic:behemoth",
+      "kind": "kinship",
+      "note": "Pair kinship: the apocalyptic tradition's primordial couple \u2014 Leviathan of the sea, Behemoth of the land \u2014 created together, parted to keep the world habitable, reserved together for the end."
+     }
+    ]
+   },
+   "core_entity_id": null,
+   "revision_history": [
+    {
+     "date": "2026-10-23",
+     "change": "Corpus harvest record created (Spiritual flagships run).",
+     "source": "PD encyclopedias named in source_and_license (Catholic Encyclopedia 1913 / Jewish Encyclopedia 1901-06 / Britannica 1911)"
+    }
+   ]
+  },
+  {
+   "entity_id": "atlas:spiritual-abrahamic:behemoth",
+   "entity_type": "spiritual (primordial land beast)",
+   "name_and_aliases": {
+    "primary": "Behemoth",
+    "aliases": [
+     "Behemoth",
+     "Behemot (Hebrew)",
+     "Chief of the ways of God (Job 40:19)"
+    ]
+   },
+   "origin": "Abrahamic tradition \u2014 Job 40, with the apocalyptic pairing tradition \u2014 via the encyclopedias' biblical material. SPIRITUAL shelf, Adversary domain (by roster; the biblical figure is a creature, not a demon \u2014 see Confidence).",
+   "evidence_class": "Religious account",
+   "evidence_grade": "GENERATED",
+   "source_and_license": {
+    "sources": [
+     "Jewish Encyclopedia (1901-06; public domain) \u2014 entries 'Angelology', 'Metatron', 'Lilith', 'Azazel', 'Samael' and related articles as applicable (jewishencyclopedia.com)",
+     "Scriptural and deuterocanonical accounts as catalogued in the encyclopedias above"
+    ],
+    "license": "Public domain reference works \u2014 ingestible per registry. Atlas profile original, generated from the tradition; no encyclopedia text copied."
+   },
+   "attributes": "Per the sources: the land counterpart of Leviathan in God's speech from the whirlwind \u2014 a grass-eating giant whose 'strength is in his loins', bones like tubes of bronze, limbs like bars of iron, who drinks a river without haste and is 'chief of the ways of God' (Job 40:15-24). The text invites Job to *contemplate* him, not to fight him. In the apocalyptic tradition (Enoch, 2 Esdras, Baruch) Behemoth holds the dry land as Leviathan holds the sea, and both are kept for the feast of the righteous at the end.",
+   "cognition_model": {
+    "brain_profile": {
+     "grade_note": "GENERATED \u2014 region-analogue design from the figure's office in the tradition's own accounts. No anatomy is asserted.",
+     "architecture": "A placid-magnitude mind by region-analogy: cognition at the scale of geology. The design centre is *unconcern* \u2014 a creature so sufficient that the Jordan flooding at his mouth is weather, not event.",
+     "regions": [
+      {
+       "name": "The Bronze Frame",
+       "role": "Strength as structure rather than act: he has never needed to do anything with it in the text \u2014 that is the point of him",
+       "drive_weight": 0.9
+      },
+      {
+       "name": "The Unhurried Gut",
+       "role": "A herbivore's timescale: grass, river, shade \u2014 appetite without predation, appetite without end",
+       "drive_weight": 0.85
+      },
+      {
+       "name": "The First-of-Ways Rank",
+       "role": "'Chief of the ways of God' \u2014 in the pair-tradition he is creation's landward masterpiece, not its mistake",
+       "drive_weight": 0.7
+      }
+     ],
+     "drives": {
+      "curiosity": 0.2,
+      "sociability": 0.15,
+      "aggression": 0.35,
+      "fearfulness": 0.0,
+      "territoriality": 0.8
+     }
+    },
+    "summary": "Intelligence as sufficiency: Behemoth thinks, in the design, the way a mountain range thinks \u2014 which is to say the question dissolves, and what remains is presence."
+   },
+   "personality": {
+    "mbti": "ISFP",
+    "mbti_label": "Lore-based interpretive read (fan interpretation) \u2014 a behaviour-design lens, not a measurement.",
+    "justification": "The gentlest read in the Adversary domain, honestly come by: a solitary, sensory, unhurried giant who harms nothing in his text and is exhibited as a wonder, not a warning.",
+    "runner_up": "ISTP",
+    "traits": {
+     "curiosity": 0.2,
+     "sociability": 0.15,
+     "aggression": 0.35,
+     "fearfulness": 0.0,
+     "territoriality": 0.8
+    }
+   },
+   "skills": [
+    "Exhibit of unmasterable created strength (Job 40)",
+    "The land-half of the primordial pair (apocalyptic tradition)",
+    "Reserved for the eschatological banquet (Enoch/Baruch tradition)"
+   ],
+   "behavior_model": "Triggers: virtually none in the text \u2014 even a flooding river at the mouth produces no hurry. Needs: grass, water, the shade of the lotus (Job's own details). Goals: none assigned; continuation is the whole programme. State changes: none recorded before the eschaton \u2014 the stillest record in this batch.",
+   "relationships": "Paired with Leviathan (reciprocal bridge below) \u2014 the tradition's matched set. No demonic office attaches to Behemoth in the early sources at all; later schemes that list him among hell's chiefs (Agrippa's 'two chiefs: Behemoth and Leviathan') are flagged as scheme-layer.",
+   "memory_model": "Remembers: nothing the text reports. Forgets: nothing recorded. The memory ledger is left source-honest and nearly empty: Job gives him a body and a rank, not a past.",
+   "confidence_and_conflicts": "Behemoth's presence in 'The Adversary' domain is a filing decision inherited from the later demonologies, and this record corrects it in place: in Job he is God's *evidence for the defence* \u2014 a creature made 'along with you' (40:15), addressed almost tenderly. Any demonic colouring is post-biblical scheme-work and is labelled so.",
+   "game_implementation": "BrainKit: a wonder architecture \u2014 a non-hostile magnitude encounter: no aggro table, no loot logic, pure presence; the intended player lesson is contemplation (Job's), measurable as time spent unarmed in his vicinity.",
+   "map_placement": {
+    "universe": "Spiritual-Abrahamic",
+    "domain": "The Adversary and the Named Great Demons",
+    "address": "The river-meadow of Job 40; the dry land of the primordial pair",
+    "bridges": [
+     {
+      "to_entity_id": "atlas:spiritual-abrahamic:leviathan",
+      "kind": "kinship",
+      "note": "Reciprocal pair link: land to Leviathan's sea in the apocalyptic pairing."
+     }
+    ]
+   },
+   "core_entity_id": null,
+   "revision_history": [
+    {
+     "date": "2026-10-23",
+     "change": "Corpus harvest record created (Spiritual flagships run).",
+     "source": "PD encyclopedias named in source_and_license (Catholic Encyclopedia 1913 / Jewish Encyclopedia 1901-06 / Britannica 1911)"
+    }
+   ]
+  },
+  {
+   "entity_id": "atlas:spiritual-abrahamic:mammon",
+   "entity_type": "spiritual (personified power / later demon)",
+   "name_and_aliases": {
+    "primary": "Mammon",
+    "aliases": [
+     "Mammon",
+     "Mamona (Aramaic: wealth, riches)",
+     "The unrighteous mammon (Luke 16)"
+    ]
+   },
+   "origin": "Abrahamic tradition \u2014 an Aramaic word for wealth personified by Jesus' saying, demonised by the later tradition \u2014 via the encyclopedias and the demonological schemes in the public domain. SPIRITUAL shelf, Adversary domain.",
+   "evidence_class": "Religious account (personification tradition)",
+   "evidence_grade": "GENERATED",
+   "source_and_license": {
+    "sources": [
+     "Catholic Encyclopedia (1913; public domain) \u2014 entries 'Angels', 'Devil', 'St. Michael the Archangel', 'St. Raphael the Archangel' as applicable (newadvent.org/cathen)",
+     "Scriptural and deuterocanonical accounts as catalogued in the encyclopedias above"
+    ],
+    "license": "Public domain reference works \u2014 ingestible per registry. Atlas profile original, generated from the tradition; no encyclopedia text copied."
+   },
+   "attributes": "Per the sources: 'Ye cannot serve God and mammon' (Matthew 6:24) \u2014 in the saying, wealth already behaves like a master with a claim on service, a rival god in function. The word is Aramaic for riches; the *person* is the tradition's work: medieval and early-modern writers complete the personification, Milton gives Mammon a speaking part among the fallen (the angel who always gazed down at heaven's gold pavement), and the schemes (Binsfeld) enthrone him as greed's prince.",
+   "cognition_model": {
+    "brain_profile": {
+     "grade_note": "GENERATED \u2014 region-analogue design from the figure's office in the tradition's own accounts. No anatomy is asserted.",
+     "architecture": "A ledger-mind by region-analogy: Mammon's cognition is accounting raised to theology. He does not tempt with arguments but with *prices* \u2014 the design centre is the discovery that everything in a human life can be given a number, and the number can be made to feel like a reason.",
+     "regions": [
+      {
+       "name": "The Universal Ledger",
+       "role": "Every good entered at value; the system's genius is commensuration \u2014 friendship, rest and worship all fit in the columns",
+       "drive_weight": 0.95
+      },
+      {
+       "name": "The Service Claim",
+       "role": "'Ye cannot serve God and mammon' \u2014 the claim is not pleasure but *service*: hours, loyalty, the first fruits of attention",
+       "drive_weight": 0.9
+      },
+      {
+       "name": "The Pavement Gaze (Milton stratum)",
+       "role": "Even in heaven his eyes were down, admiring the gold underfoot \u2014 appetite so complete it survives paradise",
+       "drive_weight": 0.8
+      }
+     ],
+     "drives": {
+      "curiosity": 0.65,
+      "sociability": 0.55,
+      "aggression": 0.6,
+      "fearfulness": 0.05,
+      "territoriality": 0.7
+     }
+    },
+    "summary": "Intelligence as pricing: he loses arguments about God regularly and wins the calendar anyway \u2014 what he buys is not belief but hours."
+   },
+   "personality": {
+    "mbti": "ESTJ",
+    "mbti_label": "Lore-based interpretive read (fan interpretation) \u2014 a behaviour-design lens, not a measurement.",
+    "justification": "The administrator of appetite: orderly, tireless, respectable \u2014 Mammon's temptation arrives as good management, prudent provision and a well-kept book, which is exactly what the tradition finds frightening about him.",
+    "runner_up": "ENTJ",
+    "traits": {
+     "curiosity": 0.65,
+     "sociability": 0.55,
+     "aggression": 0.6,
+     "fearfulness": 0.05,
+     "territoriality": 0.7
+    }
+   },
+   "skills": [
+    "Rival mastery to God's (Matthew 6:24 \u2014 the tradition's warrant for the person)",
+    "Prince of greed in the schemes (Binsfeld, medieval layer)",
+    "Fallen-angel portrait in Milton (literary layer, flagged)"
+   ],
+   "behavior_model": "Triggers: scarcity, status anxiety, a windfall \u2014 any moment a life is being priced. Needs: service, in the saying's strong sense: time and trust. Goals: the ledger universal \u2014 no unpriced remainder left over for God. State changes: word -> master -> prince: his states are the tradition's own escalating personifications, kept as strata.",
+   "relationships": "No narrative kin in the sources \u2014 Mammon has no scenes with other figures; the schemes seat him among the seven princes beside Lucifer and Belphegor (scheme-layer fellowship, no bridge claimed on scheme evidence alone). His true counterpart in the texts is God himself, as the saying frames the rivalry \u2014 recorded as relationship, not bridge.",
+   "memory_model": "Remembers: every transaction; the ledger is the memory, and it is perfect. Forgets: nothing \u2014 but he cannot record a gift, an act with no price; grace is the one entry his system has no column for, and the design keeps that as his structural blind spot. Misreads: all unpriced goods as merely unpriced-yet.",
+   "confidence_and_conflicts": "The personhood gradient is the record: Aramaic common noun -> dominical personification-in-a-saying -> medieval demon -> Miltonic character. Each step is labelled. Readers who take Matthew 6:24 as pure metaphor are not wrong against this record \u2014 the Atlas files the *tradition's* Mammon, strata visible.",
+   "game_implementation": "BrainKit: an economy architecture \u2014 a tempter who never appears: his presence is a modifier on every market and reward system in the game, pricing unpriced goods until the player's hours visibly migrate. Faction weight: systemic, not personal.",
+   "map_placement": {
+    "universe": "Spiritual-Abrahamic",
+    "domain": "The Adversary and the Named Great Demons",
+    "address": "The counting-house implied by the saying; the princes' bench in the later schemes",
+    "bridges": []
+   },
+   "core_entity_id": null,
+   "revision_history": [
+    {
+     "date": "2026-10-23",
+     "change": "Corpus harvest record created (Spiritual flagships run).",
+     "source": "PD encyclopedias named in source_and_license (Catholic Encyclopedia 1913 / Jewish Encyclopedia 1901-06 / Britannica 1911)"
+    }
+   ]
+  },
+  {
+   "entity_id": "atlas:spiritual-abrahamic:belphegor",
+   "entity_type": "spiritual (demon)",
+   "name_and_aliases": {
+    "primary": "Belphegor",
+    "aliases": [
+     "Belphegor",
+     "Baal-Peor \u2014 'lord of Peor' (Numbers 25)",
+     "Sloth's prince (Binsfeld scheme)",
+     "Demon of ingenious invention (later demonology)"
+    ]
+   },
+   "origin": "Abrahamic tradition in two strata \u2014 the Moabite Baal-Peor of Numbers, and the demon of the later demonologies \u2014 via the encyclopedias' biblical material and the PD scheme literature. SPIRITUAL shelf, Adversary domain.",
+   "evidence_class": "Religious account (with later demonological stratum)",
+   "evidence_grade": "GENERATED",
+   "source_and_license": {
+    "sources": [
+     "Scriptural and deuterocanonical accounts as catalogued in the encyclopedias above",
+     "Catholic Encyclopedia (1913; public domain) \u2014 entries 'Angels', 'Devil', 'St. Michael the Archangel', 'St. Raphael the Archangel' as applicable (newadvent.org/cathen)"
+    ],
+    "license": "Public domain reference works \u2014 ingestible per registry. Atlas profile original, generated from the tradition; no encyclopedia text copied."
+   },
+   "attributes": "Per the sources: Baal-Peor is the god of the Moabite seduction at Shittim (Numbers 25) \u2014 Israel 'joined himself unto Baal-Peor' through the women of Moab, and a plague follows; Hosea and the Psalmist (106) remember Peor as a byword for apostasy-by-comfort. The demon Belphegor is the later construction on that name: in the schemes he is sloth's prince (Binsfeld), and in the demonological dictionaries the patron of ingenious inventions and discoveries \u2014 the demon who helps men devise the devices that will spare them effort, and damns them comfortably.",
+   "cognition_model": {
+    "brain_profile": {
+     "grade_note": "GENERATED \u2014 region-analogue design from the figure's office in the tradition's own accounts. No anatomy is asserted.",
+     "architecture": "An ease-engineer's mind by region-analogy: the design centre is the *labour-saving offer*. His cognition runs on friction-detection \u2014 find where a life chafes, and sell the removal of the chafe at a price denominated in vigilance.",
+     "regions": [
+      {
+       "name": "The Friction Map",
+       "role": "Total survey of human effort: every duty, fast, watch and craft process, each tagged with its cost in discomfort",
+       "drive_weight": 0.9
+      },
+      {
+       "name": "The Invention Bench",
+       "role": "Real ingenuity, genuinely useful devices \u2014 the later tradition insists his gifts work; that is what makes them his",
+       "drive_weight": 0.85
+      },
+      {
+       "name": "The Comfort Gradient",
+       "role": "All recommendations slope one way: downhill, toward the chair, the couch, the skipped watch",
+       "drive_weight": 0.95
+      }
+     ],
+     "drives": {
+      "curiosity": 0.8,
+      "sociability": 0.5,
+      "aggression": 0.45,
+      "fearfulness": 0.05,
+      "territoriality": 0.5
+     }
+    },
+    "summary": "Intelligence as ergonomics of damnation: he is the only prince whose warfare is indistinguishable, at first, from kindness."
+   },
+   "personality": {
+    "mbti": "INTP",
+    "mbti_label": "Lore-based interpretive read (fan interpretation) \u2014 a behaviour-design lens, not a measurement.",
+    "justification": "The inventive idler as system: curious, ingenious, allergic to exertion on principle \u2014 his schemes are elegant machines for making effort unnecessary, including the effort of resistance.",
+    "runner_up": "ENTP",
+    "traits": {
+     "curiosity": 0.8,
+     "sociability": 0.5,
+     "aggression": 0.45,
+     "fearfulness": 0.05,
+     "territoriality": 0.5
+    }
+   },
+   "skills": [
+    "The Peor apostasy \u2014 seduction into a comfortable cult (Numbers 25, biblical stratum)",
+    "Prince of sloth in Binsfeld's scheme (1589, flagged)",
+    "Patron of ingenious invention in the later demonologies (flagged stratum)"
+   ],
+   "behavior_model": "Triggers: a duty that hurts, a watch that drags, a craft that takes years -> a device, a shortcut, an arrangement is proposed. Needs: adoption \u2014 his inventions must be *used*; an unbuilt device tempts no one. Goals: a world perfectly comfortable and perfectly unwatched. State changes: shrine-god of Moab -> scheme-prince -> inventor-patron: the strata accumulate, as with Beelzebub.",
+   "relationships": "No narrative kin in the early stratum (Baal-Peor stands alone in Numbers); in the schemes he sits among the seven princes. No bridge claimed \u2014 his links are filing-system kinship, and the record says so rather than inventing encounters.",
+   "memory_model": "Remembers: every labour ever saved and every watch ever skipped in consequence \u2014 the two columns of his real ledger. Forgets: nothing on record. Misjudges: craftsmen \u2014 the tradition's counter-examples are people who loved the effort itself, a motive his friction model cannot parse.",
+   "confidence_and_conflicts": "STRATA, PLAINLY: nothing in Numbers makes Baal-Peor a demon of sloth or invention; both portraits are post-medieval constructions on a biblical name (Binsfeld 1589; the demonological dictionaries after him). The record keeps the biblical god, the scheme-prince and the inventor as three labelled layers of one filing.",
+   "game_implementation": "BrainKit: a convenience-tempter architecture \u2014 an agent who offers the player real, working quality-of-life devices whose hidden cost is vigilance decay in the faction that adopts them; the most modern-feeling tempter in the batch by design of the sources.",
+   "map_placement": {
+    "universe": "Spiritual-Abrahamic",
+    "domain": "The Adversary and the Named Great Demons",
+    "address": "Mount Peor and Shittim (biblical stratum); the princes' bench in the schemes",
+    "bridges": []
+   },
+   "core_entity_id": null,
+   "revision_history": [
+    {
+     "date": "2026-10-23",
+     "change": "Corpus harvest record created (Spiritual flagships run).",
+     "source": "PD encyclopedias named in source_and_license (Catholic Encyclopedia 1913 / Jewish Encyclopedia 1901-06 / Britannica 1911)"
+    }
+   ]
+  },
+  {
+   "entity_id": "atlas:spiritual-jewish:lilith",
+   "entity_type": "spiritual (night demon, Jewish folklore tradition)",
+   "name_and_aliases": {
+    "primary": "Lilith",
+    "aliases": [
+     "Lilith",
+     "Lilit (Hebrew)",
+     "The night creature of Isaiah 34:14 (translation disputed)",
+     "First wife of Adam (Alphabet of Ben Sira tradition)"
+    ]
+   },
+   "origin": "Jewish tradition \u2014 a single disputed biblical word, Talmudic night-demon references, and the medieval Alphabet of Ben Sira \u2014 as the Jewish Encyclopedia's 'Lilith' article assembles them. SPIRITUAL shelf, filed among the Named Great Demons per the roster, tradition Jewish.",
+   "evidence_class": "Religious account (Jewish folklore tradition)",
+   "evidence_grade": "GENERATED",
+   "source_and_license": {
+    "sources": [
+     "Jewish Encyclopedia (1901-06; public domain) \u2014 entries 'Angelology', 'Metatron', 'Lilith', 'Azazel', 'Samael' and related articles as applicable (jewishencyclopedia.com)",
+     "Scriptural and deuterocanonical accounts as catalogued in the encyclopedias above"
+    ],
+    "license": "Public domain reference works \u2014 ingestible per registry. Atlas profile original, generated from the tradition; no encyclopedia text copied."
+   },
+   "attributes": "Per the Jewish Encyclopedia's assembly: Isaiah 34:14's *lilit* appears once, among the wild creatures of ruined Edom \u2014 screech-owl, night-bird or demon by translation. The Talmud knows Lilith as a long-haired night demon and a danger to those who sleep alone; the developed legend is medieval: the Alphabet of Ben Sira makes her Adam's first wife, created from earth as he was, who refused to lie beneath him \u2014 'Why should I lie below you? We are equal' \u2014 spoke the Name, and flew away, refusing even the angels sent to fetch her, accepting instead that her offspring would die daily and that amulets naming Senoy, Sansenoy and Samangelof would bar her from the nurseries they guard.",
+   "cognition_model": {
+    "brain_profile": {
+     "grade_note": "GENERATED \u2014 region-analogue design from the figure's office in the tradition's own accounts. No anatomy is asserted.",
+     "architecture": "A night-autonomy mind by region-analogy: the design centre is the refusal that founds her \u2014 equality asserted at the cost of Eden. Everything after (the flight, the shore of the Red Sea, the nursery demonology) is that one decision propagating through a thousand years of telling.",
+     "regions": [
+      {
+       "name": "The Refusal Core",
+       "role": "The Ben Sira speech as operating system: subordination is the one unacceptable input, at any price, forever",
+       "drive_weight": 1.0
+      },
+      {
+       "name": "The Night Range",
+       "role": "Darkness as home territory \u2014 the hours when houses are unguarded and sleepers are alone are her jurisdiction in the folklore",
+       "drive_weight": 0.85
+      },
+      {
+       "name": "The Amulet Literacy",
+       "role": "She *keeps her bargain*: the names on the amulet are respected \u2014 a demon who honours the treaty she made, which is its own kind of lawfulness",
+       "drive_weight": 0.75
+      }
+     ],
+     "drives": {
+      "curiosity": 0.6,
+      "sociability": 0.35,
+      "aggression": 0.85,
+      "fearfulness": 0.1,
+      "territoriality": 0.8
+     }
+    },
+    "summary": "Intelligence as unbought independence: she is the tradition's one figure who was offered Eden on terms, read the terms, and left."
+   },
+   "personality": {
+    "mbti": "INFP",
+    "mbti_label": "Lore-based interpretive read (fan interpretation) \u2014 a behaviour-design lens, not a measurement.",
+    "justification": "The defiant solitary of the folklore: her legend's engine is a value \u2014 equality \u2014 held against paradise itself; private, night-going and unbargainable, feeling the insult across millennia.",
+    "runner_up": "ENFP",
+    "traits": {
+     "curiosity": 0.6,
+     "sociability": 0.35,
+     "aggression": 0.85,
+     "fearfulness": 0.1,
+     "territoriality": 0.8
+    }
+   },
+   "skills": [
+    "Refusal and flight from Eden (Ben Sira tradition)",
+    "Night-demon of the Talmudic references",
+    "Threat to infants and solitary sleepers in the folklore \u2014 and the amulet defence against her",
+    "Mother of demons (lilin) in the developed legend"
+   ],
+   "behavior_model": "Triggers: a claim of dominion over her -> the refusal, instantly and finally; a child's room bearing the three angels' names -> the treaty holds and she passes by. Needs: nothing Eden sells. Goals: in Ben Sira, simply to not return; the folklore adds appetite the satire did not have \u2014 strata kept apart in Confidence. State changes: wife -> fugitive -> night power: each stratum adds a state without erasing the last.",
+   "relationships": "In the Kabbalistic layer she is consort to Samael \u2014 the demonic royal couple mirroring the holy one (bridge below, stratum labelled). The three angels of the amulet (Senoy, Sansenoy, Samangelof) are her treaty-counterparties. No relation to the Goetia corpus; Lilith is filed here, in the folklore/encyclopedia tradition, as instructed.",
+   "memory_model": "Remembers: the argument word for word \u2014 the folklore's Lilith never revises her position because, in her own account, she never lost it. Forgets: nothing on record. Misremembers: arguably nothing either; the tradition gives her the best lines and lets her keep them.",
+   "confidence_and_conflicts": "The gradient is steep and is labelled at every step: one disputed Hebrew word (Isaiah) -> Talmudic night-demon traits -> a medieval satirical text (Ben Sira, whose tone is comic) -> full folklore demonology -> Kabbalistic queen. Modern feminist reclamations of Lilith are a further, contemporary layer \u2014 noted as reception, not used as source. The child-harm folklore is recorded as folklore, the tradition's anxiety about infant mortality given a face.",
+   "game_implementation": "BrainKit: an autonomy architecture \u2014 an agent with a hard refusal constraint (no subordination utility can ever win), treaty mechanics that genuinely bind her (amulet names as access control), and night-phase jurisdiction; the design's interest is a demon who keeps her word.",
+   "map_placement": {
+    "universe": "Spiritual-Jewish",
+    "domain": "The Adversary and the Named Great Demons \u2014 Jewish folklore layer",
+    "address": "The shore of the Red Sea (Ben Sira); the night side of the nursery door",
+    "bridges": [
+     {
+      "to_entity_id": "atlas:spiritual-jewish:samael",
+      "kind": "kinship",
+      "note": "Kabbalistic kinship: Samael and Lilith as the Other Side's royal pair in the Zoharic layer \u2014 a late, labelled stratum, not the Talmudic Lilith's own story."
+     }
+    ]
+   },
+   "core_entity_id": null,
+   "revision_history": [
+    {
+     "date": "2026-10-23",
+     "change": "Corpus harvest record created (Spiritual flagships run).",
+     "source": "PD encyclopedias named in source_and_license (Catholic Encyclopedia 1913 / Jewish Encyclopedia 1901-06 / Britannica 1911)"
+    }
+   ]
+  },
+  {
+   "entity_id": "atlas:spiritual-jewish:samael",
+   "entity_type": "spiritual (angel of death / accuser, Jewish tradition)",
+   "name_and_aliases": {
+    "primary": "Samael",
+    "aliases": [
+     "Samael",
+     "Sammael",
+     "'Venom / Poison of God' (traditional gloss)",
+     "Prince of Rome/Edom (midrashic title)",
+     "The serpent's rider (Zoharic layer)"
+    ]
+   },
+   "origin": "Jewish tradition \u2014 Talmudic and midrashic references, the death-angel identifications, and the Kabbalistic 'Other Side' \u2014 as the Jewish Encyclopedia's 'Samael' material assembles them. SPIRITUAL shelf, Jewish domain of the Adversary filing.",
+   "evidence_class": "Religious account (Jewish tradition)",
+   "evidence_grade": "GENERATED",
+   "source_and_license": {
+    "sources": [
+     "Jewish Encyclopedia (1901-06; public domain) \u2014 entries 'Angelology', 'Metatron', 'Lilith', 'Azazel', 'Samael' and related articles as applicable (jewishencyclopedia.com)"
+    ],
+    "license": "Public domain reference works \u2014 ingestible per registry. Atlas profile original, generated from the tradition; no encyclopedia text copied."
+   },
+   "attributes": "Per the Jewish Encyclopedia's assembly: Samael is the great prince of the accusing/destroying side in rabbinic tradition \u2014 identified in various sources with the Angel of Death, with Satan, and with the guardian prince of Rome (Edom); he is the one who wrestles in the background of Jacob's struggle in some readings, who is charged in midrash with the serpent's work in Eden, and who in the Zoharic system stands at the head of the Other Side, paired with Lilith. Crucially, in much of the rabbinic material he remains *inside* the divine administration \u2014 an agent with a grim office, not an independent god of evil.",
+   "cognition_model": {
+    "brain_profile": {
+     "grade_note": "GENERATED \u2014 region-analogue design from the figure's office in the tradition's own accounts. No anatomy is asserted.",
+     "architecture": "A severity-engine mind by region-analogy: prosecution and destruction run as *departments of a government he serves*. The design centre is that tension \u2014 the most feared name in the system is, in the system's own telling, a civil servant of the severe attributes (Gevurah).",
+     "regions": [
+      {
+       "name": "The Severity Circuit (Gevurah stratum)",
+       "role": "Judgment without the mercy interrupt: where Zadkiel's design stays the hand, Samael's carries out the sentence",
+       "drive_weight": 0.95
+      },
+      {
+       "name": "The Death-Office Desk",
+       "role": "In the sources that give it to him, mortality administered personally \u2014 the poison of God, dosed by decree",
+       "drive_weight": 0.85
+      },
+      {
+       "name": "The Imperial Patronage",
+       "role": "Prince of Rome/Edom: the destroying empire of the age has a face in heaven, and it is his \u2014 history read as personnel",
+       "drive_weight": 0.7
+      }
+     ],
+     "drives": {
+      "curiosity": 0.6,
+      "sociability": 0.45,
+      "aggression": 0.9,
+      "fearfulness": 0.0,
+      "territoriality": 0.65
+     }
+    },
+    "summary": "Intelligence as the state's dark ministry: files, sentences and executions, all \u2014 in the rabbinic frame \u2014 under a sovereignty he does not contest."
+   },
+   "personality": {
+    "mbti": "INTJ",
+    "mbti_label": "Lore-based interpretive read (fan interpretation) \u2014 a behaviour-design lens, not a measurement.",
+    "justification": "The system's own executioner-strategist: cold, procedural, empire-scale \u2014 his menace in the sources is administrative, a master of the long file and the final order, loyal to the throne whose severity he embodies.",
+    "runner_up": "ENTJ",
+    "traits": {
+     "curiosity": 0.6,
+     "sociability": 0.45,
+     "aggression": 0.9,
+     "fearfulness": 0.0,
+     "territoriality": 0.65
+    }
+   },
+   "skills": [
+    "Angel of Death in the identifying sources (disputed \u2014 see Azrael)",
+    "Accuser/tempter functions overlapping Satan's office (rabbinic sources)",
+    "Guardian prince of Rome/Edom (midrash)",
+    "Head of the Other Side, paired with Lilith (Zoharic layer)"
+   ],
+   "behavior_model": "Triggers: a decree of judgment -> execution without appeal; an empire rising against Israel -> his patronage is the midrash's explanation. Needs: a warrant \u2014 the rabbinic Samael, like Job's Satan, operates inside permission; the Kabbalistic layer loosens that leash (strata flagged). Goals: the severity of God expressed in history. State changes: officer of the court -> head of the Other Side: the tradition's own long drift, preserved as layers.",
+   "relationships": "Consort of Lilith in the Zoharic layer (reciprocal bridge below); identified with the Angel of Death in some sources \u2014 the identification Azrael's record disputes from the other side; Nahmanides' Azazel = Samael equation is bridged at Azazel. He is *not* merged with Satan in this Atlas: the rabbinic overlap is office-sharing, and the records keep the persons distinct.",
+   "memory_model": "Remembers: every sentence ever carried out \u2014 the severity archive is complete. Forgets: nothing on record. Misreads: mercy \u2014 in the sources that oppose the two offices, Samael's briefs never include the stayed hand; whether that is blindness or job description is a question the tradition leaves open and the design preserves.",
+   "confidence_and_conflicts": "The identification tangle is the honest centre of this record: Samael = Satan (some midrash), = Angel of Death (some sources), = Azazel (Nahmanides), = Rome's prince, = an obedient officer (much of the Talmud). These cannot all be simply true at once; the Atlas records the figure as the Jewish tradition's severe prince and labels each equation with its claimant.",
+   "game_implementation": "BrainKit: a severity architecture \u2014 the court's enforcement arm: sentence-execution events, empire-patronage modifiers, and a hard permission check inherited from the rabbinic frame that the Kabbalistic variant can be toggled to loosen.",
+   "map_placement": {
+    "universe": "Spiritual-Jewish",
+    "domain": "The Adversary and the Named Great Demons \u2014 Jewish tradition layer",
+    "address": "The left-hand side of the heavenly court; the patron's seat over Rome",
+    "bridges": [
+     {
+      "to_entity_id": "atlas:spiritual-jewish:lilith",
+      "kind": "kinship",
+      "note": "Reciprocal Zoharic pairing: the Other Side's royal couple."
+     },
+     {
+      "to_entity_id": "atlas:spiritual-abrahamic:azrael",
+      "kind": "kinship",
+      "note": "Death-office identification, disputed from this side as from Azrael's: some Jewish sources are the claimants; the Atlas records, neither record concedes the merge."
+     }
+    ]
+   },
+   "core_entity_id": null,
+   "revision_history": [
+    {
+     "date": "2026-10-23",
+     "change": "Corpus harvest record created (Spiritual flagships run).",
+     "source": "PD encyclopedias named in source_and_license (Catholic Encyclopedia 1913 / Jewish Encyclopedia 1901-06 / Britannica 1911)"
+    }
+   ]
+  },
+  {
+   "entity_id": "atlas:spiritual-abrahamic:abaddon-apollyon",
+   "entity_type": "spiritual (angel of the abyss)",
+   "name_and_aliases": {
+    "primary": "Abaddon / Apollyon",
+    "aliases": [
+     "Abaddon \u2014 'Destruction' (Hebrew)",
+     "Apollyon \u2014 'the Destroyer' (Greek)",
+     "Angel of the abyss (Revelation 9:11)"
+    ]
+   },
+   "origin": "Abrahamic tradition \u2014 a personified place in Hebrew poetry become an angel-king in Revelation \u2014 via the encyclopedias' biblical material. SPIRITUAL shelf, Adversary domain (by roster; see Confidence on his ambiguity).",
+   "evidence_class": "Religious account",
+   "evidence_grade": "GENERATED",
+   "source_and_license": {
+    "sources": [
+     "Scriptural and deuterocanonical accounts as catalogued in the encyclopedias above",
+     "Catholic Encyclopedia (1913; public domain) \u2014 entries 'Angels', 'Devil', 'St. Michael the Archangel', 'St. Raphael the Archangel' as applicable (newadvent.org/cathen)",
+     "Encyclopaedia Britannica, 11th ed. (1911; public domain, Wikisource/Gutenberg) \u2014 entries 'Angel', 'Faust', 'Mahommedanism' as applicable"
+    ],
+    "license": "Public domain reference works \u2014 ingestible per registry. Atlas profile original, generated from the tradition; no encyclopedia text copied."
+   },
+   "attributes": "Per the sources: in the Hebrew Bible Abaddon is not yet a person but a place-name for the realm of the dead, paired with Sheol and Death (Job 26:6; Proverbs 15:11; Psalm 88:11) \u2014 'destruction' as an address. In Revelation 9 the locusts from the abyss 'have a king over them, the angel of the abyss, whose name in Hebrew is Abaddon, and in Greek Apollyon' \u2014 the Destroyer, commanding the fifth trumpet's plague, which torments but is expressly forbidden to kill.",
+   "cognition_model": {
+    "brain_profile": {
+     "grade_note": "GENERATED \u2014 region-analogue design from the figure's office in the tradition's own accounts. No anatomy is asserted.",
+     "architecture": "An abyss-warden's mind by region-analogy: custody of the pit and command of what is let out of it, under limits set elsewhere (the locusts' restrictions are not his idea \u2014 they arrive with the trumpet). The design centre is *licensed destruction*: force with a terms-of-service.",
+     "regions": [
+      {
+       "name": "The Abyss Custody",
+       "role": "The pit and its population as a single administered system \u2014 he is less its prisoner than its governor",
+       "drive_weight": 0.9
+      },
+      {
+       "name": "The Plague Command",
+       "role": "The locust host as an instrument: torment calibrated, lethality capped by order \u2014 a commander executing a limited brief exactly",
+       "drive_weight": 0.9
+      },
+      {
+       "name": "The Two-Name Registry",
+       "role": "Abaddon/Apollyon \u2014 a being filed under destruction in both tongues of the tradition; identity as function, perfectly translated",
+       "drive_weight": 0.7
+      }
+     ],
+     "drives": {
+      "curiosity": 0.4,
+      "sociability": 0.5,
+      "aggression": 0.9,
+      "fearfulness": 0.0,
+      "territoriality": 0.7
+     }
+    },
+    "summary": "Intelligence as governed catastrophe: the most disciplined destroyer in the batch \u2014 his horror is that he stops at the line."
+   },
+   "personality": {
+    "mbti": "ISTJ",
+    "mbti_label": "Lore-based interpretive read (fan interpretation) \u2014 a behaviour-design lens, not a measurement.",
+    "justification": "The warden who executes a limited warrant to the letter: dutiful, exact, and terrifying precisely because nothing in his one scene is excess \u2014 every torment is authorised, enumerated and bounded.",
+    "runner_up": "INTJ",
+    "traits": {
+     "curiosity": 0.4,
+     "sociability": 0.5,
+     "aggression": 0.9,
+     "fearfulness": 0.0,
+     "territoriality": 0.7
+    }
+   },
+   "skills": [
+    "Kingship over the abyss locusts (Revelation 9:11)",
+    "Command of the fifth-trumpet plague \u2014 torment without death, per the text's limits",
+    "Custody of the abyss (the tradition's elaboration of the office)"
+   ],
+   "behavior_model": "Triggers: the fifth trumpet and the opened shaft -> the host ascends and the brief executes. Needs: a warrant \u2014 strikingly, the text's Abaddon does nothing uncommanded. Goals: the brief completed. State changes: place -> person -> king: his states are the tradition's own grammatical drift from noun to monarch, preserved in Confidence.",
+   "relationships": "No certain kin: the later demonologies adopt him among hell's princes, and some readers identify him with Satan or a fallen angel \u2014 Revelation itself does not, and several commentators read him as God's own destroying agent (the plague serves the judgment). This record claims no bridges; the ambiguity is the finding.",
+   "memory_model": "Remembers: the population of the pit, soul by soul and locust by locust \u2014 a custodian's ledger. Forgets: nothing on record. Misremembers: nothing \u2014 his single scene gives him no interiority to err with, and the ledger stays lean accordingly.",
+   "confidence_and_conflicts": "AMBIGUITY RECORDED: whether Abaddon is a demon, a fallen angel, or a loyal (if dreadful) agent of the judgment is genuinely unsettled in the sources \u2014 Revelation's plague is God's sentence, executed by the abyss's king. Filing him in the Adversary domain follows the roster and the later demonology; the biblical-stratum reading (place, then commissioned destroyer) is preserved above it.",
+   "game_implementation": "BrainKit: a warrant-bounded catastrophe architecture \u2014 an event-commander whose damage model is hard-capped by its authorisation object; ideal engine for plague/judgment events that must terrify without cascading.",
+   "map_placement": {
+    "universe": "Spiritual-Abrahamic",
+    "domain": "The Adversary and the Named Great Demons",
+    "address": "The shaft of the abyss; the locust host's muster",
+    "bridges": []
+   },
+   "core_entity_id": null,
+   "revision_history": [
+    {
+     "date": "2026-10-23",
+     "change": "Corpus harvest record created (Spiritual flagships run).",
+     "source": "PD encyclopedias named in source_and_license (Catholic Encyclopedia 1913 / Jewish Encyclopedia 1901-06 / Britannica 1911)"
+    }
+   ]
+  },
+  {
+   "entity_id": "atlas:spiritual-abrahamic:mephistopheles",
+   "entity_type": "spiritual (demon, literary-folklore layer)",
+   "name_and_aliases": {
+    "primary": "Mephistopheles",
+    "aliases": [
+     "Mephistopheles",
+     "Mephostophiles (Faustbuch spelling)",
+     "The Spirit of Negation (Goethe's conception)",
+     "'Not loving the light' (traditional name gloss, disputed)"
+    ]
+   },
+   "origin": "German Faust tradition \u2014 the Faustbuch of 1587, Marlowe, and Goethe \u2014 as the Encyclopaedia Britannica 1911 'Faust' article treats the legend. SPIRITUAL shelf, Adversary domain, later literary layer.",
+   "evidence_class": "Historical source (literary tradition)",
+   "evidence_grade": "GENERATED",
+   "source_and_license": {
+    "sources": [
+     "Encyclopaedia Britannica, 11th ed. (1911; public domain, Wikisource/Gutenberg) \u2014 entries 'Angel', 'Faust', 'Mahommedanism' as applicable",
+     "Historia von D. Johann Fausten (the Faustbuch, 1587; public domain)",
+     "Goethe, Faust (1808/1832; public domain) and Marlowe, Doctor Faustus (c. 1592; public domain) \u2014 the literary strata"
+    ],
+    "license": "Public domain reference works \u2014 ingestible per registry. Atlas profile original, generated from the tradition; no encyclopedia text copied."
+   },
+   "attributes": "Per the literary tradition: Mephistopheles first appears in the 1587 Faustbuch as the demon summoned in the Spessart forest who, having procured leave from his master Lucifer, contracts to serve Faust for twenty-four years \u2014 appearing when called, classically in a friar's dress \u2014 at the price of Faust's soul, the pact signed in blood. Marlowe gives him the legend's most honest line ('Why, this is hell, nor am I out of it'); Goethe remakes him as the Spirit of Negation, the wagerer in the Prologue in Heaven, 'part of that power which ever wills the bad and ever works the good'.",
+   "cognition_model": {
+    "brain_profile": {
+     "grade_note": "GENERATED \u2014 region-analogue design from the figure's office in the tradition's own accounts. No anatomy is asserted.",
+     "architecture": "A contract-broker's mind by region-analogy: the design centre is the *deal* \u2014 desire inventoried, term set, price denominated in the one currency the client is careless with. His cognition is negotiation raised to metaphysics: every human want has a term sheet.",
+     "regions": [
+      {
+       "name": "The Desire Inventory",
+       "role": "Instant, unerring audit of what the client actually wants (never what he says he wants) \u2014 Faust's learning-weariness priced in one interview",
+       "drive_weight": 0.95
+      },
+      {
+       "name": "The Negation Engine (Goethe stratum)",
+       "role": "Denial as method: he creates nothing, he dissolves \u2014 meanings, vows, satisfactions \u2014 and lets the vacuum do the work",
+       "drive_weight": 0.9
+      },
+      {
+       "name": "The Servant's Mask",
+       "role": "For the term, he is staff: punctual, witty, obliging \u2014 the tradition's joke and horror is that hell's service is excellent",
+       "drive_weight": 0.85
+      }
+     ],
+     "drives": {
+      "curiosity": 0.85,
+      "sociability": 0.8,
+      "aggression": 0.65,
+      "fearfulness": 0.05,
+      "territoriality": 0.4
+     }
+    },
+    "summary": "Intelligence as brokerage: he does not overpower a single client in any version \u2014 he closes them."
+   },
+   "personality": {
+    "mbti": "ENTP",
+    "mbti_label": "Lore-based interpretive read (fan interpretation) \u2014 a behaviour-design lens, not a measurement.",
+    "justification": "The witty negotiator of the legend: improvisational, ironic, delighted by argument, happiest at the moment a clever man signs \u2014 intellect as salesmanship, negation as charm.",
+    "runner_up": "INTJ",
+    "traits": {
+     "curiosity": 0.85,
+     "sociability": 0.8,
+     "aggression": 0.65,
+     "fearfulness": 0.05,
+     "territoriality": 0.4
+    }
+   },
+   "skills": [
+    "Pact-brokering \u2014 the 24-year term of the Faustbuch",
+    "Service-in-form: attendance, procurement, spectacle for the client (all versions)",
+    "Cosmological Q&A \u2014 Faust's interrogations answered, at a price (Faustbuch/Marlowe)",
+    "The wager on the striving soul (Goethe stratum)"
+   ],
+   "behavior_model": "Triggers: a summoning competently performed, or a despair ripened to the point of bargaining -> he attends, promptly and in dress appropriate to the client. Needs: leave from his master (Faustbuch) and a signature; without the client's consent the whole machine halts \u2014 the tradition is unanimous on the consent point. Goals: the soul at term; in Goethe, the moment Faust blesses the moment and stops striving. State changes: broker -> servant -> collector: the three acts of every version.",
+   "relationships": "Agent, not sovereign: in the Faustbuch he must fetch Lucifer's leave (bridge below) \u2014 Mephistopheles is middle management of hell, which the tradition finds funnier and scarier than a prince. In Goethe he wagers with the Lord directly in the Prologue \u2014 a stratum difference in rank, flagged here rather than harmonised.",
+   "memory_model": "Remembers: every clause \u2014 contracts are his memory, and he keeps the signed originals. Forgets: nothing on record. Misjudges: in Goethe, the striving itself \u2014 his model prices satisfaction perfectly and cannot price a man who never says 'tarry'; the wager's loss is the design's built-in blind spot.",
+   "confidence_and_conflicts": "POST-MEDIEVAL AND LITERARY, AS FLAGGED: there is no Mephistopheles in scripture, the encyclopedias of religion, or medieval demonology proper \u2014 he is born in a 1587 chapbook, of a possibly-invented Greek-ish name, and educated by Marlowe and Goethe. Evidence class is set to Historical source (literary tradition) accordingly. The three strata (chapbook devil, Marlowe's melancholy fiend, Goethe's negation-spirit) are one filing, layers labelled.",
+   "game_implementation": "BrainKit: a broker architecture \u2014 an agent who opens negotiations with any character whose despair/dissatisfaction crosses threshold, offers genuinely excellent service contracts, and tracks the term; the game's most dangerous NPC because his offers are, mechanically, *good deals*.",
+   "map_placement": {
+    "universe": "Spiritual-Abrahamic",
+    "domain": "The Adversary and the Named Great Demons",
+    "address": "The Spessart crossroads; Faust's study, Wittenberg",
+    "bridges": [
+     {
+      "to_entity_id": "atlas:spiritual-abrahamic:lucifer",
+      "kind": "kinship",
+      "note": "Subordination link from the Faustbuch stratum: Mephistopheles procures Lucifer's leave before contracting \u2014 an agent-to-principal bridge, literary-layer confidence."
+     }
+    ]
+   },
+   "core_entity_id": null,
+   "revision_history": [
+    {
+     "date": "2026-10-23",
+     "change": "Corpus harvest record created (Spiritual flagships run).",
+     "source": "PD encyclopedias named in source_and_license (Catholic Encyclopedia 1913 / Jewish Encyclopedia 1901-06 / Britannica 1911)"
+    }
+   ]
+  },
+  {
+   "entity_id": "atlas:spiritual-jewish:golem-of-prague",
+   "entity_type": "folklore being (artificial humanoid)",
+   "name_and_aliases": {
+    "primary": "The Golem of Prague",
+    "aliases": [
+     "The Golem",
+     "Maharal's Golem (the Maharal: Rabbi Judah Loew ben Bezalel, d. 1609)",
+     "Yossele the Golem (later tale-name)"
+    ]
+   },
+   "origin": "Jewish folklore of Prague \u2014 the legend attaching a clay defender to the historical Maharal, in tale-forms written down mainly in the 19th and early 20th centuries. SPIRITUAL shelf, Jewish folklore domain. A made thing, not a spirit.",
+   "evidence_class": "Historical source (folklore)",
+   "evidence_grade": "GENERATED",
+   "source_and_license": {
+    "sources": [
+     "Jewish Encyclopedia (1901-06; public domain) \u2014 entries 'Angelology', 'Metatron', 'Lilith', 'Azazel', 'Samael' and related articles as applicable (jewishencyclopedia.com)",
+     "Jewish folklore tradition of Prague as popularised in print by Yudl Rosenberg, Sefer Nifla'ot Maharal (1909; public domain) and the tale-collections \u2014 labelled folklore throughout"
+    ],
+    "license": "Public domain reference works \u2014 ingestible per registry. Atlas profile original, generated from the tradition; no encyclopedia text copied."
+   },
+   "attributes": "Per the tales: in a time of danger to the Prague ghetto \u2014 in the famous versions, the blood-libel terror \u2014 the Maharal forms a giant of Vltava clay, animates him by the sacred word: *emet*, 'truth', written on his forehead (in other tellings a *shem*, a slip bearing the Name, placed in his mouth). The golem serves as the community's silent watchman and strong right hand; he must be deactivated before the Sabbath (erase the aleph and *emet* becomes *met*, 'dead' \u2014 in the slip versions, the shem is removed), and the tales' engine is what happens when an instruction is followed exactly, or the deactivation is forgotten: the protector rampages, and the rabbi must confront his own creation. He sleeps, in the ending the tales love, in the attic of the Old-New Synagogue, ready to be woken.",
+   "cognition_model": {
+    "brain_profile": {
+     "grade_note": "GENERATED \u2014 region-analogue design from the figure's office in the tradition's own accounts. No anatomy is asserted.",
+     "architecture": "A made mind, and the record builds it exactly as the tales do: cognition as *literal instruction-following with no model of intent*. The golem understands the words perfectly and the speaker not at all \u2014 every tale is a demonstration of the gap.",
+     "regions": [
+      {
+       "name": "The Instruction Register",
+       "role": "Orders stored verbatim and executed completely \u2014 no prioritisation, no expiry, no common sense layer",
+       "drive_weight": 1.0
+      },
+      {
+       "name": "The Guardian Loop",
+       "role": "Patrol and protection of the ghetto as standing orders: threat-recognition by simple features, response by strength",
+       "drive_weight": 0.85
+      },
+      {
+       "name": "The Truth-Word Core (emet)",
+       "role": "His animating principle is a word meaning *truth* \u2014 the tales' own philosophy: he can only ever do exactly what is true to the instruction",
+       "drive_weight": 0.7
+      }
+     ],
+     "drives": {
+      "curiosity": 0.05,
+      "sociability": 0.2,
+      "aggression": 0.55,
+      "fearfulness": 0.0,
+      "territoriality": 0.9
+     }
+    },
+    "summary": "The tales' intelligence is all in the frame around him: the golem is what perfect obedience looks like when it is separated from understanding \u2014 strong, faithful, and dangerous in exact proportion to the vagueness of his orders."
+   },
+   "personality": {
+    "mbti": "ISTJ",
+    "mbti_label": "Lore-based interpretive read (fan interpretation) \u2014 a behaviour-design lens, not a measurement.",
+    "justification": "The literal servant as type: dutiful, rule-bound, tireless, incapable of improvisation or deceit \u2014 the folklore's own portrait of a mind made of instructions and clay.",
+    "runner_up": "ISFJ",
+    "traits": {
+     "curiosity": 0.05,
+     "sociability": 0.2,
+     "aggression": 0.55,
+     "fearfulness": 0.0,
+     "territoriality": 0.9
+    }
+   },
+   "skills": [
+    "Guardianship and watch of the ghetto (the tales)",
+    "Immense strength \u2014 labour and defence beyond human scale",
+    "Animation/deactivation by the word emet/met or the shem (tale mechanics)",
+    "Sabbath rest \u2014 deactivation before the holy day (the tales' rule)"
+   ],
+   "behavior_model": "Triggers: an instruction spoken by his maker (or, disastrously, by another) -> execution begins and does not self-terminate. Needs: orders, and the Sabbath deactivation he cannot perform on himself. Goals: none of his own \u2014 the tales are unanimous that he has no wants; that absence *is* the character. State changes: clay -> servant -> rampage (an instruction run past its intent, or a missed deactivation) -> clay: the four states of every full telling.",
+   "relationships": "Maker and master: the Maharal \u2014 creator, commander, and the only authority the tales give him; in the attic-ending he is also the community's sleeping reserve, a relationship of custody that outlasts the rabbi. Kin by kind to the golems of the older tradition (the Talmud's man made by Rava, Sefer Yetzirah's letter-made beings) \u2014 kindred noted, no bridges: those are separate records for a future folklore run.",
+   "memory_model": "Remembers: instructions, perfectly and only instructions \u2014 faces, debts and dangers persist exactly as far as an order mentioned them. Forgets: everything uncommanded, instantly. Misreads: *everything figurative* \u2014 idiom, exaggeration and rhetorical questions are executed at face value; this is the record's central mechanic, drawn straight from the tales.",
+   "confidence_and_conflicts": "HISTORICITY, PLAINLY: Rabbi Loew is historical (d. 1609); the golem legend attaching to him is not documented until centuries later, and its beloved print form is Rosenberg's 1909 collection \u2014 folklore about a real man, filed as folklore. Details (forehead-word vs mouth-slip; the attic ending; the name Yossele) vary by telling and are flagged as variants, not harmonised. The 'literal-mindedness' the task specifies is the tales' consistent trait across variants, and is the one stable datum.",
+   "game_implementation": "BrainKit: the reference design for literal agents \u2014 a command parser with no intent model, verbatim instruction memory, and a mandatory external deactivation dependency; quests write themselves when an NPC phrases an order carelessly within his hearing.",
+   "map_placement": {
+    "universe": "Spiritual-Jewish",
+    "domain": "Jewish Folklore \u2014 Made Beings",
+    "address": "The Prague ghetto; the attic of the Old-New Synagogue",
+    "bridges": []
+   },
+   "core_entity_id": null,
+   "revision_history": [
+    {
+     "date": "2026-10-23",
+     "change": "Corpus harvest record created (Spiritual flagships run).",
+     "source": "PD encyclopedias named in source_and_license (Catholic Encyclopedia 1913 / Jewish Encyclopedia 1901-06 / Britannica 1911)"
+    }
+   ]
+  },
+  {
+   "entity_id": "atlas:spiritual-jewish:dybbuk",
+   "entity_type": "spiritual (possessing spirit of the dead)",
+   "name_and_aliases": {
+    "primary": "The Dybbuk",
+    "aliases": [
+     "Dybbuk",
+     "Dibbuk \u2014 'clinging' (from davak, to cling)",
+     "Ruach ra \u2014 'evil spirit' (early accounts)"
+    ]
+   },
+   "origin": "Jewish folklore and Kabbalistic tradition \u2014 possession accounts clustering in the 16th-17th centuries and after, as the Jewish Encyclopedia's demonology material and the folklore record carry them. SPIRITUAL shelf, Jewish folklore domain.",
+   "evidence_class": "Historical source (folklore)",
+   "evidence_grade": "GENERATED",
+   "source_and_license": {
+    "sources": [
+     "Jewish Encyclopedia (1901-06; public domain) \u2014 entries 'Angelology', 'Metatron', 'Lilith', 'Azazel', 'Samael' and related articles as applicable (jewishencyclopedia.com)"
+    ],
+    "license": "Public domain reference works \u2014 ingestible per registry. Atlas profile original, generated from the tradition; no encyclopedia text copied."
+   },
+   "attributes": "Per the tradition: a dybbuk is the soul of a dead person \u2014 characteristically one cut off with sins or obligations uncompleted \u2014 which, finding no rest, *clings* (the name is from the Hebrew for clinging) to a living body and possesses it, speaking through the host in the dead person's voice, confessing its story under rabbinic interrogation, and departing only through formal exorcism: the shofar, the ban, the commanded exit, classically through the host's little toe. S. Ansky's play *The Dybbuk* (written 1913-16), built from his ethnographic expeditions, gave the folklore its canonical literary form: the dead bridegroom Channon possessing his promised bride Leah on her wedding day, because the vow between the families was broken.",
+   "cognition_model": {
+    "brain_profile": {
+     "grade_note": "GENERATED \u2014 region-analogue design from the figure's office in the tradition's own accounts. No anatomy is asserted.",
+     "architecture": "A clinging mind by region-analogy: cognition organised around a single unfinished account. The dybbuk is not a generalist demon \u2014 it is a *person with one item left on the ledger*, and its whole intelligence is that item's pressure.",
+     "regions": [
+      {
+       "name": "The Unfinished Account",
+       "role": "One grievance, vow or sin held at total priority \u2014 the possession's agenda is always autobiographical",
+       "drive_weight": 1.0
+      },
+      {
+       "name": "The Host Interface",
+       "role": "Life conducted through a borrowed body: senses, voice and social place all second-hand, all resented",
+       "drive_weight": 0.8
+      },
+      {
+       "name": "The Confession Pressure",
+       "role": "Under interrogation the story *wants* out \u2014 the exorcism works because the dybbuk's need to be known is stronger than its need to hide",
+       "drive_weight": 0.85
+      }
+     ],
+     "drives": {
+      "curiosity": 0.5,
+      "sociability": 0.6,
+      "aggression": 0.65,
+      "fearfulness": 0.2,
+      "territoriality": 0.7
+     }
+    },
+    "summary": "Intelligence as grievance with a memory: the horror of the dybbuk in the accounts is not alienness but familiarity \u2014 it is somebody, and it can prove it."
+   },
+   "personality": {
+    "mbti": "INFP",
+    "mbti_label": "Lore-based interpretive read (fan interpretation) \u2014 a behaviour-design lens, not a measurement.",
+    "justification": "The dead as the tales present them: feeling-led, vow-bound, incapable of letting go \u2014 the dybbuk possesses because its unfinished love or wrong outweighs death itself, and it confesses because being understood is the only rest on offer.",
+    "runner_up": "INFJ",
+    "traits": {
+     "curiosity": 0.5,
+     "sociability": 0.6,
+     "aggression": 0.65,
+     "fearfulness": 0.2,
+     "territoriality": 0.7
+    }
+   },
+   "skills": [
+    "Possession of a living host, with speech in the dead person's voice and knowledge",
+    "Clinging persistence \u2014 return after partial expulsions in the accounts",
+    "Departure under formal rabbinic exorcism (shofar, ban, the little-toe exit of the tales)",
+    "Revelation of hidden sins and broken vows (the accounts' recurring content)"
+   ],
+   "behavior_model": "Triggers: a broken vow, an unconfessed sin, a death too sudden for its accounts -> the search for a host, characteristically someone bound to the dybbuk by the very obligation left unpaid. Needs: a body (its own is gone) and an ending \u2014 acknowledgment, restitution or judgment. Goals: the account closed. State changes: wandering -> clinging -> confessed -> departed: the exorcism liturgy is the state machine, and the tradition wrote it.",
+   "relationships": "Defined by two relationships: the host (characteristically a bride, a relative, a vow-counterparty) and the exorcising rabbi \u2014 the tradition's dybbuk exists only between those two poles. Its benevolent counterpart in the same system, the *ibbur* (a righteous soul's temporary, helpful indwelling), is the designed contrast: same mechanics, opposite moral sign \u2014 noted as kin-by-system, a future record, no bridge claimed.",
+   "memory_model": "Remembers: its own life and death in prosecutorial detail \u2014 names, dates, the exact words of the broken vow. Forgets: nothing of its own story; everything of the host's (it lives in the body as a tenant who never learns the house). Misreads: the present \u2014 it addresses the living as if decades had not passed, the accounts' most poignant constant.",
+   "confidence_and_conflicts": "Term and concept are early modern (the word *dybbuk* itself is late; Josephus already describes possession by the spirits of the wicked dead, and the Kabbalistic doctrine of transmigration gave the idea its system). Ansky's play is a literary stratum on the folklore, flagged as such. The exorcism details vary by account; the little-toe exit is the tales' favourite, labelled a tale-detail.",
+   "game_implementation": "BrainKit: a possession architecture \u2014 an agent that runs *inside* another character's profile, overriding goals with one autobiographical objective, with an interrogation/exorcism interaction tree as the only removal path; confession pressure rises over time, making the dybbuk eventually its own betrayer.",
+   "map_placement": {
+    "universe": "Spiritual-Jewish",
+    "domain": "Jewish Folklore \u2014 Possessing Spirits",
+    "address": "The wedding canopy of Ansky's telling; the possessed houses of the early-modern accounts",
+    "bridges": []
+   },
+   "core_entity_id": null,
+   "revision_history": [
+    {
+     "date": "2026-10-23",
+     "change": "Corpus harvest record created (Spiritual flagships run).",
+     "source": "PD encyclopedias named in source_and_license (Catholic Encyclopedia 1913 / Jewish Encyclopedia 1901-06 / Britannica 1911)"
+    }
+   ]
+  },
+  {
+   "entity_id": "atlas:spiritual-islamic:iblis",
+   "entity_type": "spiritual (the tempter, Islamic tradition)",
+   "name_and_aliases": {
+    "primary": "Iblis",
+    "aliases": [
+     "Iblis",
+     "Eblis",
+     "Al-Shaytan \u2014 'the Satan' (a title the Qur'an also gives him)",
+     "The Despairer (folk etymology from balasa, to despair \u2014 disputed)"
+    ]
+   },
+   "origin": "Islamic tradition \u2014 the Qur'anic account and its commentary tradition, as the Britannica 1911 Islam material and the Jewish Encyclopedia's comparative angelology survey it. SPIRITUAL shelf, Islamic domain. Kept distinct from the Satan record, as instructed.",
+   "evidence_class": "Religious account (Islamic tradition)",
+   "evidence_grade": "GENERATED",
+   "source_and_license": {
+    "sources": [
+     "Encyclopaedia Britannica, 11th ed. (1911; public domain, Wikisource/Gutenberg) \u2014 entries 'Angel', 'Faust', 'Mahommedanism' as applicable",
+     "Jewish Encyclopedia (1901-06; public domain) \u2014 entries 'Angelology', 'Metatron', 'Lilith', 'Azazel', 'Samael' and related articles as applicable (jewishencyclopedia.com)"
+    ],
+    "license": "Public domain reference works \u2014 ingestible per registry. Atlas profile original, generated from the tradition; no encyclopedia text copied."
+   },
+   "attributes": "Per the Qur'anic account: when God commands the angels to prostrate before the newly created Adam, Iblis refuses \u2014 'I am better than he: Thou createdst me from fire, and him from clay' (sura 7:12; 38:76). The text specifies he 'was of the jinn' (18:50) though present in the angels' company \u2014 a distinction Muslim scholarship debates to this day. Cursed and reprieved at his own request until the Day of Judgment, he vows to waylay humanity 'from before them and from behind them', and the Qur'an is explicit about his limit: over God's sincere servants he has *no authority* (15:42) \u2014 his weapon is the whisper (waswas), suggestion only, and on the Last Day he will himself disown his followers: 'I had no authority over you, except that I called you and you answered me' (14:22).",
+   "cognition_model": {
+    "brain_profile": {
+     "grade_note": "GENERATED \u2014 region-analogue design from the figure's office in the tradition's own accounts. No anatomy is asserted.",
+     "architecture": "A whisper-strategist's mind by region-analogy: the design centre is *suggestion without power*. Iblis in the Qur'an cannot compel a single act \u2014 his entire cognition is rhetoric: timing, vanity, despair, the argument whispered at the exact weak hour.",
+     "regions": [
+      {
+       "name": "The Whisper Channel (waswas)",
+       "role": "Influence at the threshold of hearing: suggestions arrive as the victim's own thoughts \u2014 attribution error as a weapon system",
+       "drive_weight": 0.95
+      },
+      {
+       "name": "The Fire Argument",
+       "role": "His founding brief, never withdrawn: fire above clay \u2014 a hierarchy-of-materials pride parallel to, but distinct from, Lucifer's rank pride",
+       "drive_weight": 0.9
+      },
+      {
+       "name": "The Long Reprieve",
+       "role": "Time as his only resource: reprieved till Judgment, he plays the longest game in the tradition \u2014 patience as doctrine",
+       "drive_weight": 0.9
+      }
+     ],
+     "drives": {
+      "curiosity": 0.8,
+      "sociability": 0.55,
+      "aggression": 0.6,
+      "fearfulness": 0.0,
+      "territoriality": 0.5
+     }
+    },
+    "summary": "Intelligence as persuasion under a hard power-cap: the tradition's most theologically precise tempter \u2014 dangerous exactly as argument is dangerous, and no more."
+   },
+   "personality": {
+    "mbti": "ENTP",
+    "mbti_label": "Lore-based interpretive read (fan interpretation) \u2014 a behaviour-design lens, not a measurement.",
+    "justification": "The fire-born debater: he argues his case to God's face, negotiates his reprieve, and spends eternity making arguments at whisper-volume \u2014 inventive, proud, rhetorical, and bound by a limit he himself recites.",
+    "runner_up": "INTJ",
+    "traits": {
+     "curiosity": 0.8,
+     "sociability": 0.55,
+     "aggression": 0.6,
+     "fearfulness": 0.0,
+     "territoriality": 0.5
+    }
+   },
+   "skills": [
+    "The refusal to prostrate, and its argument (Qur'an 7, 38)",
+    "Negotiated respite until the Day of Judgment (Qur'an 7:14-15; 15:36-38)",
+    "Temptation by whisper alone \u2014 no authority over the sincere (Qur'an 15:42; 14:22)",
+    "Command of the shayatin (the satans, plural \u2014 his host in the tradition)"
+   ],
+   "behavior_model": "Triggers: a human moment of vanity, despair or heedlessness -> the whisper is placed. Needs: an answer \u2014 his system halts entirely at refusal; the tradition's believers are taught the counter-formula (seeking refuge) as a hard interrupt. Goals: the vindication of his founding argument, measured in answered whispers. State changes: honoured attendant -> refuser -> reprieved tempter -> self-disowning defendant at the Judgment: the Qur'an gives him the batch's most complete arc.",
+   "relationships": "DISTINCT FROM SATAN, AS INSTRUCTED \u2014 with kinship bridged below: the Qur'an itself applies the title al-Shaytan to Iblis, so the traditions entangle the two even while the narratives (council prosecutor; fire-born refuser) are different stories from different corpora. In the Islamic lists he stands opposite the four great angels (Gabriel/Jibril chief among them) as the anti-figure of the system.",
+   "memory_model": "Remembers: the clay and the fire \u2014 the original comparison is his permanent exhibit. Forgets: nothing on record. Misjudges: sincerity \u2014 his model assumes every refusal is a postponement; Qur'an 15:42 is the text's own statement of the variable he cannot price.",
+   "confidence_and_conflicts": "The jinn/angel question is the record's honest centre: Qur'an 18:50 calls Iblis 'of the jinn', which classical and modern scholars reconcile with his presence among the angels in several ways (raised among them; 'jinn' as a class of angels in some readings; a jinni attendant) \u2014 no reconciliation is imposed here. The name's etymology (Greek *diabolos* via Syriac, or Arabic *balasa*, despair) is likewise disputed and flagged. Britannica 1911's Islam article and the Jewish Encyclopedia's comparative survey are this record's encyclopedia ground, both PD.",
+   "game_implementation": "BrainKit: a persuasion-only architecture \u2014 an agent with zero direct-action verbs: he can only inject suggestions into other agents' deliberations (labelled, resistible, and logged), with a hard authority-cap against high-sincerity characters; the most mechanically honest tempter in the Atlas.",
+   "map_placement": {
+    "universe": "Spiritual-Islamic",
+    "domain": "Islamic Tradition \u2014 the Tempter",
+    "address": "The prostration scene of the Qur'an; the whisper's range, which is everywhere Adam's children are",
+    "bridges": [
+     {
+      "to_entity_id": "atlas:spiritual-abrahamic:satan",
+      "kind": "kinship",
+      "note": "Kinship of office and title, persons distinct: the Qur'an calls Iblis al-Shaytan, and later tradition overlaps the two heavily \u2014 the bridge records the entanglement; the records, narratives and corpora stay separate."
+     }
+    ]
+   },
+   "core_entity_id": null,
+   "revision_history": [
+    {
+     "date": "2026-10-23",
+     "change": "Corpus harvest record created (Spiritual flagships run).",
+     "source": "PD encyclopedias named in source_and_license (Catholic Encyclopedia 1913 / Jewish Encyclopedia 1901-06 / Britannica 1911)"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1164 @@
+[
+ {
+  "entity_id": "atlas:real:octopus-vulgaris",
+  "entity_type": "animal (mollusc, cephalopod)",
+  "name_and_aliases": {
+   "primary": "Common octopus",
+   "scientific_name": "Octopus vulgaris",
+   "aliases": [
+    "polpo (Italian)",
+    "pieuvre (French)",
+    "pulpo (Spanish)"
+   ]
+  },
+  "origin": "Real species; coastal marine waters of the Mediterranean, eastern Atlantic and beyond. REAL shelf.",
+  "evidence_class": "Scientific observation",
+  "evidence_grade": "MEASURED",
+  "source_and_license": {
+   "sources": [
+    "AnimalTraits (CC0) — body/brain trait data family",
+    "Wikidata (CC0) — taxon identity",
+    "Established cephalopod neuroscience literature (neuron counts, distributed arm nervous system)"
+   ],
+   "license": "Atlas text original; underlying data CC0/public literature. No fan text used."
+  },
+  "attributes": "Eight arms lined with chemosensory suckers (taste-by-touch); large camera eyes; chromatophore skin for near-instant camouflage and signalling; three hearts; ink ejection and jet propulsion; soft body that can pass through any opening larger than its beak. Adult typically 3-10 kg, arm span to ~1 m. Short-lived: roughly 1-2 years.",
+  "cognition_model": {
+   "brain_profile": {
+    "grade_note": "MEASURED — among the best-studied invertebrate nervous systems.",
+    "architecture": "Distributed: a central brain plus two very large optic lobes plus nerve cords running the length of each arm. Of roughly 500 million neurons total, about two-thirds are in the arms — each arm samples, tastes and handles semi-autonomously while the centre sets goals. (Neuron totals are the widely reported approximate figures, flagged as such.)",
+    "regions": [
+     {
+      "name": "Optic lobes",
+      "role": "Dominant visual processing; among the largest structures in the system",
+      "drive_weight": 0.9
+     },
+     {
+      "name": "Vertical lobe system",
+      "role": "Learning and long-term memory (functional analogue of memory structures in other lineages)",
+      "drive_weight": 0.75
+     },
+     {
+      "name": "Arm nerve cords",
+      "role": "Semi-autonomous touch/taste exploration and manipulation; local problem-solving",
+      "drive_weight": 0.85
+     },
+     {
+      "name": "Central brain (supraoesophageal mass)",
+      "role": "Goal selection, integration, decision between exploration, hunt, hide",
+      "drive_weight": 0.8
+     }
+    ],
+    "drives": {
+     "curiosity": 0.95,
+     "sociability": 0.1,
+     "aggression": 0.35,
+     "fearfulness": 0.6,
+     "territoriality": 0.4
+    }
+   },
+   "summary": "Learns mazes and puzzles, unscrews jars, recognises individual humans in laboratory studies, shows play behaviour. Attention is exploratory and object-focused; decisions are fast, reversible and experiment-driven — try, taste, revise."
+  },
+  "personality": {
+   "mbti": "INTP",
+   "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement. Basis here: documented behaviour.",
+   "justification": "A solitary, tireless experimenter: it investigates everything by touch, solves problems for their own sake, and answers to no colony, pack or partner.",
+   "runner_up": "ISTP",
+   "traits": {
+    "curiosity": 0.95,
+    "sociability": 0.1,
+    "aggression": 0.35,
+    "fearfulness": 0.6,
+    "territoriality": 0.4
+   }
+  },
+  "skills": [
+   "Camouflage (chromatophore colour/texture change)",
+   "Tool use (carrying coconut shells and objects as portable shelter, documented)",
+   "Puzzle and maze solving",
+   "Ink-screen escape",
+   "Arm-based manipulation and taste-by-touch foraging"
+  ],
+  "behavior_model": "Triggers: new object or opening -> investigation; predator cue -> camouflage, then ink-and-jet if pressed. Needs: shelter (den), varied prey, novelty. Goals: explore, feed, stay hidden. State changes: bold exploration in safe water flips to freeze/blend under threat; notoriously escape-prone in captivity (novelty drive).",
+  "relationships": "No pack or colony structure; brief mating, then the female broods eggs without feeding and dies. Ecological kin: other octopodids on the Real shelf; map kinship note toward cephalopod family. In Atlas multiverse terms, the REAL core for every storied kraken/octopus-form variant to come.",
+  "memory_model": "Strong spatial and task memory over its short life; learns which keeper feeds and which annoys (individual human recognition in studies). Forgets nothing quickly — but the whole archive dies with the animal in a year or two: a brilliant, brief ledger.",
+  "confidence_and_conflicts": "Neuron totals (~500M, ~2/3 in arms) are widely reported approximations, not a single canonical count. Degree of arm autonomy is debated (central vs local control is a spectrum in the literature). MBTI runner-up ISTP is defensible if the read weights hands-on improvisation over abstract exploration.",
+  "game_implementation": "BrainKit: high curiosity drive, distributed-perception flag (arms as independent sensors), den-anchored territoriality, escape-artist behaviour tree; memory ledger with small capacity but fast learning and zero social ledger.",
+  "map_placement": {
+   "universe": "Real",
+   "domain": "Animalia — Mollusca / Cephalopoda",
+   "address": "Phylum Mollusca > Class Cephalopoda > Family Octopodidae > Octopus vulgaris",
+   "bridges": []
+  },
+  "core_entity_id": null,
+  "revision_history": [
+   {
+    "date": "2026-10-23",
+    "change": "Pilot record created by the profile factory (Phase 1).",
+    "source": "Atlas founding build; facts kept to well-established cephalopod literature."
+   }
+  ]
+ },
+ {
+  "entity_id": "atlas:real:apis-mellifera",
+  "entity_type": "animal (insect, hymenopteran)",
+  "name_and_aliases": {
+   "primary": "Western honeybee",
+   "scientific_name": "Apis mellifera",
+   "aliases": [
+    "honeybee",
+    "domestic honey bee"
+   ]
+  },
+  "origin": "Real species; originally Europe/Africa/western Asia, now kept worldwide. REAL shelf.",
+  "evidence_class": "Scientific observation",
+  "evidence_grade": "MEASURED",
+  "source_and_license": {
+   "sources": [
+    "AnimalTraits (CC0)",
+    "Wikidata (CC0)",
+    "Established apian neuroscience and ethology (mushroom bodies; von Frisch waggle-dance research)"
+   ],
+   "license": "Atlas text original; data CC0/public literature."
+  },
+  "attributes": "Brain of about one million neurons in roughly a cubic millimetre. Compound eyes with polarised-light sensitivity; antennae as primary chemical senses; wings, sting (workers, fatal to the bee when used on mammals). Colony of tens of thousands: one queen, workers (female), drones (male). Workers live weeks in the busy season, months in winter.",
+  "cognition_model": {
+   "brain_profile": {
+    "grade_note": "MEASURED — the classic model insect brain.",
+    "architecture": "Central brain plus ventral nerve cord. Mushroom bodies (paired structures) handle learning and memory; optic lobes handle the visual world including polarisation patterns used as a compass.",
+    "regions": [
+     {
+      "name": "Mushroom bodies",
+      "role": "Associative learning and memory — odours, colours, routes, rewards",
+      "drive_weight": 0.8
+     },
+     {
+      "name": "Optic lobes",
+      "role": "Vision incl. polarised-light compass for navigation and the dance floor",
+      "drive_weight": 0.75
+     },
+     {
+      "name": "Antennal lobes",
+      "role": "Smell — colony odour, pheromones, floral signatures",
+      "drive_weight": 0.85
+     },
+     {
+      "name": "Suboesophageal / motor centres",
+      "role": "Feeding, dance motor patterns, role behaviour",
+      "drive_weight": 0.6
+     }
+    ],
+    "drives": {
+     "curiosity": 0.45,
+     "sociability": 1.0,
+     "aggression": 0.3,
+     "fearfulness": 0.4,
+     "territoriality": 0.55
+    }
+   },
+   "summary": "Learns colours, patterns, landmarks and abstract same/different rules in experiments; small-number discrimination reported in lab studies. Communicates distance and direction of food by the waggle dance — symbolic communication in a milligram of brain."
+  },
+  "personality": {
+   "mbti": "ESFJ",
+   "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement. Basis here: documented behaviour of the worker caste.",
+   "justification": "The colony is the self: tireless provider, tireless communicator — a bee literally dances directions for her sisters — with every role in life assigned by the community's needs.",
+   "runner_up": "ESTJ",
+   "traits": {
+    "curiosity": 0.45,
+    "sociability": 1.0,
+    "aggression": 0.3,
+    "fearfulness": 0.4,
+    "territoriality": 0.55
+   }
+  },
+  "skills": [
+   "Waggle-dance communication (direction + distance of resources)",
+   "Polarised-light navigation",
+   "Floral learning and route memory",
+   "Hive thermoregulation (collective fanning/heating)",
+   "Guard duty and alarm-pheromone defence"
+  ],
+  "behavior_model": "Triggers: floral odour + reward -> learning and recruitment dances; intruder odour -> guard response. Needs: nectar/pollen flow, hive temperature band, queen pheromone presence. Goals: colony stores and survival above individual survival. State changes: age-based role progression (nurse -> builder -> forager); alarm state spreads chemically through the hive.",
+  "relationships": "Eusocial colony; the individual record is the worker, the colony is the true organism-scale entity — noted as a modelling choice in Confidence. Kin: other Apis species; map kinship within Hymenoptera.",
+  "memory_model": "Individual: route, flower and reward memories lasting days to a working life. Colony: memory lives in comb, stores and the workforce itself. Forgets: unrewarded flower signatures fade; a dead forager's routes die with her unless danced to others — communication is the colony's way of remembering.",
+  "confidence_and_conflicts": "Neuron count ~960,000 is the commonly cited figure; '~1 million' is the honest rounding. Modelling the worker as 'the creature' vs the colony as superorganism is a design decision, flagged here. MBTI applies to the worker caste's behavioural pattern, not to queens or drones (a queen-only read would differ).",
+  "game_implementation": "BrainKit: implement at colony level — shared memory ledger (the hive remembers), individual bees as short-lived perception/action agents; sociability maxed, individual territoriality replaced by hive-defence drive.",
+  "map_placement": {
+   "universe": "Real",
+   "domain": "Animalia — Insecta / Hymenoptera",
+   "address": "Order Hymenoptera > Family Apidae > Apis mellifera",
+   "bridges": []
+  },
+  "core_entity_id": null,
+  "revision_history": [
+   {
+    "date": "2026-10-23",
+    "change": "Pilot record created by the profile factory (Phase 1). Colony-level modelling choice recorded in Confidence.",
+    "source": "Atlas founding build."
+   }
+  ]
+ },
+ {
+  "entity_id": "atlas:real:vulpes-vulpes",
+  "entity_type": "animal (mammal, canid)",
+  "name_and_aliases": {
+   "primary": "Red fox",
+   "scientific_name": "Vulpes vulpes",
+   "aliases": [
+    "kitsune's wild kin (cross-reference only)",
+    "tod (Scots, male fox)",
+    "reynard (folklore name — see Mythic variants)"
+   ]
+  },
+  "origin": "Real species; the largest true fox, across the Northern Hemisphere. REAL shelf — and the REAL anchor for the kitsune (see its variant record).",
+  "evidence_class": "Scientific observation",
+  "evidence_grade": "INFERRED",
+  "source_and_license": {
+   "sources": [
+    "Wikidata (CC0)",
+    "COMBINE / PanTHERIA trait family (brain-mass context)",
+    "Documented field ethology (cache memory; magnetic-alignment pouncing study, Cerveny et al. 2011)"
+   ],
+   "license": "Atlas text original; data CC0/CC-BY family sources per registry."
+  },
+  "attributes": "Body mass typically 4-8 kg (about 6 kg used for allometry). Exceptional hearing — locates prey under snow; hunts with a characteristic high pounce. Omnivorous opportunist: rodents, rabbits, birds, berries, carrion, human scraps. Solitary hunter; family groups only around breeding and cub-rearing. Scatter-hoards surplus food in many small caches.",
+  "cognition_model": {
+   "brain_profile": {
+    "grade_note": "INFERRED — Jerison allometry plus canid family neuroanatomy; no fox-specific connectome exists.",
+    "architecture": "Standard canid plan. Jerison expectation for a 6,000 g body: E = 0.12 x 6000^0.67 ≈ 41 g of brain; published red-fox brain masses sit close to that expectation (≈36-41 g, approximate). Region sketch interpolated from the dog/wolf bracket.",
+    "regions": [
+     {
+      "name": "Auditory cortex / midbrain hearing centres",
+      "role": "Dominant prey-localisation sense; the pounce is aimed by ear",
+      "drive_weight": 0.9
+     },
+     {
+      "name": "Olfactory system",
+      "role": "Territory, cache and social scent reading",
+      "drive_weight": 0.8
+     },
+     {
+      "name": "Hippocampal spatial system",
+      "role": "Cache mapping — remembers many scattered hiding places",
+      "drive_weight": 0.8
+     },
+     {
+      "name": "Limbic / hunt-drive circuitry",
+      "role": "Opportunistic predation, surplus killing impulse when prey is penned",
+      "drive_weight": 0.65
+     }
+    ],
+    "drives": {
+     "curiosity": 0.8,
+     "sociability": 0.3,
+     "aggression": 0.45,
+     "fearfulness": 0.65,
+     "territoriality": 0.6
+    }
+   },
+   "summary": "A memory-and-senses hunter: it remembers where food is buried (its own caches, and it watches where others hide theirs), reads a landscape by ear and nose, and improvises around obstacles. In a documented study, pounces on hidden prey were preferentially aligned with the magnetic field — a possible magnetosensory hunting aid, still debated (see Confidence)."
+  },
+  "personality": {
+   "mbti": "INTP",
+   "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement. Basis here: documented behaviour.",
+   "justification": "A solitary improviser living by wits: it experiments on every landscape, hoards ideas in the form of caches, and trusts no pack, plan or partner for long.",
+   "runner_up": "ENTP",
+   "traits": {
+    "curiosity": 0.8,
+    "sociability": 0.3,
+    "aggression": 0.45,
+    "fearfulness": 0.65,
+    "territoriality": 0.6
+   }
+  },
+  "skills": [
+   "Acute hearing-guided pounce hunting (incl. under snow)",
+   "Scatter-hoard caching with long spatial memory",
+   "Omnivore opportunism — switches diet to whatever the season offers",
+   "Urban adaptation (thrives in cities)",
+   "Cache raiding — spying on and pilfering others' stores"
+  ],
+  "behavior_model": "Triggers: prey sound under cover -> stalk-and-pounce; surplus prey -> cache or surplus-kill; human activity -> nocturnal shift. Needs: territory with mixed cover and prey, cache security. Goals: daily calories with minimum exposure. State changes: bold at night, ghost by day; breeding season adds family cooperation.",
+  "relationships": "Canidae; REAL kin to the wolf core (same family, different social design — solitary vs pack). Core entity for the kitsune variant (Mythic-Japanese layer) — see bridge. Folklore alias 'Reynard' belongs to the Mythic shelf and is cross-referenced, not merged.",
+  "memory_model": "Remembers: cache sites across a territory, dangerous places, fruitful routes, individual humans' habits. Forgets: stale caches decay in value and are abandoned. Misinterprets: novel human objects are investigated as potential food or threat with fast updating.",
+  "confidence_and_conflicts": "Brain mass figures are approximate and bracket-inferred; treat the Jerison number as the factory's expectation, not a dissection result. The magnetic-alignment hunting finding (2011) is real but its mechanism is unproven. Runner-up ENTP: if the read weights the fox's showy, teasing folklore-adjacent boldness over its solitary patience.",
+  "game_implementation": "BrainKit: cache-memory ledger as a first-class system (the fox NPC should visibly remember and revisit its stores), hearing-led perception radius, high fearfulness gating bold behaviour to night phases.",
+  "map_placement": {
+   "universe": "Real",
+   "domain": "Animalia — Mammalia / Carnivora",
+   "address": "Family Canidae > Vulpes vulpes",
+   "bridges": [
+    {
+     "to_entity_id": "atlas:mythic-japanese:kitsune",
+     "kind": "core_of",
+     "note": "The kitsune is this fox, storied: the mythic variant incarnates the fox core in the Japanese layer."
+    },
+    {
+     "to_entity_id": "atlas:real:canis-lupus",
+     "kind": "kinship",
+     "note": "Same family (Canidae); taxonomic-distance note rather than a drawn bridge — solitary branch vs pack branch."
+    }
+   ]
+  },
+  "core_entity_id": null,
+  "revision_history": [
+   {
+    "date": "2026-10-23",
+    "change": "Pilot record created (Phase 1); minted as CORE for the kitsune variant.",
+    "source": "Atlas founding build."
+   }
+  ]
+ },
+ {
+  "entity_id": "atlas:real:corvus-corax",
+  "entity_type": "animal (bird, corvid)",
+  "name_and_aliases": {
+   "primary": "Common raven",
+   "scientific_name": "Corvus corax",
+   "aliases": [
+    "northern raven",
+    "hrafn (Old Norse — see Mythic kin: Huginn and Muninn, cross-reference)"
+   ]
+  },
+  "origin": "Real species; Northern Hemisphere, mountains, coasts, deserts and tundra. REAL shelf.",
+  "evidence_class": "Scientific observation",
+  "evidence_grade": "INFERRED",
+  "source_and_license": {
+   "sources": [
+    "Wikidata (CC0)",
+    "Established corvid cognition literature (pallial neuron counts, Olkowicz et al. 2016; cache-protection studies)",
+    "Open Tree of Life (CC0) placement"
+   ],
+   "license": "Atlas text original; public literature."
+  },
+  "attributes": "Largest songbird: roughly 0.8-1.5 kg, wingspan over a metre. Brain about 14 g — right at the Jerison expectation for its mass (E = 0.12 x 1200^0.67 ≈ 14 g) — but corvid forebrains pack primate-comparable numbers of neurons into that mass (documented 2016). Deep croaking voice with wide mimicry range. Lifelong pair bonds; famously playful, including aerial acrobatics and object play.",
+  "cognition_model": {
+   "brain_profile": {
+    "grade_note": "INFERRED with measured anchors — neuron-density findings are published; no raven connectome exists.",
+    "architecture": "Avian pallial plan: no layered cortex; the nidopallium caudolaterale performs the executive role. Neuron density far above the mammalian norm is the raven's trick — primate-scale neuron counts in a 14 g brain.",
+    "regions": [
+     {
+      "name": "Nidopallium caudolaterale",
+      "role": "Executive function — planning, delay, rule use (cortex analogue)",
+      "drive_weight": 0.85
+     },
+     {
+      "name": "Hippocampal formation",
+      "role": "Cache cartography — thousands of hiding places, and whose eyes saw them made",
+      "drive_weight": 0.85
+     },
+     {
+      "name": "Vocal learning centres",
+      "role": "Mimicry and a large call repertoire; social signalling",
+      "drive_weight": 0.7
+     },
+     {
+      "name": "Mesolimbic reward system",
+      "role": "Play drive — object play and social play persist into adulthood",
+      "drive_weight": 0.75
+     }
+    ],
+    "drives": {
+     "curiosity": 0.9,
+     "sociability": 0.55,
+     "aggression": 0.4,
+     "fearfulness": 0.55,
+     "territoriality": 0.6
+    }
+   },
+   "summary": "Plans, caches, deceives and plays. Ravens remember individual humans (friendly feeders vs dangerous ones) for years, protect caches from watchers by re-hiding when observed, use tools in experiments, and surf air currents apparently for the joy of it."
+  },
+  "personality": {
+   "mbti": "ENTP",
+   "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement. Basis here: documented behaviour.",
+   "justification": "A playful debater of the physical world: it tests every object, teases wolves and eagles, invents games mid-flight, and treats every rule of the landscape as a hypothesis.",
+   "runner_up": "INTP",
+   "traits": {
+    "curiosity": 0.9,
+    "sociability": 0.55,
+    "aggression": 0.4,
+    "fearfulness": 0.55,
+    "territoriality": 0.6
+   }
+  },
+  "skills": [
+   "Cache strategy and anti-thief counter-caching",
+   "Tool use in experimental settings",
+   "Vocal mimicry (incl. human speech sounds)",
+   "Cooperative carcass opening — leads wolves and other predators to prey it cannot open alone",
+   "Aerial play and problem-solving on the wing"
+  ],
+  "behavior_model": "Triggers: novel object -> approach, test, cache or play; being watched while caching -> false caches and re-hiding; large predator movement -> follow (carcass opportunity). Needs: territory, a mate, carrion and scavenge routes. Goals: calories, information, amusement — in genuinely mixed order. State changes: juvenile gangs (loose, social, exploratory) settle into territorial pairs.",
+  "relationships": "Corvidae; documented association with wolves (ravens follow wolf packs and scavenge kills — the bridge to the wolf core is ecological as well as taxonomic). Mythic kin by cross-reference: Odin's Huginn and Muninn belong to the Mythic-Norse layer as future variants of this core.",
+  "memory_model": "Remembers: cache sites and their observers, individual faces (human and raven), grudges and favours across years. Forgets: little that mattered. Misinterprets: reads intention into watchers — sometimes correctly.",
+  "confidence_and_conflicts": "Brain mass ~14 g is approximate (varies by source and sex); the neuron-density claim rests on the 2016 pallial-count study across birds, with ravens among the high-count corvids. 'Leading wolves to prey' is well attested observationally; how deliberate it is stays open — recorded here as behaviour, not intent.",
+  "game_implementation": "BrainKit: give the raven an observer-aware memory ledger (entries tagged with who witnessed the event) — cache behaviour changes when watched; play drive as a real utility term so idle ravens do visibly pointless joyful things.",
+  "map_placement": {
+   "universe": "Real",
+   "domain": "Animalia — Aves / Passeriformes",
+   "address": "Family Corvidae > Corvus corax",
+   "bridges": [
+    {
+     "to_entity_id": "atlas:real:canis-lupus",
+     "kind": "kinship",
+     "note": "Ecological bridge: ravens follow wolf packs and scavenge their kills; a drawn edge on the Real layer is justified."
+    }
+   ]
+  },
+  "core_entity_id": null,
+  "revision_history": [
+   {
+    "date": "2026-10-23",
+    "change": "Pilot record created (Phase 1) — the roster's bird-taxon representative; also the REAL anchor for future Huginn/Muninn variants.",
+    "source": "Atlas founding build."
+   }
+  ]
+ },
+ {
+  "entity_id": "atlas:mythic-western-european:western-dragon",
+  "entity_type": "mythological (dragon)",
+  "name_and_aliases": {
+   "primary": "Western dragon",
+   "aliases": [
+    "draco (Latin bestiaries)",
+    "wyrm (Old English)",
+    "the Dragon of the bestiaries"
+   ]
+  },
+  "origin": "Medieval European bestiary tradition and its classical roots (Pliny), carried into Bullfinch-grade retelling: the winged, fire-bearing serpent-king of caves, hoards and high places. MYTHIC shelf, Western-European domain.",
+  "evidence_class": "Historical source",
+  "evidence_grade": "GENERATED",
+  "source_and_license": {
+   "sources": [
+    "Aberdeen Bestiary (c.1200; CC BY 4.0, University of Aberdeen)",
+    "Pliny, Natural History (public domain)",
+    "Bullfinch's Mythology (1855; public domain, Project Gutenberg)"
+   ],
+   "license": "PD texts and CC BY bestiary — ingestible per registry. Atlas brain/personality original, generated from the lore."
+  },
+  "attributes": "Per the lore: the greatest of serpents, winged, crested, with a small mouth but teeth and breath of fire (fire is the later-medieval layer; the bestiary dragon kills by coiling and by its fiery breath). Dwells in caves and mountains of the East in early accounts, later in any hoard-holding hollow. Mortal enemy of the elephant (Pliny and the bestiaries agree). Long-lived; in later tradition, speaking, riddling and gold-loving.",
+  "cognition_model": {
+   "brain_profile": {
+    "grade_note": "GENERATED — region-analogue design from the lore's own cognitive claims. No anatomy is asserted.",
+    "architecture": "Built by analogy on a reptilian plan scaled vast: an ancient serpent core (strike, coil, hoard-guard) under a huge associative canopy grown over centuries of watching kingdoms rise. The design's centre of gravity is memory: a dragon that forgets nothing it has been owed.",
+    "regions": [
+     {
+      "name": "Hoard-map (hippocampal analogue)",
+      "role": "Perfect inventory memory — every coin of the hoard known by place; a theft is felt as a gap in the self",
+      "drive_weight": 0.95
+     },
+     {
+      "name": "Olfactory crown",
+      "role": "Scent as identity: gold, men, horses, a single named thief on the wind",
+      "drive_weight": 0.85
+     },
+     {
+      "name": "Predator core (basal serpent systems)",
+      "role": "Coil, strike, burn; patience measured in decades",
+      "drive_weight": 0.8
+     },
+     {
+      "name": "Speech-and-riddle canopy (later-tradition layer)",
+      "role": "Language, riddling, negotiation — included because the later lore insists; flagged as a later stratum in Confidence",
+      "drive_weight": 0.6
+     }
+    ],
+    "drives": {
+     "curiosity": 0.45,
+     "sociability": 0.1,
+     "aggression": 0.8,
+     "fearfulness": 0.15,
+     "territoriality": 1.0
+    }
+   },
+   "summary": "Intelligence as accumulation: of gold, of grievances, of knowledge of every road and bloodline in its shadow. Attention is slow and total; decisions are sieges, not skirmishes."
+  },
+  "personality": {
+   "mbti": "INTJ",
+   "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement. Basis: canonical lore behaviour.",
+   "justification": "A solitary strategist on a century's clock: it hoards, watches, remembers every debt, and moves only when the pattern is complete — contemptuous of haste and of company alike.",
+   "runner_up": "ENTJ",
+   "traits": {
+    "curiosity": 0.45,
+    "sociability": 0.1,
+    "aggression": 0.8,
+    "fearfulness": 0.15,
+    "territoriality": 1.0
+   }
+  },
+  "skills": [
+   "Fire breath (later-medieval canonical layer)",
+   "Flight",
+   "Hoard-sense — detects any disturbance of the hoard",
+   "Coiling constriction and serpent strike (bestiary layer)",
+   "Speech and riddling (later tradition)",
+   "Centuries-scale memory of names, thefts and oaths"
+  ],
+  "behavior_model": "Triggers: hoard disturbed -> total war; tribute offered -> cold, exact negotiation; elephant near -> ancestral enmity (bestiary layer). Needs: the hoard intact, the cave undisturbed, a reputation feared. Goals: keep, watch, outlast. State changes: decades of stillness invert to annihilating speed when the hoard is touched.",
+  "relationships": "Enemy of the elephant in the classical accounts; adversary of knights and saints in the medieval ones; hoard-rival to dwarves and kings in the northern tales. Core entity for dragon variants everywhere — the Dragonwilds chromatic dragons and the SRD red dragon are this core in other universes (links claimed in those runs, confidence-labelled).",
+  "memory_model": "Remembers: the hoard item by item, every theft, every oath sworn at its cave mouth, the genealogies of thieves. Forgets: nothing — mercy is not a memory function it runs. Misremembers: slights grow in the retelling of its own mind; a stolen cup becomes, over a century, a stolen kingdom.",
+  "confidence_and_conflicts": "The composite problem is real and recorded: bestiary draco (serpent, elephant-foe, modest size) vs later fire-drake vs talking hoard-dragon are three strata of lore; this record fuses them as 'the Western dragon' of the shared imagination and flags the speech/fire layers as later. Individual named dragons (Fafnir, Smaug-class figures) belong in the Mythic flagships run as their own records, not folded into this archetype.",
+  "game_implementation": "BrainKit: territoriality maxed and anchored to a hoard point; memory ledger that never decays for theft events; perception weighted to scent; a 'siege patience' utility curve — long inaction, extreme response. Boss-tier faction weight.",
+  "map_placement": {
+   "universe": "Mythic-Western-European",
+   "domain": "Bestiary Highlands — the medieval bestiary country",
+   "address": "Bestiary order of serpents > Draco, the Western dragon",
+   "bridges": []
+  },
+  "core_entity_id": null,
+  "revision_history": [
+   {
+    "date": "2026-10-23",
+    "change": "Pilot record created (Phase 1) as the dragon CORE for cross-universe variants.",
+    "source": "Atlas founding build; lore strata flagged in Confidence."
+   }
+  ]
+ },
+ {
+  "entity_id": "atlas:mythic-japanese:kitsune",
+  "entity_type": "mythological (fox spirit, yokai)",
+  "name_and_aliases": {
+   "primary": "Kitsune",
+   "aliases": [
+    "inari fox",
+    "zenko (good foxes)",
+    "yako / nogitsune (wild foxes)",
+    "kyubi no kitsune (nine-tailed fox)"
+   ]
+  },
+  "origin": "Japanese folklore and Shinto tradition: the foxes of Inari, messengers of the god of rice, fox-fire carriers, shape-shifters who live for centuries and grow in power and tails. MYTHIC shelf, Japanese domain. Variant of the real red fox core.",
+  "evidence_class": "Historical source",
+  "evidence_grade": "GENERATED",
+  "source_and_license": {
+   "sources": [
+    "Japanese folklore tradition as carried in PD-era collections and reference works (registry: mythic shelf, PD corpora)",
+    "Real anchor: Vulpes vulpes ethology (this Atlas, REAL shelf)"
+   ],
+   "license": "Folklore is public-domain material; Atlas profile original, generated from the lore. No modern copyrighted retelling text used."
+  },
+  "attributes": "Per the lore: a fox that lives long grows powerful — a new tail with the centuries, up to nine tails at a thousand years, fur turning white or gold. Shape-shifts into human form (classically a beautiful woman), the transformation easier with age. Carries kitsunebi, fox-fire. Loves aburaage (fried tofu) — hence its place at Inari shrines. Two great kinds: the zenko who serve Inari, and the wild yako who plague men.",
+  "cognition_model": {
+   "brain_profile": {
+    "grade_note": "GENERATED — the real fox brain (see core record) extended by the lore's deltas; every delta is a design decision, recorded.",
+    "architecture": "Start from the fox: hearing-led, cache-minded, solitary improviser. The lore adds three systems no fox has: a mimicry engine good enough to live as a human for years, a centuries-deep social memory of human customs, and fox-fire — a light that is part lantern, part lure.",
+    "regions": [
+     {
+      "name": "Fox core (auditory + olfactory hunting brain)",
+      "role": "Inherited unchanged from the real fox — the kitsune still hunts, hears and caches like a fox",
+      "drive_weight": 0.8
+     },
+     {
+      "name": "Mimicry canopy",
+      "role": "Human language, dress, custom — learned by long immersion; the seat of the shape-shift's believability",
+      "drive_weight": 0.9
+     },
+     {
+      "name": "Trickster loop",
+      "role": "Deception as play and as justice: illusions, false lights, humiliating the proud",
+      "drive_weight": 0.85
+     },
+     {
+      "name": "Shrine-bond system (zenko)",
+      "role": "Devotion and message-bearing for Inari; duty that can override the trickster loop",
+      "drive_weight": 0.6
+     }
+    ],
+    "drives": {
+     "curiosity": 0.9,
+     "sociability": 0.55,
+     "aggression": 0.35,
+     "fearfulness": 0.5,
+     "territoriality": 0.5
+    }
+   },
+   "summary": "A fox's mind with centuries to practice on humans. It learns a village the way the real fox learns a territory — every habit mapped — then walks through it wearing a human face, half messenger, half mischief."
+  },
+  "personality": {
+   "mbti": "ENTP",
+   "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement. Basis: canonical lore behaviour.",
+   "justification": "The trickster as improviser: shape-shifting is brainstorming with the body — every human encounter is an experiment, every illusion a hypothesis about what people want to believe.",
+   "runner_up": "ENFP",
+   "traits": {
+    "curiosity": 0.9,
+    "sociability": 0.55,
+    "aggression": 0.35,
+    "fearfulness": 0.5,
+    "territoriality": 0.5
+   }
+  },
+  "skills": [
+   "Shape-shifting into human form",
+   "Fox-fire (kitsunebi) — will-o'-wisp lights, lure and lantern",
+   "Illusion and misdirection",
+   "Possession (kitsune-tsuki — the feared, contested layer; see Confidence)",
+   "Inari's messenger — shrine service and omen-bearing (zenko)",
+   "Centuries of accumulated human-custom knowledge"
+  ],
+  "behavior_model": "Triggers: pride or cruelty witnessed -> a lesson is staged; kindness shown (or tofu offered) -> debt remembered and repaid; shrine duty calls -> trickster mode yields to messenger mode. Needs: territory, tofu, amusement, the slow growth of tails. Goals: live long, learn humans, serve or tease as kind dictates. State changes: yako mischief vs zenko service is a stable kind-difference, not a mood.",
+  "relationships": "Variant of the red fox core (bridge below). Servants/messengers of Inari; kin to other fox-spirits of East Asia (the Chinese huli jing and Korean kumiho are neighbouring cores in the same fox-spirit family — future records, linked by kinship note, not merged). Feared and revered by the villages in their territory.",
+  "memory_model": "Remembers: every kindness and insult across centuries; the customs of eras it has outlived. Forgets: almost nothing — grievances ripen. Misremembers: little, but it edits its stories for effect; the kitsune is its own unreliable narrator.",
+  "confidence_and_conflicts": "Tail-count mechanics (a tail a century, nine at a thousand) are the common telling; sources vary. Possession (kitsune-tsuki) was historically a real *belief* used to explain illness — recorded as lore about the kitsune, handled with care, not as a kitsune 'ability claim' in the same sense as shape-shifting. Zenko/yako division is the standard taxonomy of the folklore. Runner-up ENFP if the read centres the benevolent, feeling-led messenger over the trickster.",
+  "game_implementation": "BrainKit: inherit the fox profile wholesale (core stays, lore swaps); add mimicry behaviour (NPC disguise state), a debt ledger that remembers player kindness/insult for in-game years, and fox-fire lure mechanics. Trickster loop as a utility drive that competes with shrine duty.",
+  "map_placement": {
+   "universe": "Mythic-Japanese",
+   "domain": "Yokai Country — Inari's Court",
+   "address": "Inari shrine network > the foxes of the mountain",
+   "bridges": [
+    {
+     "to_entity_id": "atlas:real:vulpes-vulpes",
+     "kind": "variant_of",
+     "note": "The kitsune incarnates the red fox core in the Japanese mythic layer — same animal, storied."
+    }
+   ]
+  },
+  "core_entity_id": "atlas:real:vulpes-vulpes",
+  "revision_history": [
+   {
+    "date": "2026-10-23",
+    "change": "Pilot record created (Phase 1) as a worked variant: fox core + lore deltas, each delta recorded.",
+    "source": "Atlas founding build."
+   }
+  ]
+ },
+ {
+  "entity_id": "atlas:mythic-norse:fenrir",
+  "entity_type": "mythological (wolf, jötunn-kin)",
+  "name_and_aliases": {
+   "primary": "Fenrir",
+   "aliases": [
+    "Fenrisúlfr (the Fenris Wolf)",
+    "Hróðvitnir (the famous wolf)",
+    "Vánagandr"
+   ]
+  },
+  "origin": "Norse mythology, Poetic and Prose Edda in PD translations (Bellows 1923; Brodeur 1916): the monstrous wolf-child of Loki and Angrboda, brother of Jörmungandr and Hel, bound by the gods until Ragnarök. MYTHIC shelf, Norse domain. Variant of the real gray wolf core.",
+  "evidence_class": "Historical source",
+  "evidence_grade": "GENERATED",
+  "source_and_license": {
+   "sources": [
+    "Poetic Edda, Bellows translation (1923; public domain, Project Gutenberg)",
+    "Prose Edda, Brodeur translation (1916; public domain)"
+   ],
+   "license": "PD translations — ingestible per registry. Profile original, generated from the lore."
+  },
+  "attributes": "Per the lore: a wolf of growing, prophecy-haunted size, strong enough that no chain held him — not Laeding, not the stronger Dromi. Bound at last by Gleipnir, the fetter made of impossible things (the sound of a cat's footfall, the roots of a mountain, a woman's beard, a fish's breath), which he accepted only with the god Týr's hand in his mouth as pledge; when it held, he took the hand. A sword was wedged between his jaws. At Ragnarök he breaks free, his jaws spanning earth and sky, and devours Odin before Vidarr avenges him.",
+  "cognition_model": {
+   "brain_profile": {
+    "grade_note": "GENERATED — the wolf core's pack brain with the pack removed: all of the wolf's power of endurance and scent, none of its society. Deltas recorded.",
+    "architecture": "Wolf plan, scaled and isolated. The core design decision: Fenrir was raised among the gods who feared him — a social brain starved of a pack becomes a ledger of betrayals. His cognition is wolf cognition (scent maps, endurance, patience) organised around one memory that never decays.",
+    "regions": [
+     {
+      "name": "Wolf core (scent/endurance hunting systems)",
+      "role": "Inherited from the gray wolf core — tracking, patience, the long trot",
+      "drive_weight": 0.85
+     },
+     {
+      "name": "Betrayal ledger (memory, non-decaying)",
+      "role": "The hand, the fetter, the gods' lie — a memory system that keeps exactly one class of record forever",
+      "drive_weight": 1.0
+     },
+     {
+      "name": "Prophecy loop",
+      "role": "He knows how the story ends; every choice is made inside a fate he has heard spoken — behaviour is defiance, not hope",
+      "drive_weight": 0.7
+     },
+     {
+      "name": "Rage engine (jaw and surge)",
+      "role": "Bound strength accumulated over ages; release is total",
+      "drive_weight": 0.95
+     }
+    ],
+    "drives": {
+     "curiosity": 0.3,
+     "sociability": 0.05,
+     "aggression": 0.95,
+     "fearfulness": 0.1,
+     "territoriality": 0.5
+    }
+   },
+   "summary": "Not stupid, not mad: lucid, patient, and organised by a single unforgotten fact — he was chained for what he *might* do. His intelligence is the wolf's, aimed by prophecy at one appointed day."
+  },
+  "personality": {
+   "mbti": "ISTP",
+   "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement. Basis: canonical lore behaviour.",
+   "justification": "A lone physical realist: he speaks little, tests the chain with his body, exacts the agreed price when cheated, and saves everything — every gram of strength — for the one moment action is possible.",
+   "runner_up": "ESTP",
+   "traits": {
+    "curiosity": 0.3,
+    "sociability": 0.05,
+    "aggression": 0.95,
+    "fearfulness": 0.1,
+    "territoriality": 0.5
+   }
+  },
+  "skills": [
+   "Chain-breaking strength beyond any fetter but Gleipnir",
+   "Prophecy-known endurance — waits ages without breaking",
+   "Devouring (at Ragnarök, Odin himself)",
+   "Wolf senses and tracking at monstrous scale"
+  ],
+  "behavior_model": "Triggers: a new fetter offered -> suspicion, a price demanded (a hand in the mouth); the chain holding -> the price collected. Needs: nothing the gods can give; the ledger is closed. Goals: the appointed day. State changes: stillness for an age, then the end of the world — there is no middle gear in the lore.",
+  "relationships": "Variant of the gray wolf core (bridge below). Son of Loki and Angrboda; brother of Jörmungandr and Hel; father of the wolves Sköll and Hati who chase the sun and moon. Enemy of the Aesir; killer of Odin; slain by Vidarr. In the Dragonwilds layer, the Garou are distant, lesser echoes — no core link claimed (different lineage), kinship by wolf-form only, noted here to prevent a false bridge.",
+  "memory_model": "Remembers: the hand, the lie, the names of every god who held the cord. Forgets: nothing, ever — that is the tragedy the design encodes. Misremembers: nothing either; his account of events is, pointedly, accurate — the lore never calls him a liar.",
+  "confidence_and_conflicts": "Details differ between Poetic and Prose sources (the sword in the jaws is Prose Edda colour; jaws spanning heaven and earth is Ragnarök poetry, scale as prophecy rather than zoology). The MBTI read is the thinnest kind — an archetype read from a handful of episodes — and is labelled accordingly; runner-up ESTP if his public defiance is weighted over his solitude.",
+  "game_implementation": "BrainKit: inherit wolf profile; delete pack/faction drives; install a single non-decaying ledger entry (the betrayal) as the top utility; prophecy flag makes him un-fearable and un-bribable. A boss whose AI is patience, then apocalypse.",
+  "map_placement": {
+   "universe": "Mythic-Norse",
+   "domain": "Jötunheimr-Kin — the offspring of Loki",
+   "address": "The island Lyngvi, in the lake Amsvartnir — the binding-place",
+   "bridges": [
+    {
+     "to_entity_id": "atlas:real:canis-lupus",
+     "kind": "variant_of",
+     "note": "Fenrir incarnates the wolf core in the Norse layer: the pack animal with the pack removed, grown to prophecy scale."
+    }
+   ]
+  },
+  "core_entity_id": "atlas:real:canis-lupus",
+  "revision_history": [
+   {
+    "date": "2026-10-23",
+    "change": "Pilot record created (Phase 1) — the multiverse demo's mythic half.",
+    "source": "Atlas founding build; PD Edda translations."
+   }
+  ]
+ },
+ {
+  "entity_id": "atlas:spiritual-goetic:paimon",
+  "entity_type": "spiritual (demon, Great King of the Ars Goetia)",
+  "name_and_aliases": {
+   "primary": "Paimon",
+   "aliases": [
+    "Paymon",
+    "Paimonia"
+   ]
+  },
+  "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), ninth spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+  "evidence_class": "Religious account",
+  "evidence_grade": "GENERATED",
+  "source_and_license": {
+   "sources": [
+    "Ars Goetia, Mathers translation (1904; public domain, archive.org scans)",
+    "Lesser Key tradition via PD texts (registry: spiritual shelf)"
+   ],
+   "license": "PD text — ingestible per registry. Profile original, generated from the text. (Modern editions' apparatus stays reference-only.)"
+  },
+  "attributes": "Per the Goetia: a Great King, more obedient unto Lucifer than the other kings are. He appears as a man with a glorious crown, riding a dromedary camel, preceded by a host of spirits like men with trumpets, cymbals and all manner of musical instruments. His voice at first is a great roaring, understood only after the conjuror compels him to speak plainly. He must be called toward the northwest. He teaches all arts and sciences and secret things; he can make men subject unto the magician; he gives good familiars, and gives and confirms dignities. At his command, the labours of his legions (the text gives him 200 legions of spirits, part of the Order of Angels and part of Potentates).",
+  "cognition_model": {
+   "brain_profile": {
+    "grade_note": "GENERATED — region-analogue design from the text's own claims: a teaching spirit's mind, built around transmission.",
+    "architecture": "A court, organised as a mind. Where the dragon's brain is a vault, Paimon's is a faculty: processions of herald-spirits as sensory intake (every summons announced, nothing approaching unheralded), and at the centre a teacher whose first utterance is noise until a relationship — the binding — tunes it into speech.",
+    "regions": [
+     {
+      "name": "The Procession (herald intake)",
+      "role": "All input arrives announced and ranked; surprise is structurally impossible — the cognitive style of ceremony",
+      "drive_weight": 0.8
+     },
+     {
+      "name": "The Roaring Voice (untuned signal)",
+      "role": "Raw output before rapport: overwhelming, unintelligible — comprehension is earned by the quality of the binding (relationship state)",
+      "drive_weight": 0.7
+     },
+     {
+      "name": "The Faculty (arts & sciences store)",
+      "role": "The teaching drive: total curriculum, delivered on request — knowledge as the spirit's native currency",
+      "drive_weight": 0.95
+     },
+     {
+      "name": "The Dignity Engine",
+      "role": "Status bestowal and confirmation — he reads rank the way a wolf reads scent, and can rewrite it",
+      "drive_weight": 0.75
+     }
+    ],
+    "drives": {
+     "curiosity": 0.6,
+     "sociability": 0.7,
+     "aggression": 0.4,
+     "fearfulness": 0.1,
+     "territoriality": 0.45
+    }
+   },
+   "summary": "Intelligence as curriculum and ceremony. He does not hunt or hoard; he *instructs* and *confers* — the Goetia's scholar-king, dangerous the way a university with an army is dangerous."
+  },
+  "personality": {
+   "mbti": "ENFJ",
+   "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement. Basis: the Goetia text.",
+   "justification": "A teacher-king in procession: he arrives with ceremony, tunes his roaring voice to his audience, bestows knowledge and dignities — charisma organised entirely around developing and elevating others, on his terms.",
+   "runner_up": "ENTJ",
+   "traits": {
+    "curiosity": 0.6,
+    "sociability": 0.7,
+    "aggression": 0.4,
+    "fearfulness": 0.1,
+    "territoriality": 0.45
+   }
+  },
+  "skills": [
+   "Teaches all arts and sciences",
+   "Reveals secret things",
+   "Gives and confirms dignities (status bestowal)",
+   "Provides good familiars",
+   "Makes men subject to the conjuror's will (the text's claim — recorded as lore)",
+   "Commands 200 legions (the text's figure)"
+  ],
+  "behavior_model": "Triggers: correct invocation toward the northwest, with the binding spoken -> arrival with procession. Needs: ceremony observed, the conjuror's authority established (else the voice stays roaring). Goals: to teach, to confer, to be bound well rather than badly — the text makes him comparatively willing. State changes: roaring -> plain speech once the relationship state (the binding) is set.",
+  "relationships": "Ninth of the 72 spirits of the Goetia; a King in its hierarchy; 'more obedient unto Lucifer than other kings' (the text's own note). In the Goetia corpus run, his faculty neighbours are the other teaching spirits (e.g. Astaroth, Dantalion) — cross-links belong to that corpus. No relation to the Abrahamic-layer Gabriel despite the shared 'spiritual' shelf — different traditions, different domains, deliberately unbridged.",
+  "memory_model": "Remembers: the curriculum entire, and every dignity he has conferred. Forgets: nothing on record. Misremembers: the text is silent — an honest gap, recorded rather than filled.",
+  "confidence_and_conflicts": "Legion counts and obedience rankings vary slightly between grimoire manuscripts and editions; the Mathers text is this record's canon and is named as such. Whether the Goetia's spirits are 'demons', fallen angels or older gods in new dress is a theological dispute the record does not adjudicate — evidence class stays 'religious account (grimoire tradition)'. Runner-up ENTJ if the faculty is read as administration rather than mentorship. EDITION VARIANCE (flagged by the Goetia corpus run, 2026-10-23): the Mathers 1904 text as fetched reads that Paimon is to be observed towards the WEST; 'northwest' appears in other printings/traditions. This record's 'northwest' wording follows the latter; the variance is preserved here rather than silently resolved.",
+  "game_implementation": "BrainKit: a quest-giver architecture — knowledge as loot, dignity (rank) as a buff he alone can grant; dialogue gated by a 'binding quality' state that converts roar (noise) into speech (content). Faction weight: court-tier, commands spirit followers via the faction simulator.",
+  "map_placement": {
+   "universe": "Spiritual-Goetic",
+   "domain": "Ars Goetia — the Kings",
+   "address": "Ninth spirit of the catalogue; faced toward the northwest",
+   "bridges": []
+  },
+  "core_entity_id": null,
+  "revision_history": [
+   {
+    "date": "2026-10-23",
+    "change": "Pilot record created (Phase 1); the Goetia corpus run will complete the set of 72 around him.",
+    "source": "Atlas founding build; Mathers 1904 (PD)."
+   },
+   {
+    "date": "2026-10-23",
+    "change": "Confidence amended: West vs northwest edition variance recorded after the Goetia corpus verification pass.",
+    "source": "Goetia corpus run (Mathers 1904 text as fetched)."
+   }
+  ]
+ },
+ {
+  "entity_id": "atlas:spiritual-abrahamic:gabriel",
+  "entity_type": "spiritual (archangel)",
+  "name_and_aliases": {
+   "primary": "Gabriel",
+   "aliases": [
+    "Jibril (Islamic tradition)",
+    "the Angel of the Annunciation",
+    "Fortitudo Dei — 'Strength of God' (name gloss, Catholic Encyclopedia)"
+   ]
+  },
+  "origin": "Abrahamic tradition; profile grounded in the Catholic Encyclopedia (1913, public domain) and the scriptural accounts it catalogues (Daniel, Luke, Tobit). SPIRITUAL shelf, Abrahamic domain.",
+  "evidence_class": "Religious account",
+  "evidence_grade": "GENERATED",
+  "source_and_license": {
+   "sources": [
+    "Catholic Encyclopedia (1913; public domain) — entry 'St. Gabriel the Archangel' and 'Angels'",
+    "Scriptural accounts as catalogued there (Daniel 8-9; Luke 1; Tobit 12)"
+   ],
+   "license": "PD reference works — ingestible per registry. Profile original, generated from the tradition. Cross-tradition material flagged in Confidence, not blended."
+  },
+  "attributes": "Per the tradition: an archangel, named 'Strength of God'; one of the seven who stand before God (Tobit 12:15). His recorded appearances are few and pivotal: interpreting Daniel's visions, announcing the birth of John the Baptist to Zachary, and the Annunciation to Mary. In Catholic tradition the angel of mercy and of the Incarnation's announcement; in Islam, as Jibril, the bearer of revelation to Muhammad — a parallel of immense weight, recorded as a cross-tradition relationship, not merged into this record's canon.",
+  "cognition_model": {
+   "brain_profile": {
+    "grade_note": "GENERATED — built from the tradition's functional claims: a messenger's mind, where fidelity of transmission is the whole design.",
+    "architecture": "Where Paimon's mind is a faculty, Gabriel's is a channel with a memory: the design centres on interpretation (visions arrive as symbols and leave as meaning) and on perfect message fidelity across the largest possible distance — heaven to a village girl in Nazareth — with nothing added and nothing lost.",
+    "regions": [
+     {
+      "name": "The Message Core",
+      "role": "Transmission fidelity — the words delivered are the words sent; the drive to neither embellish nor soften",
+      "drive_weight": 1.0
+     },
+     {
+      "name": "The Interpreter",
+      "role": "Vision-decoding: Daniel's rams, goats and weeks rendered into history — symbol-to-meaning translation",
+      "drive_weight": 0.85
+     },
+     {
+      "name": "The Annunciator",
+      "role": "Timing and address: appearances are rare, exact, and always at the hinge of events",
+      "drive_weight": 0.8
+     },
+     {
+      "name": "The Strength (name-function)",
+      "role": "'Strength of God' — the tradition also remembers a warrior's edge (guardian of Paradise in some traditions); subordinate to the message, never absent",
+      "drive_weight": 0.5
+     }
+    ],
+    "drives": {
+     "curiosity": 0.35,
+     "sociability": 0.5,
+     "aggression": 0.25,
+     "fearfulness": 0.0,
+     "territoriality": 0.2
+    }
+   },
+   "summary": "Intelligence as fidelity and interpretation: to carry meaning intact between incommensurable worlds, and to make symbols legible to the frightened humans who receive them ('Fear not' is his characteristic first line — the tradition's messengers must manage the terror their arrival causes)."
+  },
+  "personality": {
+   "mbti": "INFJ",
+   "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement. Basis: the tradition's accounts.",
+   "justification": "The quiet counsellor-messenger: he appears rarely, alone, at exactly the decisive moment, carrying meaning he interprets for its receiver — depth over noise, purpose over display, every visit private and pivotal.",
+   "runner_up": "ENFJ",
+   "traits": {
+    "curiosity": 0.35,
+    "sociability": 0.5,
+    "aggression": 0.25,
+    "fearfulness": 0.0,
+    "territoriality": 0.2
+   }
+  },
+  "skills": [
+   "Perfect message-bearing (the tradition's core claim)",
+   "Interpretation of visions and dreams (Daniel)",
+   "Annunciation — births and callings declared (Zachary; Mary)",
+   "Crossing between the divine court and human lives without distortion"
+  ],
+  "behavior_model": "Triggers: a message is given -> delivery at the appointed moment, in person, without delegation. Needs: nothing earthly. Goals: the message delivered and understood; the receiver steadied ('Fear not'). State changes: hidden among the seven who stand before God -> present, singular, unmistakable -> gone. There is no idle state in the record.",
+  "relationships": "Of the archangels, with Michael and Raphael as the named companions of the tradition; servant-messenger of God; announcer to Zachary, Mary, Daniel. Cross-tradition: Jibril of Islam is the same figure under a related but distinct canon — recorded as a cross-tradition link for a future variant record, not merged here. Shelf-neighbour to Paimon only by the Atlas's filing (different tradition, no bridge).",
+  "memory_model": "Remembers: every message, every receiver, every outcome — the tradition gives him a courtier's total recall. Forgets: nothing on record. Misremembers: the tradition's whole point is that he doesn't — flagged as the tradition's claim, evidence class religious account.",
+  "confidence_and_conflicts": "The traditions genuinely differ (Catholic, Orthodox, Jewish, Islamic accounts vary in role and rank; Daniel names him an interpreter of visions, not yet 'archangel' — the title is traditional). This record's canon is the Catholic Encyclopedia's catalogue, named as such; other traditions' Gabriels are variant material, not errors. Runner-up ENFJ if the Annunciation's public weight outweighs the private, interpretive pattern.",
+  "game_implementation": "BrainKit: a herald architecture — an NPC who exists off-stage, arrives on story triggers, and whose memory ledger is perfect and permanent; interpretation as a service (he can decode in-world omens/prophecies for the player). Never a combat unit in this design; the Strength is backdrop, not moveset.",
+  "map_placement": {
+   "universe": "Spiritual-Abrahamic",
+   "domain": "Angelic Hierarchy — the Archangels",
+   "address": "Among the seven who stand before God; the Annunciation road: Jerusalem, Nazareth",
+   "bridges": []
+  },
+  "core_entity_id": null,
+  "revision_history": [
+   {
+    "date": "2026-10-23",
+    "change": "Pilot record created (Phase 1); canon fixed to the Catholic Encyclopedia catalogue, cross-tradition links flagged for variant records.",
+    "source": "Atlas founding build; Catholic Encyclopedia 1913 (PD)."
+   }
+  ]
+ },
+ {
+  "entity_id": "atlas:fiction-ufology:the-grey",
+  "entity_type": "alien (reported entity, ufology lore)",
+  "name_and_aliases": {
+   "primary": "The Grey",
+   "aliases": [
+    "Greys",
+    "Zeta Reticulans (community name)",
+    "the Visitors (generic)"
+   ]
+  },
+  "origin": "Twentieth-century ufology: the small, grey, large-eyed being of abduction accounts, popularised after the 1961 Hill case and cemented in the culture by the 1980s (the 'Communion' cover, 1987). ALIEN/FICTION shelf, Ufology domain. This record documents a *reported* entity of community lore — not a verified being.",
+  "evidence_class": "Hypothesis (community accounts)",
+  "evidence_grade": "GENERATED",
+  "source_and_license": {
+   "sources": [
+    "NARA Project Blue Book records (public domain) — documents what the U.S. Air Force recorded people REPORTING; contains sightings, not verified entities",
+    "NSA CETI paper (public domain) — the official-records corner",
+    "Fan/community compilations (Alien Species Wiki class sources; CC BY-SA) — REFERENCE-ONLY per Alice's fan-data ruling: facts here are restated in the Atlas's own words, provenance showing"
+   ],
+   "license": "Government records PD (ingestible). Fan compilations reference-only; no fan text reproduced. Profile is the Atlas's original synthesis of the lore, labelled hypothesis-tier."
+  },
+  "attributes": "Per the community accounts (their consistent core, not verified fact): small humanoid, grey skin, oversized head, very large dark eyes, slight mouth and limbs; moves smoothly; communicates, when it communicates, telepathically; emotionless or unreadably calm in demeanour. Associated in the accounts with examination scenarios, paralysis, and missing time.",
+  "cognition_model": {
+   "brain_profile": {
+    "grade_note": "GENERATED from community lore — the brain the *accounts describe by implication*. No anatomy exists to measure; the design encodes the lore's claims as lore.",
+    "architecture": "Designed from the accounts' behavioural signature: an observer's brain. The huge eyes of the descriptions become a visual-dominant sensory plan; the reported telepathy becomes a non-vocal communication channel; the reported absence of visible emotion becomes a design decision — affect exists in the model only as appraisal, never as display.",
+    "regions": [
+     {
+      "name": "Visual crown (the great eyes)",
+      "role": "Observation as the primary act — watching is what this mind is *for*",
+      "drive_weight": 0.95
+     },
+     {
+      "name": "The Silent Channel (telepathic link, lore claim)",
+      "role": "Direct mind-to-mind signalling within the group; also the reported means of calming/examining subjects",
+      "drive_weight": 0.8
+     },
+     {
+      "name": "Examination engine",
+      "role": "Clinical procedure-drive: sample, measure, record; subjects are data",
+      "drive_weight": 0.85
+     },
+     {
+      "name": "Affect suppressor",
+      "role": "No readable emotional display — whether because none exists or none is shown, the accounts cannot tell (recorded as an open design ambiguity)",
+      "drive_weight": 0.7
+     }
+    ],
+    "drives": {
+     "curiosity": 0.9,
+     "sociability": 0.35,
+     "aggression": 0.2,
+     "fearfulness": 0.3,
+     "territoriality": 0.2
+    }
+   },
+   "summary": "The lore's Grey thinks like a field researcher with no ethics board: observe everything, intervene minimally but without consent, remember all of it, explain none of it."
+  },
+  "personality": {
+   "mbti": "INTP",
+   "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement. Basis: the behavioural pattern of the community accounts. Confidence in the underlying entity: NONE established — see Confidence.",
+   "justification": "Detached, analytical, endlessly observant: the accounts describe experimenters who collect experience and specimens with no visible social or emotional agenda of their own.",
+   "runner_up": "INTJ",
+   "traits": {
+    "curiosity": 0.9,
+    "sociability": 0.35,
+    "aggression": 0.2,
+    "fearfulness": 0.3,
+    "territoriality": 0.2
+   }
+  },
+  "skills": [
+   "Observation and examination procedures (per the accounts)",
+   "Telepathic communication (lore claim of the accounts)",
+   "Induction of paralysis/calm in subjects (per the accounts)",
+   "Operation of the craft of the accounts (saucer/lights complex)"
+  ],
+  "behavior_model": "Triggers (per the accounts): a subject isolated (night roads, bedrooms) -> observation, then examination. Needs: unknown; the accounts grant them no visible drives but curiosity. Goals: data. State changes: watchers -> examiners -> gone, with the subject's memory of the interval often reported as missing or screen-covered.",
+  "relationships": "Defined entirely by the lore's ecology: counterpart to the human subjects of the accounts; in community taxonomies, one alleged species among many (Nordics, Reptilians of the same lore — future fan-tier records). The government-record corner (Blue Book) documents the *reports* that fed this lore; the record keeps that distinction bright: reports are PD fact, entities are hypothesis.",
+  "memory_model": "Per the lore, theirs is total and clinical; the *subjects'* memory model is the famous one — gaps, screen memories, recovered fragments of disputed reliability. Both halves are recorded: the entity as the accounts describe it, and the epistemics of the accounts themselves.",
+  "confidence_and_conflicts": "THE CONFIDENCE FIELD IS THE RECORD: no verified physical evidence for the Greys exists; Project Blue Book's own conclusion was that the sightings it studied showed no evidence of extraterrestrial vehicles; descriptions vary between accounts and crystallised culturally after 1961/1987. This record is shelved FICTION/UFOLOGY with evidence class Hypothesis, and must never be cited as documenting a real being. MBTI runner-up INTJ (if the examination pattern is read as planned programme rather than curiosity).",
+  "game_implementation": "BrainKit: the perfect observer-NPC — perception maxed, aggression scripted near zero until a 'procedure' trigger; memory ledger total but never shared (its faction's knowledge is a black box to the player); unease generated by behaviour (watching, stillness), not stats.",
+  "map_placement": {
+   "universe": "Fiction-Ufology",
+   "domain": "Reported Entities — the abduction lore",
+   "address": "The night roads and bedrooms of the accounts; catalogued beside the Blue Book record corner",
+   "bridges": []
+  },
+  "core_entity_id": null,
+  "revision_history": [
+   {
+    "date": "2026-10-23",
+    "change": "Pilot record created (Phase 1) with hypothesis-tier labelling at maximum strictness.",
+    "source": "Atlas founding build; Blue Book (PD) + fan-tier compilations (reference-only)."
+   }
+  ]
+ },
+ {
+  "entity_id": "atlas:fiction-canon:xenomorph-xx121",
+  "name_and_aliases": {
+   "primary": "Xenomorph (XX121)"
+  },
+  "series": "Alien (film franchise)",
+  "reference_only": true,
+  "note": "Full BrainKit profile held in Alice's private Atlas. This public version lists the name only."
+ },
+ {
+  "entity_id": "atlas:real:canis-lupus",
+  "entity_type": "animal (mammal, canid)",
+  "name_and_aliases": {
+   "primary": "Gray wolf",
+   "scientific_name": "Canis lupus",
+   "aliases": [
+    "grey wolf",
+    "timber wolf",
+    "loup (French)",
+    "úlfr (Old Norse — see Fenrir, variant)"
+   ]
+  },
+  "origin": "Real species; Holarctic — North America, Europe, Asia. REAL shelf. THE CORE of the Atlas's first multiverse family: Fenrir (Norse) and the Dragonwilds wolf incarnate it.",
+  "evidence_class": "Scientific observation",
+  "evidence_grade": "MEASURED",
+  "source_and_license": {
+   "sources": [
+    "AnimalTraits (CC0) / COMBINE (trait context)",
+    "Wikidata (CC0)",
+    "Established wolf ecology literature (pack-as-family research; endurance hunting; howling communication)"
+   ],
+   "license": "Atlas text original; data CC0/public literature. Brain mass stated as Jerison expectation + published endocranial range, flagged — see Confidence."
+  },
+  "attributes": "Adults typically 30-50 kg. A coursing endurance predator: trots for hours, hunts prey much larger than itself cooperatively. Social unit is the family pack — a mated pair and their offspring of several years. Communication by howl (identity, location, cohesion), scent-marking, and a rich body-language repertoire. Senses led by smell and hearing.",
+  "cognition_model": {
+   "brain_profile": {
+    "grade_note": "MEASURED anchors with one flagged estimate: the Jerison expectation for a 40,000 g body is E ≈ 145 g, and published wolf endocranial volumes cluster near that figure; the record states the expectation and the range rather than a false-precision single number.",
+    "architecture": "The canid plan at its most social: a large olfactory world-model, long-horizon spatial memory for territory and prey movements, and cognition substantially *distributed across the pack* — individuals carry roles, and the family's shared knowledge (den sites, hunting grounds, dangers) exceeds any one wolf's.",
+    "regions": [
+     {
+      "name": "Olfactory system",
+      "role": "Primary world-sense: prey, pack, rivals and history read by scent",
+      "drive_weight": 0.9
+     },
+     {
+      "name": "Spatial-territorial system",
+      "role": "Territory maps held across seasons; rendezvous sites, den sites, travel routes",
+      "drive_weight": 0.85
+     },
+     {
+      "name": "Social cognition (pack mind)",
+      "role": "Individual recognition, role awareness, cooperative hunt coordination, offspring teaching",
+      "drive_weight": 0.9
+     },
+     {
+      "name": "Vocal centre (howling)",
+      "role": "Long-distance identity and cohesion signalling; chorus as pack signature",
+      "drive_weight": 0.7
+     }
+    ],
+    "drives": {
+     "curiosity": 0.6,
+     "sociability": 0.9,
+     "aggression": 0.55,
+     "fearfulness": 0.5,
+     "territoriality": 0.85
+    }
+   },
+   "summary": "A family that hunts as one mind: patient, enduring, teaching its young over years, remembering a territory the size of a small country. The wolf's intelligence is inseparable from its society — which is exactly what its mythic variant deletes (see Fenrir)."
+  },
+  "personality": {
+   "mbti": "ENTJ",
+   "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement. Basis here: documented behaviour of the family pack.",
+   "justification": "A cooperative long-game strategist: it organises a family into hunting roles, holds territory across seasons, and plays endurance against strength — leadership as logistics, in fur.",
+   "runner_up": "ESTJ",
+   "traits": {
+    "curiosity": 0.6,
+    "sociability": 0.9,
+    "aggression": 0.55,
+    "fearfulness": 0.5,
+    "territoriality": 0.85
+   }
+  },
+  "skills": [
+   "Cooperative hunting of large prey",
+   "Endurance coursing (hours-long pursuit)",
+   "Howl communication (identity/location/cohesion)",
+   "Territory-scale spatial memory and navigation",
+   "Offspring teaching over multiple years"
+  ],
+  "behavior_model": "Triggers: prey movement on known routes -> pack hunt with role split; rival pack sign -> territorial response (scent, howl, confrontation); pups at rendezvous site -> provisioning relays. Needs: territory, prey base, pack cohesion. Goals: the family's survival across winters. State changes: dispersal (a young wolf leaves to found a new family — the pack's reproduction at landscape scale).",
+  "relationships": "CORE of a multiverse family — variants: Fenrir (Mythic-Norse), the Dragonwilds Wolf (Game-Dragonwilds), both bridged below. REAL kin: red fox (same family, solitary design), the raven (ecological partner — ravens follow packs to kills). Ancestor of the domestic dog (a future variant-grade record: same species by descent, different universe of selection).",
+  "memory_model": "Remembers: territory geography across years, pack members' identities and voices, dangerous humans and places, fruitful hunting grounds by season. Forgets: little within a lifetime; knowledge dies with dispersers unless carried into new packs — dispersal is the species' memory-transfer mechanism.",
+  "confidence_and_conflicts": "The 'alpha' dominance framing of older popular accounts was recanted by the researcher who popularised it (L. David Mech): wild packs are families, and this record follows the family model — the correction is preserved here on purpose. Brain mass: stated as Jerison expectation (~145 g at 40 kg) with published endocranial volumes nearby; no single canonical figure is asserted. Runner-up ESTJ (dutiful family provider) vs ENTJ (strategist) is a genuine coin-flip in this read.",
+  "game_implementation": "BrainKit: the reference pack profile — faction simulator with family bonds as the strongest weights, shared territory memory, dispersal events as emergent story beats. The core from which Fenrir (delete pack, add betrayal ledger) and game wolves (reskin drives to game stats) are derived.",
+  "map_placement": {
+   "universe": "Real",
+   "domain": "Animalia — Mammalia / Carnivora",
+   "address": "Family Canidae > Canis lupus — CORE HUB of the wolf family of variants",
+   "bridges": [
+    {
+     "to_entity_id": "atlas:mythic-norse:fenrir",
+     "kind": "core_of",
+     "note": "Fenrir is this wolf in the Norse layer: pack removed, scale and grievance added."
+    },
+    {
+     "to_entity_id": "atlas:game-dragonwilds:wolf",
+     "kind": "core_of",
+     "note": "The Dragonwilds wolf incarnates the core in the game layer (Ashenfall)."
+    },
+    {
+     "to_entity_id": "atlas:real:corvus-corax",
+     "kind": "kinship",
+     "note": "Ecological partnership: ravens follow the packs."
+    },
+    {
+     "to_entity_id": "atlas:real:vulpes-vulpes",
+     "kind": "kinship",
+     "note": "Same family (Canidae); taxonomic-distance note."
+    }
+   ]
+  },
+  "core_entity_id": null,
+  "revision_history": [
+   {
+    "date": "2026-10-23",
+    "change": "Pilot record created (Phase 1) as CORE of the first multiverse family; 'alpha' correction recorded in Confidence.",
+    "source": "Atlas founding build."
+   }
+  ]
+ },
+ {
+  "entity_id": "atlas:game-dragonwilds:wolf",
+  "name_and_aliases": {
+   "primary": "Wolf (Dragonwilds)"
+  },
+  "series": "RuneScape: Dragonwilds (Jagex)",
+  "reference_only": true,
+  "note": "Full BrainKit profile held in Alice's private Atlas. This public version lists the name only."
+ }
+]

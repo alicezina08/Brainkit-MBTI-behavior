@@ -1,0 +1,152 @@
+# RuneScape: Dragonwilds — Reference Index (public-safe)
+
+Creatures, bosses and NPCs from RuneScape: Dragonwilds (Jagex), listed by name only. This index holds **no brain profiles, no MBTI, no skills or movesets, and no lore summaries**. The full BrainKit profile for each entry lives in Alice's private Atlas. The official source for any entry is the game itself.
+
+Total: 137 entries (18 bosses, 52 creatures, 67 NPCs and people, 0 other).
+
+## Bosses
+
+- Abyssal Demon
+- Black Dragon
+- Black Dragon Hatchling
+- Black Knight Titan
+- Blue Dragon
+- Blue Dragon Hatchling
+- Fuzan
+- Garou King
+- General Velgar
+- Green Dragon
+- Green Dragon Hatchling
+- Imaru
+- Kuldra
+- Kuldra's Heart
+- Plague King
+- Red Dragon
+- Red Dragon Hatchling
+- Zogre
+
+## Creatures
+
+- Aggressive Terrorbird
+- Black Knight Crusader
+- Black Knight Guardian
+- Black Knight Sniper
+- Black Knight Warrior
+- Blazing Black Knight
+- Carnivorous Chinchompa
+- Chicken
+- Chinchompa
+- Cow
+- Cursed Raven
+- Deer
+- Dire Wolf
+- Dragon Wolf
+- Elite Black Knight
+- Garou Berserker
+- Garou Druid
+- Garou Exile
+- Garou Hunter
+- Garou Lightning Berserker
+- Garou Thane
+- Giant Rat
+- Goat
+- Goblin Archer
+- Goblin Bruiser
+- Goblin Poisonshot Archer
+- Goblin Runt
+- Goblin Sentry
+- Goblin Thug
+- Goblin Warrior
+- Gyrfalcon
+- Kebbit
+- Lesser Dragon
+- Magpie
+- Putrid Rat
+- Ram
+- Raven
+- Revenant Knight
+- Sheep
+- Spectral Bird
+- Spectral Chinchompa
+- Swamp Frog
+- Terrorbird
+- The Radiant
+- Vulture
+- Wild Jade Vine
+- Wild Lapulis Vine
+- Wild Ruby Vine
+- Wildcaller Druid
+- Wolf
+- Cow (NPC)
+- Undead Chicken
+
+## NPCs and people
+
+- Abraxus The Eternal
+- Abyssal Whip Statue
+- Advert-Inna-Bottle
+- Alabrais
+- Anamcara
+- Ancamairon
+- Anti Dragon Shield Statue
+- Beartach
+- Brakka
+- Brialka
+- Caratacus
+- Chirot
+- Commander Zilyana
+- Death
+- Doctor Fenkenstrain
+- Domri
+- Doric
+- Dreamingstone Fragment
+- Dreamstone
+- Dàshlànach
+- Edna
+- Efina
+- Elder Garou
+- Gaimbín
+- Ghost
+- Ghost of Cathan
+- Goblin Stove
+- Granite Mauled Statue
+- Hedric
+- Highlighting The Problem Statue
+- Holy Font
+- Iasadair
+- Icthlarin
+- Lagra
+- Laguna
+- Lehran
+- Lougrim
+- Manathep
+- Manktongue
+- Midnight Lilly
+- Missing Letter
+- Postie Pete
+- Pulpknuckle
+- Pusilineous
+- Reliquary
+- Restless Ghost
+- Scarecrow
+- Semi-Lucid Mage
+- Shangruuh
+- Shaun
+- Simon
+- Slopfinger
+- Slugtooth
+- Spittletoe
+- Standing Stone
+- Statue Door
+- Steve
+- Stuart
+- Suspicious Skeleton
+- Undead Tree
+- Valas
+- Vannaka
+- Wise Old Man
+- Wither Ward Statue
+- Wormelbow
+- Zanik
+- Zi
+

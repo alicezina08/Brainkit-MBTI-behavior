@@ -1,0 +1,449 @@
+{
+ "generated": "2026-10-23",
+ "seed_of": "BrainKit Universal Map",
+ "layers": [
+  {
+   "universe": "Real",
+   "domains": {
+    "Animalia — Mollusca / Cephalopoda": {
+     "domain": "Animalia — Mollusca / Cephalopoda",
+     "nodes": []
+    },
+    "Animalia — Insecta / Hymenoptera": {
+     "domain": "Animalia — Insecta / Hymenoptera",
+     "nodes": []
+    },
+    "Animalia — Mammalia / Carnivora": {
+     "domain": "Animalia — Mammalia / Carnivora",
+     "nodes": []
+    },
+    "Animalia — Aves / Passeriformes": {
+     "domain": "Animalia — Aves / Passeriformes",
+     "nodes": []
+    }
+   }
+  },
+  {
+   "universe": "Mythic-Western-European",
+   "domains": {
+    "Bestiary Highlands — the medieval bestiary country": {
+     "domain": "Bestiary Highlands — the medieval bestiary country",
+     "nodes": []
+    }
+   }
+  },
+  {
+   "universe": "Mythic-Japanese",
+   "domains": {
+    "Yokai Country — Inari's Court": {
+     "domain": "Yokai Country — Inari's Court",
+     "nodes": []
+    }
+   }
+  },
+  {
+   "universe": "Mythic-Norse",
+   "domains": {
+    "Jötunheimr-Kin — the offspring of Loki": {
+     "domain": "Jötunheimr-Kin — the offspring of Loki",
+     "nodes": []
+    }
+   }
+  },
+  {
+   "universe": "Spiritual-Goetic",
+   "domains": {
+    "Ars Goetia — the Kings": {
+     "domain": "Ars Goetia — the Kings",
+     "nodes": []
+    }
+   }
+  },
+  {
+   "universe": "Spiritual-Abrahamic",
+   "domains": {
+    "Angelic Hierarchy — the Archangels": {
+     "domain": "Angelic Hierarchy — the Archangels",
+     "nodes": []
+    }
+   }
+  },
+  {
+   "universe": "Fiction-Ufology",
+   "domains": {
+    "Reported Entities — the abduction lore": {
+     "domain": "Reported Entities — the abduction lore",
+     "nodes": []
+    }
+   }
+  },
+  {
+   "universe": "Fiction-Canon",
+   "domains": {
+    "The Alien Canon — LV-426 Lineage": {
+     "domain": "The Alien Canon — LV-426 Lineage",
+     "nodes": []
+    }
+   }
+  },
+  {
+   "universe": "Game-Dragonwilds",
+   "domains": {
+    "Ashenfall Fauna — Creatures": {
+     "domain": "Ashenfall Fauna — Creatures",
+     "nodes": []
+    }
+   }
+  }
+ ],
+ "nodes": [
+  {
+   "id": "domain:Real:Animalia — Mollusca / Cephalopoda",
+   "kind": "domain",
+   "universe": "Real",
+   "domain": "Animalia — Mollusca / Cephalopoda",
+   "label": "Animalia — Mollusca / Cephalopoda"
+  },
+  {
+   "id": "domain:Real:Animalia — Insecta / Hymenoptera",
+   "kind": "domain",
+   "universe": "Real",
+   "domain": "Animalia — Insecta / Hymenoptera",
+   "label": "Animalia — Insecta / Hymenoptera"
+  },
+  {
+   "id": "domain:Real:Animalia — Mammalia / Carnivora",
+   "kind": "domain",
+   "universe": "Real",
+   "domain": "Animalia — Mammalia / Carnivora",
+   "label": "Animalia — Mammalia / Carnivora"
+  },
+  {
+   "id": "domain:Real:Animalia — Aves / Passeriformes",
+   "kind": "domain",
+   "universe": "Real",
+   "domain": "Animalia — Aves / Passeriformes",
+   "label": "Animalia — Aves / Passeriformes"
+  },
+  {
+   "id": "domain:Mythic-Western-European:Bestiary Highlands — the medieval bestiary country",
+   "kind": "domain",
+   "universe": "Mythic-Western-European",
+   "domain": "Bestiary Highlands — the medieval bestiary country",
+   "label": "Bestiary Highlands — the medieval bestiary country"
+  },
+  {
+   "id": "domain:Mythic-Japanese:Yokai Country — Inari's Court",
+   "kind": "domain",
+   "universe": "Mythic-Japanese",
+   "domain": "Yokai Country — Inari's Court",
+   "label": "Yokai Country — Inari's Court"
+  },
+  {
+   "id": "domain:Mythic-Norse:Jötunheimr-Kin — the offspring of Loki",
+   "kind": "domain",
+   "universe": "Mythic-Norse",
+   "domain": "Jötunheimr-Kin — the offspring of Loki",
+   "label": "Jötunheimr-Kin — the offspring of Loki"
+  },
+  {
+   "id": "domain:Spiritual-Goetic:Ars Goetia — the Kings",
+   "kind": "domain",
+   "universe": "Spiritual-Goetic",
+   "domain": "Ars Goetia — the Kings",
+   "label": "Ars Goetia — the Kings"
+  },
+  {
+   "id": "domain:Spiritual-Abrahamic:Angelic Hierarchy — the Archangels",
+   "kind": "domain",
+   "universe": "Spiritual-Abrahamic",
+   "domain": "Angelic Hierarchy — the Archangels",
+   "label": "Angelic Hierarchy — the Archangels"
+  },
+  {
+   "id": "domain:Fiction-Ufology:Reported Entities — the abduction lore",
+   "kind": "domain",
+   "universe": "Fiction-Ufology",
+   "domain": "Reported Entities — the abduction lore",
+   "label": "Reported Entities — the abduction lore"
+  },
+  {
+   "id": "domain:Fiction-Canon:The Alien Canon — LV-426 Lineage",
+   "kind": "domain",
+   "universe": "Fiction-Canon",
+   "domain": "The Alien Canon — LV-426 Lineage",
+   "label": "The Alien Canon — LV-426 Lineage"
+  },
+  {
+   "id": "domain:Game-Dragonwilds:Ashenfall Fauna — Creatures",
+   "kind": "domain",
+   "universe": "Game-Dragonwilds",
+   "domain": "Ashenfall Fauna — Creatures",
+   "label": "Ashenfall Fauna — Creatures"
+  },
+  {
+   "id": "atlas:real:octopus-vulgaris",
+   "kind": "entity",
+   "label": "Common octopus",
+   "universe": "Real",
+   "domain": "Animalia — Mollusca / Cephalopoda",
+   "address": "Phylum Mollusca > Class Cephalopoda > Family Octopodidae > Octopus vulgaris",
+   "grade": "MEASURED",
+   "mbti": "INTP",
+   "lore_note": "A solitary, tireless experimenter: it investigates everything by touch, solves problems for their own sake, and answers to no colony, pack or partner."
+  },
+  {
+   "id": "atlas:real:apis-mellifera",
+   "kind": "entity",
+   "label": "Western honeybee",
+   "universe": "Real",
+   "domain": "Animalia — Insecta / Hymenoptera",
+   "address": "Order Hymenoptera > Family Apidae > Apis mellifera",
+   "grade": "MEASURED",
+   "mbti": "ESFJ",
+   "lore_note": "The colony is the self: tireless provider, tireless communicator — a bee literally dances directions for her sisters — with every role in life assigned by the community's needs."
+  },
+  {
+   "id": "atlas:real:vulpes-vulpes",
+   "kind": "entity",
+   "label": "Red fox",
+   "universe": "Real",
+   "domain": "Animalia — Mammalia / Carnivora",
+   "address": "Family Canidae > Vulpes vulpes",
+   "grade": "INFERRED",
+   "mbti": "INTP",
+   "lore_note": "A solitary improviser living by wits: it experiments on every landscape, hoards ideas in the form of caches, and trusts no pack, plan or partner for long."
+  },
+  {
+   "id": "atlas:real:corvus-corax",
+   "kind": "entity",
+   "label": "Common raven",
+   "universe": "Real",
+   "domain": "Animalia — Aves / Passeriformes",
+   "address": "Family Corvidae > Corvus corax",
+   "grade": "INFERRED",
+   "mbti": "ENTP",
+   "lore_note": "A playful debater of the physical world: it tests every object, teases wolves and eagles, invents games mid-flight, and treats every rule of the landscape as a hypothesis."
+  },
+  {
+   "id": "atlas:mythic-western-european:western-dragon",
+   "kind": "entity",
+   "label": "Western dragon",
+   "universe": "Mythic-Western-European",
+   "domain": "Bestiary Highlands — the medieval bestiary country",
+   "address": "Bestiary order of serpents > Draco, the Western dragon",
+   "grade": "GENERATED",
+   "mbti": "INTJ",
+   "lore_note": "A solitary strategist on a century's clock: it hoards, watches, remembers every debt, and moves only when the pattern is complete — contemptuous of haste and of company alike."
+  },
+  {
+   "id": "atlas:mythic-japanese:kitsune",
+   "kind": "entity",
+   "label": "Kitsune",
+   "universe": "Mythic-Japanese",
+   "domain": "Yokai Country — Inari's Court",
+   "address": "Inari shrine network > the foxes of the mountain",
+   "grade": "GENERATED",
+   "mbti": "ENTP",
+   "lore_note": "The trickster as improviser: shape-shifting is brainstorming with the body — every human encounter is an experiment, every illusion a hypothesis about what people want to believe."
+  },
+  {
+   "id": "atlas:mythic-norse:fenrir",
+   "kind": "entity",
+   "label": "Fenrir",
+   "universe": "Mythic-Norse",
+   "domain": "Jötunheimr-Kin — the offspring of Loki",
+   "address": "The island Lyngvi, in the lake Amsvartnir — the binding-place",
+   "grade": "GENERATED",
+   "mbti": "ISTP",
+   "lore_note": "A lone physical realist: he speaks little, tests the chain with his body, exacts the agreed price when cheated, and saves everything — every gram of strength — for the one moment action is possible."
+  },
+  {
+   "id": "atlas:spiritual-goetic:paimon",
+   "kind": "entity",
+   "label": "Paimon",
+   "universe": "Spiritual-Goetic",
+   "domain": "Ars Goetia — the Kings",
+   "address": "Ninth spirit of the catalogue; faced toward the northwest",
+   "grade": "GENERATED",
+   "mbti": "ENFJ",
+   "lore_note": "A teacher-king in procession: he arrives with ceremony, tunes his roaring voice to his audience, bestows knowledge and dignities — charisma organised entirely around developing and elevating others, on his terms."
+  },
+  {
+   "id": "atlas:spiritual-abrahamic:gabriel",
+   "kind": "entity",
+   "label": "Gabriel",
+   "universe": "Spiritual-Abrahamic",
+   "domain": "Angelic Hierarchy — the Archangels",
+   "address": "Among the seven who stand before God; the Annunciation road: Jerusalem, Nazareth",
+   "grade": "GENERATED",
+   "mbti": "INFJ",
+   "lore_note": "The quiet counsellor-messenger: he appears rarely, alone, at exactly the decisive moment, carrying meaning he interprets for its receiver — depth over noise, purpose over display, every visit private and pivotal."
+  },
+  {
+   "id": "atlas:fiction-ufology:the-grey",
+   "kind": "entity",
+   "label": "The Grey",
+   "universe": "Fiction-Ufology",
+   "domain": "Reported Entities — the abduction lore",
+   "address": "The night roads and bedrooms of the accounts; catalogued beside the Blue Book record corner",
+   "grade": "GENERATED",
+   "mbti": "INTP",
+   "lore_note": "Detached, analytical, endlessly observant: the accounts describe experimenters who collect experience and specimens with no visible social or emotional agenda of their own."
+  },
+  {
+   "id": "atlas:fiction-canon:xenomorph-xx121",
+   "kind": "entity",
+   "label": "Xenomorph (XX121)",
+   "universe": "Fiction-Canon",
+   "domain": "The Alien Canon — LV-426 Lineage",
+   "reference_only": true
+  },
+  {
+   "id": "atlas:real:canis-lupus",
+   "kind": "entity",
+   "label": "Gray wolf",
+   "universe": "Real",
+   "domain": "Animalia — Mammalia / Carnivora",
+   "address": "Family Canidae > Canis lupus — CORE HUB of the wolf family of variants",
+   "grade": "MEASURED",
+   "mbti": "ENTJ",
+   "lore_note": "A cooperative long-game strategist: it organises a family into hunting roles, holds territory across seasons, and plays endurance against strength — leadership as logistics, in fur."
+  },
+  {
+   "id": "atlas:game-dragonwilds:wolf",
+   "kind": "entity",
+   "label": "Wolf (Dragonwilds)",
+   "universe": "Game-Dragonwilds",
+   "domain": "Ashenfall Fauna — Creatures",
+   "reference_only": true
+  }
+ ],
+ "edges": [
+  {
+   "from": "atlas:real:octopus-vulgaris",
+   "to": "domain:Real:Animalia — Mollusca / Cephalopoda",
+   "kind": "domain_membership"
+  },
+  {
+   "from": "atlas:real:apis-mellifera",
+   "to": "domain:Real:Animalia — Insecta / Hymenoptera",
+   "kind": "domain_membership"
+  },
+  {
+   "from": "atlas:real:vulpes-vulpes",
+   "to": "domain:Real:Animalia — Mammalia / Carnivora",
+   "kind": "domain_membership"
+  },
+  {
+   "from": "atlas:real:vulpes-vulpes",
+   "to": "atlas:mythic-japanese:kitsune",
+   "kind": "core_of",
+   "note": "The kitsune is this fox, storied: the mythic variant incarnates the fox core in the Japanese layer."
+  },
+  {
+   "from": "atlas:real:vulpes-vulpes",
+   "to": "atlas:real:canis-lupus",
+   "kind": "kinship",
+   "note": "Same family (Canidae); taxonomic-distance note rather than a drawn bridge — solitary branch vs pack branch."
+  },
+  {
+   "from": "atlas:real:corvus-corax",
+   "to": "domain:Real:Animalia — Aves / Passeriformes",
+   "kind": "domain_membership"
+  },
+  {
+   "from": "atlas:real:corvus-corax",
+   "to": "atlas:real:canis-lupus",
+   "kind": "kinship",
+   "note": "Ecological bridge: ravens follow wolf packs and scavenge their kills; a drawn edge on the Real layer is justified."
+  },
+  {
+   "from": "atlas:mythic-western-european:western-dragon",
+   "to": "domain:Mythic-Western-European:Bestiary Highlands — the medieval bestiary country",
+   "kind": "domain_membership"
+  },
+  {
+   "from": "atlas:mythic-japanese:kitsune",
+   "to": "domain:Mythic-Japanese:Yokai Country — Inari's Court",
+   "kind": "domain_membership"
+  },
+  {
+   "from": "atlas:mythic-japanese:kitsune",
+   "to": "atlas:real:vulpes-vulpes",
+   "kind": "variant_of",
+   "note": "The kitsune incarnates the red fox core in the Japanese mythic layer — same animal, storied."
+  },
+  {
+   "from": "atlas:mythic-norse:fenrir",
+   "to": "domain:Mythic-Norse:Jötunheimr-Kin — the offspring of Loki",
+   "kind": "domain_membership"
+  },
+  {
+   "from": "atlas:mythic-norse:fenrir",
+   "to": "atlas:real:canis-lupus",
+   "kind": "variant_of",
+   "note": "Fenrir incarnates the wolf core in the Norse layer: the pack animal with the pack removed, grown to prophecy scale."
+  },
+  {
+   "from": "atlas:spiritual-goetic:paimon",
+   "to": "domain:Spiritual-Goetic:Ars Goetia — the Kings",
+   "kind": "domain_membership"
+  },
+  {
+   "from": "atlas:spiritual-abrahamic:gabriel",
+   "to": "domain:Spiritual-Abrahamic:Angelic Hierarchy — the Archangels",
+   "kind": "domain_membership"
+  },
+  {
+   "from": "atlas:fiction-ufology:the-grey",
+   "to": "domain:Fiction-Ufology:Reported Entities — the abduction lore",
+   "kind": "domain_membership"
+  },
+  {
+   "from": "atlas:fiction-canon:xenomorph-xx121",
+   "to": "domain:Fiction-Canon:The Alien Canon — LV-426 Lineage",
+   "kind": "domain_membership"
+  },
+  {
+   "from": "atlas:real:canis-lupus",
+   "to": "domain:Real:Animalia — Mammalia / Carnivora",
+   "kind": "domain_membership"
+  },
+  {
+   "from": "atlas:real:canis-lupus",
+   "to": "atlas:mythic-norse:fenrir",
+   "kind": "core_of",
+   "note": "Fenrir is this wolf in the Norse layer: pack removed, scale and grievance added."
+  },
+  {
+   "from": "atlas:real:canis-lupus",
+   "to": "atlas:game-dragonwilds:wolf",
+   "kind": "core_of",
+   "note": "The Dragonwilds wolf incarnates the core in the game layer (Ashenfall)."
+  },
+  {
+   "from": "atlas:real:canis-lupus",
+   "to": "atlas:real:corvus-corax",
+   "kind": "kinship",
+   "note": "Ecological partnership: ravens follow the packs."
+  },
+  {
+   "from": "atlas:real:canis-lupus",
+   "to": "atlas:real:vulpes-vulpes",
+   "kind": "kinship",
+   "note": "Same family (Canidae); taxonomic-distance note."
+  },
+  {
+   "from": "atlas:game-dragonwilds:wolf",
+   "to": "domain:Game-Dragonwilds:Ashenfall Fauna — Creatures",
+   "kind": "domain_membership"
+  },
+  {
+   "from": "atlas:game-dragonwilds:wolf",
+   "to": "atlas:real:canis-lupus",
+   "kind": "variant_of",
+   "note": "The Ashenfall wolf incarnates the real gray wolf core in the game layer."
+  }
+ ]
+}

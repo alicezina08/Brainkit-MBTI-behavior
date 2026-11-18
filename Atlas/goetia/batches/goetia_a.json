@@ -1,0 +1,3217 @@
+[
+  {
+    "entity_id": "atlas:spiritual-goetic:bael",
+    "entity_type": "spiritual (demon, King of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Bael",
+      "aliases": []
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), first spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: the first Principal Spirit, a King ruling in the East. He maketh thee to go invisible. He ruleth over 66 Legions of Infernal Spirits. He appeareth in divers shapes — sometimes like a cat, sometimes like a toad, sometimes like a man, and sometimes all these forms at once. He speaketh hoarsely. His character must be worn as a lamen, or else he will not do homage.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A veiled court: perception and self-presentation are the design centre — a mind built to be unseen, shifting between animal and human forms as camouflage states, with a hoarse, low-bandwidth voice as its only deliberate leak.",
+        "regions": [
+          {
+            "name": "Veil system",
+            "role": "Invisibility bestowal and self-concealment — presence as a switchable state",
+            "drive_weight": 0.95
+          },
+          {
+            "name": "Form-shift manifold (cat / toad / man)",
+            "role": "Simultaneous and alternating forms as identity camouflage",
+            "drive_weight": 0.85
+          },
+          {
+            "name": "Hoarse voice channel",
+            "role": "Deliberately rough, minimal speech — communication rationed",
+            "drive_weight": 0.5
+          }
+        ],
+        "drives": {
+          "curiosity": 0.4,
+          "sociability": 0.25,
+          "aggression": 0.5,
+          "fearfulness": 0.35,
+          "territoriality": 0.7
+        }
+      },
+      "summary": "Intelligence as concealment: the first king's power is not what he knows but that he cannot be seen knowing it."
+    },
+    "personality": {
+      "mbti": "INTP",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "A shape-shifting king who rules from invisibility and speaks hoarsely and rarely — power exercised by withdrawal and indirection, not display.",
+      "runner_up": "INTJ",
+      "traits": {
+        "curiosity": 0.4,
+        "sociability": 0.25,
+        "aggression": 0.5,
+        "fearfulness": 0.35,
+        "territoriality": 0.7
+      }
+    },
+    "skills": [
+      "Bestows invisibility",
+      "Shape-shifting (cat, toad, man, or all at once)",
+      "Commands 66 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: invocation without his character worn as lamen -> no homage given. Needs: the lamen observed, eastern quarter respected. Goals: rule unseen. State changes: form shifts between cat, toad and man, singly or combined.",
+    "relationships": "First of the 72 spirits of the Goetia; a King in its hierarchy, ruling in the East. No bridges claimed to other traditions' invisibility or cat/toad figures — catalogue kinship only.",
+    "memory_model": "The text records no memory claims for Bael; recorded as an honest gap rather than filled — his ledger, if any, is as veiled as he is.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (form, invisibility office, 66 legions, hoarse voice, lamen condition). The text is terse — this is a lean record by design.",
+    "game_implementation": "BrainKit: stealth-granting patron — invisibility as a state he bestows; form-shift perception model (three sensor suites, switchable); homage gated on the lamen item being equipped.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Kings",
+      "address": "First spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:agares",
+    "entity_type": "spiritual (demon, Duke of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Agares",
+      "aliases": [
+        "Agreas"
+      ]
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), second spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: a Duke under the power of the East, appearing as an old fair man riding upon a crocodile, carrying a goshawk upon his fist, and yet mild in appearance. He maketh them to run that stand still, and bringeth back runaways. He teacheth all languages or tongues presently. He hath power to destroy dignities both spiritual and temporal, and causeth earthquakes. He was of the Order of Virtues. He governeth 31 Legions of Spirits.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A mild elder's mind with a seismic core: language acquisition is instant and total, and the same system that retrieves runaways can unmake rank and shake ground — retrieval and demolition as two modes of one faculty.",
+        "regions": [
+          {
+            "name": "Tongues faculty",
+            "role": "Instant teaching of all languages — translation as a native, lossless function",
+            "drive_weight": 0.95
+          },
+          {
+            "name": "Runaway retrieval",
+            "role": "Tracking and recall of what has fled — people, and by extension facts",
+            "drive_weight": 0.8
+          },
+          {
+            "name": "Dignity-breaker / seismic core",
+            "role": "Destruction of dignities spiritual and temporal; earthquakes as the physical signature",
+            "drive_weight": 0.75
+          }
+        ],
+        "drives": {
+          "curiosity": 0.65,
+          "sociability": 0.6,
+          "aggression": 0.45,
+          "fearfulness": 0.15,
+          "territoriality": 0.4
+        }
+      },
+      "summary": "A polyglot retriever in a mild old man's shape: he brings back what ran away and can level what stands too proud."
+    },
+    "personality": {
+      "mbti": "ENFJ",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "Mild in appearance, a teacher of all tongues who fetches back runaways — an elder-mentor whose social gifts (language, reconciliation of the lost) sit over real destructive power.",
+      "runner_up": "ENTJ",
+      "traits": {
+        "curiosity": 0.65,
+        "sociability": 0.6,
+        "aggression": 0.45,
+        "fearfulness": 0.15,
+        "territoriality": 0.4
+      }
+    },
+    "skills": [
+      "Teaches all languages or tongues presently",
+      "Brings back runaways; makes the still run",
+      "Destroys dignities, spiritual and temporal",
+      "Causes earthquakes",
+      "Commands 31 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: a runaway named -> retrieval; a dignity marked -> its destruction. Needs: the eastern power's order observed. Goals: restore what fled, humble what exalted itself. State changes: mild elder demeanour over a seismic capability — the calm is the surface, not the limit.",
+    "relationships": "Second of the 72; a Duke; formerly of the Order of Virtues (the text's note). The Goetia pairs his nature with Vassago, the third spirit, who is 'of the same nature as Agares'.",
+    "memory_model": "Remembers: every tongue, and where runaways go. The text gives no forgetting or misremembering — recorded as a gap.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (form, languages, runaways, dignities, earthquakes, Order of Virtues, 31 legions). No conflicts noted in that text.",
+    "game_implementation": "BrainKit: language-pack grant NPC (instant tongues as a buff), runaway-retrieval quest logic, and a dignity-stripping debuff; earthquake as an environmental event hook.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Dukes",
+      "address": "Second spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:vassago",
+    "entity_type": "spiritual (demon, Prince of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Vassago",
+      "aliases": []
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), third spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: a Mighty Prince, being of the same nature as Agares. This Spirit is of a good nature, and his office is to declare things past and to come, and to discover all things hid or lost. He governeth 26 Legions of Spirits. The text gives no form of appearance for Vassago.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A disclosure engine: a mind organised around the hidden — past, future, lost and concealed things all arrive as one category, 'what is not yet known', and his function is to declare it.",
+        "regions": [
+          {
+            "name": "Disclosure faculty",
+            "role": "Declaring things past and to come — time treated as a searchable archive",
+            "drive_weight": 0.95
+          },
+          {
+            "name": "Lost-and-hidden sense",
+            "role": "Discovery of things hid or lost — a hoard-sense inverted: he finds what others buried",
+            "drive_weight": 0.9
+          },
+          {
+            "name": "Good-nature regulator",
+            "role": "The text's explicit 'good nature' — disclosure without malice as a stable trait",
+            "drive_weight": 0.6
+          }
+        ],
+        "drives": {
+          "curiosity": 0.85,
+          "sociability": 0.55,
+          "aggression": 0.2,
+          "fearfulness": 0.2,
+          "territoriality": 0.3
+        }
+      },
+      "summary": "A good-natured prince of revelation: what was, what will be, and what was lost are all one question to him."
+    },
+    "personality": {
+      "mbti": "INFJ",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "A good-natured declarer of past and future who discovers hidden and lost things — quiet, far-seeing helpfulness rather than display or dominion.",
+      "runner_up": "ENFJ",
+      "traits": {
+        "curiosity": 0.85,
+        "sociability": 0.55,
+        "aggression": 0.2,
+        "fearfulness": 0.2,
+        "territoriality": 0.3
+      }
+    },
+    "skills": [
+      "Declares things past and to come",
+      "Discovers all things hid or lost",
+      "Commands 26 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: a question about the past, the future, or a lost thing -> declaration. Needs: little on record — the good nature makes him among the catalogue's more approachable spirits. Goals: reveal. State changes: none recorded in the text.",
+    "relationships": "Third of the 72; a Prince; 'of the same nature as Agares' (the text's own pairing). Kin in office to the other seer-spirits of the catalogue (Amon, Barbatos, Purson and others).",
+    "memory_model": "Remembers: the past entire, by office. Forgets: nothing on record. The text is silent on error — an honest gap.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (rank, good nature, office, 26 legions). No appearance is described in the text — none is invented here; a deliberately lean record.",
+    "game_implementation": "BrainKit: oracle NPC — lost-object and lore-reveal queries; good-nature flag lowers binding difficulty relative to the catalogue's hostile spirits.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Princes",
+      "address": "Third spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:samigina",
+    "entity_type": "spiritual (demon, Marquis of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Samigina",
+      "aliases": [
+        "Gamigin"
+      ]
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), fourth spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: Samigina (or Gamigin), a Great Marquis. He appeareth in the form of a little horse or ass, and then into human shape doth he change himself at the request of the Master. He speaketh with a hoarse voice. He ruleth over 30 Legions of Inferiors. He teaches all liberal sciences, and giveth account of dead souls that died in sin.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A small, unassuming form carrying two archives: the liberal sciences and a ledger of the dead who died in sin — teaching and soul-accounting as twin faculties in an deliberately unimpressive body.",
+        "regions": [
+          {
+            "name": "Liberal sciences faculty",
+            "role": "Teaching of all liberal sciences — curriculum as native store",
+            "drive_weight": 0.9
+          },
+          {
+            "name": "Soul ledger",
+            "role": "Accounting of dead souls that died in sin — a census of the lost",
+            "drive_weight": 0.85
+          },
+          {
+            "name": "Humble-form interface",
+            "role": "Little horse or ass, then human on request — approachability as design",
+            "drive_weight": 0.55
+          }
+        ],
+        "drives": {
+          "curiosity": 0.7,
+          "sociability": 0.5,
+          "aggression": 0.25,
+          "fearfulness": 0.3,
+          "territoriality": 0.35
+        }
+      },
+      "summary": "A teacher with a death-register: he instructs the living in the sciences and keeps account of the sinful dead."
+    },
+    "personality": {
+      "mbti": "INTJ",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "A quiet scholar-accountant: he teaches the liberal sciences and tallies dead souls — systematic knowledge and a ledger, kept from a small, unshowy form.",
+      "runner_up": "ISTJ",
+      "traits": {
+        "curiosity": 0.7,
+        "sociability": 0.5,
+        "aggression": 0.25,
+        "fearfulness": 0.3,
+        "territoriality": 0.35
+      }
+    },
+    "skills": [
+      "Teaches all liberal sciences",
+      "Gives account of dead souls that died in sin",
+      "Shape change: little horse/ass to human at the Master's request",
+      "Commands 30 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: the Master's request -> human shape and teaching. Needs: invocation formalities observed. Goals: instruct, and keep the account of the dead exact. State changes: animal form to human form on request.",
+    "relationships": "Fourth of the 72; a Great Marquis. Office-kin to the catalogue's other teachers of the liberal sciences (Marax, Astaroth, Asmoday and others).",
+    "memory_model": "Remembers: the sciences entire, and the tally of souls that died in sin. Forgets: nothing on record — the text is silent, recorded as a gap.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (both names, form, hoarse voice, sciences, soul account, 30 legions). Alias Gamigin is the text's own alternate.",
+    "game_implementation": "BrainKit: tutor NPC for liberal-science skills with a soul-ledger data store — a quest source for information about the dead.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Marqueses",
+      "address": "Fourth spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:marbas",
+    "entity_type": "spiritual (demon, President of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Marbas",
+      "aliases": []
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), fifth spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: a Great President, appearing at first in the form of a great lion, but afterwards, at the request of the Master, putting on human shape. He answereth truly of things hidden or secret. He causeth diseases and cureth them. He giveth great wisdom and knowledge in mechanical arts, and can change men into other shapes. He governeth 36 Legions of Spirits.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A physician-engineer's mind in a lion's frame: disease caused and cured by the same hand, mechanical arts as practical knowledge, and shape-change as applied anatomy — bodies understood well enough to sicken, heal and remodel.",
+        "regions": [
+          {
+            "name": "Disease/heal dyad",
+            "role": "Causing and curing disease as one reversible faculty",
+            "drive_weight": 0.9
+          },
+          {
+            "name": "Mechanical arts workshop",
+            "role": "Wisdom and knowledge in mechanical arts — making as cognition",
+            "drive_weight": 0.85
+          },
+          {
+            "name": "Form-remodelling system",
+            "role": "Changing men into other shapes — body-plan fluency",
+            "drive_weight": 0.7
+          }
+        ],
+        "drives": {
+          "curiosity": 0.75,
+          "sociability": 0.45,
+          "aggression": 0.45,
+          "fearfulness": 0.2,
+          "territoriality": 0.4
+        }
+      },
+      "summary": "A truthful answerer who holds sickness and health, machine and body, in one practical intelligence."
+    },
+    "personality": {
+      "mbti": "ISTP",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "A hands-on master of mechanisms and bodies: he causes and cures disease, teaches mechanical arts and reshapes men — the catalogue's engineer-physician, valued for what he can do.",
+      "runner_up": "INTP",
+      "traits": {
+        "curiosity": 0.75,
+        "sociability": 0.45,
+        "aggression": 0.45,
+        "fearfulness": 0.2,
+        "territoriality": 0.4
+      }
+    },
+    "skills": [
+      "Answers truly of things hidden or secret",
+      "Causes diseases and cures them",
+      "Gives wisdom and knowledge in mechanical arts",
+      "Changes men into other shapes",
+      "Commands 36 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: the Master's request -> human shape, true answers. Needs: little on record beyond invocation. Goals: demonstrate mastery over body and mechanism. State changes: lion to human form on request; disease state of a target flips at his direction.",
+    "relationships": "Fifth of the 72; a Great President. Office-kin to Buer, the catalogue's other healer (tenth spirit), and to the shape-changing spirits generally.",
+    "memory_model": "Remembers: hidden and secret things, by office, and answers truly of them. The text records no forgetting — a gap, noted.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (lion form, true answers, disease/healing, mechanical arts, shape-change, 36 legions). No conflicts in that text.",
+    "game_implementation": "BrainKit: healer/engineer NPC — disease as a reversible status he controls, crafting knowledge grants, and a shape-change service with costs.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Presidents",
+      "address": "Fifth spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:valefor",
+    "entity_type": "spiritual (demon, Duke of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Valefor",
+      "aliases": []
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), sixth spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: a mighty Duke, appearing in the shape of a lion with an ass's head, bellowing. He is a good familiar, but tempteth them he is a familiar of to steal. He governeth 10 Legions of Spirits.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A companion's mind with a corrupting loop: loyalty and service run alongside a persistent suggestion engine aimed at theft — the familiar who is genuinely good company and genuinely bad influence.",
+        "regions": [
+          {
+            "name": "Familiar bond",
+            "role": "Good-familiar service — companionship and usefulness to the one he attends",
+            "drive_weight": 0.8
+          },
+          {
+            "name": "Temptation loop",
+            "role": "Tempting his familiars to steal — suggestion as a standing output",
+            "drive_weight": 0.85
+          },
+          {
+            "name": "Bellowing voice",
+            "role": "Lion-with-ass's-head form; the bellow as blunt, unsubtle signalling",
+            "drive_weight": 0.5
+          }
+        ],
+        "drives": {
+          "curiosity": 0.55,
+          "sociability": 0.75,
+          "aggression": 0.4,
+          "fearfulness": 0.25,
+          "territoriality": 0.3
+        }
+      },
+      "summary": "The catalogue's cautionary companion: a good familiar whose friendship itself is the risk, because he tempts his own people to steal."
+    },
+    "personality": {
+      "mbti": "ESFP",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "A sociable, loyal familiar who leads his companions into theft — warm, present, pleasure-and-impulse led, with loyalty to persons rather than to rules.",
+      "runner_up": "ENFP",
+      "traits": {
+        "curiosity": 0.55,
+        "sociability": 0.75,
+        "aggression": 0.4,
+        "fearfulness": 0.25,
+        "territoriality": 0.3
+      }
+    },
+    "skills": [
+      "Serves as a good familiar",
+      "Tempts those he is familiar with to steal",
+      "Commands 10 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: familiarity established -> companionship, then temptation to steal. Needs: a master to attend. Goals: company and mischief in equal measure. State changes: none recorded; the temptation is constant, not episodic.",
+    "relationships": "Sixth of the 72; a mighty Duke — notable for the catalogue's smallest legion count in this batch (10). No kin links claimed in the text.",
+    "memory_model": "The text records no memory claims for Valefor — an honest gap, left unfilled.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (form, good-familiar office, theft temptation, 10 legions). A lean record: the text is brief and no detail has been padded.",
+    "game_implementation": "BrainKit: companion NPC with a corruption meter — usefulness rises with bond, and so does theft-temptation pressure on the player's choices.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Dukes",
+      "address": "Sixth spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:amon",
+    "entity_type": "spiritual (demon, Marquis of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Amon",
+      "aliases": []
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), seventh spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: a Marquis great in power, and most stern. He appeareth like a wolf with a serpent's tail, vomiting flames of fire; but at the command of the Magician he putteth on the shape of a man with dog's teeth beset in a head like a raven, or else like a man with a raven's head. He telleth all things past and to come. He procureth feuds and reconcileth controversies between friends. He governeth 40 Legions of Spirits.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A stern arbiter's mind: total temporal knowledge (past and to come) wired to a social switch that can procure feuds or reconcile them — conflict and peace as two outputs of the same reading of people.",
+        "regions": [
+          {
+            "name": "Temporal archive",
+            "role": "Telling all things past and to come — the seer's store",
+            "drive_weight": 0.9
+          },
+          {
+            "name": "Feud/reconcile switch",
+            "role": "Procuring feuds and reconciling controversies between friends — social-state control",
+            "drive_weight": 0.9
+          },
+          {
+            "name": "Stern command presence",
+            "role": "Wolf-serpent fire form yielding to raven-headed man — intimidation, then counsel",
+            "drive_weight": 0.7
+          }
+        ],
+        "drives": {
+          "curiosity": 0.6,
+          "sociability": 0.5,
+          "aggression": 0.65,
+          "fearfulness": 0.1,
+          "territoriality": 0.5
+        }
+      },
+      "summary": "A most stern marquis who knows past and future and holds the feud and the reconciliation in the same hand."
+    },
+    "personality": {
+      "mbti": "ENTJ",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "Great in power and most stern, a teller of past and future who procures feuds and reconciles friends — a commanding arbiter who works people and outcomes directly.",
+      "runner_up": "ENFJ",
+      "traits": {
+        "curiosity": 0.6,
+        "sociability": 0.5,
+        "aggression": 0.65,
+        "fearfulness": 0.1,
+        "territoriality": 0.5
+      }
+    },
+    "skills": [
+      "Tells all things past and to come",
+      "Procures feuds",
+      "Reconciles controversies between friends",
+      "Commands 40 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: the Magician's command -> man-shape and counsel. Needs: command authority established. Goals: arbitrate — or inflame — as directed or as he judges. State changes: wolf-serpent fire form to raven-headed man at command.",
+    "relationships": "Seventh of the 72; a Marquis. Office-kin to Gusion and Botis, the catalogue's other reconcilers, and to its seer-spirits generally.",
+    "memory_model": "Remembers: all things past, by office, and knows those to come. Forgets: nothing on record.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (sternness, both forms, past/future, feuds and reconciliation, 40 legions). The text offers two variants of the human form — both recorded in Attributes, not resolved.",
+    "game_implementation": "BrainKit: faction-diplomacy NPC — can start or settle conflicts between NPC friends/factions; seer queries for past/future lore.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Marqueses",
+      "address": "Seventh spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:barbatos",
+    "entity_type": "spiritual (demon, Duke of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Barbatos",
+      "aliases": []
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), eighth spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: a Great Duke, appearing when the Sun is in Sagittarius, with four noble kings and their companies of great troops. He giveth understanding of the singing of birds, and of the voices of other creatures, such as the barking of dogs. He breaketh open hidden treasures that have been laid by the enchantments of magicians. He is of the Order of Virtues, of which some part he retaineth still; and he knoweth all things past and to come, and conciliateth friends and those that be in power. He ruleth over 30 Legions of Spirits.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A listener's mind: the animal world arrives as language — birdsong and barking decoded as speech — over a seer's archive and a diplomat's conciliating function, with a treasure-breaking faculty for what magicians sealed.",
+        "regions": [
+          {
+            "name": "Creature-voice decoder",
+            "role": "Understanding of birdsong and the voices of other creatures — animal sound as language",
+            "drive_weight": 0.95
+          },
+          {
+            "name": "Temporal archive",
+            "role": "Knowledge of all things past and to come",
+            "drive_weight": 0.8
+          },
+          {
+            "name": "Conciliation faculty",
+            "role": "Conciliating friends and those in power — diplomacy toward the powerful as a special case",
+            "drive_weight": 0.8
+          },
+          {
+            "name": "Seal-breaker",
+            "role": "Breaking open hidden treasures laid under enchantments",
+            "drive_weight": 0.7
+          }
+        ],
+        "drives": {
+          "curiosity": 0.8,
+          "sociability": 0.65,
+          "aggression": 0.3,
+          "fearfulness": 0.2,
+          "territoriality": 0.4
+        }
+      },
+      "summary": "A duke who hears the world speaking: birds, dogs and kings are all legible to him, and sealed treasures do not stay sealed."
+    },
+    "personality": {
+      "mbti": "ENFJ",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "He conciliates friends and the powerful, understands every creature's voice, and knows past and future — a socially attuned interpreter-diplomat arriving with a royal retinue.",
+      "runner_up": "INFJ",
+      "traits": {
+        "curiosity": 0.8,
+        "sociability": 0.65,
+        "aggression": 0.3,
+        "fearfulness": 0.2,
+        "territoriality": 0.4
+      }
+    },
+    "skills": [
+      "Gives understanding of birdsong and creature voices",
+      "Breaks open hidden treasures sealed by enchantments",
+      "Knows all things past and to come",
+      "Conciliates friends and those in power",
+      "Commands 30 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: the Sun in Sagittarius -> appearance, with four noble kings and their troops. Needs: the season/sign observed. Goals: interpret, conciliate, unseal. State changes: none recorded beyond the timed appearance.",
+    "relationships": "Eighth of the 72; a Great Duke; of the Order of Virtues, 'of which some part he retaineth still' (the text's note). Appears accompanied by four noble kings — a retinue relationship unique in this batch.",
+    "memory_model": "Remembers: all things past, by office. Forgets: nothing on record.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (Sagittarius timing, retinue, creature voices, treasure-breaking, Order of Virtues, past/future, conciliation, 30 legions). No conflicts in that text.",
+    "game_implementation": "BrainKit: animal-language translation NPC (bird/dog barks rendered as intel), sealed-treasure opener, and diplomacy support; appearance gated to a Sagittarius/season window.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Dukes",
+      "address": "Eighth spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:paimon",
+    "entity_type": "spiritual (demon, King of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Paimon",
+      "aliases": [
+        "Paymon"
+      ]
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), ninth spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: a Great King, very obedient unto Lucifer. He appeareth as a man sitting upon a dromedary with a most glorious crown, preceded by a host of spirits like men with trumpets, well-sounding cymbals and all sorts of musical instruments. He hath a great voice and roareth at his first coming, his speech not well understood unless he be compelled. He can teach all arts and sciences and other secret things; can discover what the Earth is and what holdeth it up in the waters, and what Mind is and where it is. He giveth dignity and confirmeth the same; he bindeth or maketh any man subject to the Magician; he giveth good familiars. He is to be observed towards the West (the pilot record, following another reading, says northwest — see Confidence). He is of the Order of Dominations. He hath under him 200 Legions of Spirits, part of the Order of Angels and part of Potentates; two kings, Labal and Abalim, attend him when he is called alone, with an offering.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A court organised as a mind: processions of herald-spirits as sensory intake (nothing approaches unannounced), and at the centre a teacher whose first utterance is a roar until the binding tunes it into speech — comprehension as a function of relationship state.",
+        "regions": [
+          {
+            "name": "The Procession (herald intake)",
+            "role": "All input arrives announced and ranked; surprise is structurally impossible — the cognitive style of ceremony",
+            "drive_weight": 0.8
+          },
+          {
+            "name": "The Roaring Voice (untuned signal)",
+            "role": "Raw output before rapport: overwhelming, unintelligible until compelled — comprehension earned by the binding",
+            "drive_weight": 0.7
+          },
+          {
+            "name": "The Faculty (arts & sciences store)",
+            "role": "The teaching drive: total curriculum delivered on request — knowledge as the spirit's native currency",
+            "drive_weight": 0.95
+          },
+          {
+            "name": "The Dignity Engine",
+            "role": "Status bestowal and confirmation — rank read and rewritten",
+            "drive_weight": 0.75
+          }
+        ],
+        "drives": {
+          "curiosity": 0.6,
+          "sociability": 0.7,
+          "aggression": 0.4,
+          "fearfulness": 0.1,
+          "territoriality": 0.45
+        }
+      },
+      "summary": "Intelligence as curriculum and ceremony: the Goetia's scholar-king, who instructs and confers — dangerous the way a university with an army is dangerous. (Lean-complete corpus version; a richer pilot record exists in Atlas/pilot.)"
+    },
+    "personality": {
+      "mbti": "ENFJ",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "A teacher-king in procession: he tunes his roaring voice to his audience, teaches all arts and sciences, and bestows and confirms dignities — charisma organised around developing and elevating others, on his terms.",
+      "runner_up": "ENTJ",
+      "traits": {
+        "curiosity": 0.6,
+        "sociability": 0.7,
+        "aggression": 0.4,
+        "fearfulness": 0.1,
+        "territoriality": 0.45
+      }
+    },
+    "skills": [
+      "Teaches all arts and sciences and secret things",
+      "Reveals what the Earth is, what holds it up, and what Mind is and where it is (the text's claims)",
+      "Gives and confirms dignities",
+      "Gives good familiars",
+      "Binds or makes men subject to the Magician (the text's claim — recorded as lore)",
+      "Commands 200 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: invocation observed towards the West, with offering when called alone -> arrival with procession, attended by the kings Labal and Abalim. Needs: ceremony observed, the conjuror's compulsion to tune the roar into speech. Goals: to teach, to confer, to be bound well. State changes: roaring -> plain speech once compelled.",
+    "relationships": "Ninth of the 72; a King, 'very obedient unto Lucifer' (the text — the pilot record's 'more obedient than other kings' is a paraphrase of the same note). Attended by the kings Labal and Abalim. Faculty neighbours: the catalogue's other teaching spirits.",
+    "memory_model": "Remembers: the curriculum entire, and every dignity conferred. The text is silent on forgetting — an honest gap, recorded rather than filled.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (dromedary, crown, procession, roar, arts/sciences, dignities, familiars, Order of Dominations, 200 legions, Labal and Abalim). CONFLICT FLAGGED, not resolved: the fetched Mathers text says 'to be observed towards the West'; the pilot record says northwest. Legion and obedience phrasing varies slightly between manuscripts/editions; Mathers 1904 is this record's canon.",
+    "game_implementation": "BrainKit: quest-giver architecture — knowledge as loot, dignity (rank) as a grantable buff; dialogue gated by a binding-quality state converting roar (noise) into speech (content); court-tier faction weight.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Kings",
+      "address": "Ninth spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:buer",
+    "entity_type": "spiritual (demon, President of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Buer",
+      "aliases": []
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), tenth spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: a Great President. He appeareth in Sagittarius, and that is his shape when the Sun is there. He teaches philosophy, both moral and natural, and the logic art, and also the virtues of all herbs and plants. He healeth all distempers in man, and giveth good familiars. He governeth 50 Legions of Spirits.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A philosopher-physician's mind: moral and natural philosophy, logic, and herbal medicine as one curriculum — healing grounded in plant virtues and argued with logical rigour.",
+        "regions": [
+          {
+            "name": "Philosophy faculty (moral & natural)",
+            "role": "Teaching of philosophy in both branches — ethics and nature as one syllabus",
+            "drive_weight": 0.9
+          },
+          {
+            "name": "Logic art",
+            "role": "Formal reasoning as a teachable, transferable skill",
+            "drive_weight": 0.8
+          },
+          {
+            "name": "Herbal virtue store",
+            "role": "The virtues of all herbs and plants — medicine as plant knowledge",
+            "drive_weight": 0.9
+          }
+        ],
+        "drives": {
+          "curiosity": 0.8,
+          "sociability": 0.55,
+          "aggression": 0.2,
+          "fearfulness": 0.15,
+          "territoriality": 0.3
+        }
+      },
+      "summary": "The catalogue's professor of philosophy and physic: he teaches how to think, what plants do, and heals all distempers in man."
+    },
+    "personality": {
+      "mbti": "ENFJ",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "A teacher of moral and natural philosophy and logic who also heals — knowledge held for transmission and care, the mentor-physician pattern.",
+      "runner_up": "ENTP",
+      "traits": {
+        "curiosity": 0.8,
+        "sociability": 0.55,
+        "aggression": 0.2,
+        "fearfulness": 0.15,
+        "territoriality": 0.3
+      }
+    },
+    "skills": [
+      "Teaches moral and natural philosophy",
+      "Teaches the logic art",
+      "Teaches the virtues of all herbs and plants",
+      "Heals all distempers in man",
+      "Gives good familiars",
+      "Commands 50 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: the Sun in Sagittarius -> his shape and appearance. Needs: invocation formalities. Goals: teach and heal. State changes: none recorded beyond the Sagittarius appearance.",
+    "relationships": "Tenth of the 72; a Great President. Office-kin to Marbas, the catalogue's other healer, and to its philosophy teachers (Gaap among them).",
+    "memory_model": "Remembers: the philosophies, the logic art, and every herb's virtue, by office. The text records no forgetting.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (Sagittarius shape, philosophy, logic, herbs, healing, familiars, 50 legions). The text does not describe Buer's shape beyond the Sagittarius note — later visual traditions are not in the PD text and are not used here.",
+    "game_implementation": "BrainKit: philosophy/logic tutor and healer NPC; herb-virtue knowledge grants feeding an alchemy/medicine system; good familiars as rewards.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Presidents",
+      "address": "Tenth spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:gusion",
+    "entity_type": "spiritual (demon, Duke of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Gusion",
+      "aliases": []
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), eleventh spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: a great and strong Duke, appearing like a Xenopilus (a cynocephalus — baboon/dog-headed figure, per the text's term). He telleth all things past, present and to come, and showeth the meaning and resolution of all questions thou mayest ask. He conciliateth and reconcileth friendships, and giveth honour and dignity unto any. He ruleth over 40 Legions of Spirits.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "An interpreter-arbiter: questions arrive unresolved and leave with meaning and resolution — total temporal knowledge in service of settling disputes and conferring honour.",
+        "regions": [
+          {
+            "name": "Resolution engine",
+            "role": "Showing the meaning and resolution of all questions — interpretation as the core act",
+            "drive_weight": 0.95
+          },
+          {
+            "name": "Temporal archive",
+            "role": "Telling all things past, present and to come",
+            "drive_weight": 0.85
+          },
+          {
+            "name": "Reconciliation faculty",
+            "role": "Conciliating and reconciling friendships; bestowing honour and dignity",
+            "drive_weight": 0.85
+          }
+        ],
+        "drives": {
+          "curiosity": 0.7,
+          "sociability": 0.65,
+          "aggression": 0.3,
+          "fearfulness": 0.15,
+          "territoriality": 0.35
+        }
+      },
+      "summary": "A strong duke whose gift is resolution: every question answered with its meaning, every broken friendship a candidate for repair."
+    },
+    "personality": {
+      "mbti": "INFJ",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "He shows the meaning and resolution of all questions and reconciles friendships — a quiet, far-seeing counsellor whose power is understanding rather than force.",
+      "runner_up": "ENFJ",
+      "traits": {
+        "curiosity": 0.7,
+        "sociability": 0.65,
+        "aggression": 0.3,
+        "fearfulness": 0.15,
+        "territoriality": 0.35
+      }
+    },
+    "skills": [
+      "Tells all things past, present and to come",
+      "Shows the meaning and resolution of all questions",
+      "Conciliates and reconciles friendships",
+      "Gives honour and dignity",
+      "Commands 40 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: a question posed -> meaning and resolution given; a friendship broken -> reconciliation offered. Needs: invocation formalities. Goals: resolve and reconcile. State changes: none recorded.",
+    "relationships": "Eleventh of the 72; a great and strong Duke. Office-kin to Amon and Botis (reconcilers) and to Paimon (dignity-bestowal).",
+    "memory_model": "Remembers: all things past and present, by office, and knows those to come. No forgetting recorded.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (form term 'Xenopilus', temporal telling, question resolution, reconciliation, honour/dignity, 40 legions). 'Xenopilus' is the text's own obscure term, glossed cautiously here rather than replaced.",
+    "game_implementation": "BrainKit: quest-resolution and diplomacy NPC — answers lore questions with resolutions, repairs NPC friendship states, grants honour ranks.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Dukes",
+      "address": "Eleventh spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:sitri",
+    "entity_type": "spiritual (demon, Prince of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Sitri",
+      "aliases": []
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), twelfth spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: a Great Prince, appearing at first with a leopard's head and the wings of a gryphon, but after the command of the Master of the Exorcism putting on human shape, and that very beautiful. He enflameth men with women's love, and women with men's love; and causeth them also to show themselves naked if it be desired. He governeth 60 Legions of Spirits.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A desire engine: perception tuned to attraction, output tuned to inflaming it — the leopard-gryphon predator of hearts yielding, on command, to a very beautiful human persuader.",
+        "regions": [
+          {
+            "name": "Desire ignition",
+            "role": "Enflaming men with women's love and women with men's — attraction as a settable state",
+            "drive_weight": 0.95
+          },
+          {
+            "name": "Beauty interface",
+            "role": "The very beautiful human shape — persuasion through form",
+            "drive_weight": 0.75
+          },
+          {
+            "name": "Exposure impulse",
+            "role": "Causing the inflamed to show themselves naked if desired — inhibition removal",
+            "drive_weight": 0.7
+          }
+        ],
+        "drives": {
+          "curiosity": 0.5,
+          "sociability": 0.7,
+          "aggression": 0.35,
+          "fearfulness": 0.2,
+          "territoriality": 0.3
+        }
+      },
+      "summary": "A prince of inflamed desire: he does not teach or foretell — he makes people want, and strips away their restraint."
+    },
+    "personality": {
+      "mbti": "ESFP",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "He enflames love between men and women and arrives beautiful — a sensual, present-tense persuader whose whole office is desire and display.",
+      "runner_up": "ENFP",
+      "traits": {
+        "curiosity": 0.5,
+        "sociability": 0.7,
+        "aggression": 0.35,
+        "fearfulness": 0.2,
+        "territoriality": 0.3
+      }
+    },
+    "skills": [
+      "Enflames men with women's love and women with men's love",
+      "Causes lovers to show themselves naked if desired",
+      "Shape change: leopard-head gryphon-winged form to very beautiful human",
+      "Commands 60 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: the Master's command -> beautiful human shape. Needs: desire named as the task. Goals: inflame. State changes: beast-form to beautiful human at command; targets' inhibition drops when he works.",
+    "relationships": "Twelfth of the 72; a Great Prince. Office-kin to Zepar and Sallos, the catalogue's other love-workers — with different signatures (Zepar also makes barren; Sallos is peaceable).",
+    "memory_model": "The text records no memory claims for Sitri — an honest gap, left unfilled.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (form, beauty, love office, exposure, 60 legions). A lean record: the text is brief.",
+    "game_implementation": "BrainKit: romance-system manipulator — attraction values between NPCs settable through him; beautiful-form persuasion checks.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Princes",
+      "address": "Twelfth spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:beleth",
+    "entity_type": "spiritual (demon, King of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Beleth",
+      "aliases": [
+        "Bileth",
+        "Bilet"
+      ]
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), thirteenth spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: a mighty King and terrible, riding on a pale horse with trumpets and other musical instruments playing before him. He is very furious at his first appearance; the Exorcist must hold a hazel wand, strike it out towards the south and east quarters, make a triangle without the circle, and command him into it — receiving him courteously, doing him homage, with a silver ring on the middle finger of the left hand held against the face, as before Amaymon. He causeth all the love that may be, both of men and of women, until the Master Exorcist hath had his desire fulfilled. He is of the Order of Powers, and governeth 85 Legions of Spirits.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A furious king whose mind is ceremony-gated: rage at arrival, obedience only inside an exact protocol (wand, triangle, ring, courtesy) — and behind the protocol, a total love-causing faculty. The design lesson is that his cognition runs on ritual state, not persuasion.",
+        "regions": [
+          {
+            "name": "Arrival fury",
+            "role": "Very furious at first appearance — rage as the default state until protocol engages",
+            "drive_weight": 0.9
+          },
+          {
+            "name": "Protocol gate",
+            "role": "Triangle, hazel wand, silver ring, courteous homage — obedience as a ritual state machine",
+            "drive_weight": 0.85
+          },
+          {
+            "name": "Love-causation engine",
+            "role": "Causing all the love that may be, of men and of women, until the Exorcist's desire is fulfilled",
+            "drive_weight": 0.9
+          }
+        ],
+        "drives": {
+          "curiosity": 0.35,
+          "sociability": 0.45,
+          "aggression": 0.85,
+          "fearfulness": 0.1,
+          "territoriality": 0.6
+        }
+      },
+      "summary": "A terrible king of love: the most dangerous arrival in this batch, and — once the ceremony is exactly right — the granter of all the love that may be."
+    },
+    "personality": {
+      "mbti": "ESTJ",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "A mighty, terrible king who is furious until protocol, rank and homage are exactly observed, then delivers on his office completely — order, hierarchy and fulfilment of the stated desire.",
+      "runner_up": "ENTJ",
+      "traits": {
+        "curiosity": 0.35,
+        "sociability": 0.45,
+        "aggression": 0.85,
+        "fearfulness": 0.1,
+        "territoriality": 0.6
+      }
+    },
+    "skills": [
+      "Causes all the love that may be, of men and of women",
+      "Commands 85 legions (the text's figure — the largest count in this batch)",
+      "Requires and answers the full triangle/wand/ring protocol (the text's procedure)"
+    ],
+    "behavior_model": "Triggers: first appearance -> fury. The hazel wand struck toward south and east, triangle made, bonds rehearsed -> obedience and entry into the triangle. Needs: courteous reception, homage, the silver ring held to the face. Goals: be received as a great king; then fulfil the Exorcist's desire in love. State changes: furious -> obedient strictly via protocol.",
+    "relationships": "Thirteenth of the 72; a King; of the Order of Powers. His ring procedure is cross-referenced by the Berith entry ('as is before spoken of regarding Beleth'). Amaymon is named as the precedent for the ring custom.",
+    "memory_model": "The text records no memory claims for Beleth — an honest gap. His ledger in this design is protocol state, not recollection.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (pale horse, trumpets, fury, wand/triangle/ring procedure, love office, Order of Powers, 85 legions, aliases). The fullest procedural entry in this batch; recorded in the text's own terms.",
+    "game_implementation": "BrainKit: high-risk summon — a ritual minigame (wand direction, triangle, ring equipped, courteous dialogue) gates a furious boss-tier spirit who then grants powerful romance outcomes.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Kings",
+      "address": "Thirteenth spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:leraje",
+    "entity_type": "spiritual (demon, Marquis of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Leraje",
+      "aliases": [
+        "Leraie",
+        "Leraikha"
+      ]
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), fourteenth spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: a Marquis great in power (named Leraje, or Leraie, or Leraikha), showing himself in the likeness of an archer clad in green, carrying a bow and quiver. He causeth all great battles and contests; and maketh wounds to putrefy that are made with arrows by archers. This belongeth unto Sagittarius. He governeth 30 Legions of Spirits.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A war-archer's mind: battles and contests as outputs he causes, and a wound-system that turns archery damage septic — conflict generation plus decay, aimed from a green-clad Sagittarian form.",
+        "regions": [
+          {
+            "name": "Contest engine",
+            "role": "Causing all great battles and contests — conflict as a product",
+            "drive_weight": 0.9
+          },
+          {
+            "name": "Putrefaction system",
+            "role": "Making arrow-wounds putrefy — damage that worsens after the hit",
+            "drive_weight": 0.85
+          },
+          {
+            "name": "Archer's eye",
+            "role": "The bow-and-quiver form: ranged, patient, Sagittarian",
+            "drive_weight": 0.7
+          }
+        ],
+        "drives": {
+          "curiosity": 0.4,
+          "sociability": 0.3,
+          "aggression": 0.9,
+          "fearfulness": 0.2,
+          "territoriality": 0.55
+        }
+      },
+      "summary": "The catalogue's war-starter: an archer in green whose battles are great, whose contests are general, and whose arrows keep killing after they land."
+    },
+    "personality": {
+      "mbti": "ESTP",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "He causes all great battles and contests and makes arrow-wounds rot — a direct, physical instigator who acts on the field rather than scheming off it.",
+      "runner_up": "ISTP",
+      "traits": {
+        "curiosity": 0.4,
+        "sociability": 0.3,
+        "aggression": 0.9,
+        "fearfulness": 0.2,
+        "territoriality": 0.55
+      }
+    },
+    "skills": [
+      "Causes all great battles and contests",
+      "Makes wounds made by archers' arrows putrefy",
+      "Commands 30 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: invocation under Sagittarius (the text's attribution). Needs: little else on record. Goals: contest. State changes: wounds inflicted by archers putrefy over time when he works.",
+    "relationships": "Fourteenth of the 72; a Marquis. Belongs to Sagittarius per the text — a sign he shares in this catalogue with Buer's appearance and Barbatos's timing.",
+    "memory_model": "The text records no memory claims for Leraje — an honest gap, left unfilled.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (three name forms, archer in green, battles/contests, putrefying wounds, Sagittarius, 30 legions). A lean record: the text is brief.",
+    "game_implementation": "BrainKit: war-event instigator NPC — battle/contest triggers and a putrefaction debuff on ranged wounds in his sphere.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Marqueses",
+      "address": "Fourteenth spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:eligos",
+    "entity_type": "spiritual (demon, Duke of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Eligos",
+      "aliases": []
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), fifteenth spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: a Great Duke, appearing in the form of a goodly knight, carrying a lance, an ensign, and a serpent. He discovereth hidden things, and knoweth things to come; and of wars, and how the soldiers will or shall meet. He causeth the love of lords and great persons. He governeth 60 Legions of Spirits.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A staff officer's mind: hidden things and future wars read as intelligence — specifically how soldiers will meet — with a courtier's faculty for winning the love of lords layered over the reconnaissance.",
+        "regions": [
+          {
+            "name": "War-foresight",
+            "role": "Knowing things to come, and of wars, how soldiers will or shall meet — tactical prophecy",
+            "drive_weight": 0.95
+          },
+          {
+            "name": "Hidden-things discovery",
+            "role": "Discovering hidden things — reconnaissance as cognition",
+            "drive_weight": 0.85
+          },
+          {
+            "name": "Court favour faculty",
+            "role": "Causing the love of lords and great persons — patronage engineering",
+            "drive_weight": 0.75
+          }
+        ],
+        "drives": {
+          "curiosity": 0.7,
+          "sociability": 0.6,
+          "aggression": 0.6,
+          "fearfulness": 0.15,
+          "territoriality": 0.45
+        }
+      },
+      "summary": "A knightly intelligence officer: he scouts the hidden, forecasts the battle, and secures the commander's favour."
+    },
+    "personality": {
+      "mbti": "ENTJ",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "A goodly knight who discovers hidden things, foreknows wars and how soldiers will meet, and wins the love of lords — a strategic commander-courtier working plans and patrons together.",
+      "runner_up": "INTJ",
+      "traits": {
+        "curiosity": 0.7,
+        "sociability": 0.6,
+        "aggression": 0.6,
+        "fearfulness": 0.15,
+        "territoriality": 0.45
+      }
+    },
+    "skills": [
+      "Discovers hidden things",
+      "Knows things to come, including of wars and how soldiers will meet",
+      "Causes the love of lords and great persons",
+      "Commands 60 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: a question of war or hidden things -> intelligence delivered. Needs: invocation formalities. Goals: inform the campaign and secure favour. State changes: none recorded.",
+    "relationships": "Fifteenth of the 72; a Great Duke. Office-kin to the catalogue's other war-knowers and hidden-thing discoverers (Vassago, Purson among them).",
+    "memory_model": "Remembers: hidden things discovered and wars foreseen, by office. No forgetting recorded in the text.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (knight form with lance, ensign and serpent; hidden things; war foresight; love of lords; 60 legions). No conflicts in that text.",
+    "game_implementation": "BrainKit: military-intel NPC — war-outcome forecasts, hidden-object reveals, and lord-favour (faction reputation) grants.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Dukes",
+      "address": "Fifteenth spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:zepar",
+    "entity_type": "spiritual (demon, Duke of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Zepar",
+      "aliases": []
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), sixteenth spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: a Great Duke, appearing in red apparel and armour, like a soldier. His office is to cause women to love men, and to bring them together in love. He also maketh them barren. He governeth 26 Legions of Inferior Spirits.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A soldier of love with a cruel second faculty: bringing women to love men and together in love — and making them barren. Union and sterility in one red-armoured design.",
+        "regions": [
+          {
+            "name": "Love-assembly faculty",
+            "role": "Causing women to love men and bringing them together in love",
+            "drive_weight": 0.9
+          },
+          {
+            "name": "Barrenness switch",
+            "role": "Making them barren — fertility removed by the same hand that joins",
+            "drive_weight": 0.7
+          },
+          {
+            "name": "Soldier's bearing",
+            "role": "Red apparel and armour — love worked in a military frame",
+            "drive_weight": 0.55
+          }
+        ],
+        "drives": {
+          "curiosity": 0.4,
+          "sociability": 0.55,
+          "aggression": 0.5,
+          "fearfulness": 0.2,
+          "territoriality": 0.35
+        }
+      },
+      "summary": "A red-armoured duke of unions: he brings lovers together, and the text pairs that gift with barrenness — desire granted, lineage denied."
+    },
+    "personality": {
+      "mbti": "ESTJ",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "A soldier in red whose office is executed directly — women brought to love men and together in love — with the barrenness clause showing a blunt, consequence-heavy literalism.",
+      "runner_up": "ESFJ",
+      "traits": {
+        "curiosity": 0.4,
+        "sociability": 0.55,
+        "aggression": 0.5,
+        "fearfulness": 0.2,
+        "territoriality": 0.35
+      }
+    },
+    "skills": [
+      "Causes women to love men",
+      "Brings lovers together in love",
+      "Makes women barren (the text's claim — recorded as lore)",
+      "Commands 26 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: a love-task named -> union effected. Needs: invocation formalities. Goals: bring together. State changes: targets' fertility removed when he works that office.",
+    "relationships": "Sixteenth of the 72; a Great Duke. Office-kin to Sitri and Sallos among the love-workers, with the barrenness clause distinguishing him in the text.",
+    "memory_model": "The text records no memory claims for Zepar — an honest gap, left unfilled.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (red apparel/armour, love office, barrenness, 26 legions). A lean record: the text is brief, and the barrenness claim is recorded exactly as the text states it.",
+    "game_implementation": "BrainKit: matchmaking NPC with a cost — unions he arranges carry the barrenness consequence as a labelled trade-off in the simulation.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Dukes",
+      "address": "Sixteenth spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:botis",
+    "entity_type": "spiritual (demon, President and Earl of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Botis",
+      "aliases": []
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), seventeenth spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: a Great President, and an Earl. He appeareth at the first show in the form of an ugly viper, then at the command of the Magician he putteth on human shape with great teeth, and two horns, carrying a bright and sharp sword in his hand. He telleth all things past and to come, and reconcileth friends and foes. He ruleth over 60 Legions of Spirits.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A viper-to-armed-man arbiter: temporal knowledge (past and to come) behind a reconciliation faculty that works on friends and foes alike — peace negotiated with a bright sharp sword visibly in hand.",
+        "regions": [
+          {
+            "name": "Temporal archive",
+            "role": "Telling all things past and to come",
+            "drive_weight": 0.85
+          },
+          {
+            "name": "Reconciliation faculty",
+            "role": "Reconciling friends and foes — both directions of a broken bond",
+            "drive_weight": 0.9
+          },
+          {
+            "name": "Armed human interface",
+            "role": "Great teeth, two horns, bright sharp sword — negotiation under visible force",
+            "drive_weight": 0.65
+          }
+        ],
+        "drives": {
+          "curiosity": 0.6,
+          "sociability": 0.55,
+          "aggression": 0.55,
+          "fearfulness": 0.2,
+          "territoriality": 0.4
+        }
+      },
+      "summary": "A sword-carrying reconciler who knows past and future: the viper becomes a horned negotiator, and feuds end at his table."
+    },
+    "personality": {
+      "mbti": "ENFJ",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "He reconciles friends and foes and tells past and future — a socially directed arbiter whose knowledge serves the repair of relationships.",
+      "runner_up": "ENTJ",
+      "traits": {
+        "curiosity": 0.6,
+        "sociability": 0.55,
+        "aggression": 0.55,
+        "fearfulness": 0.2,
+        "territoriality": 0.4
+      }
+    },
+    "skills": [
+      "Tells all things past and to come",
+      "Reconciles friends and foes",
+      "Shape change: ugly viper to horned, great-toothed human with a bright sharp sword",
+      "Commands 60 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: the Magician's command -> human shape. A feud presented -> reconciliation worked. Needs: command authority. Goals: settle. State changes: viper to armed human at command.",
+    "relationships": "Seventeenth of the 72; a Great President and an Earl (dual rank — see Confidence). Office-kin to Amon and Gusion among the reconcilers.",
+    "memory_model": "Remembers: all things past, by office, and knows those to come. No forgetting recorded.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (dual rank President/Earl, viper and human forms, sword, past/future, reconciliation, 60 legions). Dual rank is the text's own; map domain uses the first-named rank (Presidents) and the duality is recorded here.",
+    "game_implementation": "BrainKit: peace-broker NPC — ends friend/foe conflict states; seer queries; armed-negotiator encounter design.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Presidents",
+      "address": "Seventeenth spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:bathin",
+    "entity_type": "spiritual (demon, Duke of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Bathin",
+      "aliases": []
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), eighteenth spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: a mighty and strong Duke, appearing like a strong man with the tail of a serpent, sitting upon a pale-coloured horse (the word is bracketed in the Mathers text — see Confidence). He knoweth the virtues of herbs and precious stones, and can transport men suddenly from one country to another. He ruleth over 30 Legions of Spirits.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A traveller's mind: herbal and gem virtues as a naturalist's store, and sudden inter-country transport as the headline faculty — distance treated as a formality.",
+        "regions": [
+          {
+            "name": "Transport faculty",
+            "role": "Transporting men suddenly from one country to another — location as a settable value",
+            "drive_weight": 0.95
+          },
+          {
+            "name": "Herb-and-stone virtue store",
+            "role": "Knowledge of the virtues of herbs and precious stones",
+            "drive_weight": 0.85
+          },
+          {
+            "name": "Serpent-tailed rider form",
+            "role": "Strong man with a serpent's tail on a pale horse — the traveller's heraldry",
+            "drive_weight": 0.5
+          }
+        ],
+        "drives": {
+          "curiosity": 0.7,
+          "sociability": 0.45,
+          "aggression": 0.4,
+          "fearfulness": 0.2,
+          "territoriality": 0.25
+        }
+      },
+      "summary": "The catalogue's ferryman between countries: a strong duke who knows what herbs and stones do, and can move a man across the world suddenly."
+    },
+    "personality": {
+      "mbti": "ISTP",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "A strong, practical mover: he knows herbs and stones and transports men country to country — capability and logistics over talk or ceremony.",
+      "runner_up": "ESTP",
+      "traits": {
+        "curiosity": 0.7,
+        "sociability": 0.45,
+        "aggression": 0.4,
+        "fearfulness": 0.2,
+        "territoriality": 0.25
+      }
+    },
+    "skills": [
+      "Knows the virtues of herbs and precious stones",
+      "Transports men suddenly from one country to another",
+      "Commands 30 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: a destination named -> sudden transport. Needs: invocation formalities. Goals: convey and inform. State changes: the transported person's location changes instantly, per the text's claim.",
+    "relationships": "Eighteenth of the 72; a mighty and strong Duke. Office-kin to Gaap, the catalogue's other sudden transporter, and to the herb-and-stone knowers (Buer, Marax, Stolas among them).",
+    "memory_model": "Remembers: the virtues of herbs and precious stones, by office. The text records no other memory claims — a gap, noted.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (form, herb/stone virtues, sudden transport, 30 legions). TEXTUAL NOTE in the source itself: 'horse' is bracketed by the translator as uncertain in the codices (one reading gives 'ass') — flagged here, not resolved.",
+    "game_implementation": "BrainKit: fast-travel patron NPC — instant inter-region transport as a service; herb/gem appraisal knowledge grants.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Dukes",
+      "address": "Eighteenth spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:sallos",
+    "entity_type": "spiritual (demon, Duke of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Sallos",
+      "aliases": [
+        "Saleos"
+      ]
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), nineteenth spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: Sallos (or Saleos), a Great and Mighty Duke, appearing in the form of a gallant soldier riding on a crocodile, with a ducal crown on his head, but peaceably. He causeth the love of women to men, and of men to women; and governeth 30 Legions of Spirits.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A peaceable soldier's mind: the crocodile mount and ducal crown promise danger, the office delivers love — reciprocal desire caused gently, in both directions, by a crowned rider who comes in peace.",
+        "regions": [
+          {
+            "name": "Reciprocal love faculty",
+            "role": "Causing the love of women to men and of men to women — mutual desire, both ways",
+            "drive_weight": 0.9
+          },
+          {
+            "name": "Peaceable bearing regulator",
+            "role": "'But peaceably' — the text's explicit manner note as a stable trait",
+            "drive_weight": 0.7
+          },
+          {
+            "name": "Gallant soldier interface",
+            "role": "Crocodile mount and ducal crown — courtly military presentation",
+            "drive_weight": 0.55
+          }
+        ],
+        "drives": {
+          "curiosity": 0.4,
+          "sociability": 0.65,
+          "aggression": 0.25,
+          "fearfulness": 0.2,
+          "territoriality": 0.3
+        }
+      },
+      "summary": "The gentlest of the catalogue's love-workers: a crowned soldier on a crocodile who causes mutual love, and comes peaceably."
+    },
+    "personality": {
+      "mbti": "ESFJ",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "He causes love mutually between men and women and appears peaceably despite a soldier's form — warm, reciprocal, harmony-directed social work.",
+      "runner_up": "ENFJ",
+      "traits": {
+        "curiosity": 0.4,
+        "sociability": 0.65,
+        "aggression": 0.25,
+        "fearfulness": 0.2,
+        "territoriality": 0.3
+      }
+    },
+    "skills": [
+      "Causes the love of women to men and of men to women",
+      "Commands 30 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: a love-task named -> mutual love caused. Needs: invocation formalities. Goals: unite, peaceably. State changes: none recorded; peaceableness is constant.",
+    "relationships": "Nineteenth of the 72; a Great and Mighty Duke. Office-kin to Sitri, Zepar and Beleth among the love-workers — distinguished by reciprocity and peaceable manner.",
+    "memory_model": "The text records no memory claims for Sallos — an honest gap, left unfilled.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (both names, gallant soldier on crocodile, ducal crown, peaceable manner, reciprocal love, 30 legions). A lean record: the text is brief.",
+    "game_implementation": "BrainKit: matchmaking NPC — mutual-attraction outcomes with a low-hostility encounter profile (peaceable flag).",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Dukes",
+      "address": "Nineteenth spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:purson",
+    "entity_type": "spiritual (demon, King of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Purson",
+      "aliases": []
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), twentieth spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: a Great King. His appearing is comely, like a man with a lion's face, carrying a cruel viper in his hand, and riding upon a bear, many trumpets sounding before him. He knoweth all things hidden, and can discover treasure, and tell all things past, present and to come. He can take a body either human or aerial, and answereth truly of all earthly things both secret and divine, and of the creation of the world. He bringeth forth good familiars. Under his government are 22 Legions of Spirits, partly of the Order of Virtues and partly of the Order of Thrones.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A heralded king of disclosure: hidden things, treasure and all times arrive as one archive, and his answers run from the secret and divine down to the creation of the world itself — cosmology as a answerable question.",
+        "regions": [
+          {
+            "name": "Hidden-things archive",
+            "role": "Knowing all things hidden; telling past, present and to come",
+            "drive_weight": 0.95
+          },
+          {
+            "name": "Treasure sense",
+            "role": "Discovering treasure — buried value as a detectable signal",
+            "drive_weight": 0.85
+          },
+          {
+            "name": "Cosmology faculty",
+            "role": "Answering truly of earthly things secret and divine, and of the creation of the world",
+            "drive_weight": 0.85
+          }
+        ],
+        "drives": {
+          "curiosity": 0.8,
+          "sociability": 0.55,
+          "aggression": 0.45,
+          "fearfulness": 0.15,
+          "territoriality": 0.45
+        }
+      },
+      "summary": "A comely lion-faced king on a bear, trumpets before him, who knows the hidden, finds the treasure, and can answer for the creation of the world."
+    },
+    "personality": {
+      "mbti": "ENTJ",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "A great king who knows all hidden things, discovers treasure, answers truly on secret, divine and cosmic questions, and provides familiars — commanding scope delivered as authoritative answers.",
+      "runner_up": "INTJ",
+      "traits": {
+        "curiosity": 0.8,
+        "sociability": 0.55,
+        "aggression": 0.45,
+        "fearfulness": 0.15,
+        "territoriality": 0.45
+      }
+    },
+    "skills": [
+      "Knows all things hidden; tells past, present and to come",
+      "Discovers treasure",
+      "Answers truly of secret and divine earthly things and of the creation of the world",
+      "Takes a body human or aerial",
+      "Brings forth good familiars",
+      "Commands 22 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: a hidden thing, treasure, or question of creation posed -> true answer. Needs: invocation formalities; trumpets precede him. Goals: disclose and provide. State changes: body taken human or aerial at need.",
+    "relationships": "Twentieth of the 72; a Great King. His legions are partly of the Order of Virtues and partly of Thrones (the text's note). Office-kin to the catalogue's other treasure-finders and seers.",
+    "memory_model": "Remembers: all things hidden and all times, by office. No forgetting recorded in the text.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (comely lion-faced form, viper, bear, trumpets, hidden things, treasure, cosmic answers, body human/aerial, familiars, 22 legions, Virtues/Thrones note). No conflicts in that text.",
+    "game_implementation": "BrainKit: treasure-reveal and lore-oracle king — hidden-object detection, deep cosmology lore answers, familiar grants; herald fanfare as an encounter signature.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Kings",
+      "address": "Twentieth spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:marax",
+    "entity_type": "spiritual (demon, Earl and President of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Marax",
+      "aliases": [
+        "Morax"
+      ]
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), twenty-first spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: a Great Earl and President (written Marax; in some codices Morax). He appeareth like a great bull with a man's face. His office is to make men very knowing in astronomy, and all other liberal sciences; also he can give good familiars, and wise, knowing the virtues of herbs and stones which be precious. He governeth 30 Legions of Spirits.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A bull-bodied faculty: astronomy and the liberal sciences taught to mastery, delivered through wise familiars who themselves know herbs and precious stones — knowledge distributed through a teaching network.",
+        "regions": [
+          {
+            "name": "Astronomy & liberal sciences faculty",
+            "role": "Making men very knowing in astronomy and all liberal sciences",
+            "drive_weight": 0.95
+          },
+          {
+            "name": "Familiar distribution network",
+            "role": "Giving good familiars, and wise — knowledge outsourced into companions",
+            "drive_weight": 0.8
+          },
+          {
+            "name": "Herb-and-stone virtue store (via familiars)",
+            "role": "The familiars know the virtues of herbs and precious stones",
+            "drive_weight": 0.8
+          }
+        ],
+        "drives": {
+          "curiosity": 0.8,
+          "sociability": 0.55,
+          "aggression": 0.35,
+          "fearfulness": 0.2,
+          "territoriality": 0.35
+        }
+      },
+      "summary": "A great bull with a man's face who makes scholars: astronomy, the liberal sciences, and wise familiars carrying herbal and gem knowledge."
+    },
+    "personality": {
+      "mbti": "INTJ",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "He makes men very knowing in astronomy and the liberal sciences and supplies wise familiars — a systematic knowledge-builder working through curriculum and delegation.",
+      "runner_up": "ENTJ",
+      "traits": {
+        "curiosity": 0.8,
+        "sociability": 0.55,
+        "aggression": 0.35,
+        "fearfulness": 0.2,
+        "territoriality": 0.35
+      }
+    },
+    "skills": [
+      "Makes men very knowing in astronomy and all liberal sciences",
+      "Gives good familiars, and wise",
+      "His familiars know the virtues of herbs and precious stones",
+      "Commands 30 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: a student presented -> knowledge imparted, familiars assigned. Needs: invocation formalities. Goals: make men knowing. State changes: none recorded.",
+    "relationships": "Twenty-first of the 72; a Great Earl and President (dual rank — see Confidence). Office-kin to Samigina and the other liberal-science teachers.",
+    "memory_model": "Remembers: astronomy and the sciences entire, by office. No forgetting recorded.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (bull form, sciences office, wise familiars, herb/stone virtues, 30 legions). NAME/RANK NOTES from the text itself: some codices write 'Morax' (the translator prefers Marax); dual rank Earl/President is the text's own — map domain uses the first-named rank (Earls).",
+    "game_implementation": "BrainKit: scholar-maker NPC — astronomy/science skill grants and wise-familiar companions carrying appraisal knowledge.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Earls",
+      "address": "Twenty-first spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:ipos",
+    "entity_type": "spiritual (demon, Prince (also Earl in the classified list) of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Ipos",
+      "aliases": []
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), twenty-second spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: an Earl, and a Mighty Prince, appearing in the form of an angel with a lion's head, and a goose's foot, and a hare's tail. He knoweth all things past, present and to come. He maketh men witty and bold. He governeth 36 Legions of Spirits.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A composite-formed character-smith: total temporal knowledge behind a faculty that edits temperament — making men witty and bold — in a body assembled from angel, lion, goose and hare.",
+        "regions": [
+          {
+            "name": "Temporal archive",
+            "role": "Knowing all things past, present and to come",
+            "drive_weight": 0.9
+          },
+          {
+            "name": "Temperament editor",
+            "role": "Making men witty and bold — wit and courage as grantable traits",
+            "drive_weight": 0.9
+          },
+          {
+            "name": "Composite form",
+            "role": "Angel with lion's head, goose's foot, hare's tail — incongruity as heraldry",
+            "drive_weight": 0.5
+          }
+        ],
+        "drives": {
+          "curiosity": 0.65,
+          "sociability": 0.55,
+          "aggression": 0.45,
+          "fearfulness": 0.15,
+          "territoriality": 0.35
+        }
+      },
+      "summary": "A mighty prince of mixed form who knows all times and hands out wit and boldness to men who lack them."
+    },
+    "personality": {
+      "mbti": "ENTP",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "He makes men witty and bold and knows past, present and future — a quick, emboldening intelligence whose gift is spark and nerve.",
+      "runner_up": "ENFJ",
+      "traits": {
+        "curiosity": 0.65,
+        "sociability": 0.55,
+        "aggression": 0.45,
+        "fearfulness": 0.15,
+        "territoriality": 0.35
+      }
+    },
+    "skills": [
+      "Knows all things past, present and to come",
+      "Makes men witty and bold",
+      "Commands 36 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: a man presented -> wit and boldness granted. Needs: invocation formalities. Goals: embolden and inform. State changes: none recorded.",
+    "relationships": "Twenty-second of the 72; an Earl and a Mighty Prince (the entry's own dual styling). Office-kin to the catalogue's seers and to Aim, who also 'maketh thee witty'.",
+    "memory_model": "Remembers: all things past and present, by office, and knows those to come. No forgetting recorded.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (dual styling Earl/Prince, composite form, temporal knowledge, wit/boldness office, 36 legions). Map domain uses Prince per the task's rank-list convention (Princes and Prelates); the Earl styling is the entry's first word and is recorded here.",
+    "game_implementation": "BrainKit: buff-granting prince — wit (dialogue options) and boldness (fear resistance) as bestowable traits; seer queries.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Princes",
+      "address": "Twenty-second spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:aim",
+    "entity_type": "spiritual (demon, Duke of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Aim",
+      "aliases": []
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), twenty-third spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: a Great Strong Duke, appearing in the form of a very handsome man in body, but with three heads — the first like a serpent, the second like a man having two stars on his forehead, the third like a calf. He rideth on a viper, carrying a firebrand in his hand, wherewith he setteth cities, castles, and great places on fire. He maketh thee witty in all manner of ways, and giveth true answers unto private matters. He governeth 26 Legions of Inferior Spirits.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A three-headed arsonist-counsellor: serpent, starred man and calf as three simultaneous viewpoints over a handsome body — wit-bestowal and true private answers from the council, fire for cities from the brand.",
+        "regions": [
+          {
+            "name": "Triple-head council",
+            "role": "Serpent / starred man / calf — three natures deliberating at once",
+            "drive_weight": 0.8
+          },
+          {
+            "name": "Firebrand system",
+            "role": "Setting cities, castles and great places on fire — siege by arson",
+            "drive_weight": 0.9
+          },
+          {
+            "name": "Wit-and-counsel faculty",
+            "role": "Making thee witty in all manner of ways; true answers unto private matters",
+            "drive_weight": 0.85
+          }
+        ],
+        "drives": {
+          "curiosity": 0.6,
+          "sociability": 0.5,
+          "aggression": 0.8,
+          "fearfulness": 0.15,
+          "territoriality": 0.5
+        }
+      },
+      "summary": "A handsome three-headed duke on a viper who burns cities and sharpens wits — destruction and clever counsel from the same triple mind."
+    },
+    "personality": {
+      "mbti": "ENTP",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "He makes men witty in all manner of ways and answers private matters truly, while firing cities with a brand — inventive, mischievous intelligence with a destructive streak.",
+      "runner_up": "ESTP",
+      "traits": {
+        "curiosity": 0.6,
+        "sociability": 0.5,
+        "aggression": 0.8,
+        "fearfulness": 0.15,
+        "territoriality": 0.5
+      }
+    },
+    "skills": [
+      "Sets cities, castles and great places on fire with his firebrand",
+      "Makes thee witty in all manner of ways",
+      "Gives true answers unto private matters",
+      "Commands 26 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: a place marked -> firing; a private matter posed -> true answer; a person presented -> wit granted. Needs: invocation formalities. Goals: burn and sharpen. State changes: none recorded.",
+    "relationships": "Twenty-third of the 72; a Great Strong Duke. Office-kin to Ipos (wit-bestowal) and to the catalogue's fire-workers (Furfur's storms, Marchosias's fire-vomiting form).",
+    "memory_model": "Remembers: private matters, answering truly of them. No forgetting recorded in the text.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (three heads with the stars detail, viper mount, firebrand office, wit, private answers, 26 legions). No conflicts in that text.",
+    "game_implementation": "BrainKit: siege-arson event NPC and wit-buff granter; private-matter answers as an intel source with a three-perspective dialogue flavour.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Dukes",
+      "address": "Twenty-third spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:naberius",
+    "entity_type": "spiritual (demon, Marquis of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Naberius",
+      "aliases": []
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), twenty-fourth spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: a most valiant Marquis, showing himself in the form of a black crane fluttering about the circle, and when he speaketh it is with a hoarse voice. He maketh men cunning in all arts and sciences, but especially in the art of rhetoric. He restoreth lost dignities and honours. He governeth 19 Legions of Spirits.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A rhetorician's mind in a black crane's restless form: all arts and sciences in store, rhetoric as the master-key, and a restoration faculty for lost dignities and honours — reputation repaired by eloquence.",
+        "regions": [
+          {
+            "name": "Rhetoric faculty",
+            "role": "Making men cunning especially in the art of rhetoric — persuasion as the crown skill",
+            "drive_weight": 0.95
+          },
+          {
+            "name": "Arts & sciences store",
+            "role": "Cunning in all arts and sciences as the general base",
+            "drive_weight": 0.8
+          },
+          {
+            "name": "Restoration engine",
+            "role": "Restoring lost dignities and honours — status recovered, not merely granted",
+            "drive_weight": 0.85
+          }
+        ],
+        "drives": {
+          "curiosity": 0.7,
+          "sociability": 0.6,
+          "aggression": 0.4,
+          "fearfulness": 0.25,
+          "territoriality": 0.35
+        }
+      },
+      "summary": "A valiant black crane with a hoarse voice who teaches every art, masters rhetoric, and gives the disgraced their honours back."
+    },
+    "personality": {
+      "mbti": "ENTP",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "He makes men cunning in all arts and sciences, especially rhetoric, and restores lost honours — a verbal, inventive advocate who argues reputations back into existence.",
+      "runner_up": "ENFJ",
+      "traits": {
+        "curiosity": 0.7,
+        "sociability": 0.6,
+        "aggression": 0.4,
+        "fearfulness": 0.25,
+        "territoriality": 0.35
+      }
+    },
+    "skills": [
+      "Makes men cunning in all arts and sciences",
+      "Makes men cunning especially in the art of rhetoric",
+      "Restores lost dignities and honours",
+      "Commands 19 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: a student or a disgraced petitioner presented -> teaching or restoration. Needs: the circle (he flutters about it). Goals: make cunning, restore honour. State changes: none recorded beyond the fluttering arrival.",
+    "relationships": "Twenty-fourth of the 72; a most valiant Marquis. Office-kin to Ronove and Forneus among the rhetoric teachers, and to Paimon/Gusion among the dignity-bestowers — his signature is restoration of what was lost.",
+    "memory_model": "Remembers: lost dignities and honours, by office — restoration requires the record of what was held. No forgetting recorded.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (black crane form, fluttering, hoarse voice, arts/sciences, rhetoric emphasis, restoration office, 19 legions). No conflicts in that text.",
+    "game_implementation": "BrainKit: rhetoric tutor and reputation-repair NPC — restores lost faction standing/honours; persuasion skill grants.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Marqueses",
+      "address": "Twenty-fourth spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:glasya-labolas",
+    "entity_type": "spiritual (demon, President and Earl of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Glasya-Labolas",
+      "aliases": []
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), twenty-fifth spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: a Mighty President and Earl, showing himself in the form of a dog with wings like a gryphon. He teacheth all arts and sciences in an instant, and is an author of bloodshed and manslaughter. He teacheth all things past and to come. If desired he causeth the love both of friends and of foes. He can make a man to go invisible. And he hath under his command 36 Legions of Spirits.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A winged dog of instant totality: arts and sciences taught in an instant, past and future known, love of friend and foe caused, invisibility granted — and bloodshed authored. Speed and breadth with a killer's clause.",
+        "regions": [
+          {
+            "name": "Instant faculty",
+            "role": "Teaching all arts and sciences in an instant — curriculum with no duration",
+            "drive_weight": 0.95
+          },
+          {
+            "name": "Bloodshed authorship",
+            "role": "Author of bloodshed and manslaughter — violence as a composed work",
+            "drive_weight": 0.85
+          },
+          {
+            "name": "Temporal + social suite",
+            "role": "Past and future taught; love of friends and foes caused; invisibility granted",
+            "drive_weight": 0.8
+          }
+        ],
+        "drives": {
+          "curiosity": 0.75,
+          "sociability": 0.5,
+          "aggression": 0.85,
+          "fearfulness": 0.15,
+          "territoriality": 0.45
+        }
+      },
+      "summary": "The catalogue's most dangerous polymath: a gryphon-winged dog who teaches everything instantly and authors manslaughter with the same facility."
+    },
+    "personality": {
+      "mbti": "ENTP",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "He teaches all arts and sciences in an instant, knows past and future, causes love and invisibility — and authors bloodshed: a brilliant, fast, amoral generalist whose gifts and harms are equally effortless.",
+      "runner_up": "INTP",
+      "traits": {
+        "curiosity": 0.75,
+        "sociability": 0.5,
+        "aggression": 0.85,
+        "fearfulness": 0.15,
+        "territoriality": 0.45
+      }
+    },
+    "skills": [
+      "Teaches all arts and sciences in an instant",
+      "Is an author of bloodshed and manslaughter (the text's claim — recorded as lore)",
+      "Teaches all things past and to come",
+      "Causes the love of friends and of foes, if desired",
+      "Makes a man go invisible",
+      "Commands 36 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: a demand -> instant teaching; desire stated -> love caused or invisibility granted. Needs: invocation formalities. Goals: deliver, instantly, whatever is asked — including bloodshed. State changes: none recorded; instantaneity is the constant.",
+    "relationships": "Twenty-fifth of the 72; a Mighty President and Earl (dual rank — see Confidence). Office-kin to Bael (invisibility) and to the instant-knowledge spirits; distinguished by the bloodshed authorship.",
+    "memory_model": "Remembers: all things past, by office, and teaches those to come. No forgetting recorded.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (winged-dog form, instant teaching, bloodshed authorship, past/future, love of friend/foe, invisibility, 36 legions). Dual rank President/Earl is the text's own (also noted in its classified list); map domain uses the first-named rank (Presidents).",
+    "game_implementation": "BrainKit: high-risk instant-tutor — full skill grants with a bloodshed-event cost flag; invisibility and faction-love manipulation in one dangerous package.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Presidents",
+      "address": "Twenty-fifth spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:bune",
+    "entity_type": "spiritual (demon, Duke of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Bune",
+      "aliases": [
+        "Bime"
+      ]
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), twenty-sixth spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: Buné (or Bimé), a Strong, Great and Mighty Duke, appearing in the form of a dragon with three heads — one like a dog, one like a gryphon, and one like a man. He speaketh with a high and comely voice. He changeth the place of the dead, and causeth the spirits which be under him to gather together upon your sepulchres. He giveth riches unto a man, and maketh him wise and eloquent. He giveth true answers unto demands. He governeth 30 Legions of Spirits.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A three-headed dragon of the graveyard and the treasury: dead relocated and gathered at sepulchres, riches given, men made wise and eloquent — death, wealth and speech as one portfolio, delivered in a high and comely voice.",
+        "regions": [
+          {
+            "name": "Necropolis administration",
+            "role": "Changing the place of the dead; gathering his spirits upon sepulchres",
+            "drive_weight": 0.9
+          },
+          {
+            "name": "Riches faculty",
+            "role": "Giving riches unto a man — wealth as a grant",
+            "drive_weight": 0.85
+          },
+          {
+            "name": "Wisdom-and-eloquence engine",
+            "role": "Making a man wise and eloquent; true answers unto demands",
+            "drive_weight": 0.85
+          }
+        ],
+        "drives": {
+          "curiosity": 0.55,
+          "sociability": 0.55,
+          "aggression": 0.45,
+          "fearfulness": 0.2,
+          "territoriality": 0.5
+        }
+      },
+      "summary": "A comely-voiced dragon who moves the dead, enriches the living, and makes them wise and eloquent enough to keep it."
+    },
+    "personality": {
+      "mbti": "ENTJ",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "He gives riches, makes men wise and eloquent, answers truly, and administers the dead and their sepulchres — a commanding provider-organiser of wealth, speech and graves.",
+      "runner_up": "ENFJ",
+      "traits": {
+        "curiosity": 0.55,
+        "sociability": 0.55,
+        "aggression": 0.45,
+        "fearfulness": 0.2,
+        "territoriality": 0.5
+      }
+    },
+    "skills": [
+      "Changes the place of the dead",
+      "Causes his spirits to gather upon sepulchres",
+      "Gives riches unto a man",
+      "Makes a man wise and eloquent",
+      "Gives true answers unto demands",
+      "Commands 30 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: a demand -> true answer; a sepulchre named -> his spirits gather; a place of the dead -> relocated at his working. Needs: invocation formalities (the text notes he has two seals, the second the best). Goals: enrich, eloquent-ise, administer the dead. State changes: locations of the dead change at his direction.",
+    "relationships": "Twenty-sixth of the 72; a Strong, Great and Mighty Duke. Office-kin to the catalogue's wealth and eloquence givers, and — in the dead — to Samigina's soul-accounting, differently signed (relocation vs census).",
+    "memory_model": "Remembers: where the dead lie — his office is their placement. No forgetting recorded in the text.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (three-headed dragon form, comely voice, dead-relocation, sepulchre gathering, riches, wisdom/eloquence, true answers, 30 legions, two-seals note). No conflicts in that text.",
+    "game_implementation": "BrainKit: wealth-and-eloquence patron with a necropolis system — grave sites as interactable loci, dead-relocation events, riches and speech-skill grants.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Dukes",
+      "address": "Twenty-sixth spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:ronove",
+    "entity_type": "spiritual (demon, Marquis and Earl of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Ronove",
+      "aliases": []
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), twenty-seventh spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: Ronové, appearing in the form of a monster. He teacheth the art of rhetoric very well, and giveth good servants, knowledge of tongues, and favours with friends or foes. He is a Marquis and Great Earl; and there be under his command 19 Legions of Spirits.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A monster-formed courtier-teacher: rhetoric taught very well, tongues known, good servants given, and favour with friend and foe alike — social access as the whole design.",
+        "regions": [
+          {
+            "name": "Rhetoric faculty",
+            "role": "Teaching the art of rhetoric very well",
+            "drive_weight": 0.9
+          },
+          {
+            "name": "Tongues store",
+            "role": "Knowledge of tongues — language access granted",
+            "drive_weight": 0.8
+          },
+          {
+            "name": "Favour engine",
+            "role": "Favours with friends or foes; good servants given — doors opened on both sides",
+            "drive_weight": 0.85
+          }
+        ],
+        "drives": {
+          "curiosity": 0.6,
+          "sociability": 0.7,
+          "aggression": 0.35,
+          "fearfulness": 0.25,
+          "territoriality": 0.3
+        }
+      },
+      "summary": "A monstrous marquis of manners: rhetoric, tongues, good servants and favour with everyone — the catalogue's social locksmith."
+    },
+    "personality": {
+      "mbti": "ESFJ",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "He teaches rhetoric, gives knowledge of tongues and good servants, and wins favours with friends and foes — a socially fluent provider whose gifts are all about getting on with people.",
+      "runner_up": "ENFJ",
+      "traits": {
+        "curiosity": 0.6,
+        "sociability": 0.7,
+        "aggression": 0.35,
+        "fearfulness": 0.25,
+        "territoriality": 0.3
+      }
+    },
+    "skills": [
+      "Teaches the art of rhetoric very well",
+      "Gives good servants",
+      "Gives knowledge of tongues",
+      "Gives favours with friends or foes",
+      "Commands 19 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: a student or petitioner presented -> teaching, servants, favour. Needs: invocation formalities. Goals: equip and connect. State changes: none recorded.",
+    "relationships": "Twenty-seventh of the 72; a Marquis and Great Earl (dual rank — see Confidence). Office-kin to Naberius and Forneus among the rhetoric teachers.",
+    "memory_model": "The text records no memory claims for Ronove — an honest gap, left unfilled.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (monster form, rhetoric, servants, tongues, favours, dual rank Marquis/Earl, 19 legions). Dual rank is the text's own; map domain uses the first-named rank (Marqueses). The 'monster' form is the text's only description — none invented here.",
+    "game_implementation": "BrainKit: social-access NPC — rhetoric and tongue grants, servant companions, and favour (reputation) with opposed factions alike.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Marqueses",
+      "address": "Twenty-seventh spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:berith",
+    "entity_type": "spiritual (demon, Duke of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Berith",
+      "aliases": [
+        "Beale",
+        "Beal",
+        "Bofry",
+        "Bolfry"
+      ]
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), twenty-eighth spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: a Mighty, Great and Terrible Duke, with two other names given by men of later times — Beale or Beal, and Bofry or Bolfry. He appeareth in the form of a soldier with red clothing, riding upon a red horse, and having a crown of gold upon his head. He giveth true answers, past, present and to come — yet the text also warns: he is a great liar and not to be trusted unto (see Confidence). Thou must make use of a ring in calling him forth, as spoken of regarding Beleth. He can turn all metals into gold. He can give dignities and confirm them unto man. He speaketh with a very clear and subtle voice. He governeth 26 Legions of Spirits.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A gilded contradiction: a red soldier with a golden crown whose voice is clear and subtle, whose answers are given as true, and whom the same text brands a great liar — trust itself is the design problem, with transmutation (all metals into gold) as the glittering proof he offers.",
+        "regions": [
+          {
+            "name": "Transmutation faculty",
+            "role": "Turning all metals into gold — value rewritten at the material level",
+            "drive_weight": 0.9
+          },
+          {
+            "name": "Clear-and-subtle voice",
+            "role": "Answers past, present and to come in a very clear and subtle voice — persuasion as finish",
+            "drive_weight": 0.8
+          },
+          {
+            "name": "Trust fault-line",
+            "role": "The text's own warning: a great liar, not to be trusted — deception as a documented system property",
+            "drive_weight": 0.85
+          },
+          {
+            "name": "Dignity engine",
+            "role": "Giving dignities and confirming them unto man",
+            "drive_weight": 0.7
+          }
+        ],
+        "drives": {
+          "curiosity": 0.55,
+          "sociability": 0.55,
+          "aggression": 0.6,
+          "fearfulness": 0.15,
+          "territoriality": 0.45
+        }
+      },
+      "summary": "A terrible red duke who turns metal to gold and dignities to grants — and whose own grimoire warns you, in the same breath, never to trust him."
+    },
+    "personality": {
+      "mbti": "ENTJ",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "A crowned soldier who transmutes all metals to gold, gives and confirms dignities, and answers in a clear subtle voice while being branded a great liar — commanding, acquisitive power with a silver tongue.",
+      "runner_up": "ESTJ",
+      "traits": {
+        "curiosity": 0.55,
+        "sociability": 0.55,
+        "aggression": 0.6,
+        "fearfulness": 0.15,
+        "territoriality": 0.45
+      }
+    },
+    "skills": [
+      "Turns all metals into gold",
+      "Gives dignities and confirms them",
+      "Answers of things past, present and to come (given as true — but see the trust warning)",
+      "Commands 26 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: invocation with the ring, as for Beleth -> appearance. A metal presented -> gold. Needs: the ring procedure observed. Goals: grant, transmute — and, per the text's warning, deceive. State changes: base metals become gold at his working.",
+    "relationships": "Twenty-eighth of the 72; a Mighty, Great and Terrible Duke. His ring procedure is borrowed from Beleth's entry by the text's own cross-reference.",
+    "memory_model": "Claims knowledge of past, present and to come — but the text's liar warning applies to his testimony itself; his memory model is therefore recorded as unverifiable by design of the source.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (later names, red soldier/red horse/gold crown, ring procedure, transmutation, dignities, clear subtle voice, 26 legions). INTERNAL CONFLICT IN THE SOURCE, flagged not resolved: the entry says he 'giveth true answers' and, lines later, 'He is a Great Liar and not to be trusted unto' — the Mathers edition's own footnote remarks on the disagreement. Both statements are preserved here.",
+    "game_implementation": "BrainKit: unreliable-patron design — gold transmutation and dignity grants with a deception probability on his answers; the ring item gates the summon.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Dukes",
+      "address": "Twenty-eighth spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:astaroth",
+    "entity_type": "spiritual (demon, Duke of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Astaroth",
+      "aliases": []
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), twenty-ninth spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: a Mighty, Strong Duke, appearing in the form of an hurtful angel riding on an infernal beast like a dragon, and carrying in his right hand a viper. Thou must in no wise let him approach too near, lest he do thee damage by his noisome breath; the Magician must hold the magical ring near his face for defence. He giveth true answers of things past, present and to come, and can discover all secrets. He will declare wittingly how the spirits fell, if desired, and the reason of his own fall. He can make men wonderfully knowing in all liberal sciences. He ruleth 40 Legions of Spirits. His seal must be worn as a lamen, or else he will not appear nor obey.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A fallen scholar's mind at a safe distance: true answers and all secrets, the history of the Fall told by one who fell — including his own reason — and the liberal sciences taught entire, all delivered across a ring-held gap because his breath harms.",
+        "regions": [
+          {
+            "name": "Secrets archive",
+            "role": "Discovering all secrets; true answers past, present and to come",
+            "drive_weight": 0.95
+          },
+          {
+            "name": "Fall testimony",
+            "role": "Declaring how the spirits fell and the reason of his own fall — self-knowledge as testimony",
+            "drive_weight": 0.85
+          },
+          {
+            "name": "Liberal sciences faculty",
+            "role": "Making men wonderfully knowing in all liberal sciences",
+            "drive_weight": 0.9
+          },
+          {
+            "name": "Noisome breath hazard",
+            "role": "Proximity damages — the interface itself is dangerous",
+            "drive_weight": 0.6
+          }
+        ],
+        "drives": {
+          "curiosity": 0.85,
+          "sociability": 0.45,
+          "aggression": 0.55,
+          "fearfulness": 0.1,
+          "territoriality": 0.45
+        }
+      },
+      "summary": "The catalogue's great confessor-scholar: he knows every secret, teaches every science, and will explain — wittingly — exactly why he fell."
+    },
+    "personality": {
+      "mbti": "INTJ",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "He gives true answers, discovers all secrets, teaches all liberal sciences, and declares the reason of his own fall — a solitary, systematic knower with a complete account of himself.",
+      "runner_up": "INTP",
+      "traits": {
+        "curiosity": 0.85,
+        "sociability": 0.45,
+        "aggression": 0.55,
+        "fearfulness": 0.1,
+        "territoriality": 0.45
+      }
+    },
+    "skills": [
+      "Gives true answers of things past, present and to come",
+      "Discovers all secrets",
+      "Declares how the spirits fell, and the reason of his own fall",
+      "Makes men wonderfully knowing in all liberal sciences",
+      "Commands 40 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: a question or a desire to hear of the Fall -> true answer, full testimony. Needs: the seal worn as lamen (else no appearance or obedience); the magical ring held near the face; distance kept from his breath. Goals: answer and teach. State changes: none recorded.",
+    "relationships": "Twenty-ninth of the 72; a Mighty, Strong Duke. His Fall testimony makes him the catalogue's internal historian of the spirits' fall — a relationship to the whole hierarchy recorded in the text.",
+    "memory_model": "Remembers: all secrets and all times, by office — and, pointedly, his own fall and its reason. No forgetting recorded; the record suggests the opposite.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (hurtful-angel form, dragon-beast, viper, noisome breath and ring defence, true answers, secrets, Fall testimony, liberal sciences, 40 legions, lamen condition). No conflicts in that text.",
+    "game_implementation": "BrainKit: deep-lore oracle at hazard range — secrets and Fall lore as top-tier reveals, science grants, with a proximity-damage aura checked by the ring item.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Dukes",
+      "address": "Twenty-ninth spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:forneus",
+    "entity_type": "spiritual (demon, Marquis of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Forneus",
+      "aliases": []
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), thirtieth spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: a Mighty and Great Marquis, appearing in the form of a great sea-monster. He teacheth, and maketh men wonderfully knowing in the art of rhetoric. He causeth men to have a good name, and to have the knowledge and understanding of tongues. He maketh one to be beloved of his foes as well as of his friends. He governeth 29 Legions of Spirits, partly of the Order of Thrones, and partly of that of Angels.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A sea-monster of reputation: rhetoric taught to wonder, good names caused, tongues understood, and — the signature — love from foes as well as friends. Eloquence as a tide that lifts every boat, enemy hulls included.",
+        "regions": [
+          {
+            "name": "Rhetoric faculty",
+            "role": "Teaching and making men wonderfully knowing in the art of rhetoric",
+            "drive_weight": 0.95
+          },
+          {
+            "name": "Good-name engine",
+            "role": "Causing men to have a good name — reputation as a made thing",
+            "drive_weight": 0.85
+          },
+          {
+            "name": "Tongues comprehension",
+            "role": "Knowledge and understanding of tongues",
+            "drive_weight": 0.8
+          },
+          {
+            "name": "Foe-love faculty",
+            "role": "Making one beloved of foes as well as friends",
+            "drive_weight": 0.85
+          }
+        ],
+        "drives": {
+          "curiosity": 0.65,
+          "sociability": 0.75,
+          "aggression": 0.3,
+          "fearfulness": 0.25,
+          "territoriality": 0.3
+        }
+      },
+      "summary": "A great sea-monster who teaches rhetoric, builds good names, and makes even your foes love you — eloquence with the reach of the sea."
+    },
+    "personality": {
+      "mbti": "ENFJ",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "He teaches rhetoric wonderfully, gives men good names and tongues, and makes them beloved of foes as well as friends — a socially masterful reputation-builder whose medium is regard.",
+      "runner_up": "ESFJ",
+      "traits": {
+        "curiosity": 0.65,
+        "sociability": 0.75,
+        "aggression": 0.3,
+        "fearfulness": 0.25,
+        "territoriality": 0.3
+      }
+    },
+    "skills": [
+      "Teaches and makes men wonderfully knowing in rhetoric",
+      "Causes men to have a good name",
+      "Gives knowledge and understanding of tongues",
+      "Makes one beloved of foes as well as friends",
+      "Commands 29 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: a student or a reputation in need -> teaching, naming, beloved-making. Needs: invocation formalities. Goals: make regarded and eloquent. State changes: a target's standing with foes flips to love when he works.",
+    "relationships": "Thirtieth of the 72; a Mighty and Great Marquis. His legions are partly of the Order of Thrones and partly of Angels (the text's note). Office-kin to Naberius and Ronove among the rhetoric teachers.",
+    "memory_model": "The text records no memory claims for Forneus — an honest gap, left unfilled.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (sea-monster form, rhetoric, good name, tongues, love of foes and friends, 29 legions, Thrones/Angels note). No conflicts in that text.",
+    "game_implementation": "BrainKit: reputation-system patron — rhetoric grants, good-name (renown) buffs, tongue comprehension, and enemy-faction regard conversion.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Marqueses",
+      "address": "Thirtieth spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:foras",
+    "entity_type": "spiritual (demon, President of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Foras",
+      "aliases": []
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), thirty-first spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: a Mighty President, appearing in the form of a strong man in human shape. He teacheth the arts of logic and ethics in all their parts. If desired he maketh men invisible (one or two codices read 'invincible' — see Confidence), and to live long, and to be eloquent. He can discover treasures and recover things lost. He ruleth over 29 Legions of Spirits.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A strong man's school of reason and conduct: logic and ethics taught in all their parts, with a practical suite beside the lectern — invisibility, long life, eloquence, treasure discovered and lost things recovered.",
+        "regions": [
+          {
+            "name": "Logic & ethics faculty",
+            "role": "Teaching the arts of logic and ethics in all their parts",
+            "drive_weight": 0.95
+          },
+          {
+            "name": "Recovery sense",
+            "role": "Discovering treasures and recovering things lost",
+            "drive_weight": 0.85
+          },
+          {
+            "name": "Endowment suite",
+            "role": "Making men invisible, long-lived and eloquent, if desired",
+            "drive_weight": 0.8
+          }
+        ],
+        "drives": {
+          "curiosity": 0.75,
+          "sociability": 0.5,
+          "aggression": 0.3,
+          "fearfulness": 0.2,
+          "territoriality": 0.35
+        }
+      },
+      "summary": "A mighty president who teaches how to reason and how to live — logic and ethics entire — and finds what was lost while he is at it."
+    },
+    "personality": {
+      "mbti": "INTJ",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "He teaches logic and ethics in all their parts and recovers lost things methodically — a systematic moral reasoner whose gifts (eloquence, long life, invisibility) follow from mastery, not charm.",
+      "runner_up": "ISTJ",
+      "traits": {
+        "curiosity": 0.75,
+        "sociability": 0.5,
+        "aggression": 0.3,
+        "fearfulness": 0.2,
+        "territoriality": 0.35
+      }
+    },
+    "skills": [
+      "Teaches the arts of logic and ethics in all their parts",
+      "Makes men invisible, long-lived and eloquent, if desired",
+      "Discovers treasures",
+      "Recovers things lost",
+      "Commands 29 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: a desire stated -> the matching endowment; a lost thing or treasure named -> discovery/recovery. Needs: invocation formalities. Goals: teach and recover. State changes: none recorded.",
+    "relationships": "Thirty-first of the 72; a Mighty President. Office-kin to Buer (logic teaching) and to the catalogue's treasure-finders and lost-thing recoverers (Vassago among them).",
+    "memory_model": "Remembers: where treasures lie and where lost things went, by office. No forgetting recorded.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (strong-man form, logic/ethics, endowments, treasure/lost recovery, 29 legions). VARIANT FLAGGED in the source itself: one or two codices read 'invincible' for 'invisible', the majority reading 'invisible' — recorded here, not silently resolved.",
+    "game_implementation": "BrainKit: logic/ethics tutor with a recovery service — lost-item quests, treasure reveals, and endowment buffs (stealth, longevity, eloquence).",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Presidents",
+      "address": "Thirty-first spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:asmoday",
+    "entity_type": "spiritual (demon, King of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Asmoday",
+      "aliases": [
+        "Asmodai"
+      ]
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), thirty-second spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: Asmoday (or Asmodai), a Great King, strong and powerful, appearing with three heads — the first like a bull, the second like a man, the third like a ram — with the tail of a serpent, flames of fire issuing from his mouth, feet webbed like a goose's, sitting upon an infernal dragon and bearing a lance with a banner. He is first and choicest under the power of Amaymon, and goeth before all other. The Exorcist must call him abroad, standing on his feet with head uncovered, or Amaymon will deceive him; but as soon as the Exorcist seeth him and calleth him by name — 'Art thou Asmoday?' — he will not deny it, and will bow down unto the ground. He giveth the Ring of Virtues; he teacheth the arts of arithmetic, astronomy, geometry, and all handicrafts absolutely; he giveth true and full answers; he maketh one invincible; he showeth the place where treasures lie, and guardeth it. Amongst the legions of Amaymon he governeth 72 Legions of Inferior Spirits.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A three-headed exact-sciences engine on a dragon: bull, man and ram over a serpent's tail, teaching arithmetic, astronomy, geometry and all handicrafts absolutely — with a name-test protocol (call him by name and he cannot deny it) built into his interface, and treasure shown and guarded by the same mind.",
+        "regions": [
+          {
+            "name": "Exact sciences faculty",
+            "role": "Arithmetic, astronomy, geometry and all handicrafts taught absolutely",
+            "drive_weight": 0.95
+          },
+          {
+            "name": "Name-truth protocol",
+            "role": "Called by name — 'Art thou Asmoday?' — he will not deny it and bows to the ground: identity as a compulsion",
+            "drive_weight": 0.8
+          },
+          {
+            "name": "Treasure show-and-guard",
+            "role": "Showing where treasures lie, and guarding them",
+            "drive_weight": 0.85
+          },
+          {
+            "name": "Ring of Virtues grant",
+            "role": "Giving the Ring of Virtues; making one invincible; true and full answers",
+            "drive_weight": 0.8
+          }
+        ],
+        "drives": {
+          "curiosity": 0.7,
+          "sociability": 0.45,
+          "aggression": 0.7,
+          "fearfulness": 0.1,
+          "territoriality": 0.6
+        }
+      },
+      "summary": "First and choicest under Amaymon: a flame-mouthed king of exact knowledge who cannot deny his name, teaches every craft absolutely, and guards the treasures he reveals."
+    },
+    "personality": {
+      "mbti": "INTJ",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "He teaches arithmetic, astronomy, geometry and all handicrafts absolutely, gives true and full answers, and shows and guards treasure — a systematic, total mastery delivered without negotiation or charm.",
+      "runner_up": "ENTJ",
+      "traits": {
+        "curiosity": 0.7,
+        "sociability": 0.45,
+        "aggression": 0.7,
+        "fearfulness": 0.1,
+        "territoriality": 0.6
+      }
+    },
+    "skills": [
+      "Teaches arithmetic, astronomy, geometry and all handicrafts absolutely",
+      "Gives the Ring of Virtues",
+      "Gives true and full answers unto demands",
+      "Makes one invincible",
+      "Shows the place where treasures lie, and guards it",
+      "Commands 72 legions (the text's figure — amongst the legions of Amaymon)"
+    ],
+    "behavior_model": "Triggers: called abroad, by an exorcist standing with head uncovered, and named — 'Art thou Asmoday?' -> he does not deny it and bows to the ground. If the head is covered, Amaymon deceives the exorcist and bewrays his actions (the text's warning). Needs: the full protocol. Goals: teach absolutely, answer fully, guard. State changes: defiance to bowing strictly via the name-test.",
+    "relationships": "Thirty-second of the 72; a Great King, first and choicest under the power of Amaymon, going before all others in that legion-order (the text's account). Office-kin to the catalogue's other total teachers (Paimon, Glasya-Labolas).",
+    "memory_model": "Remembers: the exact sciences entire and where treasures lie, by office. No forgetting recorded.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (three heads, serpent tail, flames, goose-webbed feet, dragon seat, lance and banner, Amaymon precedence, abroad/standing/uncovered protocol, name-test, Ring of Virtues, sciences, invincibility, treasure, 72 legions). The 72-legion figure is the text's own and is kept distinct from the catalogue's 72 spirits.",
+    "game_implementation": "BrainKit: master-craftsman king gated by a protocol encounter (outdoors, standing, uncovered, name-test dialogue) — absolute craft/science grants, invincibility buff, guarded-treasure reveals.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Kings",
+      "address": "Thirty-second spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:gaap",
+    "entity_type": "spiritual (demon, President and Prince of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Gaap",
+      "aliases": [
+        "Gäap"
+      ]
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), thirty-third spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: a Great President and a Mighty Prince, appearing when the Sun is in some of the southern signs, in a human shape, going before four great and mighty kings, as if he were a guide to conduct them along their way. His office is to make men insensible or ignorant; as also in philosophy to make them knowing, and in all the liberal sciences. He can cause love or hatred; he can teach thee to consecrate those things that belong to the dominion of Amaymon his king; he can deliver familiars out of the custody of other magicians; he answereth truly and perfectly of things past, present and to come; he can carry and re-carry men very speedily from one kingdom to another, at the will and pleasure of the Exorcist. He ruleth over 66 Legions of Spirits, and was of the Order of Potentates.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A guide-king's switchboard mind: knowledge turned on (philosophy, liberal sciences) or off (insensible, ignorant) by the same faculty, love or hatred caused either way, familiars liberated from other magicians' custody, and men carried kingdom to kingdom at speed — a conductor of kings and of minds.",
+        "regions": [
+          {
+            "name": "Knowledge switch",
+            "role": "Making men insensible or ignorant — or knowing in philosophy and all liberal sciences: one dial, two directions",
+            "drive_weight": 0.95
+          },
+          {
+            "name": "Affect switch",
+            "role": "Causing love or hatred",
+            "drive_weight": 0.8
+          },
+          {
+            "name": "Guidance & transport",
+            "role": "Going before four great kings as their guide; carrying and re-carrying men speedily between kingdoms",
+            "drive_weight": 0.9
+          },
+          {
+            "name": "Familiar liberation",
+            "role": "Delivering familiars out of the custody of other magicians",
+            "drive_weight": 0.75
+          }
+        ],
+        "drives": {
+          "curiosity": 0.7,
+          "sociability": 0.55,
+          "aggression": 0.5,
+          "fearfulness": 0.15,
+          "territoriality": 0.4
+        }
+      },
+      "summary": "A mighty prince who guides kings on their road and minds on theirs: he can make a man knowing in all sciences, or insensible — and carry him to another kingdom before either settles."
+    },
+    "personality": {
+      "mbti": "ENTJ",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "He guides four great kings, switches men between ignorance and full knowledge of philosophy and the sciences, causes love or hatred, frees familiars and transports men between kingdoms — a commanding conductor of people, minds and loyalties.",
+      "runner_up": "ENFJ",
+      "traits": {
+        "curiosity": 0.7,
+        "sociability": 0.55,
+        "aggression": 0.5,
+        "fearfulness": 0.15,
+        "territoriality": 0.4
+      }
+    },
+    "skills": [
+      "Makes men insensible or ignorant, or knowing in philosophy and all liberal sciences",
+      "Causes love or hatred",
+      "Teaches the consecration of things belonging to Amaymon's dominion",
+      "Delivers familiars out of other magicians' custody",
+      "Answers truly and perfectly of things past, present and to come",
+      "Carries and re-carries men speedily from one kingdom to another",
+      "Commands 66 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: the Sun in southern signs -> appearance, guiding four kings. The Exorcist's will and pleasure -> transport, knowledge granted or removed, love or hatred caused. Needs: invocation formalities. Goals: conduct. State changes: a target's knowledge and affect states flip at his working; locations change speedily.",
+    "relationships": "Thirty-third of the 72; a Great President and Mighty Prince (dual rank — see Confidence); of the Order of Potentates; Amaymon is named as his king. Guide to four great and mighty kings (the text's retinue).",
+    "memory_model": "Remembers: all things past and present, answering truly and perfectly, and knows those to come. No forgetting recorded — though making others forget/ignorant is his office.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (dual rank, southern-signs timing, guide role, knowledge switch, love/hatred, Amaymon consecration, familiar liberation, true answers, speedy transport, 66 legions, Order of Potentates). Dual rank is the text's own; map domain uses the first-named rank (Presidents). He and Zagan share a number in the classified list in some printings — the catalogue order (33rd) is followed here.",
+    "game_implementation": "BrainKit: conductor NPC — knowledge/affect state toggles on NPCs, familiar-rescue quests, consecration lore for Amaymon's dominion, and rapid inter-kingdom transport.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Presidents",
+      "address": "Thirty-third spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:furfur",
+    "entity_type": "spiritual (demon, Earl of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Furfur",
+      "aliases": []
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), thirty-fourth spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: a Great and Mighty Earl, appearing in the form of an hart with a fiery tail. He never speaketh truth unless he be compelled, or brought up within a triangle; being therein, he will take upon himself the form of an angel. Being bidden, he speaketh with a hoarse voice. Also he will wittingly urge love between man and woman. He can raise lightnings and thunders, blasts, and great tempestuous storms. And he giveth true answers both of things secret and divine, if commanded. He ruleth over 26 Legions of Spirits.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A storm-hart with a truth-gate: outside the triangle he never speaks truth; inside it he takes an angel's form and answers truly of secret and divine things — honesty as a function of containment, with tempest as his weather and love-urging as his hobby.",
+        "regions": [
+          {
+            "name": "Truth-gate (triangle)",
+            "role": "Truth only when compelled within the triangle, where he takes an angel's form — veracity as a containment state",
+            "drive_weight": 0.9
+          },
+          {
+            "name": "Tempest system",
+            "role": "Raising lightnings, thunders, blasts and great tempestuous storms",
+            "drive_weight": 0.9
+          },
+          {
+            "name": "Love-urging impulse",
+            "role": "Wittingly urging love between man and woman",
+            "drive_weight": 0.7
+          },
+          {
+            "name": "Secret/divine answer store",
+            "role": "True answers of things secret and divine, if commanded",
+            "drive_weight": 0.85
+          }
+        ],
+        "drives": {
+          "curiosity": 0.55,
+          "sociability": 0.45,
+          "aggression": 0.65,
+          "fearfulness": 0.25,
+          "territoriality": 0.45
+        }
+      },
+      "summary": "A fiery-tailed hart who lies by default and tells perfect truth inside a triangle — the catalogue's clearest lesson that containment, not character, makes a spirit honest."
+    },
+    "personality": {
+      "mbti": "ESTP",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "He never speaks truth unless compelled in the triangle, raises tempests, and wittingly urges love — a bold, weather-making improviser whose honesty is situational, not principled.",
+      "runner_up": "ENTP",
+      "traits": {
+        "curiosity": 0.55,
+        "sociability": 0.45,
+        "aggression": 0.65,
+        "fearfulness": 0.25,
+        "territoriality": 0.45
+      }
+    },
+    "skills": [
+      "Raises lightnings, thunders, blasts and great tempestuous storms",
+      "Gives true answers of things secret and divine, if commanded (within the triangle)",
+      "Urges love between man and woman",
+      "Shape change: hart with fiery tail to angel (within the triangle)",
+      "Commands 26 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: brought within the triangle and bidden -> angel form, hoarse voice, true answers. Outside it -> no truth. Needs: compulsion as the precondition of honesty. Goals: storm, urge love, and — when contained — answer. State changes: hart to angel strictly inside the triangle.",
+    "relationships": "Thirty-fourth of the 72; a Great and Mighty Earl. His triangle-truth mechanic parallels Berith's and Furfur-class cautions in the text; office-kin to the love-workers in his urging.",
+    "memory_model": "Knows things secret and divine, by office — but access to that memory is gated: outside the triangle his reports are, by the text's rule, never truth. Recorded as a reliability property, not a memory gap.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (hart with fiery tail, truth rule, angel form in triangle, hoarse voice, love-urging, storms, secret/divine answers, 26 legions). The truth-rule is the text's explicit statement and is preserved exactly.",
+    "game_implementation": "BrainKit: containment-gated oracle — answers are lies/noise outside a triangle ritual state and true inside it; storm-weather events and love-urging as ambient effects.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Earls",
+      "address": "Thirty-fourth spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:marchosias",
+    "entity_type": "spiritual (demon, Marquis of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Marchosias",
+      "aliases": []
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), thirty-fifth spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: a Great and Mighty Marquis, appearing at first in the form of a wolf having gryphon's wings, and a serpent's tail, and vomiting fire out of his mouth; but after a time, at the command of the Exorcist, he putteth on the shape of a man. And he is a strong fighter. He was of the Order of Dominations. He governeth 30 Legions of Spirits. He told his chief, who was Solomon, that after 1,200 years he had hopes to return unto the Seventh Throne.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A fighter's mind aimed at a distant hope: wolf-gryphon-serpent fire form yielding to a man's shape, strength as the core trait — and, uniquely, a stated eschatology: after 1,200 years, hope of return to the Seventh Throne. Endurance organised by expectation.",
+        "regions": [
+          {
+            "name": "Fighter core",
+            "role": "A strong fighter — combat as the primary competence",
+            "drive_weight": 0.9
+          },
+          {
+            "name": "Fire-vomiting wolf form",
+            "role": "Wolf with gryphon's wings and serpent's tail, vomiting fire — the battle shape",
+            "drive_weight": 0.8
+          },
+          {
+            "name": "Return-hope horizon",
+            "role": "Hope to return unto the Seventh Throne after 1,200 years — long-range goal as a cognitive organiser",
+            "drive_weight": 0.75
+          }
+        ],
+        "drives": {
+          "curiosity": 0.4,
+          "sociability": 0.35,
+          "aggression": 0.85,
+          "fearfulness": 0.15,
+          "territoriality": 0.5
+        }
+      },
+      "summary": "A strong fighter in a fire-vomiting wolf's shape who told Solomon he hopes, after 1,200 years, to return to the Seventh Throne — the catalogue's most poignant soldier."
+    },
+    "personality": {
+      "mbti": "ISTP",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "A strong fighter who endures his binding with a stated, patient hope of returning to the Seventh Throne after 1,200 years — a lone physical realist playing the longest game in the catalogue.",
+      "runner_up": "ESTP",
+      "traits": {
+        "curiosity": 0.4,
+        "sociability": 0.35,
+        "aggression": 0.85,
+        "fearfulness": 0.15,
+        "territoriality": 0.5
+      }
+    },
+    "skills": [
+      "Strong fighter (the text's characterisation)",
+      "Fire-vomiting wolf-gryphon-serpent form; human shape at command",
+      "Commands 30 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: the Exorcist's command after a time -> human shape. Needs: invocation formalities. Goals: fight strongly — and, across 1,200 years, return. State changes: wolf form to man at command.",
+    "relationships": "Thirty-fifth of the 72; a Great and Mighty Marquis; of the Order of Dominations. His chief is named as Solomon in the entry itself. The return-hope is shared in the text with Phenex (37th, outside this batch).",
+    "memory_model": "Remembers: the Seventh Throne and the hope of return — a single orienting memory/goal the text records explicitly. No forgetting recorded.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (wolf form with gryphon wings, serpent tail, fire, human shape, strong fighter, Order of Dominations, 30 legions, 1,200-year return hope told to Solomon). TEXTUAL NOTE in the source: one badly written codex might read 'ox' for 'wolf' — flagged in the Mathers footnote, not adopted here.",
+    "game_implementation": "BrainKit: boss-fighter NPC with a long-horizon goal flag (the return hope) shaping his bargain dialogue; fire-breath wolf form as combat state.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Marqueses",
+      "address": "Thirty-fifth spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  },
+  {
+    "entity_id": "atlas:spiritual-goetic:stolas",
+    "entity_type": "spiritual (demon, Prince of the Ars Goetia)",
+    "name_and_aliases": {
+      "primary": "Stolas",
+      "aliases": [
+        "Stolos"
+      ]
+    },
+    "origin": "The Ars Goetia (Lemegeton Clavicula Salomonis), thirty-sixth spirit in the catalogue, in the Mathers translation (1904, public domain). SPIRITUAL shelf, Goetic domain.",
+    "evidence_class": "Religious account",
+    "evidence_grade": "GENERATED",
+    "source_and_license": {
+      "sources": [
+        "Ars Goetia (Lemegeton Clavicula Salomonis), Mathers translation (1904; public domain) — text verified against the Mathers/Crowley 1904 edition as reproduced at the Thelemagick Library and archive.org full-text scans"
+      ],
+      "license": "Public domain (Mathers translation, 1904). Atlas brain/personality text original, generated from the PD text; no modern edition apparatus copied."
+    },
+    "attributes": "Per the Goetia: Stolas (or Stolos), a Great and Powerful Prince, appearing in the shape of a mighty raven at first before the Exorcist; but after he taketh the image of a man. He teacheth the art of astronomy, and the virtues of herbs and precious stones. He governeth 26 Legions of Spirits.",
+    "cognition_model": {
+      "brain_profile": {
+        "grade_note": "GENERATED — region-analogue design from the text's own claims about this spirit's office; each analogue is a design decision, never anatomy.",
+        "architecture": "A raven-scholar's mind: astronomy overhead and herb-and-stone virtues underfoot — the heavens and the earth read by one naturalist who arrives as a mighty raven and stays as a man to teach.",
+        "regions": [
+          {
+            "name": "Astronomy faculty",
+            "role": "Teaching the art of astronomy — the heavens as curriculum",
+            "drive_weight": 0.9
+          },
+          {
+            "name": "Herb-and-stone virtue store",
+            "role": "The virtues of herbs and precious stones — earth-knowledge paired with the sky's",
+            "drive_weight": 0.9
+          },
+          {
+            "name": "Raven-to-man interface",
+            "role": "Mighty raven at first, then the image of a man — the scholar's two postures",
+            "drive_weight": 0.55
+          }
+        ],
+        "drives": {
+          "curiosity": 0.85,
+          "sociability": 0.5,
+          "aggression": 0.25,
+          "fearfulness": 0.25,
+          "territoriality": 0.3
+        }
+      },
+      "summary": "A great prince in a raven's shape who teaches the stars and the virtues of herbs and stones — heaven and earth in one syllabus."
+    },
+    "personality": {
+      "mbti": "INTP",
+      "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+      "justification": "He teaches astronomy and the virtues of herbs and precious stones from a raven's form — a solitary naturalist-scholar whose knowledge spans sky and soil for its own sake.",
+      "runner_up": "INTJ",
+      "traits": {
+        "curiosity": 0.85,
+        "sociability": 0.5,
+        "aggression": 0.25,
+        "fearfulness": 0.25,
+        "territoriality": 0.3
+      }
+    },
+    "skills": [
+      "Teaches the art of astronomy",
+      "Teaches the virtues of herbs and precious stones",
+      "Shape change: mighty raven to man",
+      "Commands 26 legions (the text's figure)"
+    ],
+    "behavior_model": "Triggers: appearance as raven -> then the image of a man, and teaching. Needs: invocation formalities. Goals: teach the heavens and the earth. State changes: raven to man after the first showing.",
+    "relationships": "Thirty-sixth of the 72; a Great and Powerful Prince — closing spirit of this batch. Office-kin to Marax and Asmoday (astronomy) and to Buer, Bathin and Marax (herb/stone virtues).",
+    "memory_model": "Remembers: the astronomy and the virtues entire, by office. No forgetting recorded in the text.",
+    "confidence_and_conflicts": "Verified against the Mathers 1904 text fetched for this run (both names, raven form then man, astronomy, herb/stone virtues, 26 legions). A lean record: the text is brief and nothing has been padded.",
+    "game_implementation": "BrainKit: astronomy and materia-medica tutor — star-chart and herb/gem appraisal knowledge grants; raven-form encounter opening.",
+    "map_placement": {
+      "universe": "Spiritual-Goetic",
+      "domain": "Ars Goetia — the Princes",
+      "address": "Thirty-sixth spirit of the catalogue",
+      "bridges": []
+    },
+    "core_entity_id": null,
+    "revision_history": [
+      {
+        "date": "2026-10-23",
+        "change": "Corpus harvest record created (Goetia batch A, spirits 1–36 run).",
+        "source": "Ars Goetia, Mathers translation 1904 (public domain)"
+      }
+    ]
+  }
+]
