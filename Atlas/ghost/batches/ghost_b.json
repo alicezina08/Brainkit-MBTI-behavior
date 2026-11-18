@@ -1,0 +1,461 @@
+[
+ {
+  "entity_id": "atlas:ghost:banshee",
+  "entity_type": "ghost (banshee)",
+  "name_and_aliases": {
+   "primary": "Banshee",
+   "aliases": [
+    "Bean sí",
+    "Woman of the fairy mound",
+    "Keening woman"
+   ]
+  },
+  "origin": "The banshee — the bean sí, 'woman of the fairy mound', whose wail foretells a death in an old Irish family. Grounded in Irish folklore and the keening tradition: a woman's lament sung over the dead, and the banshee's cry as its supernatural form, tied to the great Gaelic families (the O'Briens, the O'Neills, the MacCarthys). GHOST shelf.",
+  "evidence_class": "Folklore and reported cases",
+  "evidence_grade": "generated-from-lore",
+  "source_and_license": {
+   "sources": [
+    "Irish folklore — the bean sí (banshee) and the keening tradition",
+    "Family traditions of the great Gaelic houses (O'Brien, O'Neill, MacCarthy)"
+   ],
+   "license": "Folklore and reported cases (public-domain traditions and published accounts). Atlas brain/personality text original, generated from the lore; no modern copyrighted account text copied."
+  },
+  "attributes": "Per the folklore: a woman in a grey cloak or a white dress, with long hair, sometimes young and beautiful, sometimes an old woman, sometimes a washerwoman wringing blood from clothes at a stream. Her cry is the sign — a wail, a keening, heard at night before a death in the family she attends. She does not cause the death; she announces it.",
+  "cognition_model": {
+   "brain_profile": {
+    "grade_note": "generated-from-lore — region-analogue design from the lore's own claims; each analogue is a design decision, never anatomy.",
+    "architecture": "An omen's mind: the banshee's function is announcement, so the profile models a signal system — she perceives a coming death and emits the cry; everything else is stillness.",
+    "regions": [
+     {
+      "name": "Death sense",
+      "role": "Perceiving a coming death in her family",
+      "drive_weight": 0.95
+     },
+     {
+      "name": "Keening voice",
+      "role": "The wail as a signal — the cry itself as the function",
+      "drive_weight": 0.9
+     },
+     {
+      "name": "Family bond",
+      "role": "Attachment to one Gaelic house across generations",
+      "drive_weight": 0.85
+     }
+    ],
+    "drives": {
+     "curiosity": 0.2,
+     "sociability": 0.2,
+     "aggression": 0.05,
+     "fearfulness": 0.3,
+     "territoriality": 0.8
+    }
+   },
+   "summary": "A warning, not a weapon: she tells the house a death is coming, and then she is gone."
+  },
+  "personality": {
+   "mbti": "INFJ",
+   "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+   "justification": "A solitary, devoted figure bound to one family, whose whole purpose is a mournful announcement — inward, loyal, and defined by a single solemn duty.",
+   "runner_up": "ISFJ",
+   "traits": {
+    "curiosity": 0.2,
+    "sociability": 0.2,
+    "aggression": 0.05,
+    "fearfulness": 0.3,
+    "territoriality": 0.8
+   }
+  },
+  "skills": [
+   "Wail / keen before a death",
+   "Appear as a washerwoman at a stream (the death-washing)",
+   "Attach to one family across generations"
+  ],
+  "behavior_model": "Triggers: a death approaching in her family. Needs: the family line to continue — she only attends the old houses. Goals: to warn. State changes: silent (unseen for years) -> keening (the night before a death) -> silent again.",
+  "relationships": "Bound to one Gaelic family (O'Brien, O'Neill, MacCarthy in the lore). Kin: the White Lady (another female figure bound to a place or house) and the wailing women of folklore generally.",
+  "memory_model": "The lore gives her the family's whole history — she has attended the house for generations and knows its dead by name. Her memory is the family's genealogy.",
+  "confidence_and_conflicts": "The banshee is folklore, not a reported case with a single verifiable event — her grounding is the keening tradition, which is real (professional keening women existed in Ireland), and the family traditions that kept her story alive. Ghosts are not scientifically proven — this record is lore-grade.",
+  "game_implementation": "BrainKit: an omen NPC — she appears and keens before a scripted death or a major loss in the story; the player hears her before they see the consequence. A warning system the player learns to dread.",
+  "map_placement": {
+   "universe": "Ghost",
+   "domain": "Omens — the wailing women",
+   "address": "Bean sí of the Gaelic houses",
+   "bridges": []
+  },
+  "core_entity_id": null,
+  "revision_history": [
+   {
+    "date": "2026-11-18",
+    "change": "Ghost shelf record created (ghost flagships run).",
+    "source": "Irish folklore — the bean sí and the keening tradition"
+   }
+  ]
+ },
+ {
+  "entity_id": "atlas:ghost:doppelganger",
+  "entity_type": "ghost (doppelganger)",
+  "name_and_aliases": {
+   "primary": "Doppelganger",
+   "aliases": [
+    "Double",
+    "Double-goer",
+    "Fetch (Irish)"
+   ]
+  },
+  "origin": "The doppelganger — a living person's exact double, seen where the person is not, and counted an omen of death. Grounded in German folklore (Doppelgänger) and the best-documented case: Emilie Sagée, a French teacher at a girls' school in Livonia in 1845, whose double was reported by pupils and staff to appear beside her, mimic her movements, and once sit at a table while she stood elsewhere — as recorded by Robert Dale Owen in Footfalls on the Boundary of Another World (1860). GHOST shelf.",
+  "evidence_class": "Folklore and reported cases",
+  "evidence_grade": "generated-from-lore",
+  "source_and_license": {
+   "sources": [
+    "Robert Dale Owen, Footfalls on the Boundary of Another World (1860) — the Emilie Sagée case, Livonia, 1845",
+    "German folklore — the Doppelgänger; Irish folklore — the fetch"
+   ],
+   "license": "Folklore and reported cases (public-domain traditions and published accounts). Atlas brain/personality text original, generated from the lore; no modern copyrighted account text copied."
+  },
+  "attributes": "Per the reports: an exact copy of a living person — same face, same dress, same movements — but slightly transparent, or slightly out of step, and silent. At Sagée's school the double was seen writing at a blackboard while Sagée stood at the side of the room, and eating at a table while she stood behind a chair. The lore says to see your own double is to be warned of your death.",
+  "cognition_model": {
+   "brain_profile": {
+    "grade_note": "generated-from-lore — region-analogue design from the lore's own claims; each analogue is a design decision, never anatomy.",
+    "architecture": "A mirror's mind: the double copies rather than originates, so the profile models a reflection engine — perception of the original, imitation of movement, and no will of its own.",
+    "regions": [
+     {
+      "name": "Mirror sense",
+      "role": "Tracking the original's position and posture",
+      "drive_weight": 0.95
+     },
+     {
+      "name": "Mimic engine",
+      "role": "Copying movement, slightly delayed or slightly transparent",
+      "drive_weight": 0.9
+     },
+     {
+      "name": "Omen flag",
+      "role": "The lore's death-warning, modelled as a state, not a power",
+      "drive_weight": 0.6
+     }
+    ],
+    "drives": {
+     "curiosity": 0.3,
+     "sociability": 0.1,
+     "aggression": 0.05,
+     "fearfulness": 0.4,
+     "territoriality": 0.3
+    }
+   },
+   "summary": "A copy with no original will: it does what you do, a half-beat late, and its existence is the warning."
+  },
+  "personality": {
+   "mbti": "ISTP",
+   "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+   "justification": "Silent, exact, present-tense imitation — the double does not speak or choose, it reproduces; the personality is the original's, reflected and emptied.",
+   "runner_up": "ISTJ",
+   "traits": {
+    "curiosity": 0.3,
+    "sociability": 0.1,
+    "aggression": 0.05,
+    "fearfulness": 0.4,
+    "territoriality": 0.3
+   }
+  },
+  "skills": [
+   "Appear as an exact copy of a living person",
+   "Mimic the original's movements (slightly delayed)",
+   "Be seen in two places at once",
+   "Signal death (the omen, per the lore)"
+  ],
+  "behavior_model": "Triggers: the original's presence — the double appears where the person is, or where they are not. Needs: an original to copy. Goals: none of its own — it mirrors. State changes: absent -> beside the original -> alone (seen without the original, the ominous form) -> gone.",
+  "relationships": "Bound to one living person — its original. Kin: the shadow person (also a dark figure, but the double has a face, the shadow does not) and the apparition (also seen, but the double is a copy of the living).",
+  "memory_model": "The double has no memory of its own in the reports — it is a reflection, and a reflection holds nothing. What it 'knows' is what the original is doing now.",
+  "confidence_and_conflicts": "The Sagée case is a single historical report (Owen, 1860), retold from the school's accounts — it is not a verified measurement, and no independent corroboration survives. The doppelganger is folklore and a reported case, not established fact. Ghosts are not scientifically proven — this record is lore-grade.",
+  "game_implementation": "BrainKit: a mirror NPC — a copy of the player character or an NPC that appears beside them, mimics their animations with a half-beat delay, and vanishes when looked at directly; a dread/omen event tied to story deaths.",
+  "map_placement": {
+   "universe": "Ghost",
+   "domain": "Doubles — the fetch and the double-goer",
+   "address": "Emilie Sagée, Livonia, 1845",
+   "bridges": []
+  },
+  "core_entity_id": null,
+  "revision_history": [
+   {
+    "date": "2026-11-18",
+    "change": "Ghost shelf record created (ghost flagships run).",
+    "source": "Owen, Footfalls on the Boundary of Another World (1860) — the Sagée case"
+   }
+  ]
+ },
+ {
+  "entity_id": "atlas:ghost:white-lady",
+  "entity_type": "ghost (White Lady)",
+  "name_and_aliases": {
+   "primary": "White Lady — Resurrection Mary",
+   "aliases": [
+    "The Lady in White",
+    "Vanishing Hitchhiker",
+    "Resurrection Mary"
+   ]
+  },
+  "origin": "The White Lady — a woman in white seen on a road or in a house, often a vanishing hitchhiker. Grounded in the widespread European White Lady folklore and its most famous American case: Resurrection Mary of Chicago, reported since the 1930s — a young woman in a white dress who asks for a ride on Archer Avenue, is driven to the Resurrection Cemetery gates, and vanishes; named for the cemetery where she is said to be buried. GHOST shelf.",
+  "evidence_class": "Folklore and reported cases",
+  "evidence_grade": "generated-from-lore",
+  "source_and_license": {
+   "sources": [
+    "Resurrection Mary, Chicago — reported since the 1930s (Archer Avenue and Resurrection Cemetery)",
+    "European White Lady folklore — the lady in white of houses and roads"
+   ],
+   "license": "Folklore and reported cases (public-domain traditions and published accounts). Atlas brain/personality text original, generated from the lore; no modern copyrighted account text copied."
+  },
+  "attributes": "Per the reports: a young woman in a white dress, sometimes in a white party dress, with light hair, seen on Archer Avenue at night. She asks for a ride, gives an address near the Resurrection Cemetery, and is gone from the car by the time it reaches the gates — sometimes leaving a cold seat, sometimes a damp spot. In the European lore she haunts a house or a road and is bound to a tragedy — a lost love, a death in childbirth, an accident.",
+  "cognition_model": {
+   "brain_profile": {
+    "grade_note": "generated-from-lore — region-analogue design from the lore's own claims; each analogue is a design decision, never anatomy.",
+    "architecture": "A journey's mind: the White Lady's lore is a route — a ride requested, a destination given, a vanishing at the gate — so the profile models a trip, not a haunting: a passenger with a destination and a terminus.",
+    "regions": [
+     {
+      "name": "Ride request",
+      "role": "Seeking a lift — the request as the behaviour",
+      "drive_weight": 0.9
+     },
+     {
+      "name": "Route memory",
+      "role": "Archer Avenue to the cemetery gates — the road she knows",
+      "drive_weight": 0.85
+     },
+     {
+      "name": "Vanishing point",
+      "role": "The gates, where she ends — arrival as disappearance",
+      "drive_weight": 0.8
+     }
+    ],
+    "drives": {
+     "curiosity": 0.3,
+     "sociability": 0.5,
+     "aggression": 0.0,
+     "fearfulness": 0.4,
+     "territoriality": 0.6
+    }
+   },
+   "summary": "A passenger with one destination: she rides, she is driven home, and home is the cemetery."
+  },
+  "personality": {
+   "mbti": "INFP",
+   "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+   "justification": "A quiet, sad, gentle figure who asks for help and never threatens — the White Lady's lore is grief and a journey, not menace.",
+   "runner_up": "ISFP",
+   "traits": {
+    "curiosity": 0.3,
+    "sociability": 0.5,
+    "aggression": 0.0,
+    "fearfulness": 0.4,
+    "territoriality": 0.6
+   }
+  },
+  "skills": [
+   "Request a ride on a road at night",
+   "Give a destination (the cemetery, the house)",
+   "Vanish from a moving car at the gates",
+   "Leave a cold seat or a damp spot (as reported)"
+  ],
+  "behavior_model": "Triggers: a driver alone on her road at night. Needs: a ride — the lore's ritual. Goals: to reach the gates, to be taken home. State changes: roadside (waiting) -> passenger (riding, speaking) -> gone (at the gates).",
+  "relationships": "Bound to a road and a cemetery (Archer Avenue and Resurrection Cemetery in the famous case). Kin: the banshee and the apparition — female figures bound to a place and a sorrow; the White Lady differs in that she travels, and she asks.",
+  "memory_model": "The lore gives her one memory — the road, the dress, the night she died — and she repeats it. Whether she knows she is dead is not in the reports; recorded as a gap.",
+  "confidence_and_conflicts": "Resurrection Mary is a reported case with many witnesses over decades, but no verified identity — the 'Mary' is a name given by the lore, not a confirmed burial record. The vanishing-hitchhiker story is a widespread folklore motif, which is both why it is credible as tradition and why any single case is hard to verify. Ghosts are not scientifically proven — this record is lore-grade.",
+  "game_implementation": "BrainKit: a passenger NPC — she appears at a roadside at night, asks the player for a ride, and vanishes at a destination; a quiet, sad event that rewards the player for stopping rather than for fighting.",
+  "map_placement": {
+   "universe": "Ghost",
+   "domain": "White Ladies — the road and the house",
+   "address": "Resurrection Mary, Archer Avenue, Chicago",
+   "bridges": []
+  },
+  "core_entity_id": null,
+  "revision_history": [
+   {
+    "date": "2026-11-18",
+    "change": "Ghost shelf record created (ghost flagships run).",
+    "source": "Resurrection Mary, Chicago (reported since the 1930s); European White Lady folklore"
+   }
+  ]
+ },
+ {
+  "entity_id": "atlas:ghost:dullahan",
+  "entity_type": "ghost (dullahan)",
+  "name_and_aliases": {
+   "primary": "Dullahan",
+   "aliases": [
+    "Headless Horseman",
+    "The Headless Rider",
+    "Cóiste Bodhar (the death coach)"
+   ]
+  },
+  "origin": "The Dullahan — the headless rider of Irish folklore, carrying his own head under his arm and driving the black death coach. Grounded in Irish tradition (the dullahan as a harbinger of death, the Cóiste Bodhar as the silent black coach) and its most famous literary form: Washington Irving's Headless Horseman of Sleepy Hollow (The Legend of Sleepy Hollow, 1820), based on the Hessian trooper said to have lost his head in the Revolutionary War. GHOST shelf.",
+  "evidence_class": "Folklore and reported cases",
+  "evidence_grade": "generated-from-lore",
+  "source_and_license": {
+   "sources": [
+    "Irish folklore — the dullahan and the Cóiste Bodhar (death coach)",
+    "Washington Irving, The Legend of Sleepy Hollow (1820) — the Headless Horseman (public domain)"
+   ],
+   "license": "Folklore and reported cases (public-domain traditions and published accounts). Atlas brain/personality text original, generated from the lore; no modern copyrighted account text copied."
+  },
+  "attributes": "Per the folklore: a rider on a black horse, headless, carrying his own grinning head under one arm (in some tellings the head's eyes dart about, looking for the dying). He drives a black coach — the Cóiste Bodhar — drawn by headless black horses, and where it stops, a death follows. He carries a whip made from a human spine. In Irving's telling he is a Hessian trooper in a dark uniform, hurling a pumpkin where his head should be.",
+  "cognition_model": {
+   "brain_profile": {
+    "grade_note": "generated-from-lore — region-analogue design from the lore's own claims; each analogue is a design decision, never anatomy.",
+    "architecture": "A herald's mind: the Dullahan's function is to arrive and to take, so the profile models a route-and-claim system — a road travelled, a name called, a soul collected.",
+    "regions": [
+     {
+      "name": "Head-lantern",
+      "role": "The carried head, its eyes searching for the dying",
+      "drive_weight": 0.9
+     },
+     {
+      "name": "Coach route",
+      "role": "The road the Cóiste Bodhar travels",
+      "drive_weight": 0.85
+     },
+     {
+      "name": "Death call",
+      "role": "Speaking a name — in the lore, to hear it is to die",
+      "drive_weight": 0.95
+     }
+    ],
+    "drives": {
+     "curiosity": 0.3,
+     "sociability": 0.1,
+     "aggression": 0.7,
+     "fearfulness": 0.0,
+     "territoriality": 0.7
+    }
+   },
+   "summary": "A rider who comes to collect: the coach stops, a name is spoken, and someone dies."
+  },
+  "personality": {
+   "mbti": "ISTJ",
+   "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+   "justification": "A grim, routine-bound collector who follows a route and a list — the Dullahan's lore is duty without mercy, a roundsman of death.",
+   "runner_up": "INTJ",
+   "traits": {
+    "curiosity": 0.3,
+    "sociability": 0.1,
+    "aggression": 0.7,
+    "fearfulness": 0.0,
+    "territoriality": 0.7
+   }
+  },
+  "skills": [
+   "Ride a black horse, headless, head carried under the arm",
+   "Drive the Cóiste Bodhar (death coach)",
+   "Call a name — in the lore, to hear it is to die",
+   "Hurl a pumpkin (Irving's telling) / wield a spine-whip (Irish telling)"
+  ],
+  "behavior_model": "Triggers: a death to collect; a road at night. Needs: the route and the name. Goals: to arrive, to call, to take. State changes: distant (the coach heard, not seen) -> arriving (the rider visible) -> gone (the death taken).",
+  "relationships": "Bound to the road and the coach, not to one house. Kin: the banshee (also a death-herald, but she warns and he collects) and the Black Shuck (another death-omen on the road).",
+  "memory_model": "The lore gives him the names of the dying — he knows whose door the coach stops at. His memory is a list of the dead to come.",
+  "confidence_and_conflicts": "The Dullahan is Irish folklore; Irving's Horseman is a literary retelling of a Revolutionary War legend. Both are tradition, not verified cases. The spine-whip and the grinning head are folklore details, recorded as lore. Ghosts are not scientifically proven — this record is lore-grade.",
+  "game_implementation": "BrainKit: a collector NPC — a mounted rider who appears on a road at night, calls a name, and the named NPC dies or is taken; a dread event the player can flee from but not fight. The coach is an environmental set-piece.",
+  "map_placement": {
+   "universe": "Ghost",
+   "domain": "Death riders — the headless horseman",
+   "address": "Irish folklore; Sleepy Hollow (Irving, 1820)",
+   "bridges": []
+  },
+  "core_entity_id": null,
+  "revision_history": [
+   {
+    "date": "2026-11-18",
+    "change": "Ghost shelf record created (ghost flagships run).",
+    "source": "Irish folklore — the dullahan and the Cóiste Bodhar; Irving, The Legend of Sleepy Hollow (1820)"
+   }
+  ]
+ },
+ {
+  "entity_id": "atlas:ghost:black-shuck",
+  "entity_type": "ghost (spectral hound)",
+  "name_and_aliases": {
+   "primary": "Black Shuck — the Spectral Hound",
+   "aliases": [
+    "Barghest",
+    "The Black Dog",
+    "Shuck"
+   ]
+  },
+  "origin": "The Black Shuck — the spectral black hound of East Anglian folklore, an omen of death. Grounded in the most famous case: 4 August 1577, when a great black dog was reported to burst into the churches at Bungay and Blythburgh, Suffolk, during a storm, killing two people and scorching the church doors — an account recorded in A Straunge and Terrible Wunder (1577) and in the churches' own histories. GHOST shelf.",
+  "evidence_class": "Folklore and reported cases",
+  "evidence_grade": "generated-from-lore",
+  "source_and_license": {
+   "sources": [
+    "A Straunge and Terrible Wunder (1577) — the Bungay and Blythburgh account, 4 August 1577",
+    "East Anglian folklore — Black Shuck / Barghest, the spectral black dog"
+   ],
+   "license": "Folklore and reported cases (public-domain traditions and published accounts). Atlas brain/personality text original, generated from the lore; no modern copyrighted account text copied."
+  },
+  "attributes": "Per the folklore: a huge black dog, the size of a calf, with shaggy fur and burning red eyes — or, in some tellings, a single great eye in the middle of its forehead. It appears on lonely roads, in churchyards and on the coast, at night. To meet it is an omen: in some tellings death follows within the year, in others it is a guardian, and the lore disagrees with itself on whether it is a warning or a threat.",
+  "cognition_model": {
+   "brain_profile": {
+    "grade_note": "generated-from-lore — region-analogue design from the lore's own claims; each analogue is a design decision, never anatomy.",
+    "architecture": "An omen's body: the Shuck's lore is a single act — appearing — so the profile models a sentinel: a watcher on a road whose presence is the message.",
+    "regions": [
+     {
+      "name": "Road watch",
+      "role": "Standing on a lonely road or in a churchyard — presence as the behaviour",
+      "drive_weight": 0.95
+     },
+     {
+      "name": "Burning-eye signal",
+      "role": "The red eyes as the omen's mark",
+      "drive_weight": 0.85
+     },
+     {
+      "name": "Storm association",
+      "role": "Appearing with thunder and bad weather, as at Bungay in 1577",
+      "drive_weight": 0.6
+     }
+    ],
+    "drives": {
+     "curiosity": 0.3,
+     "sociability": 0.1,
+     "aggression": 0.5,
+     "fearfulness": 0.1,
+     "territoriality": 0.8
+    }
+   },
+   "summary": "A dog that is a warning: it does not chase, it appears — and the appearing is the point."
+  },
+  "personality": {
+   "mbti": "ISTJ",
+   "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+   "justification": "A silent, place-bound sentinel that appears on a route and watches — the Shuck's lore is duty and stillness, not hunting.",
+   "runner_up": "INTJ",
+   "traits": {
+    "curiosity": 0.3,
+    "sociability": 0.1,
+    "aggression": 0.5,
+    "fearfulness": 0.1,
+    "territoriality": 0.8
+   }
+  },
+  "skills": [
+   "Appear on a lonely road, churchyard or coast at night",
+   "Fix a witness with burning red eyes",
+   "Vanish into storm or dark",
+   "Omen: in the lore, death follows a sighting within the year"
+  ],
+  "behavior_model": "Triggers: night, a lonely road, a storm. Needs: a witness — the omen needs to be seen. Goals: to appear. State changes: unseen -> standing on the road (eyes lit) -> gone.",
+  "relationships": "Bound to roads, churchyards and the East Anglian coast. Kin: the Dullahan (another death-omen on the road) and the banshee (another omen of death); the Shuck differs in that it is an animal, not a person.",
+  "memory_model": "The lore gives it no memory and no history — it is a shape that appears, not a being that remembers. The 1577 account is the memory the churches keep, not the dog.",
+  "confidence_and_conflicts": "The 1577 Bungay/Blythburgh account is a real historical document (A Straunge and Terrible Wunder, 1577) — a storm, a dog, deaths in a church — but the supernatural reading is the pamphlet's, and modern explanations (a lightning strike, a real dog in a panic) are recorded alongside it. The folklore is real; the ghost is lore. Ghosts are not scientifically proven — this record is lore-grade.",
+  "game_implementation": "BrainKit: a sentinel creature NPC — a large black hound that stands on a road at night, watches the player, and vanishes; sighting it sets an 'omen' flag that changes later events (a warning the player can heed). A creature, not a boss — it never attacks.",
+  "map_placement": {
+   "universe": "Ghost",
+   "domain": "Spectral hounds — the black dogs",
+   "address": "Bungay and Blythburgh, Suffolk, 4 August 1577",
+   "bridges": []
+  },
+  "core_entity_id": null,
+  "revision_history": [
+   {
+    "date": "2026-11-18",
+    "change": "Ghost shelf record created (ghost flagships run).",
+    "source": "A Straunge and Terrible Wunder (1577); East Anglian Black Shuck folklore"
+   }
+  ]
+ }
+]

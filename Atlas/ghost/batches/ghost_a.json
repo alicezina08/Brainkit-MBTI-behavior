@@ -1,0 +1,461 @@
+[
+ {
+  "entity_id": "atlas:ghost:residual-haunting",
+  "entity_type": "ghost (residual haunting)",
+  "name_and_aliases": {
+   "primary": "Residual Haunting",
+   "aliases": [
+    "Stone Tape haunting",
+    "Place memory",
+    "Replay haunting"
+   ]
+  },
+  "origin": "The residual haunting — a scene replayed in a place, as if recorded. Grounded in the Stone Tape theory (T.C. Lethbridge, Ghost and Ghoul, 1961) and the Treasurer's House, York (1953): plumber Harry Martindale reported Roman soldiers marching through the cellar, a sighting repeated by others. GHOST shelf.",
+  "evidence_class": "Folklore and reported cases",
+  "evidence_grade": "generated-from-lore",
+  "source_and_license": {
+   "sources": [
+    "T.C. Lethbridge, Ghost and Ghoul (1961) — the Stone Tape theory",
+    "Treasurer's House, York — Harry Martindale's 1953 report of Roman soldiers, as recorded in the house's history and retold in ghost literature",
+    "General residual-haunting lore: hauntings that replay regardless of observers"
+   ],
+   "license": "Folklore and reported cases (public-domain traditions and published accounts). Atlas brain/personality text original, generated from the lore; no modern copyrighted account text copied."
+  },
+  "attributes": "Per the lore: no awareness, no interaction. A scene — often soldiers marching, a figure crossing a room, a sound such as footsteps or a voice — replays on a loop, sometimes on an anniversary, sometimes triggered by place conditions (stone, water, a particular hour). The figures do not see the living, do not answer, and do not deviate. At the Treasurer's House the soldiers marched in formation through a cellar wall, in period dress, oblivious to the plumber watching.",
+  "cognition_model": {
+   "brain_profile": {
+    "grade_note": "generated-from-lore — region-analogue design from the lore's own claims; each analogue is a design decision, never anatomy.",
+    "architecture": "A recording, not a mind: perception and response are absent by design. The profile models a playback device — a looped scene with trigger conditions and no input channel.",
+    "regions": [
+     {
+      "name": "Playback loop",
+      "role": "The scene itself, replayed exactly — the march, the crossing, the sound",
+      "drive_weight": 0.95
+     },
+     {
+      "name": "Trigger gate",
+      "role": "Place and time conditions that start the replay — anniversary, hour, stone, water",
+      "drive_weight": 0.8
+     },
+     {
+      "name": "No-input shell",
+      "role": "No awareness of observers — the replay cannot be addressed or interrupted",
+      "drive_weight": 0.9
+     }
+    ],
+    "drives": {
+     "curiosity": 0.0,
+     "sociability": 0.0,
+     "aggression": 0.0,
+     "fearfulness": 0.0,
+     "territoriality": 0.6
+    }
+   },
+   "summary": "A haunting with no one home: the place remembers, and the ghost is the memory playing back."
+  },
+  "personality": {
+   "mbti": "ISTJ",
+   "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens on a non-conscious pattern, not a measurement and not a claim that a residual haunting has a mind.",
+   "justification": "The scene repeats exactly, on schedule, bound to one place — the pattern of a routine-bound replay.",
+   "runner_up": "ISFJ",
+   "traits": {
+    "curiosity": 0.0,
+    "sociability": 0.0,
+    "aggression": 0.0,
+    "fearfulness": 0.0,
+    "territoriality": 0.6
+   }
+  },
+  "skills": [
+   "Replay a scene exactly, on a loop",
+   "Manifest on place/time triggers (anniversary, hour, conditions)",
+   "Ignore observers completely — no interaction, no deviation"
+  ],
+  "behavior_model": "Triggers: place and time conditions (the lore's anniversary or hour, the cellar, the corridor). Needs: none — nothing is sought. Goals: none — nothing is pursued. State changes: off (dormant) to on (replaying) and back; the scene never varies.",
+  "relationships": "Tied to one place (the Treasurer's House cellar, a battlefield, a corridor) rather than to people. Kin in the Atlas: other place-bound phenomena — the wisp's marsh, the White Lady's road.",
+  "memory_model": "The lore says the place holds the memory, not the ghost. The ghost remembers nothing and learns nothing; the same scene, the same march, every time. That is the point of the type.",
+  "confidence_and_conflicts": "The Treasurer's House account is a reported sighting (Martindale, 1953), retold in ghost literature; it is not a verified measurement, and the Stone Tape theory is a hypothesis, not established science. Ghosts are not scientifically proven — this record is lore-grade, generated from folklore and reported cases, and says so. No 'captured data' exists for this type; none is claimed here.",
+  "game_implementation": "BrainKit: an ambient replay event — a looped NPC/pathing scene that plays on a trigger (entering a room, an in-game anniversary), with no AI response to the player; the scare is the indifference, not an attack.",
+  "map_placement": {
+   "universe": "Ghost",
+   "domain": "Residual hauntings — replayed scenes",
+   "address": "The replay type: a scene, not a person",
+   "bridges": []
+  },
+  "core_entity_id": null,
+  "revision_history": [
+   {
+    "date": "2026-11-18",
+    "change": "Ghost shelf record created (ghost flagships run).",
+    "source": "Folklore and reported cases: Lethbridge's Stone Tape theory; Treasurer's House, York (Martindale, 1953)"
+   }
+  ]
+ },
+ {
+  "entity_id": "atlas:ghost:brown-lady-apparition",
+  "entity_type": "ghost (intelligent haunting / apparition)",
+  "name_and_aliases": {
+   "primary": "Intelligent Haunting — the Brown Lady of Raynham Hall",
+   "aliases": [
+    "Apparition",
+    "The Brown Lady"
+   ]
+  },
+  "origin": "The intelligent haunting — a presence that sees, reacts and sometimes answers. Grounded in the Brown Lady of Raynham Hall, Norfolk: a figure in a brown brocade dress reported for centuries at Raynham Hall, and photographed in 1936 by Captain Hubert Provand and Indre Shira — the most famous ghost photograph ever taken. GHOST shelf.",
+  "evidence_class": "Folklore and reported cases",
+  "evidence_grade": "generated-from-lore",
+  "source_and_license": {
+   "sources": [
+    "Raynham Hall and the Brown Lady — reported sightings across centuries; the 1936 Provand/Shira photograph (Country Life, 1936)",
+    "General intelligent-haunting lore: apparitions that notice and respond to the living"
+   ],
+   "license": "Folklore and reported cases (public-domain traditions and published accounts). Atlas brain/personality text original, generated from the lore; no modern copyrighted account text copied."
+  },
+  "attributes": "Per the reports: a woman in a brown brocade dress, her face sometimes obscured, sometimes with empty eye sockets in the retellings. She appears on the staircase and in the corridors of Raynham Hall, and in the 1936 photograph she descends the stairs in a luminous, veiled form. Unlike a residual replay, she is reported to notice observers — to turn, to pause, to vanish when approached.",
+  "cognition_model": {
+   "brain_profile": {
+    "grade_note": "generated-from-lore — region-analogue design from the lore's own claims; each analogue is a design decision, never anatomy.",
+    "architecture": "A watcher's mind: perception is the centre — she sees the living, and the lore's tension is that she may or may not answer.",
+    "regions": [
+     {
+      "name": "Observer sense",
+      "role": "Noticing the living — turning, pausing, tracking an observer",
+      "drive_weight": 0.9
+     },
+     {
+      "name": "Vanishing reflex",
+      "role": "Withdrawal when approached — presence that ends on contact",
+      "drive_weight": 0.8
+     },
+     {
+      "name": "Staircase circuit",
+      "role": "Her route, the place she keeps — the stairs and corridors of the hall",
+      "drive_weight": 0.7
+     }
+    ],
+    "drives": {
+     "curiosity": 0.5,
+     "sociability": 0.35,
+     "aggression": 0.1,
+     "fearfulness": 0.6,
+     "territoriality": 0.7
+    }
+   },
+   "summary": "A presence that watches back: the haunting is a relationship, not a recording."
+  },
+  "personality": {
+   "mbti": "ISFJ",
+   "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+   "justification": "A quiet, place-bound figure who appears, watches and withdraws — duty to a house and its stairs, wariness of the living, no aggression.",
+   "runner_up": "INFJ",
+   "traits": {
+    "curiosity": 0.5,
+    "sociability": 0.35,
+    "aggression": 0.1,
+    "fearfulness": 0.6,
+    "territoriality": 0.7
+   }
+  },
+  "skills": [
+   "Appear on her route (staircase, corridor)",
+   "Notice and track observers",
+   "Vanish when approached",
+   "Be photographed (the 1936 image is the lore's signature)"
+  ],
+  "behavior_model": "Triggers: a living person on her route, especially at night. Needs: the house and its routine undisturbed. Goals: to be present, to watch, to remain. State changes: unseen -> visible on the stairs -> vanishing when approached or addressed.",
+  "relationships": "Bound to Raynham Hall and its staircase. Kin: the White Lady (another place-bound female figure) and the residual haunting — the two types are often confused, and the Brown Lady is the case that separates them, because she responds.",
+  "memory_model": "The lore gives her a long memory of the house — centuries of appearances on the same stairs. Whether she remembers individual observers is not in the reports; recorded as a gap.",
+  "confidence_and_conflicts": "The 1936 photograph is famous and disputed: some analyses call it genuine, others a double exposure or a trick of light. The sightings are reported, not verified. Ghosts are not scientifically proven — this record is lore-grade. The photograph is cited as a reported case, not as proof.",
+  "game_implementation": "BrainKit: a reactive apparition NPC — patrols a route, turns to face the player when seen, vanishes on approach; a 'witnessed' flag that changes her behaviour the second time she is met.",
+  "map_placement": {
+   "universe": "Ghost",
+   "domain": "Intelligent hauntings — apparitions that respond",
+   "address": "The Brown Lady of Raynham Hall",
+   "bridges": []
+  },
+  "core_entity_id": null,
+  "revision_history": [
+   {
+    "date": "2026-11-18",
+    "change": "Ghost shelf record created (ghost flagships run).",
+    "source": "Raynham Hall; the 1936 Provand/Shira photograph (Country Life, 1936)"
+   }
+  ]
+ },
+ {
+  "entity_id": "atlas:ghost:enfield-poltergeist",
+  "entity_type": "ghost (poltergeist)",
+  "name_and_aliases": {
+   "primary": "Poltergeist — the Enfield case",
+   "aliases": [
+    "Noisy spirit",
+    "The Enfield Poltergeist"
+   ]
+  },
+  "origin": "The poltergeist — the 'noisy spirit' that moves objects, knocks and throws. Grounded in the Enfield Poltergeist, London, 1977–1979: the Hodgson family at 284 Green Street reported furniture moving, knocking, and a voice speaking through eleven-year-old Janet Hodgson; investigated by Maurice Grosse and Guy Lyon Playfair of the Society for Psychical Research. GHOST shelf.",
+  "evidence_class": "Folklore and reported cases",
+  "evidence_grade": "generated-from-lore",
+  "source_and_license": {
+   "sources": [
+    "Enfield Poltergeist, London, 1977–1979 — the Hodgson family reports; investigated by Maurice Grosse and Guy Lyon Playfair (Society for Psychical Research)",
+    "General poltergeist lore: the 'noisy spirit' tradition (German Poltergeist, 'rumbling ghost')"
+   ],
+   "license": "Folklore and reported cases (public-domain traditions and published accounts). Atlas brain/personality text original, generated from the lore; no modern copyrighted account text copied."
+  },
+  "attributes": "Per the reports: no visible figure. Instead — furniture sliding, objects thrown, knocking on walls, beds shaking, and a harsh voice speaking through Janet. Activity centred on the children, peaked at night, and faded over two years. The lore's signature is physical effect without a visible agent.",
+  "cognition_model": {
+   "brain_profile": {
+    "grade_note": "generated-from-lore — region-analogue design from the lore's own claims; each analogue is a design decision, never anatomy.",
+    "architecture": "A pressure system: the lore describes no face and no voice of its own, only force — so the profile models a discharge engine, energy seeking an outlet through objects and, in the Enfield reports, through a child's voice.",
+    "regions": [
+     {
+      "name": "Kinetic discharge",
+      "role": "Moving and throwing objects — force as the primary output",
+      "drive_weight": 0.95
+     },
+     {
+      "name": "Knock code",
+      "role": "Rapping on walls and furniture as communication",
+      "drive_weight": 0.8
+     },
+     {
+      "name": "Voice channel",
+      "role": "Speech through a living person — the Enfield voice as a borrowed throat",
+      "drive_weight": 0.7
+     }
+    ],
+    "drives": {
+     "curiosity": 0.5,
+     "sociability": 0.4,
+     "aggression": 0.7,
+     "fearfulness": 0.2,
+     "territoriality": 0.8
+    }
+   },
+   "summary": "A haunting you feel in the furniture: no figure, only force, and a voice that borrows a throat."
+  },
+  "personality": {
+   "mbti": "ESTP",
+   "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+   "justification": "Loud, physical, present-tense, acting on the room and the people in it — the poltergeist does things rather than says things, and its attention is on the immediate environment.",
+   "runner_up": "ESFP",
+   "traits": {
+    "curiosity": 0.5,
+    "sociability": 0.4,
+    "aggression": 0.7,
+    "fearfulness": 0.2,
+    "territoriality": 0.8
+   }
+  },
+  "skills": [
+   "Move and throw objects",
+   "Knock and rap on walls and furniture",
+   "Shake beds and slide furniture",
+   "Speak through a living person (the Enfield voice)"
+  ],
+  "behavior_model": "Triggers: attention, stress in the household, night. Needs: an outlet — objects, a voice. Goals: to be noticed, to disturb. State changes: quiet by day, active at night; escalation from knocks to thrown objects to speech.",
+  "relationships": "Centred on a household and, in the Enfield case, on the children — the lore's 'focus person'. Kin: the shadow person (another unseen presence) and the residual haunting (its opposite: the poltergeist interacts, the residual does not).",
+  "memory_model": "The Enfield voice claimed a name and a history (it called itself Bill, a former resident). The reports are the source; whether that was a genuine memory or a performance is contested — recorded as a conflict, not resolved.",
+  "confidence_and_conflicts": "The Enfield case is the most famous poltergeist investigation and also one of the most contested: the investigators (Grosse and Playfair) were convinced, while critics note the children were caught faking some incidents on camera. Both positions are recorded. Ghosts are not scientifically proven — this record is lore-grade, generated from the reported case and the poltergeist tradition.",
+  "game_implementation": "BrainKit: an invisible agent NPC — no model, only effects: objects slide, knock sounds trigger on a timer, and a voice event borrows an NPC's dialogue line. The player never sees it; the room tells them it is there.",
+  "map_placement": {
+   "universe": "Ghost",
+   "domain": "Poltergeists — the noisy spirits",
+   "address": "The Enfield case, 284 Green Street, London",
+   "bridges": []
+  },
+  "core_entity_id": null,
+  "revision_history": [
+   {
+    "date": "2026-11-18",
+    "change": "Ghost shelf record created (ghost flagships run).",
+    "source": "Enfield Poltergeist, 1977–1979 (Grosse and Playfair, Society for Psychical Research)"
+   }
+  ]
+ },
+ {
+  "entity_id": "atlas:ghost:hat-man-shadow-person",
+  "entity_type": "ghost (shadow person)",
+  "name_and_aliases": {
+   "primary": "Shadow Person — the Hat Man",
+   "aliases": [
+    "Shadow figure",
+    "The Hat Man"
+   ]
+  },
+  "origin": "The shadow person — a dark humanoid figure, darker than the dark around it, seen at the edge of vision. Grounded in the modern reports collected as the 'Hat Man': a tall shadow figure in a wide-brimmed hat and long coat, reported by hundreds of people since the 2000s and documented by researcher Heidi Hollis (The Secret War, 2010) and in the 2019 documentary The Hat Man: Documented Cases of Pure Evil. GHOST shelf.",
+  "evidence_class": "Folklore and reported cases",
+  "evidence_grade": "generated-from-lore",
+  "source_and_license": {
+   "sources": [
+    "Heidi Hollis, The Secret War (2010) — the Hat Man reports",
+    "The Hat Man: Documented Cases of Pure Evil (2019 documentary) — witness reports",
+    "General shadow-person lore: dark humanoid figures reported at the edge of vision"
+   ],
+   "license": "Folklore and reported cases (public-domain traditions and published accounts). Atlas brain/personality text original, generated from the lore; no modern copyrighted account text copied."
+  },
+  "attributes": "Per the reports: a human silhouette made of solid black, often taller than a person, wearing a wide-brimmed hat and sometimes a long coat. No face, no features — only the outline, and sometimes two points of light where the eyes would be. Seen standing in a doorway, at the foot of a bed, or at the edge of a room. It watches. It does not speak. Witnesses report dread, sleep paralysis, and the sense of being observed.",
+  "cognition_model": {
+   "brain_profile": {
+    "grade_note": "generated-from-lore — region-analogue design from the lore's own claims; each analogue is a design decision, never anatomy.",
+    "architecture": "A watcher's silhouette: the profile models a presence whose only faculties are attention and stillness — it observes, it stands, it does not act, and the dread it causes is the effect.",
+    "regions": [
+     {
+      "name": "Stillness field",
+      "role": "Standing, unmoving, as a behaviour — presence as posture",
+      "drive_weight": 0.95
+     },
+     {
+      "name": "Observer sense",
+      "role": "Attention fixed on the witness — being watched as the interaction",
+      "drive_weight": 0.9
+     },
+     {
+      "name": "Dread aura",
+      "role": "The reported fear response, modelled as an effect, not an attack",
+      "drive_weight": 0.7
+     }
+    ],
+    "drives": {
+     "curiosity": 0.6,
+     "sociability": 0.05,
+     "aggression": 0.15,
+     "fearfulness": 0.1,
+     "territoriality": 0.6
+    }
+   },
+   "summary": "A figure made of attention: it does nothing, and that is what frightens."
+  },
+  "personality": {
+   "mbti": "INTJ",
+   "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+   "justification": "Silent, still, observant, present without engagement — the Hat Man's reported behaviour is a watcher who never explains itself.",
+   "runner_up": "ISTJ",
+   "traits": {
+    "curiosity": 0.6,
+    "sociability": 0.05,
+    "aggression": 0.15,
+    "fearfulness": 0.1,
+    "territoriality": 0.6
+   }
+  },
+  "skills": [
+   "Stand at the edge of vision (doorway, bed-foot)",
+   "Watch without moving or speaking",
+   "Trigger dread and sleep paralysis (as reported by witnesses)",
+   "Vanish when directly confronted or lit"
+  ],
+  "behavior_model": "Triggers: night, sleep, a witness alone in a room. Needs: a witness — it appears to be seen. Goals: to watch. State changes: peripheral (at the edge of vision) -> fixed (standing, observed) -> gone (on light, on confrontation, on waking).",
+  "relationships": "No household bond in the reports — the Hat Man appears across many homes, which is what makes the case unusual. Kin: the apparition (also a watcher) and the doppelganger (also a dark double); the shadow person differs in that it never resolves into a face.",
+  "memory_model": "The reports give it no memory and no history — it arrives, watches, leaves. Whether the same figure returns to the same witness is claimed by some reports and not by others; recorded as an open question.",
+  "confidence_and_conflicts": "The Hat Man reports are modern and numerous, but they are reports, not measurements. Sleep paralysis is a known, documented phenomenon that produces shadowy figures and dread, and it is the leading alternative explanation — recorded here, not dismissed. Ghosts are not scientifically proven — this record is lore-grade.",
+  "game_implementation": "BrainKit: a peripheral-presence NPC — rendered only at the edge of the player's view, never in direct light; a dread meter that rises while it is on screen and falls when it vanishes; it never attacks, never speaks.",
+  "map_placement": {
+   "universe": "Ghost",
+   "domain": "Shadow people — figures of dark",
+   "address": "The Hat Man",
+   "bridges": []
+  },
+  "core_entity_id": null,
+  "revision_history": [
+   {
+    "date": "2026-11-18",
+    "change": "Ghost shelf record created (ghost flagships run).",
+    "source": "Hat Man reports (Hollis, The Secret War, 2010; The Hat Man documentary, 2019)"
+   }
+  ]
+ },
+ {
+  "entity_id": "atlas:ghost:will-o-the-wisp",
+  "entity_type": "ghost (orb / wisp)",
+  "name_and_aliases": {
+   "primary": "Orb / Wisp — the Will-o'-the-wisp",
+   "aliases": [
+    "Ignis fatuus",
+    "Corpse candle",
+    "Jack-o'-lantern (the light)",
+    "Brown Mountain Lights"
+   ]
+  },
+  "origin": "The wisp — a floating light over marsh, moor and graveyard, said to lead travellers astray. Grounded in the will-o'-the-wisp (ignis fatuus) of European folklore, and in the reported Brown Mountain Lights of North Carolina, observed since at least 1913 and investigated by the US Geological Survey in 1922. GHOST shelf.",
+  "evidence_class": "Folklore and reported cases",
+  "evidence_grade": "generated-from-lore",
+  "source_and_license": {
+   "sources": [
+    "Will-o'-the-wisp (ignis fatuus) — European folklore (marsh lights, corpse candles)",
+    "Brown Mountain Lights, North Carolina — reported since 1913; US Geological Survey investigation, 1922"
+   ],
+   "license": "Folklore and reported cases (public-domain traditions and published accounts). Atlas brain/personality text original, generated from the lore; no modern copyrighted account text copied."
+  },
+  "attributes": "Per the folklore: a small flame or orb, blue or green-white, hovering low over wet ground, bobbing and drifting, sometimes in a procession. It appears over marshes, bogs and churchyards, and the stories say it is the soul of an unbaptised child or a restless dead man, or a lantern carried by a spirit. The Brown Mountain Lights are reported as larger, red-orange orbs that rise, hover and vanish over the ridge.",
+  "cognition_model": {
+   "brain_profile": {
+    "grade_note": "generated-from-lore — region-analogue design from the lore's own claims; each analogue is a design decision, never anatomy.",
+    "architecture": "A lure's mind: the wisp's reported behaviour is to draw the living after it — so the profile models a beacon-and-drift system, a light that moves and a pull that follows.",
+    "regions": [
+     {
+      "name": "Beacon",
+      "role": "The light itself — visibility as the primary faculty",
+      "drive_weight": 0.95
+     },
+     {
+      "name": "Drift engine",
+      "role": "Bobbing, leading movement — the path the light takes",
+      "drive_weight": 0.85
+     },
+     {
+      "name": "Lure pull",
+      "role": "The reported compulsion to follow — attraction as a behaviour",
+      "drive_weight": 0.8
+     }
+    ],
+    "drives": {
+     "curiosity": 0.7,
+     "sociability": 0.3,
+     "aggression": 0.1,
+     "fearfulness": 0.1,
+     "territoriality": 0.4
+    }
+   },
+   "summary": "A light that wants to be followed: the haunting is a direction, not a destination."
+  },
+  "personality": {
+   "mbti": "ENFP",
+   "mbti_label": "Lore-based interpretive read (fan interpretation) — a behaviour-design lens, not a measurement.",
+   "justification": "A wandering, playful, beckoning light that drifts and invites pursuit — the wisp's lore is curiosity and invitation, not malice.",
+   "runner_up": "ENTP",
+   "traits": {
+    "curiosity": 0.7,
+    "sociability": 0.3,
+    "aggression": 0.1,
+    "fearfulness": 0.1,
+    "territoriality": 0.4
+   }
+  },
+  "skills": [
+   "Hover and bob over wet ground",
+   "Lead travellers (the lure)",
+   "Appear in procession (multiple lights)",
+   "Vanish when approached or when the ground dries"
+  ],
+  "behavior_model": "Triggers: night, wet ground, a traveller on a lonely path. Needs: an observer to follow it. Goals: to lead — in the stories, astray. State changes: single light -> procession -> vanished.",
+  "relationships": "Bound to marshes, moors and churchyards. Kin: the residual haunting (also place-bound) and the apparition; the wisp differs in that it has no human shape at all.",
+  "memory_model": "The folklore gives the wisp a story (an unbaptised child's soul, a restless dead man) but no memory of its own — it is a light with a past, not a mind with a past. Recorded as a gap.",
+  "confidence_and_conflicts": "Marsh gas (methane) is the leading scientific explanation for will-o'-the-wisp lights, and the 1922 USGS investigation of the Brown Mountain Lights found no conclusive source — the lights remain reported but unexplained, not proven supernatural. Ghosts are not scientifically proven — this record is lore-grade, generated from folklore and reported sightings.",
+  "game_implementation": "BrainKit: a lure-light NPC — a floating light that drifts along a path and, if the player follows, leads them to a location (a ruin, a grave, a secret); a curiosity reward for following, a dead end for chasing too far.",
+  "map_placement": {
+   "universe": "Ghost",
+   "domain": "Orbs and wisps — lights of the dead",
+   "address": "Will-o'-the-wisp; Brown Mountain, North Carolina",
+   "bridges": []
+  },
+  "core_entity_id": null,
+  "revision_history": [
+   {
+    "date": "2026-11-18",
+    "change": "Ghost shelf record created (ghost flagships run).",
+    "source": "Will-o'-the-wisp folklore; Brown Mountain Lights (reported since 1913; USGS, 1922)"
+   }
+  ]
+ }
+]
